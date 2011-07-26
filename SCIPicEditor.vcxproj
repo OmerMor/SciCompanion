@@ -1,0 +1,638 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Template|Win32">
+      <Configuration>Template</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>SCIComp</ProjectName>
+    <ProjectGuid>{5202DD2E-E9D5-4212-9CF7-ED009D205292}</ProjectGuid>
+    <RootNamespace>SCIComp</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Debug\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Release\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>f:\program files\boost\boost_1_34_0\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>gdiplus.lib;Vfw32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <DelayLoadDLLs>gdiplus.dll;%(DelayLoadDLLs)</DelayLoadDLLs>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Copy template game and stuff</Message>
+      <Command>xcopy /S /Y /I /D "$(ProjectDir)Template" "$(ProjectDir)$(OutDir)Template"
+
+xcopy /S /Y /I /D "$(ProjectDir)scicomp_include" "$(ProjectDir)$(OutDir)include"
+
+xcopy /S /Y /I /D "$(ProjectDir)docs" "$(ProjectDir)$(OutDir)docs"
+
+
+</Command>
+    </PostBuildEvent>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/O2 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>f:\program files\boost\boost_1_34_0\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>gdiplus.lib;Vfw32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <DelayLoadDLLs>gdiplus.dll;%(DelayLoadDLLs)</DelayLoadDLLs>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Copy template game and stuff</Message>
+      <Command>xcopy /S /Y /I /D "$(ProjectDir)Template" "$(ProjectDir)$(OutDir)Template"
+
+xcopy /S /Y /I /D "$(ProjectDir)scicomp_include" "$(ProjectDir)$(OutDir)include"
+
+xcopy /S /Y /I /D "$(ProjectDir)docs" "$(ProjectDir)$(OutDir)docs"
+
+
+</Command>
+    </PostBuildEvent>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AnimateDialog.cpp" />
+    <ClCompile Include="BarContainerDialog.cpp" />
+    <ClCompile Include="BaseColorDialog.cpp" />
+    <ClCompile Include="BitmapToPicDialog.cpp" />
+    <ClCompile Include="crysedit\CCrystalEditView.cpp" />
+    <ClCompile Include="crysedit\CCrystalTextBuffer.cpp" />
+    <ClCompile Include="crysedit\CCrystalTextView.cpp" />
+    <ClCompile Include="crysedit\CCrystalTextView2.cpp" />
+    <ClCompile Include="crysedit\CEditReplaceDlg.cpp" />
+    <ClCompile Include="crysedit\CFindTextDlg.cpp" />
+    <ClCompile Include="ChooseColorAdvancedDialog.cpp" />
+    <ClCompile Include="ChooseColorDialog.cpp" />
+    <ClCompile Include="ChooseColorStatic.cpp" />
+    <ClCompile Include="ChoosePenStyleDialog.cpp" />
+    <ClCompile Include="ChoosePriConDialog.cpp" />
+    <ClCompile Include="ClassBrowser.cpp" />
+    <ClCompile Include="ClassBrowserDialog.cpp" />
+    <ClCompile Include="ClassBrowserInfo.cpp" />
+    <ClCompile Include="CodeAutoComplete.cpp" />
+    <ClCompile Include="Codec.cpp" />
+    <ClCompile Include="CodeToolTips.cpp" />
+    <ClCompile Include="ColorButton.cpp" />
+    <ClCompile Include="ColoredToolTip.cpp" />
+    <ClCompile Include="Compile\Compile.cpp" />
+    <ClCompile Include="Compile\CompileContext.cpp" />
+    <ClCompile Include="CompiledScript.cpp" />
+    <ClCompile Include="Compile\CPPSyntaxParser.cpp" />
+    <ClCompile Include="Compile\CPPTokenizer.cpp" />
+    <ClCompile Include="CrystalScriptStream.cpp" />
+    <ClCompile Include="CursorChildFrame.cpp" />
+    <ClCompile Include="CursorDoc.cpp" />
+    <ClCompile Include="CursorResource.cpp" />
+    <ClCompile Include="Decompiler.cpp" />
+    <ClCompile Include="DontShowAgainDialog.cpp" />
+    <ClCompile Include="DrawHelper.cpp" />
+    <ClCompile Include="ExtControlBarNoX.cpp" />
+    <ClCompile Include="ExtDialogFwdCmd.cpp" />
+    <ClCompile Include="FindAllDialog.cpp" />
+    <ClCompile Include="FindWordDialog.cpp" />
+    <ClCompile Include="FontChildFrame.cpp" />
+    <ClCompile Include="FontDoc.cpp" />
+    <ClCompile Include="FontPreviewView.cpp" />
+    <ClCompile Include="FontResource.cpp" />
+    <ClCompile Include="GamePropertiesDialog.cpp" />
+    <ClCompile Include="GotoDialog.cpp" />
+    <ClCompile Include="InsertObject.cpp" />
+    <ClCompile Include="IntellisenseListBox.cpp" />
+    <ClCompile Include="Compile\Kernels.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="MDITabChildWnd.cpp" />
+    <ClCompile Include="MDITabsDialogBar.cpp" />
+    <ClCompile Include="NewCompileDialog.cpp" />
+    <ClCompile Include="NewGameDialog.cpp" />
+    <ClCompile Include="NewRoomDialog.cpp" />
+    <ClCompile Include="NewScriptDialog.cpp" />
+    <ClCompile Include="NoFlickerStatic.cpp" />
+    <ClCompile Include="NonViewHostDocument.cpp" />
+    <ClCompile Include="OutputPane.cpp" />
+    <ClCompile Include="PaletteDefinitionDialog.cpp" />
+    <ClCompile Include="ParserCommon.cpp" />
+    <ClCompile Include="PicChildFrame.cpp" />
+    <ClCompile Include="PicCommandDialogBar.cpp" />
+    <ClCompile Include="PicCommands.cpp" />
+    <ClCompile Include="PicDoc.cpp" />
+    <ClCompile Include="PicDrawManager.cpp" />
+    <ClCompile Include="PicResource.cpp" />
+    <ClCompile Include="PicView.cpp" />
+    <ClCompile Include="Compile\PMachine.cpp" />
+    <ClCompile Include="PreferencesDialog.cpp" />
+    <ClCompile Include="QuickScripts.cpp" />
+    <ClCompile Include="RasterDialogBar.cpp" />
+    <ClCompile Include="RasterResourceDocument.cpp" />
+    <ClCompile Include="RasterResourceListView.cpp" />
+    <ClCompile Include="RasterView.cpp" />
+    <ClCompile Include="RemoveScriptDialog.cpp" />
+    <ClCompile Include="ResourceBase.cpp" />
+    <ClCompile Include="ResourceData.cpp" />
+    <ClCompile Include="ResourceDocument.cpp" />
+    <ClCompile Include="ResourceListDoc.cpp" />
+    <ClCompile Include="ResourceListView.cpp" />
+    <ClCompile Include="ResourceManagerFrame.cpp" />
+    <ClCompile Include="ResourceManagerView.cpp" />
+    <ClCompile Include="ResourceMap.cpp" />
+    <ClCompile Include="ResourcePicListView.cpp" />
+    <ClCompile Include="ResourcePreviewer.cpp" />
+    <ClCompile Include="ResourceRecency.cpp" />
+    <ClCompile Include="ResourceTypeList.cpp" />
+    <ClCompile Include="RoomExplorerDoc.cpp" />
+    <ClCompile Include="RoomExplorerFrame.cpp" />
+    <ClCompile Include="RoomExplorerView.cpp" />
+    <ClCompile Include="SamplesDialogBar.cpp" />
+    <ClCompile Include="SaveResourceDialog.cpp" />
+    <ClCompile Include="SCIDocs.cpp" />
+    <ClCompile Include="SCIFontDialog.cpp" />
+    <ClCompile Include="Compile\scii.cpp" />
+    <ClCompile Include="SCIPicEditor.cpp" />
+    <ClCompile Include="SCIPropertyCtrl.cpp" />
+    <ClCompile Include="SCIPropertyInfo.cpp" />
+    <ClCompile Include="SCIProps.cpp" />
+    <ClCompile Include="Compile\SCISyntaxParser.cpp" />
+    <ClCompile Include="Compile\SCO.cpp" />
+    <ClCompile Include="ScriptComboBox.cpp" />
+    <ClCompile Include="ScriptDebug.cpp" />
+    <ClCompile Include="ScriptDocument.cpp" />
+    <ClCompile Include="ScriptFrame.cpp" />
+    <ClCompile Include="Compile\ScriptOM.cpp" />
+    <ClCompile Include="Compile\ScriptOMTraverse.cpp" />
+    <ClCompile Include="ScriptView.cpp" />
+    <ClCompile Include="SliderDialogBar.cpp" />
+    <ClCompile Include="SoundChildFrame.cpp" />
+    <ClCompile Include="SoundDoc.cpp" />
+    <ClCompile Include="SoundResource.cpp" />
+    <ClCompile Include="SoundToolboxDialogBar.cpp" />
+    <ClCompile Include="SoundView.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Compile\SyntaxParser.cpp" />
+    <ClCompile Include="TextChildFrame.cpp" />
+    <ClCompile Include="TextDoc.cpp" />
+    <ClCompile Include="TextResource.cpp" />
+    <ClCompile Include="TextView.cpp" />
+    <ClCompile Include="Compile\Types.cpp" />
+    <ClCompile Include="util.cpp" />
+    <ClCompile Include="ViewCelChooser.cpp" />
+    <ClCompile Include="ViewChildFrame.cpp" />
+    <ClCompile Include="ViewDoc.cpp" />
+    <ClCompile Include="ViewResource.cpp" />
+    <ClCompile Include="VisualScriptDialog.cpp" />
+    <ClCompile Include="Vocab000.cpp" />
+    <ClCompile Include="Vocab99x.cpp" />
+    <ClCompile Include="VocabAutoCompleteDialog.cpp" />
+    <ClCompile Include="VocabChildFrame.cpp" />
+    <ClCompile Include="VocabDoc.cpp" />
+    <ClCompile Include="VocabView.cpp" />
+    <ClCompile Include="VPCDialogBar.cpp" />
+    <ClCompile Include="WordEnumString.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="crysedit\CCrystalEditView.h" />
+    <ClInclude Include="crysedit\CCrystalTextBuffer.h" />
+    <ClInclude Include="crysedit\CCrystalTextView.h" />
+    <ClInclude Include="crysedit\cedefs.h" />
+    <ClInclude Include="crysedit\CEditReplaceDlg.h" />
+    <ClInclude Include="crysedit\CFindTextDlg.h" />
+    <ClInclude Include="Compile\CompileContext.h" />
+    <ClInclude Include="Compile\CompileInterfaces.h" />
+    <ClInclude Include="crysedit\editcmd.h" />
+    <ClInclude Include="crysedit\editreg.h" />
+    <ClInclude Include="ExtControlBarNoX.h" />
+    <ClInclude Include="FontChildFrame.h" />
+    <ClInclude Include="FontDoc.h" />
+    <ClInclude Include="GamePropertiesDialog.h" />
+    <ClInclude Include="Compile\Kernels.h" />
+    <ClInclude Include="NewCompileDialog.h" />
+    <ClInclude Include="PaletteDefinitionCallback.h" />
+    <ClInclude Include="PicDoc.h" />
+    <ClInclude Include="PicResource.h" />
+    <ClInclude Include="PicView.h" />
+    <ClInclude Include="Compile\PMachine.h" />
+    <ClInclude Include="RasterResourceListView.h" />
+    <ClInclude Include="RasterView.h" />
+    <ClInclude Include="SamplesDialogBar.h" />
+    <ClInclude Include="SCIDocs.h" />
+    <ClInclude Include="Compile\scii.h" />
+    <ClInclude Include="Compile\SCISyntaxParser.h" />
+    <ClInclude Include="Compile\SCO.h" />
+    <ClInclude Include="ScriptMakerHelper.h" />
+    <ClInclude Include="Compile\ScriptOM.h" />
+    <ClInclude Include="Compile\ScriptOMAll.h" />
+    <ClInclude Include="SoundChildFrame.h" />
+    <ClInclude Include="SoundDoc.h" />
+    <ClInclude Include="SoundToolboxDialogBar.h" />
+    <ClInclude Include="SoundView.h" />
+    <ClInclude Include="Compile\SyntaxParser.h" />
+    <ClInclude Include="Compile\Types.h" />
+    <ClInclude Include="ViewCelChooser.h" />
+    <ClInclude Include="ViewChildFrame.h" />
+    <ClInclude Include="ViewDoc.h" />
+    <ClInclude Include="ViewResource.h" />
+    <ClInclude Include="Vocab99x.h" />
+    <ClInclude Include="WordEnumString.h" />
+    <ClInclude Include="AnimateDialog.h" />
+    <ClInclude Include="BarContainerDialog.h" />
+    <ClInclude Include="BaseColorDialog.h" />
+    <ClInclude Include="BitmapToPicDialog.h" />
+    <ClInclude Include="CelResource.h" />
+    <ClInclude Include="ChooseColorAdvancedDialog.h" />
+    <ClInclude Include="ChooseColorDialog.h" />
+    <ClInclude Include="ChooseColorStatic.h" />
+    <ClInclude Include="ChoosePenStyleDialog.h" />
+    <ClInclude Include="ChoosePriConDialog.h" />
+    <ClInclude Include="ClassBrowser.h" />
+    <ClInclude Include="ClassBrowserDialog.h" />
+    <ClInclude Include="ClassBrowserInfo.h" />
+    <ClInclude Include="CodeAutoComplete.h" />
+    <ClInclude Include="Codec.h" />
+    <ClInclude Include="CodeToolTips.h" />
+    <ClInclude Include="ColorButton.h" />
+    <ClInclude Include="ColorDialogCallback.h" />
+    <ClInclude Include="ColoredToolTip.h" />
+    <ClInclude Include="CompiledScript.h" />
+    <ClInclude Include="Compile\CPPSyntaxParser.h" />
+    <ClInclude Include="CrystalScriptStream.h" />
+    <ClInclude Include="CursorChildFrame.h" />
+    <ClInclude Include="CursorDoc.h" />
+    <ClInclude Include="CursorResource.h" />
+    <ClInclude Include="Decompiler.h" />
+    <ClInclude Include="Delegates.h" />
+    <ClInclude Include="DialogFactory.h" />
+    <ClInclude Include="DontShowAgainDialog.h" />
+    <ClInclude Include="DrawHelper.h" />
+    <ClInclude Include="ExtDialogFwdCmd.h" />
+    <ClInclude Include="FindAllDialog.h" />
+    <ClInclude Include="FindWordDialog.h" />
+    <ClInclude Include="FontPreviewView.h" />
+    <ClInclude Include="FontResource.h" />
+    <ClInclude Include="GotoDialog.h" />
+    <ClInclude Include="InsertObject.h" />
+    <ClInclude Include="IntellisenseListBox.h" />
+    <ClInclude Include="interfaces.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="MDITabChildWnd.h" />
+    <ClInclude Include="MDITabsDialogBar.h" />
+    <ClInclude Include="NewGameDialog.h" />
+    <ClInclude Include="NewRoomDialog.h" />
+    <ClInclude Include="NewScriptDialog.h" />
+    <ClInclude Include="NoFlickerStatic.h" />
+    <ClInclude Include="NonViewClient.h" />
+    <ClInclude Include="NonViewHostDocument.h" />
+    <ClInclude Include="OutputPane.h" />
+    <ClInclude Include="PaletteDefinitionDialog.h" />
+    <ClInclude Include="ParserCommon.h" />
+    <ClInclude Include="PicChildFrame.h" />
+    <ClInclude Include="PicCommandDialogBar.h" />
+    <ClInclude Include="PicCommands.h" />
+    <ClInclude Include="PicCommandsCommon.h" />
+    <ClInclude Include="PicDrawManager.h" />
+    <ClInclude Include="PreferencesDialog.h" />
+    <ClInclude Include="PropEditCtrl.h" />
+    <ClInclude Include="QueueItems.h" />
+    <ClInclude Include="QuickScripts.h" />
+    <ClInclude Include="RasterDialogBar.h" />
+    <ClInclude Include="RasterResource.h" />
+    <ClInclude Include="RasterResourceDocument.h" />
+    <ClInclude Include="RemoveScriptDialog.h" />
+    <ClInclude Include="crysedit\resource.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="ResourceBase.h" />
+    <ClInclude Include="ResourceData.h" />
+    <ClInclude Include="ResourceDocument.h" />
+    <ClInclude Include="ResourceListDoc.h" />
+    <ClInclude Include="ResourceListView.h" />
+    <ClInclude Include="ResourceManagerFrame.h" />
+    <ClInclude Include="ResourceManagerView.h" />
+    <ClInclude Include="ResourceMap.h" />
+    <ClInclude Include="ResourcePicListView.h" />
+    <ClInclude Include="ResourcePreviewer.h" />
+    <ClInclude Include="ResourceRecency.h" />
+    <ClInclude Include="ResourceTypeList.h" />
+    <ClInclude Include="RoomExplorerDoc.h" />
+    <ClInclude Include="RoomExplorerFrame.h" />
+    <ClInclude Include="RoomExplorerView.h" />
+    <ClInclude Include="SaveResourceDialog.h" />
+    <ClInclude Include="sci.h" />
+    <ClInclude Include="SCIFontDialog.h" />
+    <ClInclude Include="SCIPicEditor.h" />
+    <ClInclude Include="SCIPropertyCtrl.h" />
+    <ClInclude Include="SCIPropertyInfo.h" />
+    <ClInclude Include="SCIProps.h" />
+    <ClInclude Include="ScriptComboBox.h" />
+    <ClInclude Include="ScriptDocument.h" />
+    <ClInclude Include="ScriptFrame.h" />
+    <ClInclude Include="ScriptView.h" />
+    <ClInclude Include="ScrollingThing.h" />
+    <ClInclude Include="SliderDialogBar.h" />
+    <ClInclude Include="SoundResource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="StlUtil.h" />
+    <ClInclude Include="TextChildFrame.h" />
+    <ClInclude Include="TextDoc.h" />
+    <ClInclude Include="TextResource.h" />
+    <ClInclude Include="TextView.h" />
+    <ClInclude Include="ToolTipResult.h" />
+    <ClInclude Include="UndoResource.h" />
+    <ClInclude Include="VisualScriptDialog.h" />
+    <ClInclude Include="Vocab000.h" />
+    <ClInclude Include="VocabAutoCompleteDialog.h" />
+    <ClInclude Include="VocabChildFrame.h" />
+    <ClInclude Include="VocabDoc.h" />
+    <ClInclude Include="VocabView.h" />
+    <ClInclude Include="VPCDialogBar.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="crysedit\CCrystalEditView.inl" />
+    <None Include="crysedit\CCrystalTextBuffer.inl" />
+    <None Include="crysedit\CCrystalTextView.inl" />
+    <None Include="Test.xml" />
+    <None Include="resource.hm" />
+    <None Include="res\1_216.ico" />
+    <None Include="res\AffectAll.bmp" />
+    <None Include="res\alphable.bmp" />
+    <None Include="res\animate.ico" />
+    <None Include="res\bang.ico" />
+    <None Include="res\bitmap1.bmp" />
+    <None Include="res\bitmap3.bmp" />
+    <None Include="res\bitmap4.bmp" />
+    <None Include="res\bitmapcu.bmp" />
+    <None Include="res\bitmaplo.bmp" />
+    <None Include="res\bitmapup.bmp" />
+    <None Include="res\bmp00001.bmp" />
+    <None Include="res\bmp00002.bmp" />
+    <None Include="res\bmp00003.bmp" />
+    <None Include="res\bmp00004.bmp" />
+    <None Include="res\bmp00005.bmp" />
+    <None Include="res\bmp00006.bmp" />
+    <None Include="res\bmp00007.bmp" />
+    <None Include="res\bmp00008.bmp" />
+    <None Include="res\bmp00009.bmp" />
+    <None Include="res\bmp00010.bmp" />
+    <None Include="res\bmp00011.bmp" />
+    <None Include="res\bmp00012.bmp" />
+    <None Include="res\bmp00013.bmp" />
+    <None Include="res\bmp00014.bmp" />
+    <None Include="res\bmp00015.bmp" />
+    <None Include="res\bmp00016.bmp" />
+    <None Include="res\bmp00017.bmp" />
+    <None Include="res\bmp00018.bmp" />
+    <None Include="res\bmp00019.bmp" />
+    <None Include="res\bmp00020.bmp" />
+    <None Include="res\cur00001.cur" />
+    <None Include="res\cur00002.cur" />
+    <None Include="res\cur00003.cur" />
+    <None Include="res\cur00004.cur" />
+    <None Include="res\cur00005.cur" />
+    <None Include="res\cur00006.cur" />
+    <None Include="res\cur00007.cur" />
+    <None Include="res\cur00008.cur" />
+    <None Include="res\cur00009.cur" />
+    <None Include="res\cur00010.cur" />
+    <None Include="res\cur00011.cur" />
+    <None Include="res\cur00012.cur" />
+    <None Include="res\cur00013.cur" />
+    <None Include="res\cur00014.cur" />
+    <None Include="res\cur00015.cur" />
+    <None Include="res\cur00016.cur" />
+    <None Include="res\cur00017.cur" />
+    <None Include="res\cursor.ico" />
+    <None Include="res\cursor1.cur" />
+    <None Include="res\cursor2.cur" />
+    <None Include="res\cursordo.cur" />
+    <None Include="res\cursorli.cur" />
+    <None Include="res\cursorre.cur" />
+    <None Include="res\cursorup.cur" />
+    <None Include="res\delete.ico" />
+    <None Include="res\dither.ico" />
+    <None Include="res\Down.bmp" />
+    <None Include="res\draw_brush.ico" />
+    <None Include="res\draw_replace.ico" />
+    <None Include="res\draw_zoom.ico" />
+    <None Include="res\edit.ico" />
+    <None Include="res\edit_copy.ico" />
+    <None Include="res\edit_cut.ico" />
+    <None Include="res\edit_paste.ico" />
+    <None Include="res\ellipse.ico" />
+    <None Include="res\ellipse_solid.ico" />
+    <None Include="res\fakeego.ico" />
+    <None Include="res\file_open.ico" />
+    <None Include="res\file_save.ico" />
+    <None Include="res\find.ico" />
+    <None Include="res\fliphorz.ico" />
+    <None Include="res\flipvert.ico" />
+    <None Include="res\floodfill.ico" />
+    <None Include="res\font.ico" />
+    <None Include="res\greyscale.ico" />
+    <None Include="res\ico00001.ico" />
+    <None Include="res\ico00002.ico" />
+    <None Include="res\ico00003.ico" />
+    <None Include="res\ico00004.ico" />
+    <None Include="res\ico00005.ico" />
+    <None Include="res\ico00006.ico" />
+    <None Include="res\ico00007.ico" />
+    <None Include="res\icon1.ico" />
+    <None Include="res\icon2.ico" />
+    <None Include="res\icon3.ico" />
+    <None Include="res\idr_voca.ico" />
+    <None Include="res\image_sequence.ico" />
+    <None Include="res\invert.ico" />
+    <None Include="res\Left.bmp" />
+    <None Include="res\lightup.ico" />
+    <None Include="res\line.ico" />
+    <None Include="res\loadtrace.ico" />
+    <None Include="res\main_back.ico" />
+    <None Include="res\main_forward.ico" />
+    <None Include="res\main_properties.ico" />
+    <None Include="res\main_rebuild.ico" />
+    <None Include="res\main_run.ico" />
+    <None Include="crysedit\mg_cur.cur" />
+    <None Include="crysedit\mg_icons.bmp" />
+    <None Include="res\movedown.ico" />
+    <None Include="res\moveup.ico" />
+    <None Include="res\newcursor.ico" />
+    <None Include="res\newfont.ico" />
+    <None Include="res\newpic.ico" />
+    <None Include="res\newroom.ico" />
+    <None Include="res\newscript.ico" />
+    <None Include="res\newsound.ico" />
+    <None Include="res\newtext.ico" />
+    <None Include="res\newview.ico" />
+    <None Include="res\newword.ico" />
+    <None Include="res\palette.ico" />
+    <None Include="res\palette0.ico" />
+    <None Include="res\palette1.ico" />
+    <None Include="res\palette2.ico" />
+    <None Include="res\palette3.ico" />
+    <None Include="res\patch.ico" />
+    <None Include="res\pause.ico" />
+    <None Include="res\pic.ico" />
+    <None Include="res\pic_history.ico" />
+    <None Include="res\picthumb_highlight.bmp" />
+    <None Include="res\placement.ico" />
+    <None Include="res\play.ico" />
+    <None Include="res\preferences.ico" />
+    <None Include="res\prioritylines.ico" />
+    <None Include="res\rect.ico" />
+    <None Include="res\rect_solid.ico" />
+    <None Include="res\Right.bmp" />
+    <None Include="res\roundedrect.ico" />
+    <None Include="res\roundedrect_solid.ico" />
+    <None Include="res\SCIPicEditor.ico" />
+    <None Include="res\SCIPicEditor.rc2" />
+    <None Include="res\SCIPicEditorDoc.ico" />
+    <None Include="res\SCIText.ico" />
+    <None Include="res\screencontrol.ico" />
+    <None Include="res\screenpri.ico" />
+    <None Include="res\screenvisual.ico" />
+    <None Include="res\script.ico" />
+    <None Include="res\script_compile.ico" />
+    <None Include="res\script_compileall.ico" />
+    <None Include="res\script_convert.ico" />
+    <None Include="res\script_insert_object.ico" />
+    <None Include="res\showtrace.ico" />
+    <None Include="res\sound.ico" />
+    <None Include="res\stop.ico" />
+    <None Include="res\TabPic.bmp" />
+    <None Include="res\TabPicNS.bmp" />
+    <None Include="res\TabScript.bmp" />
+    <None Include="res\TabView.bmp" />
+    <None Include="res\text.ico" />
+    <None Include="res\Toolbar.bmp" />
+    <None Include="res\toolbar1.bmp" />
+    <None Include="res\toolbar2.bmp" />
+    <None Include="res\toolbard.bmp" />
+    <None Include="res\toolbart.bmp" />
+    <None Include="res\Up.bmp" />
+    <None Include="res\view.ico" />
+    <None Include="res\view_details.ico" />
+    <None Include="res\view_icons.ico" />
+    <None Include="res\Vocab.ico" />
+    <None Include="res\vpc_highlight.bmp" />
+    <None Include="res\vpc_highlightx.bmp" />
+    <None Include="ReadMe.txt" />
+    <CustomBuild Include="Help\SCIComp.chm">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Copy help file</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">copy "$(ProjectDir)Help\$(ProjectName).chm" "$(ProjectDir)$(Outdir)"
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ProjectDir)$(OutDir)$(ProjectName).chm;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Copy help file</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">copy "$(ProjectDir)Help\$(ProjectName).chm" "$(ProjectDir)$(Outdir)"
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ProjectDir)$(OutDir)$(ProjectName).chm;%(Outputs)</Outputs>
+    </CustomBuild>
+    <None Include="SCIPicEditor.reg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="crysedit\editres.rc" />
+    <ResourceCompile Include="SCIPicEditor.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="res\SCIPicEditor.manifest" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="SCIPicEditor.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
