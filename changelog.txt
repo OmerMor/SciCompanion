@@ -1,0 +1,41 @@
+Changes in version 2.1.0.2
+-----------------------
+
+Bug fixes:
+--------
+- for resources w/o a previewer, we now hide the previously shown previewer
+- script preview now shows the .sc file if available, and has a horizontal scrollbar
+- fixed a short pause when switching to a script editor
+- deleting all things in a mirror (view) caused an assert (fixed)
+- you can now re-open the preview pane by using the Window menu
+- fixed off-by-one error in "goto definition"
+- duplicate pics of the same number were all black in the pic explorer (fixed)
+- no more flicker in the view editor's animate dialog when resizing
+- no longer leaking a DC for each new script editor that is opened
+- fixed wrong colors in "convert bitmap to pic" dialog
+- fixed issue (or rather worked around issue) where we lost our font in the tabs and output pane when there was a system settings change
+- ctrl-s now works to save a resource when focus is in the toolbox pane
+- fixed a crash that sometimes happened when typing in "(procedure" in a script
+- fixed some issues with resources not getting marked as "unused"
+- fixed memory leak in "add word as synonym" dialog, accessed from script editor
+- fixed "add word as synonym" dialog (it was totally broken)
+- fixed bug in "add word" functionality accessed from script editor
+- adding a new word in the vocab editor now "dirties" the document (prompting a save)
+- fixed multiple issues with the "font from windows font" dialog... it should behave much better now
+- font preview in font editor now updates properly when you get a new font
+- fixed visual issues in toolbox panes for cursor and fonts
+- fixed button states not properly updating in toolbox panes in view and pic editors
+- we now generate an error message when you can't saved a compiled script resource due to the game currently running.
+
+
+
+
+Other changes:
+-------
+- "observe control lines" is now a right-click option when using the fake ego in the pic editor
+- view editor "cel chooser" is now on the right instead of at the bottom
+- changed UI theme from blue to grey
+- right clicking will invert the source/replace colours for the replace colour tool
+- we now use the last view magnification when you open a new view.
+- added "delete cel" and "delete loop" buttons, so this functionality is more obvious
+- views, pics, cursors and fonts now show a tooltip indicating the resource number when you hover over them.

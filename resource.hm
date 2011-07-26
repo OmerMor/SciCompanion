@@ -1,0 +1,4 @@
+// Microsoft Visual C++ generated Help ID include file.
+// Used by SCIPicEditor.rc
+//
+#define HIDC_CHECKBRACESYNTAX           0x80ca0419    // IDD_GAMEPROPERTIESDIALOG

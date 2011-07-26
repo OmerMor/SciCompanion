@@ -1,0 +1,1 @@
+//RESINFO *AddResource(U8 *buf, U16 len, U8 type, S16 number, U8 pack)

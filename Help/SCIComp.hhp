@@ -1,0 +1,83 @@
+[OPTIONS]
+Auto Index=Yes
+Compatibility=1.1 or later
+Compiled file=SCIComp.chm
+Contents file=Table of Contents.hhc
+Default Window=SCICompWindow
+Default topic=Introduction.html
+Display compile progress=No
+Full-text search=Yes
+Index file=Index.hhk
+Language=0x409 English (United States)
+
+[WINDOWS]
+SCICompWindow="SCI Companion","Table of Contents.hhc","Index.hhk",,,,,,,0x22520,,0x3006,[271,372,1071,972],,,,,,,0
+
+
+[FILES]
+VocabOverview.html
+Appendix.html
+Appendix_HotKeys.html
+Compiler_Size.html
+Compiler_Text.html
+CompilerOverview.html
+GeneralOverview.html
+GeneralOverview_AddResource.html
+GeneralOverview_Browse.html
+GeneralOverview_NewResource.html
+GeneralOverview_Preferences.html
+GeneralOverview_Properties.html
+Introduction.html
+Pic_CommandList.html
+Pic_Convert.html
+Pic_FakeEgo.html
+Pic_LightUp.html
+Pic_MovingAround.html
+Pic_Palettes.html
+Pic_PriorityLines.html
+Pic_Tips.html
+Pic_Tools.html
+Pic_Tracing.html
+PicOverview.html
+Script_Adding.html
+Script_Compiling.html
+Script_Finding.html
+Script_Tabbing.html
+Script_Vocab.html
+Script_Wizard.html
+ScriptOverview.html
+TextOverview.html
+ViewFontCursor_Common_Drawing.html
+ViewFontCursor_Common_EditingMultiple.html
+ViewFontCursor_Common_Resizing.html
+ViewFontCursor_Common_Selection.html
+ViewFontCursor_Common_Undo.html
+ViewFontCursor_CommonOverview.html
+ViewFontCursor_Cursor_HotSpot.html
+ViewFontCursor_CursorOverview.html
+ViewFontCursor_Font_ChoosingCharacter.html
+ViewFontCursor_Font_FontPreview.html
+ViewFontCursor_Font_WindowsFont.html
+ViewFontCursor_FontOverview.html
+ViewFontCursor_View_AddingCel.html
+ViewFontCursor_View_Animate.html
+ViewFontCursor_View_ChoosingCel.html
+ViewFontCursor_View_Import.html
+ViewFontCursor_View_Mirror.html
+ViewFontCursor_View_Origin.html
+ViewFontCursor_View_Transparency.html
+ViewFontCursor_ViewOverview.html
+ViewFontCursorOverview.html
+Vocab_Adding.html
+Vocab_Editing.html
+Vocab_Finding.html
+Vocab_WordType.html
+
+[ALIAS]
+HH_DISPLAY_TOPIC=Introduction.html ; Intro
+
+[MAP]
+#define HH_DISPLAY_TOPIC 0
+
+[INFOTYPES]
+

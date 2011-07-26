@@ -1,0 +1,31 @@
+<script>
+	<use>main</use>
+	<use>controls</use>
+	<use>game</use>
+	<use>feature</use>
+	<use>obj</use>
+	
+	<instance public="true" name="rm001" superclass="Rm">
+		<property name="picture" value="scriptNumber"></property>
+		<property name="west" value="0"></property>
+		
+		<method name="init">
+			<signature>
+				<parameter></parameter>
+			</signature>
+		</method>
+		
+		<send>
+			<object>super</object>
+			<method name="init">
+				<parameter></parameter>
+			</method>
+		</send>
+		<send>
+			<object>self</object>
+			<method name="setScript">
+				<parameter>RoomScript</parameter>
+			</method>
+		</send>
+	</instance>
+</script>
