@@ -982,13 +982,13 @@ public:
                 pSwitch->AddCase(pCase);
             }
 
-            pStatement->SetSyntaxNode(pSwitch);
+            pStatement->SetSyntaxNode(pSwitch.get());
         }
         else
         {
             auto_ptr<Comment> pSwitch(new Comment);
             pSwitch->SetName("ERROR");
-            pStatement->SetSyntaxNode(pSwitch);
+            pStatement->SetSyntaxNode(pSwitch.get());
         }
         return pStatement.release();
     }
@@ -1091,7 +1091,7 @@ public:
             auto_ptr<WhileLoop> pWhile(new WhileLoop);
             _ApplyConditions(*pWhile, lookups);
             _ProcessCodeNodesIntoStatements(*pWhile, _ifBegin, _ifEnd, lookups);
-            pStatement->SetSyntaxNode(pWhile);
+            pStatement->SetSyntaxNode(pWhile.get());
         }
         else
         {
@@ -1108,11 +1108,11 @@ public:
                 auto_ptr<CodeBlock> pElseBlock(new CodeBlock);
                 _ProcessCodeNodesIntoStatements(*pElseBlock, _elseBegin, _elseEnd, lookups);
                 SingleStatement elseBlockStatement;
-                elseBlockStatement.SetSyntaxNode(pElseBlock);
+                elseBlockStatement.SetSyntaxNode(pElseBlock.get());
                 pIf->SetStatement2(elseBlockStatement);
             }
 
-            pStatement->SetSyntaxNode(pIf);
+            pStatement->SetSyntaxNode(pIf.get());
         }
         return pStatement.release();
     }
@@ -1165,7 +1165,7 @@ private:
         auto_ptr<CodeBlock> pIfBlock(new CodeBlock);
         _ProcessCodeNodesIntoStatements(*pIfBlock, _ifBegin, _ifEnd, lookups);
         SingleStatement ifBlockStatement;
-        ifBlockStatement.SetSyntaxNode(pIfBlock);
+        ifBlockStatement.SetSyntaxNode(pIfBlock.get());
         statementNode.SetStatement1(ifBlockStatement);
     }
 
@@ -1520,7 +1520,7 @@ bool IsStatementImmediateValue(const SingleStatement &statement, WORD &wValue)
 
 bool _MaybeAProperty(const std::string &selector)
 {
-    static g_fInited = false;
+    static int g_fInited = false;
     static std::set<std::string> g_PropertyMap;
     static const std::string c_rgTendsToBeProperty[] =
     {
@@ -1643,7 +1643,7 @@ void _MassageProcedureCall(ProcedureCall &proc, IDecompileLookups &lookups, code
                         auto_ptr<SingleStatement> pNewStatement(new SingleStatement);
                         auto_ptr<PropertyValue> pNewValue(new PropertyValue);
                         pNewValue->SetValue(text, ValueTypeString);
-                        pNewStatement->SetSyntaxNode(pNewValue);
+                        pNewStatement->SetSyntaxNode(pNewValue.get());
                         SingleStatementVector parameters;
                         parameters.push_back(pNewStatement.get());
                         pNewStatement.release();
@@ -2163,7 +2163,7 @@ SyntaxNode *_CodeNodeToSyntaxNode(CodeNode &node, IDecompileLookups &lookups, Co
                 auto_ptr<UnaryOp> pUnary(new UnaryOp);
                 pUnary->SetName(fIncrement ? "++" : "--");
                 SingleStatement statement;
-                statement.SetSyntaxNode(pValue);
+                statement.SetSyntaxNode(pValue.get());
                 pUnary->SetStatement1(statement);
                 pNodeRet = pUnary.release();
             }
@@ -2290,7 +2290,7 @@ SyntaxNode *_CodeNodeToSyntaxNode(CodeNode &node, IDecompileLookups &lookups, Co
                     auto_ptr<UnaryOp> pUnary(new UnaryOp);
                     pUnary->SetName(fIncrement ? "++" : "--");
                     SingleStatement statement;
-                    statement.SetSyntaxNode(pValue);
+                    statement.SetSyntaxNode(pValue.get());
                     pUnary->SetStatement1(statement);
                     pNodeRet = pUnary.release();
                 }

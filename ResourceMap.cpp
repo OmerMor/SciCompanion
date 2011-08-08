@@ -1253,7 +1253,7 @@ HRESULT CResourceMap::AppendResource(const ResourceBlob &resource)
         if (SUCCEEDED(hr))
         {
             // pResource is only valid for the length of this call.  Nonetheless, call our syncs
-            for_each(_syncs.begin(), _syncs.end(), bind2nd(mem_fun(ISyncResourceMap::OnResourceAdded), &resource));
+            for_each(_syncs.begin(), _syncs.end(), bind2nd(mem_fun(&ISyncResourceMap::OnResourceAdded), &resource));
         }
 
         if (FAILED(hr))
@@ -1327,13 +1327,13 @@ void CResourceMap::PurgeUnnecessaryResources()
     if (SUCCEEDED(RebuildResources(TRUE)))
     {
         // Refresh everything.
-        for_each(_syncs.begin(), _syncs.end(), mem_fun(ISyncResourceMap::OnResourceMapReloaded));
+        for_each(_syncs.begin(), _syncs.end(), mem_fun(&ISyncResourceMap::OnResourceMapReloaded));
     }
 }
 
 void CResourceMap::ReloadResourceType(int iType)
 {
-    for_each(_syncs.begin(), _syncs.end(), bind2nd(mem_fun(ISyncResourceMap::OnResourceTypeReloaded), iType));
+    for_each(_syncs.begin(), _syncs.end(), bind2nd(mem_fun(&ISyncResourceMap::OnResourceTypeReloaded), iType));
 }
 
 //
@@ -1631,7 +1631,7 @@ void CResourceMap::DeleteResource(const ResourceBlob *pData)
         if (SUCCEEDED(hr))
         {
             // Call our syncs, so they update.
-            for_each(_syncs.begin(), _syncs.end(), bind2nd(mem_fun(ISyncResourceMap::OnResourceDeleted), pData));
+            for_each(_syncs.begin(), _syncs.end(), bind2nd(mem_fun(&ISyncResourceMap::OnResourceDeleted), pData));
         }
 
         if (fCheckIfLast && !fFoundAnother)

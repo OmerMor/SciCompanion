@@ -1,0 +1,469 @@
+<HTML>
+<HEAD>
+
+<TITLE>Help View</TITLE>
+
+<STYLE>
+	BODY, P, TD, A {
+		font-family: Arial, Tahoma, Helvetica, Verdana, sans-serif;
+		font-size: 8pt;
+		color: black;
+		background-color: #FFFFE0;
+		border: 0px solid black;
+		}
+	IMG { border: 0px solid black; }
+	H1, H2, H3, H4, H5 { font-family: Arial, Tahoma, Helvetica, Verdana, sans-serif; font-weight: bold; color: black; }
+	H1 { font-size: 14pt; }
+	H2 { font-size: 12pt; }
+	H3 { font-size: 10pt; }
+	H4 { font-size:  9pt; }
+	H5 { font-size:  8pt; }
+	A:link    { color: blue;  text-decoration: none; }
+	A:visited { color: blue;  text-decoration: none; }
+	A:active  { color: green; text-decoration: underline; }
+	A:hover   { color: red;   text-decoration: underline; }
+	.PartHdrStyle { text-decoration: none; color: black; font-weight: bold; cursor: hand; }
+	TABLE { border-top : 1px solid black; border-left : 1px solid black; border-bottom : 0px solid black; border-right : 0px solid black; }
+	TD    { border-top : 0px solid black; border-left : 0px solid black; border-bottom : 1px solid black; border-right : 1px solid black; background-color: white; }
+</STYLE>
+
+<SCRIPT>
+var g_objImgBookOpen      = new Image();
+var g_objImgBookClose     = new Image();
+    g_objImgBookOpen.src  = "book_open.gif";
+    g_objImgBookClose.src = "book_close.gif";
+
+	function js_clicked_part( sDivId, sImgPrefix )
+	{
+		//alert( "clicked div \"" + sDivId + "\"" );
+		var objDiv = document.getElementById( "" + sDivId );
+		var objDivA = document.getElementById( "" + sDivId + "a" );
+		var objDivI = document.getElementById( "" + sDivId + "i" );
+		if( objDiv.style.display == "none" )
+		{
+			objDivA.style.display = "none";
+			objDiv.style.display = "block";
+			objDivI.src = "" + sImgPrefix + "_open.gif";
+		}
+		else	
+		{
+			objDivA.style.display = "block";
+			objDiv.style.display = "none";
+			objDivI.src = "" + sImgPrefix + "_close.gif";
+		}
+	}
+</SCRIPT>
+
+</HEAD>
+<BODY
+	TOPMARGIN="0"
+	LEFTMARGIN="0"
+	MARGINWIDTH="0"
+	MARGINHEIGHT="0"
+	>
+
+	<TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="0"
+		STYLE="border: 0px solid black;"
+		>
+	<TR>
+		<TD ALIGN="left" VALIGN="top" WIDTH="100%"
+			STYLE="border-top: 0px solid black; border-bottom: 1px solid black; border-left: 0px solid black; border-right: 0px solid black; color: white; background-color: white;"
+			>
+			<IMG src="bodytop.gif">
+		</TD>
+	</TR>
+	<TR>
+		<TD ALIGN="left" VALIGN="top" WIDTH="100%"
+			STYLE="border: 10px solid #FFFFE0; color: black; background-color: #FFFFE0;"
+			>
+			<NOBR><B class="PartHdrStyle" onClick="javascript: js_clicked_part('divIdPart1','book');">
+				<IMG src="book_close.gif" id="divIdPart1i">&nbsp;
+				Camera Movement Keyboard Commands</B></NOBR>
+			<DIV id="divIdPart1" style="display: none;">
+				<BR>
+				<TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="4">
+					<TR>
+						<TD ALIGN="center" VALIGN="middle">
+							<NOBR><I>Up Arrow</I><NOBR>
+						</TD>
+						<TD>
+							<NOBR>Move forward<NOBR>
+						</TD>
+					</TR>
+					<TR>
+						<TD ALIGN="center" VALIGN="middle">
+							<NOBR><I>Down Arrow</I><NOBR>
+						</TD>
+						<TD>
+							<NOBR>Move backward<NOBR>
+						</TD>
+					</TR>
+					<TR>
+						<TD ALIGN="center" VALIGN="middle">
+							<NOBR><I>Left Arrow</I><NOBR>
+						</TD>
+						<TD>
+							<NOBR>Move left<NOBR>
+						</TD>
+					</TR>
+					<TR>
+						<TD ALIGN="center" VALIGN="middle">
+							<NOBR><I>Right Arrow</I><NOBR>
+						</TD>
+						<TD>
+							<NOBR>Move right<NOBR>
+						</TD>
+					</TR>
+					<TR>
+						<TD ALIGN="center" VALIGN="middle">
+							<NOBR><I>SHIFT + Up Arrow</I><NOBR>
+						</TD>
+						<TD>
+							<NOBR>Move up<NOBR>
+						</TD>
+					</TR>
+					<TR>
+						<TD ALIGN="center" VALIGN="middle">
+							<NOBR><I>SHIFT + Down Arrow</I><NOBR>
+						</TD>
+						<TD>
+							<NOBR>Move down<NOBR>
+						</TD>
+					</TR>
+				</TABLE>
+				<BR>
+			</DIV>
+			<DIV id="divIdPart1a">
+				&nbsp;
+			</DIV>
+
+			<NOBR><B class="PartHdrStyle" onClick="javascript: js_clicked_part('divIdPart2','book');">
+				<IMG src="book_close.gif" id="divIdPart2i">&nbsp;
+				Camera Rotation Keyboard Commands</B></NOBR>
+			<DIV id="divIdPart2" style="display: none;">
+				<BR>
+				<TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="4">
+					<TR>
+						<TD ALIGN="center" VALIGN="middle">
+							<NOBR><I>W</I><NOBR>
+						</TD>
+						<TD>
+							<NOBR>Rotate up<NOBR>
+						</TD>
+					</TR>
+					<TR>
+						<TD ALIGN="center" VALIGN="middle">
+							<NOBR><I>S</I><NOBR>
+						</TD>
+						<TD>
+							<NOBR>Rotate down<NOBR>
+						</TD>
+					</TR>
+					<TR>
+						<TD ALIGN="center" VALIGN="middle">
+							<NOBR><I>A</I><NOBR>
+						</TD>
+						<TD>
+							<NOBR>Rotate left<NOBR>
+						</TD>
+					</TR>
+					<TR>
+						<TD ALIGN="center" VALIGN="middle">
+							<NOBR><I>D</I><NOBR>
+						</TD>
+						<TD>
+							<NOBR>Rotate right<NOBR>
+						</TD>
+					</TR>
+					<TR>
+						<TD ALIGN="center" VALIGN="middle">
+							<NOBR><I>Q</I><NOBR>
+						</TD>
+						<TD>
+							<NOBR>Roll left<NOBR>
+						</TD>
+					</TR>
+					<TR>
+						<TD ALIGN="center" VALIGN="middle">
+							<NOBR><I>E</I><NOBR>
+						</TD>
+						<TD>
+							<NOBR>Roll right<NOBR>
+						</TD>
+					</TR>
+				</TABLE>
+				<BR>
+			</DIV>
+			<DIV id="divIdPart2a">
+				&nbsp;
+			</DIV>
+
+			<NOBR><B class="PartHdrStyle" onClick="javascript: js_clicked_part('divIdPart3','book');">
+				<IMG src="book_close.gif" id="divIdPart3i">&nbsp;
+				Camera Movement Mouse Actions</B></NOBR>
+			<DIV id="divIdPart3" style="display: none;">
+				<BR>
+				<TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="4">
+					<TR>
+						<TD VALIGN="middle">
+							<I>Hold left button pressed and move mouse up</I>
+						</TD>
+						<TD>
+							<NOBR>Move forward<NOBR>
+						</TD>
+					</TR>
+					<TR>
+						<TD VALIGN="middle">
+							<I>Hold left button pressed and move mouse down</I>
+						</TD>
+						<TD>
+							<NOBR>Move backward<NOBR>
+						</TD>
+					</TR>
+					<TR>
+						<TD VALIGN="middle">
+							<I>Hold both pressed CTRL key and left button and move mouse left</I>
+						</TD>
+						<TD>
+							<NOBR>Move left<NOBR>
+						</TD>
+					</TR>
+					<TR>
+						<TD VALIGN="middle">
+							<I>Hold both pressed CTRL key and left button and move mouse right</I>
+						</TD>
+						<TD>
+							<NOBR>Move right<NOBR>
+						</TD>
+					</TR>
+					<TR>
+						<TD VALIGN="middle">
+							<I>Hold both pressed SHIFT key and left button and move mouse up</I>
+						</TD>
+						<TD>
+							<NOBR>Move up<NOBR>
+						</TD>
+					</TR>
+					<TR>
+						<TD VALIGN="middle">
+							<I>Hold both pressed SHIFT key and left button and move mouse down</I>
+						</TD>
+						<TD>
+							<NOBR>Move down<NOBR>
+						</TD>
+					</TR>
+				</TABLE>
+				<BR>
+			</DIV>
+			<DIV id="divIdPart3a">
+				&nbsp;
+			</DIV>
+
+			<NOBR><B class="PartHdrStyle" onClick="javascript: js_clicked_part('divIdPart4','book');">
+				<IMG src="book_close.gif" id="divIdPart4i">&nbsp;
+				Camera Rotation Mouse Actions</B></NOBR>
+			<DIV id="divIdPart4" style="display: none;">
+				<BR>
+				<TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="4">
+					<TR>
+						<TD VALIGN="middle">
+							a) <I>Hold both pressed SHIFT key and right button and move mouse up</I><BR>
+							b) <I>Roll mouse wheel down</I>
+						</TD>
+						<TD>
+							<NOBR>Rotate up<NOBR>
+						</TD>
+					</TR>
+					<TR>
+						<TD VALIGN="middle">
+							a) <I>Hold both pressed SHIFT key and right button and move mouse down</I><BR>
+							b) <I>Roll mouse wheel up</I>
+						</TD>
+						<TD>
+							<NOBR>Rotate down<NOBR>
+						</TD>
+					</TR>
+					<TR>
+						<TD VALIGN="middle">
+							a) <I>Hold right button pressed and move mouse left</I><BR>
+							b) <I>Hold SHIFT key pressed and roll mouse wheel up</I>
+						</TD>
+						<TD>
+							<NOBR>Rotate left<NOBR>
+						</TD>
+					</TR>
+					<TR>
+						<TD VALIGN="middle">
+							a) <I>Hold right button pressed and move mouse right</I><BR>
+							b) <I>Hold SHIFT key pressed and roll mouse wheel down</I>
+						</TD>
+						<TD>
+							<NOBR>Rotate right<NOBR>
+						</TD>
+					</TR>
+					<TR>
+						<TD VALIGN="middle">
+							a) <I>Hold both pressed CTRL key and right button and move mouse left</I><BR>
+							b) <I>Hold CTRL key pressed and roll mouse wheel down</I>
+						</TD>
+						<TD>
+							<NOBR>Roll left<NOBR>
+						</TD>
+					</TR>
+					<TR>
+						<TD VALIGN="middle">
+							a) <I>Hold both pressed CTRL key and right button and move mouse right</I><BR>
+							b) <I>Hold CTRL key pressed and roll mouse wheel up</I>
+						</TD>
+						<TD>
+							<NOBR>Roll right<NOBR>
+						</TD>
+					</TR>
+				</TABLE>
+				<BR>
+			</DIV>
+			<DIV id="divIdPart4a">
+				&nbsp;
+			</DIV>
+
+			<NOBR><B class="PartHdrStyle" onClick="javascript: js_clicked_part('divIdPart5','book');">
+				<IMG src="book_close.gif" id="divIdPart5i">&nbsp;
+				Quick Activation of Selected Camera with Keyboard</B></NOBR>
+			<DIV id="divIdPart5" style="display: none;">
+				<BR>
+					Keys 1, 2, 3, 4, 5, 6, 7, 8, 9 and 0 are used to switch camera in the focused view.
+					Totally 10 cameras present in scene.
+				<BR>
+				<BR>
+			</DIV>
+			<DIV id="divIdPart5a">
+				&nbsp;
+			</DIV>
+
+			<NOBR><B class="PartHdrStyle" onClick="javascript: js_clicked_part('divIdPart6','book');">
+				<IMG src="book_close.gif" id="divIdPart6i">&nbsp;
+				FOV Change Keyboard Commands for Active Camera</B></NOBR>
+			<DIV id="divIdPart6" style="display: none;">
+				<BR>
+				<TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="4">
+					<TR>
+						<TD ALIGN="center" VALIGN="middle">
+							<NOBR><I>PLUS</I><NOBR>
+						</TD>
+						<TD>
+							<NOBR>Increase camera FOV<NOBR>
+						</TD>
+					</TR>
+					<TR>
+						<TD ALIGN="center" VALIGN="middle">
+							<NOBR><I>MINUS</I><NOBR>
+						</TD>
+						<TD>
+							<NOBR>Decrease camera FOV<NOBR>
+						</TD>
+					</TR>
+				</TABLE>
+				<BR>
+			</DIV>
+			<DIV id="divIdPart6a">
+				&nbsp;
+			</DIV>
+
+			<NOBR><B class="PartHdrStyle" onClick="javascript: js_clicked_part('divIdPart7','book');">
+				<IMG src="book_close.gif" id="divIdPart7i">&nbsp;
+				FOV Change Mouse Actions for Active Camera</B></NOBR>
+			<DIV id="divIdPart7" style="display: none;">
+				<BR>
+					Hold both pressed CTRL and SHIFT keys and roll mouse wheel.
+				<BR>
+				<BR>
+			</DIV>
+			<DIV id="divIdPart7a">
+				&nbsp;
+			</DIV>
+
+			<NOBR><B class="PartHdrStyle" onClick="javascript: js_clicked_part('divIdPart8','book');">
+				<IMG src="book_close.gif" id="divIdPart8i">&nbsp;
+				Other Keyboard Commands</B></NOBR>
+			<DIV id="divIdPart8" style="display: none;">
+				<BR>
+				<TABLE WIDTH="100%" CELLSPACING="0" CELLPADDING="4">
+					<TR>
+						<TD ALIGN="center" VALIGN="middle">
+							<NOBR><I>CTRL + A</I><NOBR>
+						</TD>
+						<TD>
+							<NOBR>Toggle scene animation<NOBR>
+						</TD>
+					</TR>
+					<TR>
+						<TD ALIGN="center" VALIGN="middle">
+							<NOBR><I>CTRL + Z</I><NOBR>
+						</TD>
+						<TD>
+							<NOBR>Toggle planet objects<NOBR>
+						</TD>
+					</TR>
+					<TR>
+						<TD ALIGN="center" VALIGN="middle">
+							<NOBR><I>CTRL + X</I><NOBR>
+						</TD>
+						<TD>
+							<NOBR>Toggle camera axes<NOBR>
+						</TD>
+					</TR>
+					<TR>
+						<TD ALIGN="center" VALIGN="middle">
+							<NOBR><I>CTRL + C</I><NOBR>
+						</TD>
+						<TD>
+							<NOBR>Toggle cube objects<NOBR>
+						</TD>
+					</TR>
+					<TR>
+						<TD ALIGN="center" VALIGN="middle">
+							<NOBR><I>CTRL + V</I><NOBR>
+						</TD>
+						<TD>
+							<NOBR>Toggle text objects<NOBR>
+						</TD>
+					</TR>
+					<TR>
+						<TD ALIGN="center" VALIGN="middle">
+							<NOBR><I>CTRL + B</I><NOBR>
+						</TD>
+						<TD>
+							<NOBR>Toggle outer objects<NOBR>
+						</TD>
+					</TR>
+					<TR>
+						<TD ALIGN="center" VALIGN="middle">
+							<NOBR><I>CTRL + N</I><NOBR>
+						</TD>
+						<TD>
+							<NOBR>Toggle AVI player window<NOBR>
+						</TD>
+					</TR>
+					<TR>
+						<TD ALIGN="center" VALIGN="middle">
+							<NOBR><I>CTRL + M</I><NOBR>
+						</TD>
+						<TD>
+							<NOBR>Toggle mirror window<NOBR>
+						</TD>
+					</TR>
+				</TABLE>
+				<BR>
+			</DIV>
+			<DIV id="divIdPart8a">
+				&nbsp;
+			</DIV>
+		</TD>
+	</TR>
+	</TABLE>
+	<BR>
+
+
+</BODY>
+</HTML>
+

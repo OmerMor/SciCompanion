@@ -639,7 +639,7 @@ void _RemoveEvent(size_t index, std::vector<SoundEvent> &events)
         // First add this event's time to the next:
         events[index + 1].wTimeDelta += events[index].wTimeDelta;
     }
-    events.erase(&events[index]);
+    events.erase(events.begin() + index);
 }
 
 bool predTicks(SoundResource::CuePoint &cue1, SoundResource::CuePoint &cue2)
@@ -709,7 +709,7 @@ void SoundResource::_RationalizeCuesAndLoops()
                         // Adjust the current event's time delta
                         event.wTimeDelta -= loopEvent.wTimeDelta;
                     }
-                    _events.insert(&_events[i], loopEvent);
+                    _events.insert(_events.begin() + i, loopEvent);
                     fInserted = true;
                     break; // Break instead of using a loop variable, since insert invalidated 'event'
                 }
@@ -764,7 +764,7 @@ void SoundResource::_RationalizeCuesAndLoops()
                         // Adjust the current event's time delta
                         event.wTimeDelta -= cueEvent.wTimeDelta;
                     }
-                    _events.insert(&_events[i], cueEvent); // we may have invalidated SoundEvent &event now.
+                    _events.insert(_events.begin() + i, cueEvent); // we may have invalidated SoundEvent &event now.
                     ++cueIt;    // Go to the next cue.
                     ++i;        // We just added one to the events, so double-increment this.
                     if (cueIt != _cues.end())
@@ -935,7 +935,7 @@ void SoundResource::DeleteCue(size_t index)
 {
     if (index < _cues.size())
     {
-        _cues.erase(&_cues[index]);
+        _cues.erase(_cues.begin() + index);
         _fReEvaluateCues = true;
     }
 }

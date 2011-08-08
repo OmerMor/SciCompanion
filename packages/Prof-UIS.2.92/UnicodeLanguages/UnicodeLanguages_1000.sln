@@ -1,0 +1,186 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 10
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FarsiLanguageSwitcher", "FarsiLanguageSwitcher\FarsiLanguageSwitcher_1000.vcxproj", "{50A82B9D-FA64-43FF-9F5F-D9D5A67D64FA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FarsiProfUIS", "FarsiProfUIS\FarsiProfUIS_1000.vcxproj", "{BA1C37BA-8F8A-4A0C-9F9B-A68A905402B8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KhmerLanguageSwitcher", "KhmerLanguageSwitcher\KhmerLanguageSwitcher_1000.vcxproj", "{1F8EFD9D-35C4-4393-9D2C-A0A359981496}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KhmerProfUIS", "KhmerProfUIS\KhmerProfUIS_1000.vcxproj", "{D8FEBF04-75F7-4513-855A-9B3962C08226}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BosnianProfUIS", "BosnianProfUIS\BosnianProfUIS_1000.vcxproj", "{871654EF-D393-45BB-9C53-B640571654FD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BosnianLanguageSwitcher", "BosnianLanguageSwitcher\BosnianLanguageSwitcher_1000.vcxproj", "{F83AE1BC-5089-4106-A136-97648C6E44BC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EasternArmenianProfUIS", "EasternArmenianProfUIS\EasternArmenianProfUIS_1000.vcxproj", "{DC492033-0121-4FD5-9201-309AA5DDFF83}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EasternArmenianLanguageSwitcher", "EasternArmenianLanguageSwitcher\EasternArmenianLanguageSwitcher_1000.vcxproj", "{754A5E76-2E3E-4FD4-B102-D4DF8600C0A8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VietnameseProfUIS", "VietnameseProfUIS\VietnameseProfUIS_1000.vcxproj", "{24F3E33B-E8D8-48C5-8C6E-85FB47297630}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MacedonianProfUIS", "MacedonianProfUIS\MacedonianProfUIS_1000.vcxproj", "{FA5932DA-DBAC-43CD-94C6-63FC1F844F43}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MacedonianLanguageSwitcher", "MacedonianLanguageSwitcher\MacedonianLanguageSwitcher_1000.vcxproj", "{A7FDCFEF-FA6D-419E-9089-17920413EA4F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VietnameseLanguageSwitcher", "VietnameseLanguageSwitcher\VietnameseLanguageSwitcher_1000.vcxproj", "{72AA8126-9D8B-412D-A693-A2C013339D60}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Bosnian|Win32 = Bosnian|Win32
+		EasternArmenian|Win32 = EasternArmenian|Win32
+		Farsi|Win32 = Farsi|Win32
+		Khmer|Win32 = Khmer|Win32
+		Macedonian|Win32 = Macedonian|Win32
+		Vietnamese|Win32 = Vietnamese|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50A82B9D-FA64-43FF-9F5F-D9D5A67D64FA}.Bosnian|Win32.ActiveCfg = Farsi|Win32
+		{50A82B9D-FA64-43FF-9F5F-D9D5A67D64FA}.Bosnian|Win32.Build.0 = Farsi|Win32
+		{50A82B9D-FA64-43FF-9F5F-D9D5A67D64FA}.EasternArmenian|Win32.ActiveCfg = Farsi|Win32
+		{50A82B9D-FA64-43FF-9F5F-D9D5A67D64FA}.EasternArmenian|Win32.Build.0 = Farsi|Win32
+		{50A82B9D-FA64-43FF-9F5F-D9D5A67D64FA}.Farsi|Win32.ActiveCfg = Farsi|Win32
+		{50A82B9D-FA64-43FF-9F5F-D9D5A67D64FA}.Farsi|Win32.Build.0 = Farsi|Win32
+		{50A82B9D-FA64-43FF-9F5F-D9D5A67D64FA}.Khmer|Win32.ActiveCfg = Farsi|Win32
+		{50A82B9D-FA64-43FF-9F5F-D9D5A67D64FA}.Khmer|Win32.Build.0 = Farsi|Win32
+		{50A82B9D-FA64-43FF-9F5F-D9D5A67D64FA}.Macedonian|Win32.ActiveCfg = Farsi|Win32
+		{50A82B9D-FA64-43FF-9F5F-D9D5A67D64FA}.Macedonian|Win32.Build.0 = Farsi|Win32
+		{50A82B9D-FA64-43FF-9F5F-D9D5A67D64FA}.Vietnamese|Win32.ActiveCfg = Farsi|Win32
+		{50A82B9D-FA64-43FF-9F5F-D9D5A67D64FA}.Vietnamese|Win32.Build.0 = Farsi|Win32
+		{BA1C37BA-8F8A-4A0C-9F9B-A68A905402B8}.Bosnian|Win32.ActiveCfg = Farsi|Win32
+		{BA1C37BA-8F8A-4A0C-9F9B-A68A905402B8}.Bosnian|Win32.Build.0 = Farsi|Win32
+		{BA1C37BA-8F8A-4A0C-9F9B-A68A905402B8}.EasternArmenian|Win32.ActiveCfg = Farsi|Win32
+		{BA1C37BA-8F8A-4A0C-9F9B-A68A905402B8}.EasternArmenian|Win32.Build.0 = Farsi|Win32
+		{BA1C37BA-8F8A-4A0C-9F9B-A68A905402B8}.Farsi|Win32.ActiveCfg = Farsi|Win32
+		{BA1C37BA-8F8A-4A0C-9F9B-A68A905402B8}.Farsi|Win32.Build.0 = Farsi|Win32
+		{BA1C37BA-8F8A-4A0C-9F9B-A68A905402B8}.Khmer|Win32.ActiveCfg = Farsi|Win32
+		{BA1C37BA-8F8A-4A0C-9F9B-A68A905402B8}.Khmer|Win32.Build.0 = Farsi|Win32
+		{BA1C37BA-8F8A-4A0C-9F9B-A68A905402B8}.Macedonian|Win32.ActiveCfg = Farsi|Win32
+		{BA1C37BA-8F8A-4A0C-9F9B-A68A905402B8}.Macedonian|Win32.Build.0 = Farsi|Win32
+		{BA1C37BA-8F8A-4A0C-9F9B-A68A905402B8}.Vietnamese|Win32.ActiveCfg = Farsi|Win32
+		{BA1C37BA-8F8A-4A0C-9F9B-A68A905402B8}.Vietnamese|Win32.Build.0 = Farsi|Win32
+		{1F8EFD9D-35C4-4393-9D2C-A0A359981496}.Bosnian|Win32.ActiveCfg = Khmer|Win32
+		{1F8EFD9D-35C4-4393-9D2C-A0A359981496}.Bosnian|Win32.Build.0 = Khmer|Win32
+		{1F8EFD9D-35C4-4393-9D2C-A0A359981496}.EasternArmenian|Win32.ActiveCfg = Khmer|Win32
+		{1F8EFD9D-35C4-4393-9D2C-A0A359981496}.EasternArmenian|Win32.Build.0 = Khmer|Win32
+		{1F8EFD9D-35C4-4393-9D2C-A0A359981496}.Farsi|Win32.ActiveCfg = Khmer|Win32
+		{1F8EFD9D-35C4-4393-9D2C-A0A359981496}.Farsi|Win32.Build.0 = Khmer|Win32
+		{1F8EFD9D-35C4-4393-9D2C-A0A359981496}.Khmer|Win32.ActiveCfg = Khmer|Win32
+		{1F8EFD9D-35C4-4393-9D2C-A0A359981496}.Khmer|Win32.Build.0 = Khmer|Win32
+		{1F8EFD9D-35C4-4393-9D2C-A0A359981496}.Macedonian|Win32.ActiveCfg = Khmer|Win32
+		{1F8EFD9D-35C4-4393-9D2C-A0A359981496}.Macedonian|Win32.Build.0 = Khmer|Win32
+		{1F8EFD9D-35C4-4393-9D2C-A0A359981496}.Vietnamese|Win32.ActiveCfg = Khmer|Win32
+		{1F8EFD9D-35C4-4393-9D2C-A0A359981496}.Vietnamese|Win32.Build.0 = Khmer|Win32
+		{D8FEBF04-75F7-4513-855A-9B3962C08226}.Bosnian|Win32.ActiveCfg = Khmer|Win32
+		{D8FEBF04-75F7-4513-855A-9B3962C08226}.Bosnian|Win32.Build.0 = Khmer|Win32
+		{D8FEBF04-75F7-4513-855A-9B3962C08226}.EasternArmenian|Win32.ActiveCfg = Khmer|Win32
+		{D8FEBF04-75F7-4513-855A-9B3962C08226}.EasternArmenian|Win32.Build.0 = Khmer|Win32
+		{D8FEBF04-75F7-4513-855A-9B3962C08226}.Farsi|Win32.ActiveCfg = Khmer|Win32
+		{D8FEBF04-75F7-4513-855A-9B3962C08226}.Farsi|Win32.Build.0 = Khmer|Win32
+		{D8FEBF04-75F7-4513-855A-9B3962C08226}.Khmer|Win32.ActiveCfg = Khmer|Win32
+		{D8FEBF04-75F7-4513-855A-9B3962C08226}.Khmer|Win32.Build.0 = Khmer|Win32
+		{D8FEBF04-75F7-4513-855A-9B3962C08226}.Macedonian|Win32.ActiveCfg = Khmer|Win32
+		{D8FEBF04-75F7-4513-855A-9B3962C08226}.Macedonian|Win32.Build.0 = Khmer|Win32
+		{D8FEBF04-75F7-4513-855A-9B3962C08226}.Vietnamese|Win32.ActiveCfg = Khmer|Win32
+		{D8FEBF04-75F7-4513-855A-9B3962C08226}.Vietnamese|Win32.Build.0 = Khmer|Win32
+		{871654EF-D393-45BB-9C53-B640571654FD}.Bosnian|Win32.ActiveCfg = Bosnian|Win32
+		{871654EF-D393-45BB-9C53-B640571654FD}.Bosnian|Win32.Build.0 = Bosnian|Win32
+		{871654EF-D393-45BB-9C53-B640571654FD}.EasternArmenian|Win32.ActiveCfg = Bosnian|Win32
+		{871654EF-D393-45BB-9C53-B640571654FD}.EasternArmenian|Win32.Build.0 = Bosnian|Win32
+		{871654EF-D393-45BB-9C53-B640571654FD}.Farsi|Win32.ActiveCfg = Bosnian|Win32
+		{871654EF-D393-45BB-9C53-B640571654FD}.Farsi|Win32.Build.0 = Bosnian|Win32
+		{871654EF-D393-45BB-9C53-B640571654FD}.Khmer|Win32.ActiveCfg = Bosnian|Win32
+		{871654EF-D393-45BB-9C53-B640571654FD}.Khmer|Win32.Build.0 = Bosnian|Win32
+		{871654EF-D393-45BB-9C53-B640571654FD}.Macedonian|Win32.ActiveCfg = Bosnian|Win32
+		{871654EF-D393-45BB-9C53-B640571654FD}.Macedonian|Win32.Build.0 = Bosnian|Win32
+		{871654EF-D393-45BB-9C53-B640571654FD}.Vietnamese|Win32.ActiveCfg = Bosnian|Win32
+		{871654EF-D393-45BB-9C53-B640571654FD}.Vietnamese|Win32.Build.0 = Bosnian|Win32
+		{F83AE1BC-5089-4106-A136-97648C6E44BC}.Bosnian|Win32.ActiveCfg = Bosnian|Win32
+		{F83AE1BC-5089-4106-A136-97648C6E44BC}.Bosnian|Win32.Build.0 = Bosnian|Win32
+		{F83AE1BC-5089-4106-A136-97648C6E44BC}.EasternArmenian|Win32.ActiveCfg = Bosnian|Win32
+		{F83AE1BC-5089-4106-A136-97648C6E44BC}.EasternArmenian|Win32.Build.0 = Bosnian|Win32
+		{F83AE1BC-5089-4106-A136-97648C6E44BC}.Farsi|Win32.ActiveCfg = Bosnian|Win32
+		{F83AE1BC-5089-4106-A136-97648C6E44BC}.Farsi|Win32.Build.0 = Bosnian|Win32
+		{F83AE1BC-5089-4106-A136-97648C6E44BC}.Khmer|Win32.ActiveCfg = Bosnian|Win32
+		{F83AE1BC-5089-4106-A136-97648C6E44BC}.Khmer|Win32.Build.0 = Bosnian|Win32
+		{F83AE1BC-5089-4106-A136-97648C6E44BC}.Macedonian|Win32.ActiveCfg = Bosnian|Win32
+		{F83AE1BC-5089-4106-A136-97648C6E44BC}.Macedonian|Win32.Build.0 = Bosnian|Win32
+		{F83AE1BC-5089-4106-A136-97648C6E44BC}.Vietnamese|Win32.ActiveCfg = Bosnian|Win32
+		{F83AE1BC-5089-4106-A136-97648C6E44BC}.Vietnamese|Win32.Build.0 = Bosnian|Win32
+		{DC492033-0121-4FD5-9201-309AA5DDFF83}.Bosnian|Win32.ActiveCfg = EasternArmenian|Win32
+		{DC492033-0121-4FD5-9201-309AA5DDFF83}.Bosnian|Win32.Build.0 = EasternArmenian|Win32
+		{DC492033-0121-4FD5-9201-309AA5DDFF83}.EasternArmenian|Win32.ActiveCfg = EasternArmenian|Win32
+		{DC492033-0121-4FD5-9201-309AA5DDFF83}.EasternArmenian|Win32.Build.0 = EasternArmenian|Win32
+		{DC492033-0121-4FD5-9201-309AA5DDFF83}.Farsi|Win32.ActiveCfg = EasternArmenian|Win32
+		{DC492033-0121-4FD5-9201-309AA5DDFF83}.Farsi|Win32.Build.0 = EasternArmenian|Win32
+		{DC492033-0121-4FD5-9201-309AA5DDFF83}.Khmer|Win32.ActiveCfg = EasternArmenian|Win32
+		{DC492033-0121-4FD5-9201-309AA5DDFF83}.Khmer|Win32.Build.0 = EasternArmenian|Win32
+		{DC492033-0121-4FD5-9201-309AA5DDFF83}.Macedonian|Win32.ActiveCfg = EasternArmenian|Win32
+		{DC492033-0121-4FD5-9201-309AA5DDFF83}.Macedonian|Win32.Build.0 = EasternArmenian|Win32
+		{DC492033-0121-4FD5-9201-309AA5DDFF83}.Vietnamese|Win32.ActiveCfg = EasternArmenian|Win32
+		{DC492033-0121-4FD5-9201-309AA5DDFF83}.Vietnamese|Win32.Build.0 = EasternArmenian|Win32
+		{754A5E76-2E3E-4FD4-B102-D4DF8600C0A8}.Bosnian|Win32.ActiveCfg = EasternArmenian|Win32
+		{754A5E76-2E3E-4FD4-B102-D4DF8600C0A8}.Bosnian|Win32.Build.0 = EasternArmenian|Win32
+		{754A5E76-2E3E-4FD4-B102-D4DF8600C0A8}.EasternArmenian|Win32.ActiveCfg = EasternArmenian|Win32
+		{754A5E76-2E3E-4FD4-B102-D4DF8600C0A8}.EasternArmenian|Win32.Build.0 = EasternArmenian|Win32
+		{754A5E76-2E3E-4FD4-B102-D4DF8600C0A8}.Farsi|Win32.ActiveCfg = EasternArmenian|Win32
+		{754A5E76-2E3E-4FD4-B102-D4DF8600C0A8}.Farsi|Win32.Build.0 = EasternArmenian|Win32
+		{754A5E76-2E3E-4FD4-B102-D4DF8600C0A8}.Khmer|Win32.ActiveCfg = EasternArmenian|Win32
+		{754A5E76-2E3E-4FD4-B102-D4DF8600C0A8}.Khmer|Win32.Build.0 = EasternArmenian|Win32
+		{754A5E76-2E3E-4FD4-B102-D4DF8600C0A8}.Macedonian|Win32.ActiveCfg = EasternArmenian|Win32
+		{754A5E76-2E3E-4FD4-B102-D4DF8600C0A8}.Macedonian|Win32.Build.0 = EasternArmenian|Win32
+		{754A5E76-2E3E-4FD4-B102-D4DF8600C0A8}.Vietnamese|Win32.ActiveCfg = EasternArmenian|Win32
+		{754A5E76-2E3E-4FD4-B102-D4DF8600C0A8}.Vietnamese|Win32.Build.0 = EasternArmenian|Win32
+		{24F3E33B-E8D8-48C5-8C6E-85FB47297630}.Bosnian|Win32.ActiveCfg = Vietnamese|Win32
+		{24F3E33B-E8D8-48C5-8C6E-85FB47297630}.Bosnian|Win32.Build.0 = Vietnamese|Win32
+		{24F3E33B-E8D8-48C5-8C6E-85FB47297630}.EasternArmenian|Win32.ActiveCfg = Vietnamese|Win32
+		{24F3E33B-E8D8-48C5-8C6E-85FB47297630}.EasternArmenian|Win32.Build.0 = Vietnamese|Win32
+		{24F3E33B-E8D8-48C5-8C6E-85FB47297630}.Farsi|Win32.ActiveCfg = Vietnamese|Win32
+		{24F3E33B-E8D8-48C5-8C6E-85FB47297630}.Farsi|Win32.Build.0 = Vietnamese|Win32
+		{24F3E33B-E8D8-48C5-8C6E-85FB47297630}.Khmer|Win32.ActiveCfg = Vietnamese|Win32
+		{24F3E33B-E8D8-48C5-8C6E-85FB47297630}.Khmer|Win32.Build.0 = Vietnamese|Win32
+		{24F3E33B-E8D8-48C5-8C6E-85FB47297630}.Macedonian|Win32.ActiveCfg = Vietnamese|Win32
+		{24F3E33B-E8D8-48C5-8C6E-85FB47297630}.Macedonian|Win32.Build.0 = Vietnamese|Win32
+		{24F3E33B-E8D8-48C5-8C6E-85FB47297630}.Vietnamese|Win32.ActiveCfg = Vietnamese|Win32
+		{24F3E33B-E8D8-48C5-8C6E-85FB47297630}.Vietnamese|Win32.Build.0 = Vietnamese|Win32
+		{FA5932DA-DBAC-43CD-94C6-63FC1F844F43}.Bosnian|Win32.ActiveCfg = Macedonian|Win32
+		{FA5932DA-DBAC-43CD-94C6-63FC1F844F43}.Bosnian|Win32.Build.0 = Macedonian|Win32
+		{FA5932DA-DBAC-43CD-94C6-63FC1F844F43}.EasternArmenian|Win32.ActiveCfg = Macedonian|Win32
+		{FA5932DA-DBAC-43CD-94C6-63FC1F844F43}.EasternArmenian|Win32.Build.0 = Macedonian|Win32
+		{FA5932DA-DBAC-43CD-94C6-63FC1F844F43}.Farsi|Win32.ActiveCfg = Macedonian|Win32
+		{FA5932DA-DBAC-43CD-94C6-63FC1F844F43}.Farsi|Win32.Build.0 = Macedonian|Win32
+		{FA5932DA-DBAC-43CD-94C6-63FC1F844F43}.Khmer|Win32.ActiveCfg = Macedonian|Win32
+		{FA5932DA-DBAC-43CD-94C6-63FC1F844F43}.Khmer|Win32.Build.0 = Macedonian|Win32
+		{FA5932DA-DBAC-43CD-94C6-63FC1F844F43}.Macedonian|Win32.ActiveCfg = Macedonian|Win32
+		{FA5932DA-DBAC-43CD-94C6-63FC1F844F43}.Macedonian|Win32.Build.0 = Macedonian|Win32
+		{FA5932DA-DBAC-43CD-94C6-63FC1F844F43}.Vietnamese|Win32.ActiveCfg = Macedonian|Win32
+		{FA5932DA-DBAC-43CD-94C6-63FC1F844F43}.Vietnamese|Win32.Build.0 = Macedonian|Win32
+		{A7FDCFEF-FA6D-419E-9089-17920413EA4F}.Bosnian|Win32.ActiveCfg = Macedonian|Win32
+		{A7FDCFEF-FA6D-419E-9089-17920413EA4F}.Bosnian|Win32.Build.0 = Macedonian|Win32
+		{A7FDCFEF-FA6D-419E-9089-17920413EA4F}.EasternArmenian|Win32.ActiveCfg = Macedonian|Win32
+		{A7FDCFEF-FA6D-419E-9089-17920413EA4F}.EasternArmenian|Win32.Build.0 = Macedonian|Win32
+		{A7FDCFEF-FA6D-419E-9089-17920413EA4F}.Farsi|Win32.ActiveCfg = Macedonian|Win32
+		{A7FDCFEF-FA6D-419E-9089-17920413EA4F}.Farsi|Win32.Build.0 = Macedonian|Win32
+		{A7FDCFEF-FA6D-419E-9089-17920413EA4F}.Khmer|Win32.ActiveCfg = Macedonian|Win32
+		{A7FDCFEF-FA6D-419E-9089-17920413EA4F}.Khmer|Win32.Build.0 = Macedonian|Win32
+		{A7FDCFEF-FA6D-419E-9089-17920413EA4F}.Macedonian|Win32.ActiveCfg = Macedonian|Win32
+		{A7FDCFEF-FA6D-419E-9089-17920413EA4F}.Macedonian|Win32.Build.0 = Macedonian|Win32
+		{A7FDCFEF-FA6D-419E-9089-17920413EA4F}.Vietnamese|Win32.ActiveCfg = Macedonian|Win32
+		{A7FDCFEF-FA6D-419E-9089-17920413EA4F}.Vietnamese|Win32.Build.0 = Macedonian|Win32
+		{72AA8126-9D8B-412D-A693-A2C013339D60}.Bosnian|Win32.ActiveCfg = Vietnamese|Win32
+		{72AA8126-9D8B-412D-A693-A2C013339D60}.Bosnian|Win32.Build.0 = Vietnamese|Win32
+		{72AA8126-9D8B-412D-A693-A2C013339D60}.EasternArmenian|Win32.ActiveCfg = Vietnamese|Win32
+		{72AA8126-9D8B-412D-A693-A2C013339D60}.EasternArmenian|Win32.Build.0 = Vietnamese|Win32
+		{72AA8126-9D8B-412D-A693-A2C013339D60}.Farsi|Win32.ActiveCfg = Vietnamese|Win32
+		{72AA8126-9D8B-412D-A693-A2C013339D60}.Farsi|Win32.Build.0 = Vietnamese|Win32
+		{72AA8126-9D8B-412D-A693-A2C013339D60}.Khmer|Win32.ActiveCfg = Vietnamese|Win32
+		{72AA8126-9D8B-412D-A693-A2C013339D60}.Khmer|Win32.Build.0 = Vietnamese|Win32
+		{72AA8126-9D8B-412D-A693-A2C013339D60}.Macedonian|Win32.ActiveCfg = Vietnamese|Win32
+		{72AA8126-9D8B-412D-A693-A2C013339D60}.Macedonian|Win32.Build.0 = Vietnamese|Win32
+		{72AA8126-9D8B-412D-A693-A2C013339D60}.Vietnamese|Win32.ActiveCfg = Vietnamese|Win32
+		{72AA8126-9D8B-412D-A693-A2C013339D60}.Vietnamese|Win32.Build.0 = Vietnamese|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

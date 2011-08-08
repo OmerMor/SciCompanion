@@ -684,7 +684,7 @@ void GeneralE(MatchResult &match, const ParserBase<_TContext, _It> *pParser, _TC
 
 
 // The kind of iterator we use.
-typedef CCrystalScriptStream::const_iterator streamIt;
+typedef CCrystalScriptStream::const_buffer_iterator streamIt;
 
 class SyntaxContext
 {
@@ -709,7 +709,7 @@ public:
         delete ClassPropertyPtr;
         delete StatementPtrReturn;
         ASSERT(_statements.empty()); // Or else someone messed up, or there could have been an exception
-        for_each(_statements.c.begin(), _statements.c.end(), delete_object());
+        for_each(_statements._Get_container().begin(), _statements._Get_container().end(), delete_object());
     }
     void ReportError(std::string error, streamIt pos)
     {
@@ -840,7 +840,7 @@ public:
     _statementT GetPrevSyntaxNode() const
     {
         // Get the item that isn't at the top of the stack... it's one up.
-        std::deque<sci::SyntaxNode*>::const_reverse_iterator prevIt = _statements.c.rbegin();
+        std::deque<sci::SyntaxNode*>::const_reverse_iterator prevIt = _statements._Get_container().rbegin();
         prevIt++;
         NodeType type1 = (*prevIt)->GetNodeType();
         NodeType type2 = _statementT->MyNodeType;
@@ -897,9 +897,9 @@ public:
 class SCISyntaxParser
 {
 public:
-    bool Parse(sci::Script &script, CCrystalScriptStream::const_iterator &stream, ICompileLog *pError);
-    bool Parse(sci::Script &script, CCrystalScriptStream::const_iterator &stream, SyntaxContext &context);
-    bool ParseHeader(sci::Script &script, CCrystalScriptStream::const_iterator &stream, ICompileLog *pError);
+    bool Parse(sci::Script &script, CCrystalScriptStream::const_buffer_iterator &stream, ICompileLog *pError);
+    bool Parse(sci::Script &script, CCrystalScriptStream::const_buffer_iterator &stream, SyntaxContext &context);
+    bool ParseHeader(sci::Script &script, CCrystalScriptStream::const_buffer_iterator &stream, ICompileLog *pError);
     void Load();
 
 private:

@@ -1,0 +1,2058 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="7.10"
+	Name="ThemeColorizer"
+	SccProjectName=""
+	SccLocalPath=""
+	Keyword="MFCProj">
+	<Platforms>
+		<Platform
+			Name="Win32"/>
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Unicode Release|Win32"
+			OutputDirectory=".\..\..\Bin_710"
+			IntermediateDirectory=".\..\..\Bin_710\UnicodeRelease\ThemeColorizer"
+			ConfigurationType="1"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="1">
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="2"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="NDEBUG;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				StringPooling="TRUE"
+				RuntimeLibrary="2"
+				EnableFunctionLevelLinking="TRUE"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_710\UnicodeRelease\ThemeColorizer/ThemeColorizer_710.pch"
+				AssemblerListingLocation=".\..\..\Bin_710\UnicodeRelease\ThemeColorizer/"
+				ObjectFile=".\..\..\Bin_710\UnicodeRelease\ThemeColorizer/"
+				ProgramDataBaseFileName=".\..\..\Bin_710\UnicodeRelease\ThemeColorizer/"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				CompileAs="0"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_710/ThemeColorizer-u.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="TRUE"
+				AdditionalLibraryDirectories="..\..\Bin_710"
+				ProgramDatabaseFile=".\..\..\Bin_710/ThemeColorizer-u.pdb"
+				SubSystem="2"
+				EntryPointSymbol="wWinMainCRTStartup"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="NDEBUG"
+				MkTypLibCompatible="TRUE"
+				SuppressStartupBanner="TRUE"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_710/ThemeColorizer_710.tlb"
+				HeaderFileName=""/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+			<Tool
+				Name="VCManagedWrapperGeneratorTool"/>
+			<Tool
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+		</Configuration>
+		<Configuration
+			Name="MBCS Debug|Win32"
+			OutputDirectory=".\..\..\Bin_710"
+			IntermediateDirectory=".\..\..\Bin_710\MbcsDebug\ThemeColorizer"
+			ConfigurationType="1"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="0"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="_DEBUG;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="3"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_710\MbcsDebug\ThemeColorizer/ThemeColorizer_710.pch"
+				AssemblerListingLocation=".\..\..\Bin_710\MbcsDebug\ThemeColorizer/"
+				ObjectFile=".\..\..\Bin_710\MbcsDebug\ThemeColorizer/"
+				ProgramDataBaseFileName=".\..\..\Bin_710\MbcsDebug\ThemeColorizer/"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				DebugInformationFormat="4"
+				CompileAs="0"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_710/ThemeColorizer-md.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="TRUE"
+				AdditionalLibraryDirectories="..\..\Bin_710"
+				GenerateDebugInformation="TRUE"
+				ProgramDatabaseFile=".\..\..\Bin_710/ThemeColorizer-md.pdb"
+				SubSystem="2"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="_DEBUG"
+				MkTypLibCompatible="TRUE"
+				SuppressStartupBanner="TRUE"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_710/ThemeColorizer_710.tlb"
+				HeaderFileName=""/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_DEBUG"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+			<Tool
+				Name="VCManagedWrapperGeneratorTool"/>
+			<Tool
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+		</Configuration>
+		<Configuration
+			Name="Static ANSI Release with MFC DLL|Win32"
+			OutputDirectory=".\..\..\Bin_710"
+			IntermediateDirectory=".\..\..\Bin_710\StaticAnsiReleaseWithMfcDll\ThemeColorizer"
+			ConfigurationType="1"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE">
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="2"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="NDEBUG;__STATPROFUIS_WITH_DLLMFC__;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				StringPooling="TRUE"
+				RuntimeLibrary="2"
+				EnableFunctionLevelLinking="TRUE"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_710\StaticAnsiReleaseWithMfcDll\ThemeColorizer/ThemeColorizer_710.pch"
+				AssemblerListingLocation=".\..\..\Bin_710\StaticAnsiReleaseWithMfcDll\ThemeColorizer/"
+				ObjectFile=".\..\..\Bin_710\StaticAnsiReleaseWithMfcDll\ThemeColorizer/"
+				ProgramDataBaseFileName=".\..\..\Bin_710\StaticAnsiReleaseWithMfcDll\ThemeColorizer/"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				CompileAs="0"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_710/ThemeColorizer-yn.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="TRUE"
+				AdditionalLibraryDirectories="..\..\Bin_710"
+				ProgramDatabaseFile=".\..\..\Bin_710/ThemeColorizer-yn.pdb"
+				SubSystem="2"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="NDEBUG"
+				MkTypLibCompatible="TRUE"
+				SuppressStartupBanner="TRUE"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_710/ThemeColorizer_710.tlb"
+				HeaderFileName=""/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG;__STATPROFUIS_WITH_DLLMFC__"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+			<Tool
+				Name="VCManagedWrapperGeneratorTool"/>
+			<Tool
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+		</Configuration>
+		<Configuration
+			Name="MBCS Release|Win32"
+			OutputDirectory=".\..\..\Bin_710"
+			IntermediateDirectory=".\..\..\Bin_710\MbcsRelease\ThemeColorizer"
+			ConfigurationType="1"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="2"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="NDEBUG;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				StringPooling="TRUE"
+				RuntimeLibrary="2"
+				EnableFunctionLevelLinking="TRUE"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_710\MbcsRelease\ThemeColorizer/ThemeColorizer_710.pch"
+				AssemblerListingLocation=".\..\..\Bin_710\MbcsRelease\ThemeColorizer/"
+				ObjectFile=".\..\..\Bin_710\MbcsRelease\ThemeColorizer/"
+				ProgramDataBaseFileName=".\..\..\Bin_710\MbcsRelease\ThemeColorizer/"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				CompileAs="0"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_710/ThemeColorizer-m.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="TRUE"
+				AdditionalLibraryDirectories="..\..\Bin_710"
+				ProgramDatabaseFile=".\..\..\Bin_710/ThemeColorizer-m.pdb"
+				SubSystem="2"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="NDEBUG"
+				MkTypLibCompatible="TRUE"
+				SuppressStartupBanner="TRUE"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_710/ThemeColorizer_710.tlb"
+				HeaderFileName=""/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+			<Tool
+				Name="VCManagedWrapperGeneratorTool"/>
+			<Tool
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+		</Configuration>
+		<Configuration
+			Name="Static MBCS Debug|Win32"
+			OutputDirectory=".\..\..\Bin_710"
+			IntermediateDirectory=".\..\..\Bin_710\StaticMbcsDebug\ThemeColorizer"
+			ConfigurationType="1"
+			UseOfMFC="1"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="0"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="_DEBUG;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="1"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_710\StaticMbcsDebug\ThemeColorizer/ThemeColorizer_710.pch"
+				AssemblerListingLocation=".\..\..\Bin_710\StaticMbcsDebug\ThemeColorizer/"
+				ObjectFile=".\..\..\Bin_710\StaticMbcsDebug\ThemeColorizer/"
+				ProgramDataBaseFileName=".\..\..\Bin_710\StaticMbcsDebug\ThemeColorizer/"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				DebugInformationFormat="4"
+				CompileAs="0"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_710/ThemeColorizer-smd.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="TRUE"
+				AdditionalLibraryDirectories="..\..\Bin_710"
+				GenerateDebugInformation="TRUE"
+				ProgramDatabaseFile=".\..\..\Bin_710/ThemeColorizer-smd.pdb"
+				SubSystem="2"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="_DEBUG"
+				MkTypLibCompatible="TRUE"
+				SuppressStartupBanner="TRUE"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_710/ThemeColorizer_710.tlb"
+				HeaderFileName=""/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_DEBUG"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+			<Tool
+				Name="VCManagedWrapperGeneratorTool"/>
+			<Tool
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+		</Configuration>
+		<Configuration
+			Name="Static Unicode Debug with MFC DLL|Win32"
+			OutputDirectory=".\..\..\Bin_710"
+			IntermediateDirectory=".\..\..\Bin_710\StaticUnicodeDebugWithMfcDll\ThemeColorizer"
+			ConfigurationType="1"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="1">
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="0"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="_DEBUG;__STATPROFUIS_WITH_DLLMFC__;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="3"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_710\StaticUnicodeDebugWithMfcDll\ThemeColorizer/ThemeColorizer_710.pch"
+				AssemblerListingLocation=".\..\..\Bin_710\StaticUnicodeDebugWithMfcDll\ThemeColorizer/"
+				ObjectFile=".\..\..\Bin_710\StaticUnicodeDebugWithMfcDll\ThemeColorizer/"
+				ProgramDataBaseFileName=".\..\..\Bin_710\StaticUnicodeDebugWithMfcDll\ThemeColorizer/"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				DebugInformationFormat="4"
+				CompileAs="0"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_710/ThemeColorizer-yud.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="TRUE"
+				AdditionalLibraryDirectories="..\..\Bin_710"
+				GenerateDebugInformation="TRUE"
+				ProgramDatabaseFile=".\..\..\Bin_710/ThemeColorizer-yud.pdb"
+				SubSystem="2"
+				EntryPointSymbol="wWinMainCRTStartup"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="_DEBUG"
+				MkTypLibCompatible="TRUE"
+				SuppressStartupBanner="TRUE"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_710/ThemeColorizer_710.tlb"
+				HeaderFileName=""/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_DEBUG;__STATPROFUIS_WITH_DLLMFC__"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+			<Tool
+				Name="VCManagedWrapperGeneratorTool"/>
+			<Tool
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+		</Configuration>
+		<Configuration
+			Name="Unicode Debug|Win32"
+			OutputDirectory=".\..\..\Bin_710"
+			IntermediateDirectory=".\..\..\Bin_710\UnicodeDebug\ThemeColorizer"
+			ConfigurationType="1"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="1">
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="0"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="_DEBUG;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="3"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_710\UnicodeDebug\ThemeColorizer/ThemeColorizer_710.pch"
+				AssemblerListingLocation=".\..\..\Bin_710\UnicodeDebug\ThemeColorizer/"
+				ObjectFile=".\..\..\Bin_710\UnicodeDebug\ThemeColorizer/"
+				ProgramDataBaseFileName=".\..\..\Bin_710\UnicodeDebug\ThemeColorizer/"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				DebugInformationFormat="4"
+				CompileAs="0"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_710/ThemeColorizer-ud.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="TRUE"
+				AdditionalLibraryDirectories="..\..\Bin_710"
+				GenerateDebugInformation="TRUE"
+				ProgramDatabaseFile=".\..\..\Bin_710/ThemeColorizer-ud.pdb"
+				SubSystem="2"
+				EntryPointSymbol="wWinMainCRTStartup"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="_DEBUG"
+				MkTypLibCompatible="TRUE"
+				SuppressStartupBanner="TRUE"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_710/ThemeColorizer_710.tlb"
+				HeaderFileName=""/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_DEBUG"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+			<Tool
+				Name="VCManagedWrapperGeneratorTool"/>
+			<Tool
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+		</Configuration>
+		<Configuration
+			Name="Static MBCS Release with MFC DLL|Win32"
+			OutputDirectory=".\..\..\Bin_710"
+			IntermediateDirectory=".\..\..\Bin_710\StaticMbcsReleaseWithMfcDll\ThemeColorizer"
+			ConfigurationType="1"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="2"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="NDEBUG;__STATPROFUIS_WITH_DLLMFC__;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				StringPooling="TRUE"
+				RuntimeLibrary="2"
+				EnableFunctionLevelLinking="TRUE"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_710\StaticMbcsReleaseWithMfcDll\ThemeColorizer/ThemeColorizer_710.pch"
+				AssemblerListingLocation=".\..\..\Bin_710\StaticMbcsReleaseWithMfcDll\ThemeColorizer/"
+				ObjectFile=".\..\..\Bin_710\StaticMbcsReleaseWithMfcDll\ThemeColorizer/"
+				ProgramDataBaseFileName=".\..\..\Bin_710\StaticMbcsReleaseWithMfcDll\ThemeColorizer/"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				CompileAs="0"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_710/ThemeColorizer-ym.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="TRUE"
+				AdditionalLibraryDirectories="..\..\Bin_710"
+				ProgramDatabaseFile=".\..\..\Bin_710/ThemeColorizer-ym.pdb"
+				SubSystem="2"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="NDEBUG"
+				MkTypLibCompatible="TRUE"
+				SuppressStartupBanner="TRUE"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_710/ThemeColorizer_710.tlb"
+				HeaderFileName=""/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG;__STATPROFUIS_WITH_DLLMFC__"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+			<Tool
+				Name="VCManagedWrapperGeneratorTool"/>
+			<Tool
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+		</Configuration>
+		<Configuration
+			Name="Static MBCS Debug with MFC DLL|Win32"
+			OutputDirectory=".\..\..\Bin_710"
+			IntermediateDirectory=".\..\..\Bin_710\StaticMbcsDebugWithMfcDll\ThemeColorizer"
+			ConfigurationType="1"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="0"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="_DEBUG;__STATPROFUIS_WITH_DLLMFC__;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="3"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_710\StaticMbcsDebugWithMfcDll\ThemeColorizer/ThemeColorizer_710.pch"
+				AssemblerListingLocation=".\..\..\Bin_710\StaticMbcsDebugWithMfcDll\ThemeColorizer/"
+				ObjectFile=".\..\..\Bin_710\StaticMbcsDebugWithMfcDll\ThemeColorizer/"
+				ProgramDataBaseFileName=".\..\..\Bin_710\StaticMbcsDebugWithMfcDll\ThemeColorizer/"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				DebugInformationFormat="4"
+				CompileAs="0"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_710/ThemeColorizer-ymd.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="TRUE"
+				AdditionalLibraryDirectories="..\..\Bin_710"
+				GenerateDebugInformation="TRUE"
+				ProgramDatabaseFile=".\..\..\Bin_710/ThemeColorizer-ymd.pdb"
+				SubSystem="2"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="_DEBUG"
+				MkTypLibCompatible="TRUE"
+				SuppressStartupBanner="TRUE"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_710/ThemeColorizer_710.tlb"
+				HeaderFileName=""/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_DEBUG;__STATPROFUIS_WITH_DLLMFC__"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+			<Tool
+				Name="VCManagedWrapperGeneratorTool"/>
+			<Tool
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+		</Configuration>
+		<Configuration
+			Name="Static ANSI Debug with MFC DLL|Win32"
+			OutputDirectory=".\..\..\Bin_710"
+			IntermediateDirectory=".\..\..\Bin_710\StaticAnsiDebugWithMfcDll\ThemeColorizer"
+			ConfigurationType="1"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE">
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="0"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="_DEBUG;__STATPROFUIS_WITH_DLLMFC__;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="3"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_710\StaticAnsiDebugWithMfcDll\ThemeColorizer/ThemeColorizer_710.pch"
+				AssemblerListingLocation=".\..\..\Bin_710\StaticAnsiDebugWithMfcDll\ThemeColorizer/"
+				ObjectFile=".\..\..\Bin_710\StaticAnsiDebugWithMfcDll\ThemeColorizer/"
+				ProgramDataBaseFileName=".\..\..\Bin_710\StaticAnsiDebugWithMfcDll\ThemeColorizer/"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				DebugInformationFormat="4"
+				CompileAs="0"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_710/ThemeColorizer-ynd.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="TRUE"
+				AdditionalLibraryDirectories="..\..\Bin_710"
+				GenerateDebugInformation="TRUE"
+				ProgramDatabaseFile=".\..\..\Bin_710/ThemeColorizer-ynd.pdb"
+				SubSystem="2"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="_DEBUG"
+				MkTypLibCompatible="TRUE"
+				SuppressStartupBanner="TRUE"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_710/ThemeColorizer_710.tlb"
+				HeaderFileName=""/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_DEBUG;__STATPROFUIS_WITH_DLLMFC__"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+			<Tool
+				Name="VCManagedWrapperGeneratorTool"/>
+			<Tool
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+		</Configuration>
+		<Configuration
+			Name="ANSI Debug|Win32"
+			OutputDirectory=".\..\..\Bin_710"
+			IntermediateDirectory=".\..\..\Bin_710\AnsiDebug\ThemeColorizer"
+			ConfigurationType="1"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE">
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="0"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="_DEBUG;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="3"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_710\AnsiDebug\ThemeColorizer/ThemeColorizer_710.pch"
+				AssemblerListingLocation=".\..\..\Bin_710\AnsiDebug\ThemeColorizer/"
+				ObjectFile=".\..\..\Bin_710\AnsiDebug\ThemeColorizer/"
+				ProgramDataBaseFileName=".\..\..\Bin_710\AnsiDebug\ThemeColorizer/"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				DebugInformationFormat="4"
+				CompileAs="0"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_710/ThemeColorizer-nd.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="TRUE"
+				AdditionalLibraryDirectories="..\..\Bin_710"
+				GenerateDebugInformation="TRUE"
+				ProgramDatabaseFile=".\..\..\Bin_710/ThemeColorizer-nd.pdb"
+				SubSystem="2"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="_DEBUG"
+				MkTypLibCompatible="TRUE"
+				SuppressStartupBanner="TRUE"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_710/ThemeColorizer_710.tlb"
+				HeaderFileName=""/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_DEBUG"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+			<Tool
+				Name="VCManagedWrapperGeneratorTool"/>
+			<Tool
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+		</Configuration>
+		<Configuration
+			Name="Static MBCS Release|Win32"
+			OutputDirectory=".\..\..\Bin_710"
+			IntermediateDirectory=".\..\..\Bin_710\StaticMbcsRelease\ThemeColorizer"
+			ConfigurationType="1"
+			UseOfMFC="1"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="2"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="NDEBUG;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				StringPooling="TRUE"
+				RuntimeLibrary="0"
+				EnableFunctionLevelLinking="TRUE"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_710\StaticMbcsRelease\ThemeColorizer/ThemeColorizer_710.pch"
+				AssemblerListingLocation=".\..\..\Bin_710\StaticMbcsRelease\ThemeColorizer/"
+				ObjectFile=".\..\..\Bin_710\StaticMbcsRelease\ThemeColorizer/"
+				ProgramDataBaseFileName=".\..\..\Bin_710\StaticMbcsRelease\ThemeColorizer/"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				CompileAs="0"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_710/ThemeColorizer-sm.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="TRUE"
+				AdditionalLibraryDirectories="..\..\Bin_710"
+				ProgramDatabaseFile=".\..\..\Bin_710/ThemeColorizer-sm.pdb"
+				SubSystem="2"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="NDEBUG"
+				MkTypLibCompatible="TRUE"
+				SuppressStartupBanner="TRUE"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_710/ThemeColorizer_710.tlb"
+				HeaderFileName=""/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+			<Tool
+				Name="VCManagedWrapperGeneratorTool"/>
+			<Tool
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+		</Configuration>
+		<Configuration
+			Name="Static ANSI Debug|Win32"
+			OutputDirectory=".\..\..\Bin_710"
+			IntermediateDirectory=".\..\..\Bin_710\StaticAnsiDebug\ThemeColorizer"
+			ConfigurationType="1"
+			UseOfMFC="1"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE">
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="0"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="_DEBUG;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="1"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_710\StaticAnsiDebug\ThemeColorizer/ThemeColorizer_710.pch"
+				AssemblerListingLocation=".\..\..\Bin_710\StaticAnsiDebug\ThemeColorizer/"
+				ObjectFile=".\..\..\Bin_710\StaticAnsiDebug\ThemeColorizer/"
+				ProgramDataBaseFileName=".\..\..\Bin_710\StaticAnsiDebug\ThemeColorizer/"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				DebugInformationFormat="4"
+				CompileAs="0"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_710/ThemeColorizer-snd.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="TRUE"
+				AdditionalLibraryDirectories="..\..\Bin_710"
+				GenerateDebugInformation="TRUE"
+				ProgramDatabaseFile=".\..\..\Bin_710/ThemeColorizer-snd.pdb"
+				SubSystem="2"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="_DEBUG"
+				MkTypLibCompatible="TRUE"
+				SuppressStartupBanner="TRUE"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_710/ThemeColorizer_710.tlb"
+				HeaderFileName=""/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_DEBUG"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+			<Tool
+				Name="VCManagedWrapperGeneratorTool"/>
+			<Tool
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+		</Configuration>
+		<Configuration
+			Name="ANSI Release|Win32"
+			OutputDirectory=".\..\..\Bin_710"
+			IntermediateDirectory=".\..\..\Bin_710\AnsiRelease\ThemeColorizer"
+			ConfigurationType="1"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE">
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="2"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="NDEBUG;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				StringPooling="TRUE"
+				RuntimeLibrary="2"
+				EnableFunctionLevelLinking="TRUE"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_710\AnsiRelease\ThemeColorizer/ThemeColorizer_710.pch"
+				AssemblerListingLocation=".\..\..\Bin_710\AnsiRelease\ThemeColorizer/"
+				ObjectFile=".\..\..\Bin_710\AnsiRelease\ThemeColorizer/"
+				ProgramDataBaseFileName=".\..\..\Bin_710\AnsiRelease\ThemeColorizer/"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				CompileAs="0"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_710/ThemeColorizer-n.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="TRUE"
+				AdditionalLibraryDirectories="..\..\Bin_710"
+				ProgramDatabaseFile=".\..\..\Bin_710/ThemeColorizer-n.pdb"
+				SubSystem="2"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="NDEBUG"
+				MkTypLibCompatible="TRUE"
+				SuppressStartupBanner="TRUE"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_710/ThemeColorizer_710.tlb"
+				HeaderFileName=""/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+			<Tool
+				Name="VCManagedWrapperGeneratorTool"/>
+			<Tool
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+		</Configuration>
+		<Configuration
+			Name="Static Unicode Release|Win32"
+			OutputDirectory=".\..\..\Bin_710"
+			IntermediateDirectory=".\..\..\Bin_710\StaticUnicodeRelease\ThemeColorizer"
+			ConfigurationType="1"
+			UseOfMFC="1"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="1">
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="2"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="NDEBUG;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				StringPooling="TRUE"
+				RuntimeLibrary="0"
+				EnableFunctionLevelLinking="TRUE"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_710\StaticUnicodeRelease\ThemeColorizer/ThemeColorizer_710.pch"
+				AssemblerListingLocation=".\..\..\Bin_710\StaticUnicodeRelease\ThemeColorizer/"
+				ObjectFile=".\..\..\Bin_710\StaticUnicodeRelease\ThemeColorizer/"
+				ProgramDataBaseFileName=".\..\..\Bin_710\StaticUnicodeRelease\ThemeColorizer/"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				CompileAs="0"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_710/ThemeColorizer-su.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="TRUE"
+				AdditionalLibraryDirectories="..\..\Bin_710"
+				ProgramDatabaseFile=".\..\..\Bin_710/ThemeColorizer-su.pdb"
+				SubSystem="2"
+				EntryPointSymbol="wWinMainCRTStartup"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="NDEBUG"
+				MkTypLibCompatible="TRUE"
+				SuppressStartupBanner="TRUE"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_710/ThemeColorizer_710.tlb"
+				HeaderFileName=""/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+			<Tool
+				Name="VCManagedWrapperGeneratorTool"/>
+			<Tool
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+		</Configuration>
+		<Configuration
+			Name="Static Unicode Release with MFC DLL|Win32"
+			OutputDirectory=".\..\..\Bin_710"
+			IntermediateDirectory=".\..\..\Bin_710\StaticUnicodeReleaseWithMfcDll\ThemeColorizer"
+			ConfigurationType="1"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="1">
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="2"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="NDEBUG;__STATPROFUIS_WITH_DLLMFC__;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				StringPooling="TRUE"
+				RuntimeLibrary="2"
+				EnableFunctionLevelLinking="TRUE"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_710\StaticUnicodeReleaseWithMfcDll\ThemeColorizer/ThemeColorizer_710.pch"
+				AssemblerListingLocation=".\..\..\Bin_710\StaticUnicodeReleaseWithMfcDll\ThemeColorizer/"
+				ObjectFile=".\..\..\Bin_710\StaticUnicodeReleaseWithMfcDll\ThemeColorizer/"
+				ProgramDataBaseFileName=".\..\..\Bin_710\StaticUnicodeReleaseWithMfcDll\ThemeColorizer/"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				CompileAs="0"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_710/ThemeColorizer-yu.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="TRUE"
+				AdditionalLibraryDirectories="..\..\Bin_710"
+				ProgramDatabaseFile=".\..\..\Bin_710/ThemeColorizer-yu.pdb"
+				SubSystem="2"
+				EntryPointSymbol="wWinMainCRTStartup"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="NDEBUG"
+				MkTypLibCompatible="TRUE"
+				SuppressStartupBanner="TRUE"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_710/ThemeColorizer_710.tlb"
+				HeaderFileName=""/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG;__STATPROFUIS_WITH_DLLMFC__"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+			<Tool
+				Name="VCManagedWrapperGeneratorTool"/>
+			<Tool
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+		</Configuration>
+		<Configuration
+			Name="Static Unicode Debug|Win32"
+			OutputDirectory=".\..\..\Bin_710"
+			IntermediateDirectory=".\..\..\Bin_710\StaticUnicodeDebug\ThemeColorizer"
+			ConfigurationType="1"
+			UseOfMFC="1"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="1">
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="0"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="_DEBUG;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="1"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_710\StaticUnicodeDebug\ThemeColorizer/ThemeColorizer_710.pch"
+				AssemblerListingLocation=".\..\..\Bin_710\StaticUnicodeDebug\ThemeColorizer/"
+				ObjectFile=".\..\..\Bin_710\StaticUnicodeDebug\ThemeColorizer/"
+				ProgramDataBaseFileName=".\..\..\Bin_710\StaticUnicodeDebug\ThemeColorizer/"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				DebugInformationFormat="4"
+				CompileAs="0"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_710/ThemeColorizer-sud.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="TRUE"
+				AdditionalLibraryDirectories="..\..\Bin_710"
+				GenerateDebugInformation="TRUE"
+				ProgramDatabaseFile=".\..\..\Bin_710/ThemeColorizer-sud.pdb"
+				SubSystem="2"
+				EntryPointSymbol="wWinMainCRTStartup"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="_DEBUG"
+				MkTypLibCompatible="TRUE"
+				SuppressStartupBanner="TRUE"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_710/ThemeColorizer_710.tlb"
+				HeaderFileName=""/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_DEBUG"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+			<Tool
+				Name="VCManagedWrapperGeneratorTool"/>
+			<Tool
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+		</Configuration>
+		<Configuration
+			Name="Static ANSI Release|Win32"
+			OutputDirectory=".\..\..\Bin_710"
+			IntermediateDirectory=".\..\..\Bin_710\StaticAnsiRelease\ThemeColorizer"
+			ConfigurationType="1"
+			UseOfMFC="1"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE">
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="2"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="NDEBUG;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				StringPooling="TRUE"
+				RuntimeLibrary="0"
+				EnableFunctionLevelLinking="TRUE"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_710\StaticAnsiRelease\ThemeColorizer/ThemeColorizer_710.pch"
+				AssemblerListingLocation=".\..\..\Bin_710\StaticAnsiRelease\ThemeColorizer/"
+				ObjectFile=".\..\..\Bin_710\StaticAnsiRelease\ThemeColorizer/"
+				ProgramDataBaseFileName=".\..\..\Bin_710\StaticAnsiRelease\ThemeColorizer/"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				CompileAs="0"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_710/ThemeColorizer-sn.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="TRUE"
+				AdditionalLibraryDirectories="..\..\Bin_710"
+				ProgramDatabaseFile=".\..\..\Bin_710/ThemeColorizer-sn.pdb"
+				SubSystem="2"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="NDEBUG"
+				MkTypLibCompatible="TRUE"
+				SuppressStartupBanner="TRUE"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_710/ThemeColorizer_710.tlb"
+				HeaderFileName=""/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+			<Tool
+				Name="VCManagedWrapperGeneratorTool"/>
+			<Tool
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+		</Configuration>
+	</Configurations>
+	<References>
+	</References>
+	<Files>
+		<Filter
+			Name="Source Files"
+			Filter="cpp;c;cxx;rc;def;r;odl;idl;hpj;bat">
+			<File
+				RelativePath="ChildFormView.cpp">
+				<FileConfiguration
+					Name="Unicode Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="NDEBUG;_UNICODE;_AFXDLL;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;$(NoInherit)"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release with MFC DLL|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug with MFC DLL|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="_DEBUG;_UNICODE;__STATPROFUIS_WITH_DLLMFC__;_AFXDLL;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;$(NoInherit)"
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="_DEBUG;_UNICODE;_AFXDLL;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;$(NoInherit)"
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release with MFC DLL|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug with MFC DLL|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug with MFC DLL|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="NDEBUG;_UNICODE;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;$(NoInherit)"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release with MFC DLL|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="NDEBUG;_UNICODE;__STATPROFUIS_WITH_DLLMFC__;_AFXDLL;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;$(NoInherit)"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="_DEBUG;_UNICODE;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;$(NoInherit)"
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="MainFrm.cpp">
+				<FileConfiguration
+					Name="Unicode Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="NDEBUG;_UNICODE;_AFXDLL;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;$(NoInherit)"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release with MFC DLL|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug with MFC DLL|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="_DEBUG;_UNICODE;__STATPROFUIS_WITH_DLLMFC__;_AFXDLL;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;$(NoInherit)"
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="_DEBUG;_UNICODE;_AFXDLL;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;$(NoInherit)"
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release with MFC DLL|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug with MFC DLL|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug with MFC DLL|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="NDEBUG;_UNICODE;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;$(NoInherit)"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release with MFC DLL|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="NDEBUG;_UNICODE;__STATPROFUIS_WITH_DLLMFC__;_AFXDLL;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;$(NoInherit)"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="_DEBUG;_UNICODE;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;$(NoInherit)"
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="StdAfx.cpp">
+				<FileConfiguration
+					Name="Unicode Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="NDEBUG;_UNICODE;_AFXDLL;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;$(NoInherit)"
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release with MFC DLL|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug with MFC DLL|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="_DEBUG;_UNICODE;__STATPROFUIS_WITH_DLLMFC__;_AFXDLL;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;$(NoInherit)"
+						BasicRuntimeChecks="3"
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="_DEBUG;_UNICODE;_AFXDLL;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;$(NoInherit)"
+						BasicRuntimeChecks="3"
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release with MFC DLL|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug with MFC DLL|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug with MFC DLL|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="NDEBUG;_UNICODE;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;$(NoInherit)"
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release with MFC DLL|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="NDEBUG;_UNICODE;__STATPROFUIS_WITH_DLLMFC__;_AFXDLL;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;$(NoInherit)"
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="_DEBUG;_UNICODE;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;$(NoInherit)"
+						BasicRuntimeChecks="3"
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="ThemeColorizer.cpp">
+				<FileConfiguration
+					Name="Unicode Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="NDEBUG;_UNICODE;_AFXDLL;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;$(NoInherit)"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release with MFC DLL|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug with MFC DLL|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="_DEBUG;_UNICODE;__STATPROFUIS_WITH_DLLMFC__;_AFXDLL;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;$(NoInherit)"
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="_DEBUG;_UNICODE;_AFXDLL;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;$(NoInherit)"
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release with MFC DLL|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug with MFC DLL|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug with MFC DLL|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="NDEBUG;_UNICODE;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;$(NoInherit)"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release with MFC DLL|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="NDEBUG;_UNICODE;__STATPROFUIS_WITH_DLLMFC__;_AFXDLL;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;$(NoInherit)"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="_DEBUG;_UNICODE;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;$(NoInherit)"
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="ThemeColorizer.rc">
+				<FileConfiguration
+					Name="Unicode Release|Win32">
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions="NDEBUG;_AFXDLL;$(NoInherit)"
+						AdditionalIncludeDirectories=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Debug|Win32">
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release with MFC DLL|Win32">
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Release|Win32">
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug|Win32">
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug with MFC DLL|Win32">
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions="_DEBUG;_AFXDLL;__STATPROFUIS_WITH_DLLMFC__;$(NoInherit)"
+						AdditionalIncludeDirectories=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|Win32">
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions="_DEBUG;_AFXDLL;$(NoInherit)"
+						AdditionalIncludeDirectories=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release with MFC DLL|Win32">
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug with MFC DLL|Win32">
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug with MFC DLL|Win32">
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Debug|Win32">
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release|Win32">
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug|Win32">
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Release|Win32">
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release|Win32">
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions="NDEBUG;$(NoInherit)"
+						AdditionalIncludeDirectories=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release with MFC DLL|Win32">
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions="NDEBUG;_AFXDLL;__STATPROFUIS_WITH_DLLMFC__;$(NoInherit)"
+						AdditionalIncludeDirectories=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug|Win32">
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions="_DEBUG;$(NoInherit)"
+						AdditionalIncludeDirectories=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release|Win32">
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""/>
+				</FileConfiguration>
+			</File>
+		</Filter>
+		<Filter
+			Name="Header Files"
+			Filter="h;hpp;hxx;hm;inl">
+			<File
+				RelativePath="ChildFormView.h">
+			</File>
+			<File
+				RelativePath="MainFrm.h">
+			</File>
+			<File
+				RelativePath="Resource.h">
+			</File>
+			<File
+				RelativePath="StdAfx.h">
+			</File>
+			<File
+				RelativePath="ThemeColorizer.h">
+			</File>
+		</Filter>
+		<Filter
+			Name="Resource Files"
+			Filter="ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe">
+			<File
+				RelativePath="res\bitmap_t.bmp">
+			</File>
+			<File
+				RelativePath="res\bmp110.bmp">
+			</File>
+			<File
+				RelativePath="res\id_view_.bmp">
+			</File>
+			<File
+				RelativePath="res\IDR_TOOLBAR_BARS.bmp">
+			</File>
+			<File
+				RelativePath="res\ThemeColorizer.ico">
+			</File>
+			<File
+				RelativePath="res\ThemeColorizer.rc2">
+			</File>
+			<File
+				RelativePath="res\Toolbar.bmp">
+			</File>
+			<File
+				RelativePath="res\toolbar2.bmp">
+			</File>
+			<File
+				RelativePath="res\toolbar_.bmp">
+			</File>
+			<File
+				RelativePath="res\TOOLBAR_1_16bit.bmp">
+			</File>
+		</Filter>
+		<File
+			RelativePath="ReadMe.txt">
+		</File>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

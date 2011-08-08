@@ -1,0 +1,25 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZLib", "ZLib_800_ia64.vcproj", "{F9CFAC79-821F-4EEB-AA46-8167B5E8E627}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Used LIBs Debug (DLL CRT)|Itanium = Used LIBs Debug (DLL CRT)|Itanium
+		Used LIBs Debug (LIB CRT)|Itanium = Used LIBs Debug (LIB CRT)|Itanium
+		Used LIBs Release (DLL CRT)|Itanium = Used LIBs Release (DLL CRT)|Itanium
+		Used LIBs Release (LIB CRT)|Itanium = Used LIBs Release (LIB CRT)|Itanium
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F9CFAC79-821F-4EEB-AA46-8167B5E8E627}.Used LIBs Debug (DLL CRT)|Itanium.ActiveCfg = Used LIBs Debug (DLL CRT)|Itanium
+		{F9CFAC79-821F-4EEB-AA46-8167B5E8E627}.Used LIBs Debug (DLL CRT)|Itanium.Build.0 = Used LIBs Debug (DLL CRT)|Itanium
+		{F9CFAC79-821F-4EEB-AA46-8167B5E8E627}.Used LIBs Debug (LIB CRT)|Itanium.ActiveCfg = Used LIBs Debug (LIB CRT)|Itanium
+		{F9CFAC79-821F-4EEB-AA46-8167B5E8E627}.Used LIBs Debug (LIB CRT)|Itanium.Build.0 = Used LIBs Debug (LIB CRT)|Itanium
+		{F9CFAC79-821F-4EEB-AA46-8167B5E8E627}.Used LIBs Release (DLL CRT)|Itanium.ActiveCfg = Used LIBs Release (DLL CRT)|Itanium
+		{F9CFAC79-821F-4EEB-AA46-8167B5E8E627}.Used LIBs Release (DLL CRT)|Itanium.Build.0 = Used LIBs Release (DLL CRT)|Itanium
+		{F9CFAC79-821F-4EEB-AA46-8167B5E8E627}.Used LIBs Release (LIB CRT)|Itanium.ActiveCfg = Used LIBs Release (LIB CRT)|Itanium
+		{F9CFAC79-821F-4EEB-AA46-8167B5E8E627}.Used LIBs Release (LIB CRT)|Itanium.Build.0 = Used LIBs Release (LIB CRT)|Itanium
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

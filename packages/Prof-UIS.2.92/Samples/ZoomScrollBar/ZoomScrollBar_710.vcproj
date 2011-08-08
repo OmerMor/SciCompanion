@@ -1,0 +1,2041 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="7.10"
+	Name="ZoomScrollBar"
+	ProjectGUID="{77479AC4-5A68-4E29-812B-D7CF8AFE4BFA}"
+	SccProjectName=""
+	SccLocalPath=""
+	Keyword="MFCProj">
+	<Platforms>
+		<Platform
+			Name="Win32"/>
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Static Unicode Release with MFC DLL|Win32"
+			OutputDirectory=".\..\..\Bin_710"
+			IntermediateDirectory=".\..\..\Bin_710\StaticUnicodeReleaseWithMfcDll\ZoomScrollBar"
+			ConfigurationType="1"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="1">
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="2"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="NDEBUG;__STATPROFUIS_WITH_DLLMFC__;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				StringPooling="TRUE"
+				RuntimeLibrary="2"
+				EnableFunctionLevelLinking="TRUE"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_710\StaticUnicodeReleaseWithMfcDll\ZoomScrollBar/ZoomScrollBar_710.pch"
+				AssemblerListingLocation=".\..\..\Bin_710\StaticUnicodeReleaseWithMfcDll\ZoomScrollBar/"
+				ObjectFile=".\..\..\Bin_710\StaticUnicodeReleaseWithMfcDll\ZoomScrollBar/"
+				ProgramDataBaseFileName=".\..\..\Bin_710\StaticUnicodeReleaseWithMfcDll\ZoomScrollBar/"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				CompileAs="0"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_710/ZoomScrollBar-yu.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="TRUE"
+				AdditionalLibraryDirectories="..\..\Bin_710"
+				ProgramDatabaseFile=".\..\..\Bin_710/ZoomScrollBar-yu.pdb"
+				SubSystem="2"
+				EntryPointSymbol="wWinMainCRTStartup"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="NDEBUG"
+				MkTypLibCompatible="TRUE"
+				SuppressStartupBanner="TRUE"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_710/ZoomScrollBar_710.tlb"
+				HeaderFileName=""/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG;__STATPROFUIS_WITH_DLLMFC__"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+			<Tool
+				Name="VCManagedWrapperGeneratorTool"/>
+			<Tool
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+		</Configuration>
+		<Configuration
+			Name="Static Unicode Release|Win32"
+			OutputDirectory=".\..\..\Bin_710"
+			IntermediateDirectory=".\..\..\Bin_710\StaticUnicodeRelease\ZoomScrollBar"
+			ConfigurationType="1"
+			UseOfMFC="1"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="1">
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="2"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="NDEBUG;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				StringPooling="TRUE"
+				RuntimeLibrary="0"
+				EnableFunctionLevelLinking="TRUE"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_710\StaticUnicodeRelease\ZoomScrollBar/ZoomScrollBar_710.pch"
+				AssemblerListingLocation=".\..\..\Bin_710\StaticUnicodeRelease\ZoomScrollBar/"
+				ObjectFile=".\..\..\Bin_710\StaticUnicodeRelease\ZoomScrollBar/"
+				ProgramDataBaseFileName=".\..\..\Bin_710\StaticUnicodeRelease\ZoomScrollBar/"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				CompileAs="0"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_710/ZoomScrollBar-su.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="TRUE"
+				AdditionalLibraryDirectories="..\..\Bin_710"
+				ProgramDatabaseFile=".\..\..\Bin_710/ZoomScrollBar-su.pdb"
+				SubSystem="2"
+				EntryPointSymbol="wWinMainCRTStartup"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="NDEBUG"
+				MkTypLibCompatible="TRUE"
+				SuppressStartupBanner="TRUE"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_710/ZoomScrollBar_710.tlb"
+				HeaderFileName=""/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+			<Tool
+				Name="VCManagedWrapperGeneratorTool"/>
+			<Tool
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+		</Configuration>
+		<Configuration
+			Name="MBCS Release|Win32"
+			OutputDirectory=".\..\..\Bin_710"
+			IntermediateDirectory=".\..\..\Bin_710\MbcsRelease\ZoomScrollBar"
+			ConfigurationType="1"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="2"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="NDEBUG;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				StringPooling="TRUE"
+				RuntimeLibrary="2"
+				EnableFunctionLevelLinking="TRUE"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_710\MbcsRelease\ZoomScrollBar/ZoomScrollBar_710.pch"
+				AssemblerListingLocation=".\..\..\Bin_710\MbcsRelease\ZoomScrollBar/"
+				ObjectFile=".\..\..\Bin_710\MbcsRelease\ZoomScrollBar/"
+				ProgramDataBaseFileName=".\..\..\Bin_710\MbcsRelease\ZoomScrollBar/"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				CompileAs="0"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_710/ZoomScrollBar-m.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="TRUE"
+				AdditionalLibraryDirectories="..\..\Bin_710"
+				ProgramDatabaseFile=".\..\..\Bin_710/ZoomScrollBar-m.pdb"
+				SubSystem="2"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="NDEBUG"
+				MkTypLibCompatible="TRUE"
+				SuppressStartupBanner="TRUE"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_710/ZoomScrollBar_710.tlb"
+				HeaderFileName=""/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+			<Tool
+				Name="VCManagedWrapperGeneratorTool"/>
+			<Tool
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+		</Configuration>
+		<Configuration
+			Name="Static MBCS Debug|Win32"
+			OutputDirectory=".\..\..\Bin_710"
+			IntermediateDirectory=".\..\..\Bin_710\StaticMbcsDebug\ZoomScrollBar"
+			ConfigurationType="1"
+			UseOfMFC="1"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="0"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="_DEBUG;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="1"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_710\StaticMbcsDebug\ZoomScrollBar/ZoomScrollBar_710.pch"
+				AssemblerListingLocation=".\..\..\Bin_710\StaticMbcsDebug\ZoomScrollBar/"
+				ObjectFile=".\..\..\Bin_710\StaticMbcsDebug\ZoomScrollBar/"
+				ProgramDataBaseFileName=".\..\..\Bin_710\StaticMbcsDebug\ZoomScrollBar/"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				DebugInformationFormat="4"
+				CompileAs="0"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_710/ZoomScrollBar-smd.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="TRUE"
+				AdditionalLibraryDirectories="..\..\Bin_710"
+				GenerateDebugInformation="TRUE"
+				ProgramDatabaseFile=".\..\..\Bin_710/ZoomScrollBar-smd.pdb"
+				SubSystem="2"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="_DEBUG"
+				MkTypLibCompatible="TRUE"
+				SuppressStartupBanner="TRUE"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_710/ZoomScrollBar_710.tlb"
+				HeaderFileName=""/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_DEBUG"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+			<Tool
+				Name="VCManagedWrapperGeneratorTool"/>
+			<Tool
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+		</Configuration>
+		<Configuration
+			Name="ANSI Debug|Win32"
+			OutputDirectory=".\..\..\Bin_710"
+			IntermediateDirectory=".\..\..\Bin_710\AnsiDebug\ZoomScrollBar"
+			ConfigurationType="1"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE">
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="0"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="_DEBUG;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="3"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_710\AnsiDebug\ZoomScrollBar/ZoomScrollBar_710.pch"
+				AssemblerListingLocation=".\..\..\Bin_710\AnsiDebug\ZoomScrollBar/"
+				ObjectFile=".\..\..\Bin_710\AnsiDebug\ZoomScrollBar/"
+				ProgramDataBaseFileName=".\..\..\Bin_710\AnsiDebug\ZoomScrollBar/"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				DebugInformationFormat="4"
+				CompileAs="0"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_710/ZoomScrollBar-nd.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="TRUE"
+				AdditionalLibraryDirectories="..\..\Bin_710"
+				GenerateDebugInformation="TRUE"
+				ProgramDatabaseFile=".\..\..\Bin_710/ZoomScrollBar-nd.pdb"
+				SubSystem="2"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="_DEBUG"
+				MkTypLibCompatible="TRUE"
+				SuppressStartupBanner="TRUE"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_710/ZoomScrollBar_710.tlb"
+				HeaderFileName=""/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_DEBUG"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+			<Tool
+				Name="VCManagedWrapperGeneratorTool"/>
+			<Tool
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+		</Configuration>
+		<Configuration
+			Name="Static MBCS Release|Win32"
+			OutputDirectory=".\..\..\Bin_710"
+			IntermediateDirectory=".\..\..\Bin_710\StaticMbcsRelease\ZoomScrollBar"
+			ConfigurationType="1"
+			UseOfMFC="1"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="2"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="NDEBUG;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				StringPooling="TRUE"
+				RuntimeLibrary="0"
+				EnableFunctionLevelLinking="TRUE"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_710\StaticMbcsRelease\ZoomScrollBar/ZoomScrollBar_710.pch"
+				AssemblerListingLocation=".\..\..\Bin_710\StaticMbcsRelease\ZoomScrollBar/"
+				ObjectFile=".\..\..\Bin_710\StaticMbcsRelease\ZoomScrollBar/"
+				ProgramDataBaseFileName=".\..\..\Bin_710\StaticMbcsRelease\ZoomScrollBar/"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				CompileAs="0"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_710/ZoomScrollBar-sm.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="TRUE"
+				AdditionalLibraryDirectories="..\..\Bin_710"
+				ProgramDatabaseFile=".\..\..\Bin_710/ZoomScrollBar-sm.pdb"
+				SubSystem="2"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="NDEBUG"
+				MkTypLibCompatible="TRUE"
+				SuppressStartupBanner="TRUE"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_710/ZoomScrollBar_710.tlb"
+				HeaderFileName=""/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+			<Tool
+				Name="VCManagedWrapperGeneratorTool"/>
+			<Tool
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+		</Configuration>
+		<Configuration
+			Name="Unicode Release|Win32"
+			OutputDirectory=".\..\..\Bin_710"
+			IntermediateDirectory=".\..\..\Bin_710\UnicodeRelease\ZoomScrollBar"
+			ConfigurationType="1"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="1">
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="2"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="NDEBUG;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				StringPooling="TRUE"
+				RuntimeLibrary="2"
+				EnableFunctionLevelLinking="TRUE"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_710\UnicodeRelease\ZoomScrollBar/ZoomScrollBar_710.pch"
+				AssemblerListingLocation=".\..\..\Bin_710\UnicodeRelease\ZoomScrollBar/"
+				ObjectFile=".\..\..\Bin_710\UnicodeRelease\ZoomScrollBar/"
+				ProgramDataBaseFileName=".\..\..\Bin_710\UnicodeRelease\ZoomScrollBar/"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				CompileAs="0"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_710/ZoomScrollBar-u.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="TRUE"
+				AdditionalLibraryDirectories="..\..\Bin_710"
+				ProgramDatabaseFile=".\..\..\Bin_710/ZoomScrollBar-u.pdb"
+				SubSystem="2"
+				EntryPointSymbol="wWinMainCRTStartup"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="NDEBUG"
+				MkTypLibCompatible="TRUE"
+				SuppressStartupBanner="TRUE"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_710/ZoomScrollBar_710.tlb"
+				HeaderFileName=""/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+			<Tool
+				Name="VCManagedWrapperGeneratorTool"/>
+			<Tool
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+		</Configuration>
+		<Configuration
+			Name="Static Unicode Debug with MFC DLL|Win32"
+			OutputDirectory=".\..\..\Bin_710"
+			IntermediateDirectory=".\..\..\Bin_710\StaticUnicodeDebugWithMfcDll\ZoomScrollBar"
+			ConfigurationType="1"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="1">
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="0"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="_DEBUG;__STATPROFUIS_WITH_DLLMFC__;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="3"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_710\StaticUnicodeDebugWithMfcDll\ZoomScrollBar/ZoomScrollBar_710.pch"
+				AssemblerListingLocation=".\..\..\Bin_710\StaticUnicodeDebugWithMfcDll\ZoomScrollBar/"
+				ObjectFile=".\..\..\Bin_710\StaticUnicodeDebugWithMfcDll\ZoomScrollBar/"
+				ProgramDataBaseFileName=".\..\..\Bin_710\StaticUnicodeDebugWithMfcDll\ZoomScrollBar/"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				DebugInformationFormat="4"
+				CompileAs="0"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_710/ZoomScrollBar-yud.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="TRUE"
+				AdditionalLibraryDirectories="..\..\Bin_710"
+				GenerateDebugInformation="TRUE"
+				ProgramDatabaseFile=".\..\..\Bin_710/ZoomScrollBar-yud.pdb"
+				SubSystem="2"
+				EntryPointSymbol="wWinMainCRTStartup"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="_DEBUG"
+				MkTypLibCompatible="TRUE"
+				SuppressStartupBanner="TRUE"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_710/ZoomScrollBar_710.tlb"
+				HeaderFileName=""/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_DEBUG;__STATPROFUIS_WITH_DLLMFC__"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+			<Tool
+				Name="VCManagedWrapperGeneratorTool"/>
+			<Tool
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+		</Configuration>
+		<Configuration
+			Name="Static ANSI Release with MFC DLL|Win32"
+			OutputDirectory=".\..\..\Bin_710"
+			IntermediateDirectory=".\..\..\Bin_710\StaticAnsiReleaseWithMfcDll\ZoomScrollBar"
+			ConfigurationType="1"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE">
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="2"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="NDEBUG;__STATPROFUIS_WITH_DLLMFC__;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				StringPooling="TRUE"
+				RuntimeLibrary="2"
+				EnableFunctionLevelLinking="TRUE"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_710\StaticAnsiReleaseWithMfcDll\ZoomScrollBar/ZoomScrollBar_710.pch"
+				AssemblerListingLocation=".\..\..\Bin_710\StaticAnsiReleaseWithMfcDll\ZoomScrollBar/"
+				ObjectFile=".\..\..\Bin_710\StaticAnsiReleaseWithMfcDll\ZoomScrollBar/"
+				ProgramDataBaseFileName=".\..\..\Bin_710\StaticAnsiReleaseWithMfcDll\ZoomScrollBar/"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				CompileAs="0"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_710/ZoomScrollBar-yn.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="TRUE"
+				AdditionalLibraryDirectories="..\..\Bin_710"
+				ProgramDatabaseFile=".\..\..\Bin_710/ZoomScrollBar-yn.pdb"
+				SubSystem="2"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="NDEBUG"
+				MkTypLibCompatible="TRUE"
+				SuppressStartupBanner="TRUE"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_710/ZoomScrollBar_710.tlb"
+				HeaderFileName=""/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG;__STATPROFUIS_WITH_DLLMFC__"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+			<Tool
+				Name="VCManagedWrapperGeneratorTool"/>
+			<Tool
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+		</Configuration>
+		<Configuration
+			Name="Static MBCS Debug with MFC DLL|Win32"
+			OutputDirectory=".\..\..\Bin_710"
+			IntermediateDirectory=".\..\..\Bin_710\StaticMbcsDebugWithMfcDll\ZoomScrollBar"
+			ConfigurationType="1"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="0"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="_DEBUG;__STATPROFUIS_WITH_DLLMFC__;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="3"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_710\StaticMbcsDebugWithMfcDll\ZoomScrollBar/ZoomScrollBar_710.pch"
+				AssemblerListingLocation=".\..\..\Bin_710\StaticMbcsDebugWithMfcDll\ZoomScrollBar/"
+				ObjectFile=".\..\..\Bin_710\StaticMbcsDebugWithMfcDll\ZoomScrollBar/"
+				ProgramDataBaseFileName=".\..\..\Bin_710\StaticMbcsDebugWithMfcDll\ZoomScrollBar/"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				DebugInformationFormat="4"
+				CompileAs="0"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_710/ZoomScrollBar-ymd.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="TRUE"
+				AdditionalLibraryDirectories="..\..\Bin_710"
+				GenerateDebugInformation="TRUE"
+				ProgramDatabaseFile=".\..\..\Bin_710/ZoomScrollBar-ymd.pdb"
+				SubSystem="2"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="_DEBUG"
+				MkTypLibCompatible="TRUE"
+				SuppressStartupBanner="TRUE"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_710/ZoomScrollBar_710.tlb"
+				HeaderFileName=""/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_DEBUG;__STATPROFUIS_WITH_DLLMFC__"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+			<Tool
+				Name="VCManagedWrapperGeneratorTool"/>
+			<Tool
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+		</Configuration>
+		<Configuration
+			Name="Static ANSI Debug with MFC DLL|Win32"
+			OutputDirectory=".\..\..\Bin_710"
+			IntermediateDirectory=".\..\..\Bin_710\StaticAnsiDebugWithMfcDll\ZoomScrollBar"
+			ConfigurationType="1"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE">
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="0"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="_DEBUG;__STATPROFUIS_WITH_DLLMFC__;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="3"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_710\StaticAnsiDebugWithMfcDll\ZoomScrollBar/ZoomScrollBar_710.pch"
+				AssemblerListingLocation=".\..\..\Bin_710\StaticAnsiDebugWithMfcDll\ZoomScrollBar/"
+				ObjectFile=".\..\..\Bin_710\StaticAnsiDebugWithMfcDll\ZoomScrollBar/"
+				ProgramDataBaseFileName=".\..\..\Bin_710\StaticAnsiDebugWithMfcDll\ZoomScrollBar/"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				DebugInformationFormat="4"
+				CompileAs="0"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_710/ZoomScrollBar-ynd.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="TRUE"
+				AdditionalLibraryDirectories="..\..\Bin_710"
+				GenerateDebugInformation="TRUE"
+				ProgramDatabaseFile=".\..\..\Bin_710/ZoomScrollBar-ynd.pdb"
+				SubSystem="2"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="_DEBUG"
+				MkTypLibCompatible="TRUE"
+				SuppressStartupBanner="TRUE"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_710/ZoomScrollBar_710.tlb"
+				HeaderFileName=""/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_DEBUG;__STATPROFUIS_WITH_DLLMFC__"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+			<Tool
+				Name="VCManagedWrapperGeneratorTool"/>
+			<Tool
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+		</Configuration>
+		<Configuration
+			Name="Static ANSI Debug|Win32"
+			OutputDirectory=".\..\..\Bin_710"
+			IntermediateDirectory=".\..\..\Bin_710\StaticAnsiDebug\ZoomScrollBar"
+			ConfigurationType="1"
+			UseOfMFC="1"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE">
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="0"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="_DEBUG;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="1"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_710\StaticAnsiDebug\ZoomScrollBar/ZoomScrollBar_710.pch"
+				AssemblerListingLocation=".\..\..\Bin_710\StaticAnsiDebug\ZoomScrollBar/"
+				ObjectFile=".\..\..\Bin_710\StaticAnsiDebug\ZoomScrollBar/"
+				ProgramDataBaseFileName=".\..\..\Bin_710\StaticAnsiDebug\ZoomScrollBar/"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				DebugInformationFormat="4"
+				CompileAs="0"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_710/ZoomScrollBar-snd.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="TRUE"
+				AdditionalLibraryDirectories="..\..\Bin_710"
+				GenerateDebugInformation="TRUE"
+				ProgramDatabaseFile=".\..\..\Bin_710/ZoomScrollBar-snd.pdb"
+				SubSystem="2"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="_DEBUG"
+				MkTypLibCompatible="TRUE"
+				SuppressStartupBanner="TRUE"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_710/ZoomScrollBar_710.tlb"
+				HeaderFileName=""/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_DEBUG"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+			<Tool
+				Name="VCManagedWrapperGeneratorTool"/>
+			<Tool
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+		</Configuration>
+		<Configuration
+			Name="ANSI Release|Win32"
+			OutputDirectory=".\..\..\Bin_710"
+			IntermediateDirectory=".\..\..\Bin_710\AnsiRelease\ZoomScrollBar"
+			ConfigurationType="1"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE">
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="2"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="NDEBUG;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				StringPooling="TRUE"
+				RuntimeLibrary="2"
+				EnableFunctionLevelLinking="TRUE"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_710\AnsiRelease\ZoomScrollBar/ZoomScrollBar_710.pch"
+				AssemblerListingLocation=".\..\..\Bin_710\AnsiRelease\ZoomScrollBar/"
+				ObjectFile=".\..\..\Bin_710\AnsiRelease\ZoomScrollBar/"
+				ProgramDataBaseFileName=".\..\..\Bin_710\AnsiRelease\ZoomScrollBar/"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				CompileAs="0"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_710/ZoomScrollBar-n.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="TRUE"
+				AdditionalLibraryDirectories="..\..\Bin_710"
+				ProgramDatabaseFile=".\..\..\Bin_710/ZoomScrollBar-n.pdb"
+				SubSystem="2"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="NDEBUG"
+				MkTypLibCompatible="TRUE"
+				SuppressStartupBanner="TRUE"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_710/ZoomScrollBar_710.tlb"
+				HeaderFileName=""/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+			<Tool
+				Name="VCManagedWrapperGeneratorTool"/>
+			<Tool
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+		</Configuration>
+		<Configuration
+			Name="Static MBCS Release with MFC DLL|Win32"
+			OutputDirectory=".\..\..\Bin_710"
+			IntermediateDirectory=".\..\..\Bin_710\StaticMbcsReleaseWithMfcDll\ZoomScrollBar"
+			ConfigurationType="1"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="2"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="NDEBUG;__STATPROFUIS_WITH_DLLMFC__;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				StringPooling="TRUE"
+				RuntimeLibrary="2"
+				EnableFunctionLevelLinking="TRUE"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_710\StaticMbcsReleaseWithMfcDll\ZoomScrollBar/ZoomScrollBar_710.pch"
+				AssemblerListingLocation=".\..\..\Bin_710\StaticMbcsReleaseWithMfcDll\ZoomScrollBar/"
+				ObjectFile=".\..\..\Bin_710\StaticMbcsReleaseWithMfcDll\ZoomScrollBar/"
+				ProgramDataBaseFileName=".\..\..\Bin_710\StaticMbcsReleaseWithMfcDll\ZoomScrollBar/"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				CompileAs="0"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_710/ZoomScrollBar-ym.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="TRUE"
+				AdditionalLibraryDirectories="..\..\Bin_710"
+				ProgramDatabaseFile=".\..\..\Bin_710/ZoomScrollBar-ym.pdb"
+				SubSystem="2"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="NDEBUG"
+				MkTypLibCompatible="TRUE"
+				SuppressStartupBanner="TRUE"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_710/ZoomScrollBar_710.tlb"
+				HeaderFileName=""/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG;__STATPROFUIS_WITH_DLLMFC__"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+			<Tool
+				Name="VCManagedWrapperGeneratorTool"/>
+			<Tool
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+		</Configuration>
+		<Configuration
+			Name="Unicode Debug|Win32"
+			OutputDirectory=".\..\..\Bin_710"
+			IntermediateDirectory=".\..\..\Bin_710\UnicodeDebug\ZoomScrollBar"
+			ConfigurationType="1"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="1">
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="0"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="_DEBUG;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="3"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_710\UnicodeDebug\ZoomScrollBar/ZoomScrollBar_710.pch"
+				AssemblerListingLocation=".\..\..\Bin_710\UnicodeDebug\ZoomScrollBar/"
+				ObjectFile=".\..\..\Bin_710\UnicodeDebug\ZoomScrollBar/"
+				ProgramDataBaseFileName=".\..\..\Bin_710\UnicodeDebug\ZoomScrollBar/"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				DebugInformationFormat="4"
+				CompileAs="0"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_710/ZoomScrollBar-ud.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="TRUE"
+				AdditionalLibraryDirectories="..\..\Bin_710"
+				GenerateDebugInformation="TRUE"
+				ProgramDatabaseFile=".\..\..\Bin_710/ZoomScrollBar-ud.pdb"
+				SubSystem="2"
+				EntryPointSymbol="wWinMainCRTStartup"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="_DEBUG"
+				MkTypLibCompatible="TRUE"
+				SuppressStartupBanner="TRUE"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_710/ZoomScrollBar_710.tlb"
+				HeaderFileName=""/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_DEBUG"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+			<Tool
+				Name="VCManagedWrapperGeneratorTool"/>
+			<Tool
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+		</Configuration>
+		<Configuration
+			Name="Static Unicode Debug|Win32"
+			OutputDirectory=".\..\..\Bin_710"
+			IntermediateDirectory=".\..\..\Bin_710\StaticUnicodeDebug\ZoomScrollBar"
+			ConfigurationType="1"
+			UseOfMFC="1"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="1">
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="0"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="_DEBUG;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="1"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_710\StaticUnicodeDebug\ZoomScrollBar/ZoomScrollBar_710.pch"
+				AssemblerListingLocation=".\..\..\Bin_710\StaticUnicodeDebug\ZoomScrollBar/"
+				ObjectFile=".\..\..\Bin_710\StaticUnicodeDebug\ZoomScrollBar/"
+				ProgramDataBaseFileName=".\..\..\Bin_710\StaticUnicodeDebug\ZoomScrollBar/"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				DebugInformationFormat="4"
+				CompileAs="0"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_710/ZoomScrollBar-sud.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="TRUE"
+				AdditionalLibraryDirectories="..\..\Bin_710"
+				GenerateDebugInformation="TRUE"
+				ProgramDatabaseFile=".\..\..\Bin_710/ZoomScrollBar-sud.pdb"
+				SubSystem="2"
+				EntryPointSymbol="wWinMainCRTStartup"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="_DEBUG"
+				MkTypLibCompatible="TRUE"
+				SuppressStartupBanner="TRUE"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_710/ZoomScrollBar_710.tlb"
+				HeaderFileName=""/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_DEBUG"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+			<Tool
+				Name="VCManagedWrapperGeneratorTool"/>
+			<Tool
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+		</Configuration>
+		<Configuration
+			Name="Static ANSI Release|Win32"
+			OutputDirectory=".\..\..\Bin_710"
+			IntermediateDirectory=".\..\..\Bin_710\StaticAnsiRelease\ZoomScrollBar"
+			ConfigurationType="1"
+			UseOfMFC="1"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE">
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="2"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="NDEBUG;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				StringPooling="TRUE"
+				RuntimeLibrary="0"
+				EnableFunctionLevelLinking="TRUE"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_710\StaticAnsiRelease\ZoomScrollBar/ZoomScrollBar_710.pch"
+				AssemblerListingLocation=".\..\..\Bin_710\StaticAnsiRelease\ZoomScrollBar/"
+				ObjectFile=".\..\..\Bin_710\StaticAnsiRelease\ZoomScrollBar/"
+				ProgramDataBaseFileName=".\..\..\Bin_710\StaticAnsiRelease\ZoomScrollBar/"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				CompileAs="0"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_710/ZoomScrollBar-sn.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="TRUE"
+				AdditionalLibraryDirectories="..\..\Bin_710"
+				ProgramDatabaseFile=".\..\..\Bin_710/ZoomScrollBar-sn.pdb"
+				SubSystem="2"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="NDEBUG"
+				MkTypLibCompatible="TRUE"
+				SuppressStartupBanner="TRUE"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_710/ZoomScrollBar_710.tlb"
+				HeaderFileName=""/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+			<Tool
+				Name="VCManagedWrapperGeneratorTool"/>
+			<Tool
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+		</Configuration>
+		<Configuration
+			Name="MBCS Debug|Win32"
+			OutputDirectory=".\..\..\Bin_710"
+			IntermediateDirectory=".\..\..\Bin_710\MbcsDebug\ZoomScrollBar"
+			ConfigurationType="1"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="0"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="_DEBUG;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="3"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_710\MbcsDebug\ZoomScrollBar/ZoomScrollBar_710.pch"
+				AssemblerListingLocation=".\..\..\Bin_710\MbcsDebug\ZoomScrollBar/"
+				ObjectFile=".\..\..\Bin_710\MbcsDebug\ZoomScrollBar/"
+				ProgramDataBaseFileName=".\..\..\Bin_710\MbcsDebug\ZoomScrollBar/"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				DebugInformationFormat="4"
+				CompileAs="0"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_710/ZoomScrollBar-md.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="TRUE"
+				AdditionalLibraryDirectories="..\..\Bin_710"
+				GenerateDebugInformation="TRUE"
+				ProgramDatabaseFile=".\..\..\Bin_710/ZoomScrollBar-md.pdb"
+				SubSystem="2"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="_DEBUG"
+				MkTypLibCompatible="TRUE"
+				SuppressStartupBanner="TRUE"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_710/ZoomScrollBar_710.tlb"
+				HeaderFileName=""/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_DEBUG"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+			<Tool
+				Name="VCManagedWrapperGeneratorTool"/>
+			<Tool
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+		</Configuration>
+	</Configurations>
+	<References>
+	</References>
+	<Files>
+		<Filter
+			Name="Source Files"
+			Filter="cpp;c;cxx;rc;def;r;odl;idl;hpj;bat">
+			<File
+				RelativePath="ChildView.cpp">
+				<FileConfiguration
+					Name="Static Unicode Release with MFC DLL|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="NDEBUG;_UNICODE;__STATPROFUIS_WITH_DLLMFC__;_AFXDLL;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;$(NoInherit)"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="NDEBUG;_UNICODE;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;$(NoInherit)"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="NDEBUG;_UNICODE;_AFXDLL;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;$(NoInherit)"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug with MFC DLL|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="_DEBUG;_UNICODE;__STATPROFUIS_WITH_DLLMFC__;_AFXDLL;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;$(NoInherit)"
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release with MFC DLL|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug with MFC DLL|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug with MFC DLL|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release with MFC DLL|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="_DEBUG;_UNICODE;_AFXDLL;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;$(NoInherit)"
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="_DEBUG;_UNICODE;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;$(NoInherit)"
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="MainFrm.cpp">
+				<FileConfiguration
+					Name="Static Unicode Release with MFC DLL|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="NDEBUG;_UNICODE;__STATPROFUIS_WITH_DLLMFC__;_AFXDLL;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;$(NoInherit)"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="NDEBUG;_UNICODE;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;$(NoInherit)"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="NDEBUG;_UNICODE;_AFXDLL;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;$(NoInherit)"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug with MFC DLL|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="_DEBUG;_UNICODE;__STATPROFUIS_WITH_DLLMFC__;_AFXDLL;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;$(NoInherit)"
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release with MFC DLL|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug with MFC DLL|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug with MFC DLL|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release with MFC DLL|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="_DEBUG;_UNICODE;_AFXDLL;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;$(NoInherit)"
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="_DEBUG;_UNICODE;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;$(NoInherit)"
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="StdAfx.cpp">
+				<FileConfiguration
+					Name="Static Unicode Release with MFC DLL|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="NDEBUG;_UNICODE;__STATPROFUIS_WITH_DLLMFC__;_AFXDLL;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;$(NoInherit)"
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="NDEBUG;_UNICODE;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;$(NoInherit)"
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="NDEBUG;_UNICODE;_AFXDLL;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;$(NoInherit)"
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug with MFC DLL|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="_DEBUG;_UNICODE;__STATPROFUIS_WITH_DLLMFC__;_AFXDLL;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;$(NoInherit)"
+						BasicRuntimeChecks="3"
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release with MFC DLL|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug with MFC DLL|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug with MFC DLL|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release with MFC DLL|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="_DEBUG;_UNICODE;_AFXDLL;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;$(NoInherit)"
+						BasicRuntimeChecks="3"
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="_DEBUG;_UNICODE;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;$(NoInherit)"
+						BasicRuntimeChecks="3"
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="ZoomScrollBar.cpp">
+				<FileConfiguration
+					Name="Static Unicode Release with MFC DLL|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="NDEBUG;_UNICODE;__STATPROFUIS_WITH_DLLMFC__;_AFXDLL;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;$(NoInherit)"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="NDEBUG;_UNICODE;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;$(NoInherit)"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="NDEBUG;_UNICODE;_AFXDLL;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;$(NoInherit)"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug with MFC DLL|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="_DEBUG;_UNICODE;__STATPROFUIS_WITH_DLLMFC__;_AFXDLL;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;$(NoInherit)"
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release with MFC DLL|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug with MFC DLL|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug with MFC DLL|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release with MFC DLL|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="_DEBUG;_UNICODE;_AFXDLL;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;$(NoInherit)"
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="_DEBUG;_UNICODE;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;$(NoInherit)"
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="ZoomScrollBar.rc">
+				<FileConfiguration
+					Name="Static Unicode Release with MFC DLL|Win32">
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions="NDEBUG;_AFXDLL;__STATPROFUIS_WITH_DLLMFC__;$(NoInherit)"
+						AdditionalIncludeDirectories=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release|Win32">
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions="NDEBUG;$(NoInherit)"
+						AdditionalIncludeDirectories=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Release|Win32">
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug|Win32">
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Debug|Win32">
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release|Win32">
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|Win32">
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions="NDEBUG;_AFXDLL;$(NoInherit)"
+						AdditionalIncludeDirectories=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug with MFC DLL|Win32">
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions="_DEBUG;_AFXDLL;__STATPROFUIS_WITH_DLLMFC__;$(NoInherit)"
+						AdditionalIncludeDirectories=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release with MFC DLL|Win32">
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug with MFC DLL|Win32">
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug with MFC DLL|Win32">
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug|Win32">
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Release|Win32">
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release with MFC DLL|Win32">
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|Win32">
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions="_DEBUG;_AFXDLL;$(NoInherit)"
+						AdditionalIncludeDirectories=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug|Win32">
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions="_DEBUG;$(NoInherit)"
+						AdditionalIncludeDirectories=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release|Win32">
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Debug|Win32">
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""/>
+				</FileConfiguration>
+			</File>
+		</Filter>
+		<Filter
+			Name="Header Files"
+			Filter="h;hpp;hxx;hm;inl">
+			<File
+				RelativePath="ChildView.h">
+			</File>
+			<File
+				RelativePath="MainFrm.h">
+			</File>
+			<File
+				RelativePath="Resource.h">
+			</File>
+			<File
+				RelativePath="StdAfx.h">
+			</File>
+			<File
+				RelativePath="ZoomScrollBar.h">
+			</File>
+		</Filter>
+		<Filter
+			Name="Resource Files"
+			Filter="ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe">
+			<File
+				RelativePath="res\Toolbar.bmp">
+			</File>
+			<File
+				RelativePath="res\toolbar2.bmp">
+			</File>
+			<File
+				RelativePath="res\ZoomScrollBar.ico">
+			</File>
+			<File
+				RelativePath="res\ZoomScrollBar.rc2">
+			</File>
+		</Filter>
+		<File
+			RelativePath="ReadMe.txt">
+		</File>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

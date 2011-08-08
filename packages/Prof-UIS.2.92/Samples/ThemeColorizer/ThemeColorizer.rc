@@ -1,0 +1,870 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE MOVEABLE PURE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE MOVEABLE PURE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE MOVEABLE PURE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\ThemeColorizer.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG_CHILD_VIEW DIALOG DISCARDABLE  0, 0, 260, 183
+STYLE DS_FIXEDSYS | WS_CHILD | WS_CLIPSIBLINGS | WS_CLIPCHILDREN
+FONT 8, "MS Shell Dlg"
+BEGIN
+    PUSHBUTTON      "",IDC_STATIC_HEX_FULL1,15,39,101,95,NOT WS_TABSTOP
+    PUSHBUTTON      "Basic Background Color",IDC_BUTTON_COLOR1,15,18,101,17
+    GROUPBOX        "",IDC_GROUP_BOX1,7,7,119,136
+    PUSHBUTTON      "",IDC_STATIC_HEX_FULL2,142,39,101,95,NOT WS_TABSTOP
+    PUSHBUTTON      "Basic Selection Color",IDC_BUTTON_COLOR2,142,18,101,17
+    GROUPBOX        "",IDC_GROUP_BOX2,134,7,119,136
+    LTEXT           "Color Picker: ",IDC_STATIC_SEL_TYPE,7,150,43,8
+    COMBOBOX        IDC_COMBO_SEL_TYPE,58,148,195,310,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Color Theme: ",IDC_STATIC_COLOR_THEME,7,167,45,8
+    COMBOBOX        IDC_COMBO_COLOR_THEME,58,164,195,124,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO MOVEABLE PURE 
+BEGIN
+    IDD_DIALOG_CHILD_VIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 253
+        VERTGUIDE, 15
+        VERTGUIDE, 58
+        VERTGUIDE, 116
+        VERTGUIDE, 142
+        VERTGUIDE, 243
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 176
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\SampleAppIcon.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP  MOVEABLE PURE   "RES\\TOOLBAR.bmp"
+IDR_TOOLBAR_HELPER_ICONS BITMAP  MOVEABLE PURE   "res\\toolbar_.bmp"
+ID_VIEW_IEDBAR          BITMAP  MOVEABLE PURE   "res\\ID_VIEW_IEDBAR.bmp"
+IDR_TOOLBAR_BARS        BITMAP  MOVEABLE PURE   "res\\IDR_TOOLBAR_BARS.bmp"
+IDB_BITMAP_TRACKER_PATTERN BITMAP  DISCARDABLE     "res\\bitmap_t.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR MOVEABLE PURE  16, 15
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_FILE_PRINT
+    BUTTON      ID_APP_ABOUT
+    BUTTON      ID_CONTEXT_HELP
+END
+
+IDR_TOOLBAR_HELPER_ICONS TOOLBAR MOVEABLE PURE  16, 15
+BEGIN
+    BUTTON      ID_IED_TOOL_MAGNIFICATION_01X
+    BUTTON      ID_IED_TOOL_MAGNIFICATION_02X
+    BUTTON      ID_IED_TOOL_MAGNIFICATION_03X
+    BUTTON      ID_IED_TOOL_MAGNIFICATION_04X
+    BUTTON      ID_IED_TOOL_MAGNIFICATION_05X
+    BUTTON      ID_IED_TOOL_MAGNIFICATION_06X
+    BUTTON      ID_IED_TOOL_MAGNIFICATION_07X
+    BUTTON      ID_IED_TOOL_MAGNIFICATION_08X
+    BUTTON      ID_IED_TOOL_MAGNIFICATION_09X
+    BUTTON      ID_IED_TOOL_MAGNIFICATION_10X
+    BUTTON      ID_IED_TOOL_MAGNIFICATION_11X
+    BUTTON      ID_IED_TOOL_MAGNIFICATION_12X
+    BUTTON      ID_IED_TOOL_MAGNIFICATION_13X
+    BUTTON      ID_IED_TOOL_MAGNIFICATION_14X
+    BUTTON      ID_IED_TOOL_MAGNIFICATION_15X
+    BUTTON      ID_IED_TOOL_MAGNIFICATION_16X
+    SEPARATOR
+    BUTTON      ID_IED_TOOL_BRUSH_CIRCLE_SMALL
+    BUTTON      ID_IED_TOOL_BRUSH_CIRCLE_MEDIUM
+    BUTTON      ID_IED_TOOL_BRUSH_CIRCLE_LARGE
+    BUTTON      ID_IED_TOOL_BRUSH_SQUARE_SMALL
+    BUTTON      ID_IED_TOOL_BRUSH_SQUARE_MEDIUM
+    BUTTON      ID_IED_TOOL_BRUSH_SQUARE_LARGE
+    BUTTON      ID_IED_TOOL_BRUSH_LINE_LD_SMALL
+    BUTTON      ID_IED_TOOL_BRUSH_LINE_LD_MEDIUM
+    BUTTON      ID_IED_TOOL_BRUSH_LINE_LD_LARGE
+    BUTTON      ID_IED_TOOL_BRUSH_LINE_RD_SMALL
+    BUTTON      ID_IED_TOOL_BRUSH_LINE_RD_MEDIUM
+    BUTTON      ID_IED_TOOL_BRUSH_LINE_RD_LARGE
+    SEPARATOR
+    BUTTON      ID_IED_TOOL_AIR_BRUSH_SMALL
+    BUTTON      ID_IED_TOOL_AIR_BRUSH_MEDIUM
+    BUTTON      ID_IED_TOOL_AIR_BRUSH_LARGE
+    SEPARATOR
+    BUTTON      ID_IED_TOOL_LINE_CIRCLE_SMALL
+    BUTTON      ID_IED_TOOL_LINE_CIRCLE_MEDIUM
+    BUTTON      ID_IED_TOOL_LINE_CIRCLE_LARGE
+    BUTTON      ID_IED_TOOL_LINE_SQUARE_SMALL
+    BUTTON      ID_IED_TOOL_LINE_SQUARE_MEDIUM
+    BUTTON      ID_IED_TOOL_LINE_SQUARE_LARGE
+    BUTTON      ID_IED_TOOL_LINE_LINE_LD_SMALL
+    BUTTON      ID_IED_TOOL_LINE_LINE_LD_MEDIUM
+    BUTTON      ID_IED_TOOL_LINE_LINE_LD_LARGE
+    BUTTON      ID_IED_TOOL_LINE_LINE_RD_SMALL
+    BUTTON      ID_IED_TOOL_LINE_LINE_RD_MEDIUM
+    BUTTON      ID_IED_TOOL_LINE_LINE_RD_LARGE
+    SEPARATOR
+    BUTTON      ID_IED_TOOL_MAGNIFICATION_01X
+    BUTTON      ID_IED_TOOL_MAGNIFICATION_01X
+    BUTTON      ID_IED_TOOL_MAGNIFICATION_01X
+    BUTTON      ID_IED_TOOL_MAGNIFICATION_01X
+    BUTTON      ID_IED_TOOL_MAGNIFICATION_01X
+    BUTTON      ID_IED_TOOL_MAGNIFICATION_01X
+    BUTTON      ID_IED_TOOL_MAGNIFICATION_01X
+    BUTTON      ID_IED_TOOL_MAGNIFICATION_01X
+    BUTTON      ID_IED_TOOL_MAGNIFICATION_01X
+    BUTTON      ID_IED_TOOL_MAGNIFICATION_01X
+    BUTTON      ID_IED_TOOL_MAGNIFICATION_01X
+    BUTTON      ID_IED_TOOL_MAGNIFICATION_01X
+    SEPARATOR
+    BUTTON      ID_IED_TOOL_RECTANGLE_SMALLER
+    BUTTON      ID_IED_TOOL_RECTANGLE_SMALL
+    BUTTON      ID_IED_TOOL_RECTANGLE_MEDIUM
+    BUTTON      ID_IED_TOOL_RECTANGLE_LARGE
+    BUTTON      ID_IED_TOOL_RECTANGLE_LARGER
+    SEPARATOR
+    BUTTON      ID_IED_TOOL_OUTLINED_RECTANGLE_SMALLER
+    BUTTON      ID_IED_TOOL_OUTLINED_RECTANGLE_SMALL
+    BUTTON      ID_IED_TOOL_OUTLINED_RECTANGLE_MEDIUM
+    BUTTON      ID_IED_TOOL_OUTLINED_RECTANGLE_LARGE
+    BUTTON      ID_IED_TOOL_OUTLINED_RECTANGLE_LARGER
+    SEPARATOR
+    BUTTON      ID_IED_TOOL_ROUNDED_RECTANGLE_SMALLER
+    BUTTON      ID_IED_TOOL_ROUNDED_RECTANGLE_SMALL
+    BUTTON      ID_IED_TOOL_ROUNDED_RECTANGLE_MEDIUM
+    BUTTON      ID_IED_TOOL_ROUNDED_RECTANGLE_LARGE
+    BUTTON      ID_IED_TOOL_ROUNDED_RECTANGLE_LARGER
+    SEPARATOR
+    BUTTON      ID_IED_TOOL_ELLIPSE_SMALLER
+    BUTTON      ID_IED_TOOL_ELLIPSE_SMALL
+    BUTTON      ID_IED_TOOL_ELLIPSE_MEDIUM
+    BUTTON      ID_IED_TOOL_ELLIPSE_LARGE
+    BUTTON      ID_IED_TOOL_ELLIPSE_LARGER
+    SEPARATOR
+    BUTTON      ID_IED_TOOL_OUTLINED_ROUNDED_RECTANGLE_SMALLER
+    BUTTON      ID_IED_TOOL_OUTLINED_ROUNDED_RECTANGLE_SMALL
+    BUTTON      ID_IED_TOOL_OUTLINED_ROUNDED_RECTANGLE_MEDIUM
+    BUTTON      ID_IED_TOOL_OUTLINED_ROUNDED_RECTANGLE_LARGE
+    BUTTON      ID_IED_TOOL_OUTLINED_ROUNDED_RECTANGLE_LARGER
+    SEPARATOR
+    BUTTON      ID_IED_TOOL_OUTLINED_ELLIPSE_SMALLER
+    BUTTON      ID_IED_TOOL_OUTLINED_ELLIPSE_SMALL
+    BUTTON      ID_IED_TOOL_OUTLINED_ELLIPSE_MEDIUM
+    BUTTON      ID_IED_TOOL_OUTLINED_ELLIPSE_LARGE
+    BUTTON      ID_IED_TOOL_OUTLINED_ELLIPSE_LARGER
+END
+
+ID_VIEW_IEDBAR TOOLBAR MOVEABLE PURE  16, 15
+BEGIN
+    BUTTON      ID_IED_TOOL_RECT_SELECTION
+    BUTTON      ID_IED_TOOL_COLOR_SELECTION
+    BUTTON      ID_IED_TOOL_FILL
+    BUTTON      ID_IED_TOOL_MAGNIFICATION
+    SEPARATOR
+    BUTTON      ID_IED_TOOL_PENCIL
+    BUTTON      ID_IED_TOOL_BRUSH
+    BUTTON      ID_IED_TOOL_AIR_BRUSH
+    BUTTON      ID_IED_TOOL_LINE
+    SEPARATOR
+    BUTTON      ID_IED_TOOL_RECTANGLE
+    BUTTON      ID_IED_TOOL_OUTLINED_RECTANGLE
+    BUTTON      ID_IED_TOOL_FILLED_RECTANGLE
+    BUTTON      ID_IED_TOOL_ROUNDED_RECTANGLE
+    BUTTON      ID_IED_TOOL_ROUNDED_OUTLINED_RECTANGLE
+    BUTTON      ID_IED_TOOL_ROUNDED_FILLED_RECTANGLE
+    BUTTON      ID_IED_TOOL_ELLIPSE
+    BUTTON      ID_IED_TOOL_OUTLINED_ELLIPSE
+    BUTTON      ID_IED_TOOL_FILLED_ELLIPSE
+END
+
+IDR_TOOLBAR_BARS TOOLBAR MOVEABLE PURE  16, 15
+BEGIN
+    BUTTON      ID_VIEW_RESIZABLE_BAR_0
+    BUTTON      ID_VIEW_RESIZABLE_BAR_1
+    BUTTON      ID_VIEW_RESIZABLE_BAR_2
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New\tCtrl+N",                ID_FILE_NEW
+        MENUITEM "&Open...\tCtrl+O",            ID_FILE_OPEN
+        MENUITEM "&Save\tCtrl+S",               ID_FILE_SAVE
+        MENUITEM SEPARATOR
+        MENUITEM "&Print...\tCtrl+P",           ID_FILE_PRINT
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "Cu&t\tCtrl+X",                ID_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+    END
+    POPUP "&Tools"
+    BEGIN
+        MENUITEM "&Rectangle Selection Tool",   ID_IED_TOOL_RECT_SELECTION
+        MENUITEM "&Color Selection Tool",       ID_IED_TOOL_COLOR_SELECTION
+        MENUITEM "&Fill Tool",                  ID_IED_TOOL_FILL
+        MENUITEM "&Magnification Tool",         ID_IED_TOOL_MAGNIFICATION
+        MENUITEM SEPARATOR
+        MENUITEM "&Pencil Tool",                ID_IED_TOOL_PENCIL
+        MENUITEM "&Brush Tool",                 ID_IED_TOOL_BRUSH
+        MENUITEM "&Air Brush Tool",             ID_IED_TOOL_AIR_BRUSH
+        MENUITEM "&Line Tool",                  ID_IED_TOOL_LINE
+        MENUITEM SEPARATOR
+        MENUITEM "&Rectangle Tool",             ID_IED_TOOL_RECTANGLE
+        MENUITEM "&Outlined Rectangle Tool",    ID_IED_TOOL_OUTLINED_RECTANGLE
+
+        MENUITEM "&Filled Rectangle Tool",      ID_IED_TOOL_FILLED_RECTANGLE
+        MENUITEM "&Rounded Rectangle Tool",     ID_IED_TOOL_ROUNDED_RECTANGLE
+
+        MENUITEM "&Outlined Rounded Rectangle Tool", 
+                                                ID_IED_TOOL_ROUNDED_OUTLINED_RECTANGLE
+
+        MENUITEM "&Filled Rounded Rectangle Tool", 
+                                                ID_IED_TOOL_ROUNDED_FILLED_RECTANGLE
+
+        MENUITEM "&Ellipse Tool",               ID_IED_TOOL_ELLIPSE
+        MENUITEM "&Outlined Ellipse Tool",      ID_IED_TOOL_OUTLINED_ELLIPSE
+        MENUITEM "&Filled Ellipse Tool",        ID_IED_TOOL_FILLED_ELLIPSE
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Menu bar",                   ID_VIEW_MENUBAR
+        POPUP "&Toolbars"
+        BEGIN
+            MENUITEM "&Standard",                   ID_VIEW_TOOLBAR
+            MENUITEM "&Image Editor",               ID_VIEW_IEDBAR
+            MENUITEM "&Seek",                       IDR_TOOLBAR_SEEK
+            MENUITEM "&Zoom",                       IDR_TOOLBAR_ZOOM
+        END
+        POPUP "&Resizable bars"
+        BEGIN
+            MENUITEM "Resizable bar &0",            ID_VIEW_RESIZABLE_BAR_0
+            MENUITEM "Resizable bar &1",            ID_VIEW_RESIZABLE_BAR_1
+            MENUITEM "Resizable bar &2",            ID_VIEW_RESIZABLE_BAR_2
+        END
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About ThemeColorizer...",    ID_APP_ABOUT
+    END
+END
+
+IDR_IED_MENU_ROUNDED_RECTANGLE MENU DISCARDABLE 
+BEGIN
+    POPUP "__POPUP__"
+    BEGIN
+        MENUITEM "Smaller",                     ID_IED_TOOL_ROUNDED_RECTANGLE_SMALLER
+
+        MENUITEM "Small",                       ID_IED_TOOL_ROUNDED_RECTANGLE_SMALL
+
+        MENUITEM "Medium",                      ID_IED_TOOL_ROUNDED_RECTANGLE_MEDIUM
+
+        MENUITEM "Large",                       ID_IED_TOOL_ROUNDED_RECTANGLE_LARGE
+
+        MENUITEM "Larger",                      ID_IED_TOOL_ROUNDED_RECTANGLE_LARGER
+
+    END
+END
+
+IDR_IED_MENU_ROUNDED_OUTLINED_RECTANGLE MENU DISCARDABLE 
+BEGIN
+    POPUP "__POPUP__"
+    BEGIN
+        MENUITEM "Smaller",                     ID_IED_TOOL_OUTLINED_ROUNDED_RECTANGLE_SMALLER
+
+        MENUITEM "Small",                       ID_IED_TOOL_OUTLINED_ROUNDED_RECTANGLE_SMALL
+
+        MENUITEM "Medium",                      ID_IED_TOOL_OUTLINED_ROUNDED_RECTANGLE_MEDIUM
+
+        MENUITEM "Large",                       ID_IED_TOOL_OUTLINED_ROUNDED_RECTANGLE_LARGE
+
+        MENUITEM "Larger",                      ID_IED_TOOL_OUTLINED_ROUNDED_RECTANGLE_LARGER
+
+    END
+END
+
+IDR_IED_MENU_RECTANGLE MENU DISCARDABLE 
+BEGIN
+    POPUP "__POPUP__"
+    BEGIN
+        MENUITEM "Smaller",                     ID_IED_TOOL_RECTANGLE_SMALLER
+
+        MENUITEM "Small",                       ID_IED_TOOL_RECTANGLE_SMALL
+        MENUITEM "Medium",                      ID_IED_TOOL_RECTANGLE_MEDIUM
+        MENUITEM "Large",                       ID_IED_TOOL_RECTANGLE_LARGE
+        MENUITEM "Larger",                      ID_IED_TOOL_RECTANGLE_LARGER
+    END
+END
+
+IDR_IED_MENU_OUTLINED_RECTANGLE MENU DISCARDABLE 
+BEGIN
+    POPUP "__POPUP__"
+    BEGIN
+        MENUITEM "Smaller",                     ID_IED_TOOL_OUTLINED_RECTANGLE_SMALLER
+
+        MENUITEM "Small",                       ID_IED_TOOL_OUTLINED_RECTANGLE_SMALL
+
+        MENUITEM "Medium",                      ID_IED_TOOL_OUTLINED_RECTANGLE_MEDIUM
+
+        MENUITEM "Large",                       ID_IED_TOOL_OUTLINED_RECTANGLE_LARGE
+
+        MENUITEM "Larger",                      ID_IED_TOOL_OUTLINED_RECTANGLE_LARGER
+
+    END
+END
+
+IDR_IED_MENU_OUTLINED_ELLIPSE MENU DISCARDABLE 
+BEGIN
+    POPUP "__POPUP__"
+    BEGIN
+        MENUITEM "Smaller",                     ID_IED_TOOL_OUTLINED_ELLIPSE_SMALLER
+
+        MENUITEM "Small",                       ID_IED_TOOL_OUTLINED_ELLIPSE_SMALL
+
+        MENUITEM "Medium",                      ID_IED_TOOL_OUTLINED_ELLIPSE_MEDIUM
+
+        MENUITEM "Large",                       ID_IED_TOOL_OUTLINED_ELLIPSE_LARGE
+
+        MENUITEM "Larger",                      ID_IED_TOOL_OUTLINED_ELLIPSE_LARGER
+
+    END
+END
+
+IDR_IED_MENU_MAGNIFICATION MENU DISCARDABLE 
+BEGIN
+    POPUP "__POPUP__"
+    BEGIN
+        MENUITEM "1x",                          ID_IED_TOOL_MAGNIFICATION_01X
+
+        MENUITEM "2x",                          ID_IED_TOOL_MAGNIFICATION_02X
+
+        MENUITEM "3x",                          ID_IED_TOOL_MAGNIFICATION_03X
+
+        MENUITEM "4x",                          ID_IED_TOOL_MAGNIFICATION_04X
+
+        MENUITEM "5x",                          ID_IED_TOOL_MAGNIFICATION_05X
+
+        MENUITEM "6x",                          ID_IED_TOOL_MAGNIFICATION_06X
+
+        MENUITEM "7x",                          ID_IED_TOOL_MAGNIFICATION_07X
+
+        MENUITEM "8x",                          ID_IED_TOOL_MAGNIFICATION_08X
+
+        MENUITEM "9x",                          ID_IED_TOOL_MAGNIFICATION_09X
+
+        MENUITEM "10x",                         ID_IED_TOOL_MAGNIFICATION_10X
+
+        MENUITEM "11x",                         ID_IED_TOOL_MAGNIFICATION_11X
+
+        MENUITEM "12x",                         ID_IED_TOOL_MAGNIFICATION_12X
+
+        MENUITEM "13x",                         ID_IED_TOOL_MAGNIFICATION_13X
+
+        MENUITEM "14x",                         ID_IED_TOOL_MAGNIFICATION_14X
+
+        MENUITEM "15x",                         ID_IED_TOOL_MAGNIFICATION_15X
+
+        MENUITEM "16x",                         ID_IED_TOOL_MAGNIFICATION_16X
+
+    END
+END
+
+IDR_IED_MENU_LINE MENU DISCARDABLE 
+BEGIN
+    POPUP "__POPUP__"
+    BEGIN
+        MENUITEM "Small Circle",                ID_IED_TOOL_LINE_CIRCLE_SMALL
+
+        MENUITEM "Medium Circle",               ID_IED_TOOL_LINE_CIRCLE_MEDIUM
+
+        MENUITEM "Large Circle",                ID_IED_TOOL_LINE_CIRCLE_LARGE
+
+        MENUITEM SEPARATOR
+        MENUITEM "Small Square",                ID_IED_TOOL_LINE_SQUARE_SMALL
+
+        MENUITEM "Medium Square",               ID_IED_TOOL_LINE_SQUARE_MEDIUM
+
+        MENUITEM "Large Square",                ID_IED_TOOL_LINE_SQUARE_LARGE
+
+        MENUITEM SEPARATOR
+        MENUITEM "Small Left Diagonal",         ID_IED_TOOL_LINE_LINE_LD_SMALL
+
+        MENUITEM "Medium Left Diagonal",        ID_IED_TOOL_LINE_LINE_LD_MEDIUM
+
+        MENUITEM "Large Left Diagonal",         ID_IED_TOOL_LINE_LINE_LD_LARGE
+
+        MENUITEM SEPARATOR
+        MENUITEM "Small Right Diagonal",        ID_IED_TOOL_LINE_LINE_RD_SMALL
+
+        MENUITEM "Medium Right Diagonal",       ID_IED_TOOL_LINE_LINE_RD_MEDIUM
+
+        MENUITEM "Large Right Diagonal",        ID_IED_TOOL_LINE_LINE_RD_LARGE
+
+    END
+END
+
+IDR_IED_MENU_ELLIPSE MENU DISCARDABLE 
+BEGIN
+    POPUP "__POPUP__"
+    BEGIN
+        MENUITEM "Smaller",                     ID_IED_TOOL_ELLIPSE_SMALLER
+        MENUITEM "Small",                       ID_IED_TOOL_ELLIPSE_SMALL
+        MENUITEM "Medium",                      ID_IED_TOOL_ELLIPSE_MEDIUM
+        MENUITEM "Large",                       ID_IED_TOOL_ELLIPSE_LARGE
+        MENUITEM "Larger",                      ID_IED_TOOL_ELLIPSE_LARGER
+    END
+END
+
+IDR_IED_MENU_BRUSH MENU DISCARDABLE 
+BEGIN
+    POPUP "__POPUP__"
+    BEGIN
+        MENUITEM "Small Circle",                ID_IED_TOOL_BRUSH_CIRCLE_SMALL
+
+        MENUITEM "Medium Circle",               ID_IED_TOOL_BRUSH_CIRCLE_MEDIUM
+
+        MENUITEM "Large Circle",                ID_IED_TOOL_BRUSH_CIRCLE_LARGE
+
+        MENUITEM SEPARATOR
+        MENUITEM "Small Square",                ID_IED_TOOL_BRUSH_SQUARE_SMALL
+
+        MENUITEM "Medium Square",               ID_IED_TOOL_BRUSH_SQUARE_MEDIUM
+
+        MENUITEM "Large Square",                ID_IED_TOOL_BRUSH_SQUARE_LARGE
+
+        MENUITEM SEPARATOR
+        MENUITEM "Small Left Diagonal",         ID_IED_TOOL_BRUSH_LINE_LD_SMALL
+
+        MENUITEM "Medium Left Diagonal",        ID_IED_TOOL_BRUSH_LINE_LD_MEDIUM
+
+        MENUITEM "Large Left Diagonal",         ID_IED_TOOL_BRUSH_LINE_LD_LARGE
+
+        MENUITEM SEPARATOR
+        MENUITEM "Small Right Diagonal",        ID_IED_TOOL_BRUSH_LINE_RD_SMALL
+
+        MENUITEM "Medium Right Diagonal",       ID_IED_TOOL_BRUSH_LINE_RD_MEDIUM
+
+        MENUITEM "Large Right Diagonal",        ID_IED_TOOL_BRUSH_LINE_RD_LARGE
+
+    END
+END
+
+IDR_IED_MENU_AIR_BRUSH MENU DISCARDABLE 
+BEGIN
+    POPUP "__POPUP__"
+    BEGIN
+        MENUITEM "Small",                       ID_IED_TOOL_AIR_BRUSH_SMALL
+        MENUITEM "Medium",                      ID_IED_TOOL_AIR_BRUSH_MEDIUM
+        MENUITEM "Large",                       ID_IED_TOOL_AIR_BRUSH_LARGE
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS MOVEABLE PURE 
+BEGIN
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 2,9,2,0
+ PRODUCTVERSION 2,9,2,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "This is part of the Professional User Interface Suite library (www.prof-uis.com)\0"
+            VALUE "CompanyName", "FOSS Software, Inc.\0"
+            VALUE "FileDescription", "ThemeColorizer MFC Application\0"
+            VALUE "FileVersion", " 2, 9, 2, 0\0"
+            VALUE "InternalName", "ThemeColorizer\0"
+            VALUE "LegalCopyright", "Copyright © 2001-2011 FOSS Software, Inc.\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "ThemeColorizer.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "ThemeColorizer Application\0"
+            VALUE "ProductVersion", " 2, 9, 2, 0\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "ThemeColorizer"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "ThemeColorizer"
+    AFX_IDS_IDLEMESSAGE     "Ready"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Show or hide the toolbar\nToggle ToolBar"
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle StatusBar"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_LINE_WIDTH_2         "Change the line width to 2\nSet Line Width To 2"
+    ID_LINE_WIDTH_3         "Change the line width to 3\nSet Line Width To 3"
+    ID_LINE_WIDTH_4         "Change the line width to 4\nSet Line Width To 4"
+    ID_LINE_WIDTH_5         "Change the line width to 5\nSet Line Width To 5"
+    ID_LINE_WIDTH_6         "Change the line width to 6\nSet Line Width To 6"
+    ID_LINE_WIDTH_7         "Change the line width to 7\nSet Line Width To 7"
+    ID_LINE_WIDTH_8         "Change the line width to 8\nSet Line Width To 8"
+    ID_LINE_WIDTH_9         "Change the line width to 9\nSet Line Width To 9"
+    ID_LINE_WIDTH_10        "Change the line width to 10\nSet Line Width To 10"
+    ID_LINE_WIDTH_OTHER     "Change the line width\nLine Width"
+    ID_VIEW_MENUBAR         "Show or hide the menubar\nToggle MenuBar"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_IEDBAR          "Show or hide the image editor toolbar\nToggle Image Editor Toolbar"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_PAPERCOLOR      "Change paper color displayed while editing"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_IED_TOOL_RECTANGLE   "Rectangle Tool\nRectangle Tool"
+    ID_IED_TOOL_ROUNDED_FILLED_RECTANGLE 
+                            "Filled Rounded Rectangle Tool\nFilled Rounded Rectangle Tool"
+    ID_IED_TOOL_ROUNDED_OUTLINED_RECTANGLE 
+                            "Outlined Rounded Rectangle Tool\nOutlined Rounded Rectangle Tool"
+    ID_IED_TOOL_ROUNDED_RECTANGLE 
+                            "Rounded Rectangle Tool\nRounded Rectangle Tool"
+    ID_LINE_WIDTH_0         "No outline\nNo outline"
+    ID_LINE_WIDTH_1         "Change the line width to 1\nSet Line Width To 1"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDR_TOOLBAR_SEEK        "Show or hide the Seek toolbar\nToggle Seek toolbar"
+    IDR_TOOLBAR_ZOOM        "Show or hide the Zoom toolbar\nToggle Zoom toolbar"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_NEW             "Create a new document\nNew"
+    ID_FILE_OPEN            "Open an existing document\nOpen"
+    ID_FILE_CLOSE           "Close the active document\nClose"
+    ID_FILE_SAVE            "Save the active document\nSave"
+    ID_FILE_SAVE_AS         "Save the active document with a new name\nSave As"
+    ID_FILE_PAGE_SETUP      "Change the printing options\nPage Setup"
+    ID_FILE_PRINT_SETUP     "Change the printer and printing options\nPrint Setup"
+    ID_FILE_PRINT           "Print the active document\nPrint"
+    ID_FILE_PRINT_PREVIEW   "Display full pages\nPrint Preview"
+    ID_FILE_SEND_MAIL       "Send the active document through electronic mail\nSend Mail"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "Open this document"
+    ID_FILE_MRU_FILE2       "Open this document"
+    ID_FILE_MRU_FILE3       "Open this document"
+    ID_FILE_MRU_FILE4       "Open this document"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_PASTE_LINK      "Insert Clipboard contents and a link to its source\nPaste Link"
+    ID_EDIT_PASTE_SPECIAL   "Insert Clipboard contents with options\nPaste Special"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_OLE_INSERT_NEW       "Insert new linked or embedded object\nNew Object"
+    ID_OLE_EDIT_LINKS       "Edit linked objects\nEdit Links"
+    ID_OLE_EDIT_CONVERT     "Convert object to different type\nConvert Object"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_OLE_VERB_FIRST       "Activate embedded or linked object"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_IED_TOOL_OUTLINED_RECTANGLE 
+                            "Outlined Rectangle Tool\nOutlined Rectangle Tool"
+    ID_IED_TOOL_PENCIL      "Pencil Tool\nPencil Tool"
+    ID_IED_TOOL_RECT_SELECTION 
+                            "Rectangle Selection Tool\nRectangle Selection Tool"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_IED_TOOL_COLOR_SELECTION "Color Selection Tool\nColor Selection Tool"
+    ID_IED_TOOL_ELLIPSE     "Ellipse Tool\nEllipse Tool"
+    ID_IED_TOOL_FILL        "Fill Tool\nFill Tool"
+    ID_IED_TOOL_FILLED_ELLIPSE "Filled Ellipse Tool\nFilled Ellipse Tool"
+    ID_IED_TOOL_FILLED_RECTANGLE 
+                            "Filled Rectangle Tool\nFilled Rectangle Tool"
+    ID_IED_TOOL_LINE        "Line Tool\nLine Tool"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_IED_TOOL_MAGNIFICATION "Magnification Tool\nMagnification Tool"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_IED_TOOL_AIR_BRUSH   "Air Brush Tool\nAir Brush Tool"
+    ID_IED_TOOL_BRUSH       "Brush Tool\nBrush Tool"
+    ID_VIEW_RESIZABLE_BAR_5 "Show or hide the resizable bar 5\nToggle resizable bar 5"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_IED_TOOL_OUTLINED_ELLIPSE 
+                            "Outlined Ellipse Tool\nOutlined Ellipse Tool"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_RESIZABLE_BAR_0 "Show or hide the resizable bar 0\nToggle resizable bar 0"
+    ID_VIEW_RESIZABLE_BAR_1 "Show or hide the resizable bar 1\nToggle resizable bar 1"
+    ID_VIEW_RESIZABLE_BAR_2 "Show or hide the resizable bar 2\nToggle resizable bar 2"
+    ID_VIEW_RESIZABLE_BAR_3 "Show or hide the resizable bar 3\nToggle resizable bar 3"
+    ID_VIEW_RESIZABLE_BAR_4 "Show or hide the resizable bar 4\nToggle resizable bar 4"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\ThemeColorizer.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

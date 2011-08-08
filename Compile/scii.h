@@ -199,6 +199,20 @@ private:
 //
 typedef std::list<scii>::iterator code_pos;
 
+
+
+
+// This craziness is so that code_pos can be used in a multimap.
+// We use the node pointer as a < comparator.  Just something consistent but meaningless.
+//bool operator<(const code_pos& _Right, const code_pos& _Left);
+bool operator<(const code_pos &_Right, const code_pos &_Left)
+{
+    return _Right._Mynode() < _Left._Mynode();
+}
+//
+//
+
+
 // Imminent fixups to be done when the next instruction is written
 typedef std::vector<code_pos> fixup_todos;
 typedef std::map<int, fixup_todos> fixup_todos_map;
@@ -329,7 +343,4 @@ private:
     code_pos_multimap _targetToSources;
 };
 
-// This craziness is so that code_pos can be used in a multimap.
-// We use the node pointer as a < comparator.  Just something consistent but meaningless.
-bool operator<(const code_pos &_Right, const code_pos &_Left);
 

@@ -76,7 +76,7 @@ void CScriptStreamLimiter::GetMoreData(int &nChar, int &nLine, int &nLength, PCS
     }
 }
 
-CCrystalScriptStream::const_iterator::const_iterator(CScriptStreamLimiter *pBuffer, LineCol dwPos) : _pBuffer(pBuffer), _pidStream(pBuffer->GetIdPtr())
+CCrystalScriptStream::const_buffer_iterator::const_buffer_iterator(CScriptStreamLimiter *pBuffer, LineCol dwPos) : _pBuffer(pBuffer), _pidStream(pBuffer->GetIdPtr())
 {
     _nLine = dwPos.Line();
     _nChar = dwPos.Column();
@@ -92,7 +92,7 @@ CCrystalScriptStream::const_iterator::const_iterator(CScriptStreamLimiter *pBuff
     _id = *_pidStream;
 }
 
-char CCrystalScriptStream::const_iterator::operator*()
+char CCrystalScriptStream::const_buffer_iterator::operator*()
 {
     if (_id == *_pidStream)
     {
@@ -106,7 +106,7 @@ char CCrystalScriptStream::const_iterator::operator*()
     }
 }
 
-CCrystalScriptStream::const_iterator& CCrystalScriptStream::const_iterator::operator++()
+CCrystalScriptStream::const_buffer_iterator& CCrystalScriptStream::const_buffer_iterator::operator++()
 {
     ASSERT(*_pszLine != 0); // EOF
     _nChar++;
@@ -118,38 +118,38 @@ CCrystalScriptStream::const_iterator& CCrystalScriptStream::const_iterator::oper
     return *this;
 }
 
-bool CCrystalScriptStream::const_iterator::operator<(const const_iterator& _Right) const
+bool CCrystalScriptStream::const_buffer_iterator::operator<(const const_buffer_iterator& _Right) const
 {
     return (_nLine < _Right._nLine) || ((_nLine == _Right._nLine) && ((_nChar < _Right._nChar)));
 }
 
-std::string CCrystalScriptStream::const_iterator::tostring() const
+std::string CCrystalScriptStream::const_buffer_iterator::tostring() const
 {
     char sz[50];
     sprintf(sz, "Line %d, column %d", _nLine + 1, _nChar);
     return sz;
 }
 
-bool CCrystalScriptStream::const_iterator::operator==(const const_iterator& value) const
+bool CCrystalScriptStream::const_buffer_iterator::operator==(const const_buffer_iterator& value) const
 {
     return (_nLine == value._nLine) && (_nChar == value._nChar);
 }
 
-bool CCrystalScriptStream::const_iterator::operator!=(const const_iterator& value) const
+bool CCrystalScriptStream::const_buffer_iterator::operator!=(const const_buffer_iterator& value) const
 {
     return (_nChar != value._nChar) || (_nLine != value._nLine);
 }
 
 
-LineCol CCrystalScriptStream::const_iterator::GetPosition() const
+LineCol CCrystalScriptStream::const_buffer_iterator::GetPosition() const
 {
     return LineCol(_nLine, _nChar);
 }
-int CCrystalScriptStream::const_iterator::GetLineNumber() const
+int CCrystalScriptStream::const_buffer_iterator::GetLineNumber() const
 {
     return _nLine;
 }
-int CCrystalScriptStream::const_iterator::GetColumnNumber() const
+int CCrystalScriptStream::const_buffer_iterator::GetColumnNumber() const
 {
     return _nChar;
 }

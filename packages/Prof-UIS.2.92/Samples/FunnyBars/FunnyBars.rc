@@ -1,0 +1,499 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE MOVEABLE PURE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE MOVEABLE PURE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE MOVEABLE PURE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\FunnyBars.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\SampleAppIcon.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP  MOVEABLE PURE   "res\\Toolbar.bmp"
+IDR_TOOLBAR_SMALL_256_COLOR BITMAP  MOVEABLE PURE   "res\\toolbar_16_16_8.bmp"
+IDR_TOOLBAR_BIG_TRUE_COLOR BITMAP  MOVEABLE PURE   "res\\toolbar_44_40_32.bmp"
+IDR_TOOLBAR_VISTA_ICONS BITMAP  MOVEABLE PURE   "res\\IDR_TOOLBAR_VISTA_ICONS.bmp"
+IDR_TOOLBAR_VISTA_ICONS_SMALL BITMAP  MOVEABLE PURE   "res\\IDR_TOOLBAR_VISTA_ICONS_SMALL.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR MOVEABLE PURE  16, 16
+BEGIN
+    BUTTON      ID_APP_ABOUT
+    BUTTON      ID_APP_EXIT
+END
+
+IDR_TOOLBAR_SMALL_256_COLOR TOOLBAR MOVEABLE PURE  16, 16
+BEGIN
+    BUTTON      ID_256_FILE_NEW
+    BUTTON      ID_256_FILE_OPEN
+    BUTTON      ID_256_FILE_FAVORITES
+    SEPARATOR
+    BUTTON      ID_256_FILE_ADD
+    BUTTON      ID_256_FILE_EXTRACT
+    BUTTON      ID_256_FILE_VIEW
+    SEPARATOR
+    BUTTON      ID_256_FILE_CHECK_OUT
+    BUTTON      ID_256_FILE_WIZARD
+END
+
+IDR_TOOLBAR_BIG_TRUE_COLOR TOOLBAR MOVEABLE PURE  44, 40
+BEGIN
+    BUTTON      ID_TRUE_FILE_NEW
+    BUTTON      ID_TRUE_FILE_OPEN
+    BUTTON      ID_TRUE_FILE_FAVORITES
+    SEPARATOR
+    BUTTON      ID_TRUE_FILE_ADD
+    BUTTON      ID_TRUE_FILE_EXTRACT
+    BUTTON      ID_TRUE_FILE_VIEW
+    SEPARATOR
+    BUTTON      ID_TRUE_FILE_CHECK_OUT
+    BUTTON      ID_TRUE_FILE_WIZARD
+END
+
+IDR_TOOLBAR_VISTA_ICONS TOOLBAR MOVEABLE PURE  96, 96
+BEGIN
+    BUTTON      ID_VISTA_RECYCLE_BIN_EMPTY
+    BUTTON      ID_VISTA_RECYCLE_BIN_FULL
+    BUTTON      ID_VISTA_PICS
+    BUTTON      ID_VISTA_PARENTAL_CONTROL
+    BUTTON      ID_VISTA_SEARCH
+END
+
+IDR_TOOLBAR_VISTA_ICONS_SMALL TOOLBAR MOVEABLE PURE  48, 48
+BEGIN
+    BUTTON      ID_VISTA_MENU_RECYCLE_BIN_EMPTY
+    BUTTON      ID_VISTA_MENU_RECYCLE_BIN_FULL
+    BUTTON      ID_VISTA_MENU_PICS
+    BUTTON      ID_VISTA_MENU_PARENTAL_CONTROL
+    BUTTON      ID_VISTA_MENU_SEARCH
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Menu bar",                   ID_VIEW_MENUBAR
+        POPUP "&Toolbars"
+        BEGIN
+            MENUITEM "&Standard",                   ID_VIEW_TOOLBAR
+            MENUITEM "&256 Color (16x16 buttons)",  IDR_TOOLBAR_SMALL_256_COLOR
+
+            MENUITEM "&16777216 Color (44x40 buttons)", 
+                                                    IDR_TOOLBAR_BIG_TRUE_COLOR
+
+            MENUITEM "&Text + 16777216 Color (44x40 buttons)", 
+                                                    IDR_TOOLBAR_BIG_TRUE_COLOR2
+
+            MENUITEM "&Hot + 16777216 Color (44x40 buttons)", 
+                                                    IDR_TOOLBAR_BIG_TRUE_COLOR3
+            MENUITEM "UI S&witcher ToolBar",        ID_VIEW_UI_LOOK_BAR
+
+        END
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+        MENUITEM SEPARATOR
+        POPUP "&UI theme"
+        BEGIN
+            MENUITEM "<<< Prof-UIS Themes List >>>",   29999
+        END
+    END
+    POPUP "&256-Color"
+    BEGIN
+        MENUITEM "New\tN/A",                    ID_256_FILE_NEW
+        MENUITEM "Open\tN/A",                   ID_256_FILE_OPEN
+        MENUITEM "Favorites\tN/A",              ID_256_FILE_FAVORITES
+        MENUITEM SEPARATOR
+        MENUITEM "Add\tN/A",                    ID_256_FILE_ADD
+        MENUITEM "Extract\tN/A",                ID_256_FILE_EXTRACT
+        MENUITEM "View\tN/A",                   ID_256_FILE_VIEW
+        MENUITEM SEPARATOR
+        MENUITEM "Check Out\tN/A",              ID_256_FILE_CHECK_OUT
+        MENUITEM "Wizard\tN/A",                 ID_256_FILE_WIZARD
+    END
+    POPUP "&True-Color"
+    BEGIN
+        MENUITEM "New\tN/A",                    ID_TRUE_FILE_NEW
+        MENUITEM "Open\tN/A",                   ID_TRUE_FILE_OPEN
+        MENUITEM "Favorites\tN/A",              ID_TRUE_FILE_FAVORITES
+        MENUITEM SEPARATOR
+        MENUITEM "Add\tN/A",                    ID_TRUE_FILE_ADD
+        MENUITEM "Extract\tN/A",                ID_TRUE_FILE_EXTRACT
+        MENUITEM "View\tN/A",                   ID_TRUE_FILE_VIEW
+        MENUITEM SEPARATOR
+        MENUITEM "Check Out\tN/A",              ID_TRUE_FILE_CHECK_OUT
+        MENUITEM "Wizard\tN/A",                 ID_TRUE_FILE_WIZARD
+    END
+    POPUP "&Vista Icons"
+    BEGIN
+        MENUITEM "Recycle Bin Empty",           ID_VISTA_MENU_RECYCLE_BIN_EMPTY
+
+        MENUITEM "Recycle Bin Full",            ID_VISTA_MENU_RECYCLE_BIN_FULL
+
+        MENUITEM "Pictures",                    ID_VISTA_MENU_PICS
+        MENUITEM "Parental Control",            ID_VISTA_MENU_PARENTAL_CONTROL
+
+        MENUITEM "Search",                      ID_VISTA_MENU_SEARCH
+    END
+    POPUP "&Mixed"
+    BEGIN
+        MENUITEM "New\tN/A",                    ID_256_FILE_NEW
+        MENUITEM "Open\tN/A",                   ID_256_FILE_OPEN
+        MENUITEM "Favorites\tN/A",              ID_256_FILE_FAVORITES
+        MENUITEM SEPARATOR
+        MENUITEM "Add\tN/A",                    ID_256_FILE_ADD
+        MENUITEM "Extract\tN/A",                ID_256_FILE_EXTRACT
+        MENUITEM "View\tN/A",                   ID_256_FILE_VIEW
+        MENUITEM SEPARATOR
+        MENUITEM "Check Out\tN/A",              ID_256_FILE_CHECK_OUT
+        MENUITEM "Wizard\tN/A",                 ID_256_FILE_WIZARD
+        MENUITEM SEPARATOR
+        MENUITEM "New\tN/A",                    ID_TRUE_FILE_NEW
+        MENUITEM "Open\tN/A",                   ID_TRUE_FILE_OPEN
+        MENUITEM "Favorites\tN/A",              ID_TRUE_FILE_FAVORITES
+        MENUITEM SEPARATOR
+        MENUITEM "Add\tN/A",                    ID_TRUE_FILE_ADD
+        MENUITEM "Extract\tN/A",                ID_TRUE_FILE_EXTRACT
+        MENUITEM "View\tN/A",                   ID_TRUE_FILE_VIEW
+        MENUITEM SEPARATOR
+        MENUITEM "Check Out\tN/A",              ID_TRUE_FILE_CHECK_OUT
+        MENUITEM "Wizard\tN/A",                 ID_TRUE_FILE_WIZARD
+        MENUITEM SEPARATOR
+        MENUITEM "New\tN/A",                    ID_256_FILE_NEW
+        MENUITEM "Open\tN/A",                   ID_256_FILE_OPEN
+        MENUITEM "Favorites\tN/A",              ID_256_FILE_FAVORITES
+        MENUITEM SEPARATOR
+        MENUITEM "Add\tN/A",                    ID_256_FILE_ADD
+        MENUITEM "Extract\tN/A",                ID_256_FILE_EXTRACT
+        MENUITEM "View\tN/A",                   ID_256_FILE_VIEW
+        MENUITEM SEPARATOR
+        MENUITEM "Check Out\tN/A",              ID_256_FILE_CHECK_OUT
+        MENUITEM "Wizard\tN/A",                 ID_256_FILE_WIZARD
+        MENUITEM SEPARATOR
+        MENUITEM "New\tN/A",                    ID_TRUE_FILE_NEW
+        MENUITEM "Open\tN/A",                   ID_TRUE_FILE_OPEN
+        MENUITEM "Favorites\tN/A",              ID_TRUE_FILE_FAVORITES
+        MENUITEM SEPARATOR
+        MENUITEM "Add\tN/A",                    ID_TRUE_FILE_ADD
+        MENUITEM "Extract\tN/A",                ID_TRUE_FILE_EXTRACT
+        MENUITEM "View\tN/A",                   ID_TRUE_FILE_VIEW
+        MENUITEM SEPARATOR
+        MENUITEM "Check Out\tN/A",              ID_TRUE_FILE_CHECK_OUT
+        MENUITEM "Wizard\tN/A",                 ID_TRUE_FILE_WIZARD
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About FunnyBars...",         ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS MOVEABLE PURE 
+BEGIN
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_CHILD_FORM DIALOG DISCARDABLE  0, 0, 250, 151
+STYLE WS_CHILD | WS_CLIPSIBLINGS | WS_CLIPCHILDREN
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Slider1",IDC_SLIDER_HTBB,"msctls_trackbar32",
+                    TBS_AUTOTICKS | TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,16,
+                    22,216,16
+    GROUPBOX        " Hot ToolBar Brightness ",IDC_GROUP_BOX_BRIGHTNESS,7,7,
+                    236,40
+    LTEXT           "Face Name:",IDC_STATIC_FONT_FACE_NAME,16,76,39,10
+    COMBOBOX        IDC_COMBO_FONT_FACE_NAME,61,74,174,139,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Width:",IDC_STATIC_FONT_WIDTH,16,91,35,10
+    EDITTEXT        IDC_EDIT_FONT_WIDTH,61,89,38,12,ES_AUTOHSCROLL
+    LTEXT           "Height:",IDC_STATIC_FONT_HEIGHT,16,105,36,10
+    EDITTEXT        IDC_EDIT_FONT_HEIGHT,61,103,38,12,ES_AUTOHSCROLL
+    CONTROL         "Bold",IDC_CHECK_FONT_BOLD,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,16,124,31,8
+    CONTROL         "Italic",IDC_CHECK_FONT_ITALIC,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,52,124,31,8
+    CONTROL         "Underline",IDC_CHECK_FONT_UNDERLINE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,89,124,45,8
+    CONTROL         "Strikeout",IDC_CHECK_FONT_STRIKEOUT,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,139,124,42,8
+    GROUPBOX        " UI font (g_PaintManager->m_fontNormal) ",
+                    IDC_GROUP_BOX_FONT,7,58,236,82
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 2,9,2,0
+ PRODUCTVERSION 2,9,2,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "This is part of the Professional User Interface Suite library (www.prof-uis.com)\0"
+            VALUE "CompanyName", "FOSS Software, Inc.\0"
+            VALUE "FileDescription", "FunnyBars MFC Application\0"
+            VALUE "FileVersion", " 2, 9, 2, 0\0"
+            VALUE "InternalName", "FunnyBars\0"
+            VALUE "LegalCopyright", "Copyright © 2001-2011 FOSS Software, Inc.\0"
+            VALUE "OriginalFilename", "FunnyBars.EXE\0"
+            VALUE "ProductName", "FunnyBars Application\0"
+            VALUE "ProductVersion", " 2, 9, 2, 0\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO MOVEABLE PURE 
+BEGIN
+    IDD_CHILD_FORM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 243
+        VERTGUIDE, 16
+        VERTGUIDE, 61
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 144
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "FunnyBars"
+    ID_VIEW_MENUBAR         "Show or hide the menubar\nToggle MenuBar"
+    IDR_TOOLBAR_SMALL_256_COLOR 
+                            "Show or hide the 256 color (16x16 buttons) toolbar\nToggle 256 Color (16x16 buttons) ToolBar"
+    IDR_TOOLBAR_BIG_TRUE_COLOR 
+                            "Show or hide the 16777216 color (44x40 buttons) toolbar\nToggle 16777216 Color (44x40 buttons) ToolBar"
+    ID_256_FILE_NEW         "New\nNew"
+    ID_256_FILE_OPEN        "Open\nOpen"
+    ID_256_FILE_FAVORITES   "Favorites\nFavorites"
+    ID_256_FILE_ADD         "Add\nAdd"
+    ID_256_FILE_EXTRACT     "Extract\nExtract"
+    ID_256_FILE_VIEW        "View\nView"
+    ID_256_FILE_CHECK_OUT   "Check Out\nCheck Out"
+    ID_256_FILE_WIZARD      "Wizard\nWizard"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_TRUE_FILE_NEW        "New\nNew"
+    ID_TRUE_FILE_OPEN       "Open\nOpen"
+    ID_TRUE_FILE_FAVORITES  "Favorites\nFavorites"
+    ID_TRUE_FILE_ADD        "Add\nAdd"
+    ID_TRUE_FILE_EXTRACT    "Extract\nExtract"
+    ID_TRUE_FILE_VIEW       "View\nView"
+    ID_TRUE_FILE_CHECK_OUT  "Check Out\nCheck Out"
+    ID_TRUE_FILE_WIZARD     "Wizard\nWizard"
+    IDR_TOOLBAR_BIG_TRUE_COLOR2 
+                            "Show or hide the Text + 16777216 color (44x40 buttons) toolbar\nToggle Text + 16777216 Color (44x40 buttons) ToolBar"
+    IDR_TOOLBAR_BIG_TRUE_COLOR3 
+                            "Show or hide the Hot + 16777216 color (44x40 buttons) toolbar\nToggle Hot + 16777216 Color (44x40 buttons) ToolBar"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "FunnyBars"
+    AFX_IDS_IDLEMESSAGE     "Ready"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Show or hide the standard toolbar\nToggle Standard ToolBar"
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle StatusBar"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\FunnyBars.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

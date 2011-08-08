@@ -1103,7 +1103,7 @@ ToolTipResult CScriptView::_DoToolTipParse(CPoint pt)
         sci::Script script;
         SyntaxContext context(stream.begin(), script);
         limiter.Limit(LineCol(pt.y, pt.x));
-        CCrystalScriptStream::const_iterator it = stream.begin();
+        CCrystalScriptStream::const_buffer_iterator it = stream.begin();
         
         class CToolTipSyntaxParserCallback : public ISyntaxParserCallback
         {

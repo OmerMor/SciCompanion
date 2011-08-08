@@ -1,0 +1,1603 @@
+﻿<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Static ANSI Debug RDE with MFC DLL|Win32">
+      <Configuration>Static ANSI Debug RDE with MFC DLL</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Static ANSI Debug RDE|Win32">
+      <Configuration>Static ANSI Debug RDE</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Static ANSI Debug with MFC DLL|Win32">
+      <Configuration>Static ANSI Debug with MFC DLL</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Static ANSI Debug|Win32">
+      <Configuration>Static ANSI Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Static ANSI Release RDE with MFC DLL|Win32">
+      <Configuration>Static ANSI Release RDE with MFC DLL</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Static ANSI Release RDE|Win32">
+      <Configuration>Static ANSI Release RDE</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Static ANSI Release with MFC DLL|Win32">
+      <Configuration>Static ANSI Release with MFC DLL</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Static ANSI Release|Win32">
+      <Configuration>Static ANSI Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Static MBCS Debug RDE with MFC DLL|Win32">
+      <Configuration>Static MBCS Debug RDE with MFC DLL</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Static MBCS Debug RDE|Win32">
+      <Configuration>Static MBCS Debug RDE</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Static MBCS Debug with MFC DLL|Win32">
+      <Configuration>Static MBCS Debug with MFC DLL</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Static MBCS Debug|Win32">
+      <Configuration>Static MBCS Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Static MBCS Release RDE with MFC DLL|Win32">
+      <Configuration>Static MBCS Release RDE with MFC DLL</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Static MBCS Release RDE|Win32">
+      <Configuration>Static MBCS Release RDE</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Static MBCS Release with MFC DLL|Win32">
+      <Configuration>Static MBCS Release with MFC DLL</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Static MBCS Release|Win32">
+      <Configuration>Static MBCS Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Static Unicode Debug RDE with MFC DLL|Win32">
+      <Configuration>Static Unicode Debug RDE with MFC DLL</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Static Unicode Debug RDE|Win32">
+      <Configuration>Static Unicode Debug RDE</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Static Unicode Debug with MFC DLL|Win32">
+      <Configuration>Static Unicode Debug with MFC DLL</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Static Unicode Debug|Win32">
+      <Configuration>Static Unicode Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Static Unicode Release RDE with MFC DLL|Win32">
+      <Configuration>Static Unicode Release RDE with MFC DLL</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Static Unicode Release RDE|Win32">
+      <Configuration>Static Unicode Release RDE</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Static Unicode Release with MFC DLL|Win32">
+      <Configuration>Static Unicode Release with MFC DLL</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Static Unicode Release|Win32">
+      <Configuration>Static Unicode Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>ProfSkinLIB</ProjectName>
+    <ProjectGUID>{5DEB6E19-71CD-45C4-A7EB-2D2F63F735C8}</ProjectGUID>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug RDE with MFC DLL|Win32'">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release with MFC DLL|Win32'">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug|Win32'">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug|Win32'">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release RDE|Win32'">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug RDE with MFC DLL|Win32'">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release|Win32'">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug RDE|Win32'">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug RDE|Win32'">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release RDE with MFC DLL|Win32'">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release RDE|Win32'">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug RDE with MFC DLL|Win32'">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug RDE|Win32'">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release with MFC DLL|Win32'">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release RDE with MFC DLL|Win32'">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug with MFC DLL|Win32'">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release|Win32'">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug with MFC DLL|Win32'">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug with MFC DLL|Win32'">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug|Win32'">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release|Win32'">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release with MFC DLL|Win32'">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release RDE with MFC DLL|Win32'">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release RDE|Win32'">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(LocalAppData)\Microsoft\VisualStudio\10.0\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(LocalAppData)\Microsoft\VisualStudio\10.0\Microsoft.Cpp.$(Platform).user.props')" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug RDE with MFC DLL|Win32'">
+    <Import Project="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.props" Condition="exists('$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.props')" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release with MFC DLL|Win32'">
+    <Import Project="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.props" Condition="exists('$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.props')" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug|Win32'">
+    <Import Project="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.props" Condition="exists('$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.props')" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug|Win32'">
+    <Import Project="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.props" Condition="exists('$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.props')" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release RDE|Win32'">
+    <Import Project="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.props" Condition="exists('$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.props')" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug RDE with MFC DLL|Win32'">
+    <Import Project="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.props" Condition="exists('$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.props')" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release|Win32'">
+    <Import Project="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.props" Condition="exists('$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.props')" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug RDE|Win32'">
+    <Import Project="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.props" Condition="exists('$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.props')" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug RDE|Win32'">
+    <Import Project="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.props" Condition="exists('$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.props')" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release RDE with MFC DLL|Win32'">
+    <Import Project="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.props" Condition="exists('$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.props')" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release RDE|Win32'">
+    <Import Project="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.props" Condition="exists('$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.props')" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug RDE with MFC DLL|Win32'">
+    <Import Project="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.props" Condition="exists('$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.props')" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug RDE|Win32'">
+    <Import Project="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.props" Condition="exists('$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.props')" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release with MFC DLL|Win32'">
+    <Import Project="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.props" Condition="exists('$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.props')" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release RDE with MFC DLL|Win32'">
+    <Import Project="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.props" Condition="exists('$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.props')" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug with MFC DLL|Win32'">
+    <Import Project="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.props" Condition="exists('$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.props')" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release|Win32'">
+    <Import Project="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.props" Condition="exists('$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.props')" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug with MFC DLL|Win32'">
+    <Import Project="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.props" Condition="exists('$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.props')" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug with MFC DLL|Win32'">
+    <Import Project="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.props" Condition="exists('$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.props')" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug|Win32'">
+    <Import Project="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.props" Condition="exists('$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.props')" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release|Win32'">
+    <Import Project="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.props" Condition="exists('$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.props')" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release with MFC DLL|Win32'">
+    <Import Project="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.props" Condition="exists('$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.props')" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release RDE with MFC DLL|Win32'">
+    <Import Project="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.props" Condition="exists('$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.props')" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release RDE|Win32'">
+    <Import Project="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.props" Condition="exists('$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.props')" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug RDE with MFC DLL|Win32'">..\Bin_1000\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug RDE with MFC DLL|Win32'">.\..\Bin_1000\StaticMbcsDebugRdeWithMfcDll\ProfSkinLIB\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug RDE with MFC DLL|Win32'">ProfSkin292ymd-RDE</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug RDE with MFC DLL|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release with MFC DLL|Win32'">..\Bin_1000\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release with MFC DLL|Win32'">.\..\Bin_1000\StaticMbcsReleaseWithMfcDll\ProfSkinLIB\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release with MFC DLL|Win32'">ProfSkin292ym</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release with MFC DLL|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug|Win32'">..\Bin_1000\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug|Win32'">.\..\Bin_1000\StaticUnicodeDebug\ProfSkinLIB\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug|Win32'">ProfSkin292sud</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug|Win32'">..\Bin_1000\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug|Win32'">.\..\Bin_1000\StaticAnsiDebug\ProfSkinLIB\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug|Win32'">ProfSkin292snd</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release RDE|Win32'">..\Bin_1000\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release RDE|Win32'">.\..\Bin_1000\StaticUnicodeReleaseRde\ProfSkinLIB\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release RDE|Win32'">ProfSkin292su-RDE</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release RDE|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug RDE with MFC DLL|Win32'">..\Bin_1000\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug RDE with MFC DLL|Win32'">.\..\Bin_1000\StaticAnsiDebugRdeWithMfcDll\ProfSkinLIB\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug RDE with MFC DLL|Win32'">ProfSkin292ynd-RDE</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug RDE with MFC DLL|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release|Win32'">..\Bin_1000\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release|Win32'">.\..\Bin_1000\StaticMbcsRelease\ProfSkinLIB\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release|Win32'">ProfSkin292sm</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug RDE|Win32'">..\Bin_1000\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug RDE|Win32'">.\..\Bin_1000\StaticMbcsDebugRde\ProfSkinLIB\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug RDE|Win32'">ProfSkin292smd-RDE</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug RDE|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug RDE|Win32'">..\Bin_1000\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug RDE|Win32'">.\..\Bin_1000\StaticUnicodeDebugRde\ProfSkinLIB\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug RDE|Win32'">ProfSkin292sud-RDE</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug RDE|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release RDE with MFC DLL|Win32'">..\Bin_1000\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release RDE with MFC DLL|Win32'">.\..\Bin_1000\StaticMbcsReleaseRdeWithMfcDll\ProfSkinLIB\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release RDE with MFC DLL|Win32'">ProfSkin292ym-RDE</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release RDE with MFC DLL|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release RDE|Win32'">..\Bin_1000\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release RDE|Win32'">.\..\Bin_1000\StaticMbcsReleaseRde\ProfSkinLIB\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release RDE|Win32'">ProfSkin292sm-RDE</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release RDE|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug RDE with MFC DLL|Win32'">..\Bin_1000\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug RDE with MFC DLL|Win32'">.\..\Bin_1000\StaticUnicodeDebugRdeWithMfcDll\ProfSkinLIB\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug RDE with MFC DLL|Win32'">ProfSkin292yud-RDE</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug RDE with MFC DLL|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug RDE|Win32'">..\Bin_1000\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug RDE|Win32'">.\..\Bin_1000\StaticAnsiDebugRde\ProfSkinLIB\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug RDE|Win32'">ProfSkin292snd-RDE</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug RDE|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release with MFC DLL|Win32'">..\Bin_1000\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release with MFC DLL|Win32'">.\..\Bin_1000\StaticUnicodeReleaseWithMfcDll\ProfSkinLIB\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release with MFC DLL|Win32'">ProfSkin292yu</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release with MFC DLL|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release RDE with MFC DLL|Win32'">..\Bin_1000\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release RDE with MFC DLL|Win32'">.\..\Bin_1000\StaticAnsiReleaseRdeWithMfcDll\ProfSkinLIB\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release RDE with MFC DLL|Win32'">ProfSkin292yn-RDE</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release RDE with MFC DLL|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug with MFC DLL|Win32'">..\Bin_1000\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug with MFC DLL|Win32'">.\..\Bin_1000\StaticUnicodeDebugWithMfcDll\ProfSkinLIB\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug with MFC DLL|Win32'">ProfSkin292yud</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug with MFC DLL|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release|Win32'">..\Bin_1000\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release|Win32'">.\..\Bin_1000\StaticAnsiRelease\ProfSkinLIB\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release|Win32'">ProfSkin292sn</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug with MFC DLL|Win32'">..\Bin_1000\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug with MFC DLL|Win32'">.\..\Bin_1000\StaticMbcsDebugWithMfcDll\ProfSkinLIB\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug with MFC DLL|Win32'">ProfSkin292ymd</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug with MFC DLL|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug with MFC DLL|Win32'">..\Bin_1000\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug with MFC DLL|Win32'">.\..\Bin_1000\StaticAnsiDebugWithMfcDll\ProfSkinLIB\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug with MFC DLL|Win32'">ProfSkin292ynd</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug with MFC DLL|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug|Win32'">..\Bin_1000\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug|Win32'">.\..\Bin_1000\StaticMbcsDebug\ProfSkinLIB\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug|Win32'">ProfSkin292smd</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release|Win32'">..\Bin_1000\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release|Win32'">.\..\Bin_1000\StaticUnicodeRelease\ProfSkinLIB\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release|Win32'">ProfSkin292su</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release with MFC DLL|Win32'">..\Bin_1000\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release with MFC DLL|Win32'">.\..\Bin_1000\StaticAnsiReleaseWithMfcDll\ProfSkinLIB\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release with MFC DLL|Win32'">ProfSkin292yn</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release with MFC DLL|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release RDE with MFC DLL|Win32'">..\Bin_1000\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release RDE with MFC DLL|Win32'">.\..\Bin_1000\StaticUnicodeReleaseRdeWithMfcDll\ProfSkinLIB\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release RDE with MFC DLL|Win32'">ProfSkin292yu-RDE</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release RDE with MFC DLL|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release RDE|Win32'">..\Bin_1000\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release RDE|Win32'">.\..\Bin_1000\StaticAnsiReleaseRde\ProfSkinLIB\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release RDE|Win32'">ProfSkin292sn-RDE</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release RDE|Win32'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug RDE with MFC DLL|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\include;..\UsedLibs\LibPNG;..\UsedLibs\ZLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;__STATPROFUIS_WITH_DLLMFC__;__PROF_SKIN_IMPL__;_WIN32_WINNT=0x0500;_WIN32_IE=0x0400;WIN32;_WINDOWS;__PROF_UIS_FOR_REGULAR_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\..\Bin_1000\StaticMbcsDebugRdeWithMfcDll\ProfSkinLIB/ProfSkinLIB_1000.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\..\Bin_1000\StaticMbcsDebugRdeWithMfcDll\ProfSkinLIB/</AssemblerListingLocation>
+      <ObjectFileName>.\..\Bin_1000\StaticMbcsDebugRdeWithMfcDll\ProfSkinLIB/</ObjectFileName>
+      <ProgramDataBaseFileName>.\..\Bin_1000\StaticMbcsDebugRdeWithMfcDll\ProfSkinLIB/</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;__STATPROFUIS_WITH_DLLMFC__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0419</Culture>
+      <AdditionalIncludeDirectories>..\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Lib>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Lib>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\..\Bin_1000/ProfSkinLIB_1000.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release with MFC DLL|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>..\include;..\UsedLibs\LibPNG;..\UsedLibs\ZLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;__STATPROFUIS_WITH_DLLMFC__;__PROF_SKIN_IMPL__;_WIN32_WINNT=0x0500;_WIN32_IE=0x0400;WIN32;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\..\Bin_1000\StaticMbcsReleaseWithMfcDll\ProfSkinLIB/ProfSkinLIB_1000.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\..\Bin_1000\StaticMbcsReleaseWithMfcDll\ProfSkinLIB/</AssemblerListingLocation>
+      <ObjectFileName>.\..\Bin_1000\StaticMbcsReleaseWithMfcDll\ProfSkinLIB/</ObjectFileName>
+      <ProgramDataBaseFileName>.\..\Bin_1000\StaticMbcsReleaseWithMfcDll\ProfSkinLIB/</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;__STATPROFUIS_WITH_DLLMFC__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0419</Culture>
+      <AdditionalIncludeDirectories>..\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Lib>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Lib>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\..\Bin_1000/ProfSkinLIB_1000.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\include;..\UsedLibs\LibPNG;..\UsedLibs\ZLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;__PROF_SKIN_IMPL__;_WIN32_WINNT=0x0500;_WIN32_IE=0x0400;WIN32;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\..\Bin_1000\StaticUnicodeDebug\ProfSkinLIB/ProfSkinLIB_1000.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\..\Bin_1000\StaticUnicodeDebug\ProfSkinLIB/</AssemblerListingLocation>
+      <ObjectFileName>.\..\Bin_1000\StaticUnicodeDebug\ProfSkinLIB/</ObjectFileName>
+      <ProgramDataBaseFileName>.\..\Bin_1000\StaticUnicodeDebug\ProfSkinLIB/</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0419</Culture>
+      <AdditionalIncludeDirectories>..\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Lib>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Lib>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\..\Bin_1000/ProfSkinLIB_1000.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\include;..\UsedLibs\LibPNG;..\UsedLibs\ZLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;__PROF_SKIN_IMPL__;_WIN32_WINNT=0x0500;_WIN32_IE=0x0400;WIN32;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\..\Bin_1000\StaticAnsiDebug\ProfSkinLIB/ProfSkinLIB_1000.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\..\Bin_1000\StaticAnsiDebug\ProfSkinLIB/</AssemblerListingLocation>
+      <ObjectFileName>.\..\Bin_1000\StaticAnsiDebug\ProfSkinLIB/</ObjectFileName>
+      <ProgramDataBaseFileName>.\..\Bin_1000\StaticAnsiDebug\ProfSkinLIB/</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0419</Culture>
+      <AdditionalIncludeDirectories>..\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Lib>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Lib>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\..\Bin_1000/ProfSkinLIB_1000.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release RDE|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>..\include;..\UsedLibs\LibPNG;..\UsedLibs\ZLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;__PROF_SKIN_IMPL__;_WIN32_WINNT=0x0500;_WIN32_IE=0x0400;WIN32;_WINDOWS;__PROF_UIS_FOR_REGULAR_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\..\Bin_1000\StaticUnicodeReleaseRde\ProfSkinLIB/ProfSkinLIB_1000.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\..\Bin_1000\StaticUnicodeReleaseRde\ProfSkinLIB/</AssemblerListingLocation>
+      <ObjectFileName>.\..\Bin_1000\StaticUnicodeReleaseRde\ProfSkinLIB/</ObjectFileName>
+      <ProgramDataBaseFileName>.\..\Bin_1000\StaticUnicodeReleaseRde\ProfSkinLIB/</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0419</Culture>
+      <AdditionalIncludeDirectories>..\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Lib>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Lib>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\..\Bin_1000/ProfSkinLIB_1000.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug RDE with MFC DLL|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\include;..\UsedLibs\LibPNG;..\UsedLibs\ZLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;__STATPROFUIS_WITH_DLLMFC__;__PROF_SKIN_IMPL__;_WIN32_WINNT=0x0500;_WIN32_IE=0x0400;WIN32;_WINDOWS;__PROF_UIS_FOR_REGULAR_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\..\Bin_1000\StaticAnsiDebugRdeWithMfcDll\ProfSkinLIB/ProfSkinLIB_1000.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\..\Bin_1000\StaticAnsiDebugRdeWithMfcDll\ProfSkinLIB/</AssemblerListingLocation>
+      <ObjectFileName>.\..\Bin_1000\StaticAnsiDebugRdeWithMfcDll\ProfSkinLIB/</ObjectFileName>
+      <ProgramDataBaseFileName>.\..\Bin_1000\StaticAnsiDebugRdeWithMfcDll\ProfSkinLIB/</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;__STATPROFUIS_WITH_DLLMFC__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0419</Culture>
+      <AdditionalIncludeDirectories>..\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Lib>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Lib>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\..\Bin_1000/ProfSkinLIB_1000.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>..\include;..\UsedLibs\LibPNG;..\UsedLibs\ZLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;__PROF_SKIN_IMPL__;_WIN32_WINNT=0x0500;_WIN32_IE=0x0400;WIN32;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\..\Bin_1000\StaticMbcsRelease\ProfSkinLIB/ProfSkinLIB_1000.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\..\Bin_1000\StaticMbcsRelease\ProfSkinLIB/</AssemblerListingLocation>
+      <ObjectFileName>.\..\Bin_1000\StaticMbcsRelease\ProfSkinLIB/</ObjectFileName>
+      <ProgramDataBaseFileName>.\..\Bin_1000\StaticMbcsRelease\ProfSkinLIB/</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0419</Culture>
+      <AdditionalIncludeDirectories>..\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Lib>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Lib>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\..\Bin_1000/ProfSkinLIB_1000.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug RDE|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\include;..\UsedLibs\LibPNG;..\UsedLibs\ZLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;__PROF_SKIN_IMPL__;_WIN32_WINNT=0x0500;_WIN32_IE=0x0400;WIN32;_WINDOWS;__PROF_UIS_FOR_REGULAR_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\..\Bin_1000\StaticMbcsDebugRde\ProfSkinLIB/ProfSkinLIB_1000.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\..\Bin_1000\StaticMbcsDebugRde\ProfSkinLIB/</AssemblerListingLocation>
+      <ObjectFileName>.\..\Bin_1000\StaticMbcsDebugRde\ProfSkinLIB/</ObjectFileName>
+      <ProgramDataBaseFileName>.\..\Bin_1000\StaticMbcsDebugRde\ProfSkinLIB/</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0419</Culture>
+      <AdditionalIncludeDirectories>..\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Lib>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Lib>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\..\Bin_1000/ProfSkinLIB_1000.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug RDE|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\include;..\UsedLibs\LibPNG;..\UsedLibs\ZLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;__PROF_SKIN_IMPL__;_WIN32_WINNT=0x0500;_WIN32_IE=0x0400;WIN32;_WINDOWS;__PROF_UIS_FOR_REGULAR_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\..\Bin_1000\StaticUnicodeDebugRde\ProfSkinLIB/ProfSkinLIB_1000.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\..\Bin_1000\StaticUnicodeDebugRde\ProfSkinLIB/</AssemblerListingLocation>
+      <ObjectFileName>.\..\Bin_1000\StaticUnicodeDebugRde\ProfSkinLIB/</ObjectFileName>
+      <ProgramDataBaseFileName>.\..\Bin_1000\StaticUnicodeDebugRde\ProfSkinLIB/</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0419</Culture>
+      <AdditionalIncludeDirectories>..\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Lib>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Lib>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\..\Bin_1000/ProfSkinLIB_1000.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release RDE with MFC DLL|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>..\include;..\UsedLibs\LibPNG;..\UsedLibs\ZLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;__STATPROFUIS_WITH_DLLMFC__;__PROF_SKIN_IMPL__;_WIN32_WINNT=0x0500;_WIN32_IE=0x0400;WIN32;_WINDOWS;__PROF_UIS_FOR_REGULAR_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\..\Bin_1000\StaticMbcsReleaseRdeWithMfcDll\ProfSkinLIB/ProfSkinLIB_1000.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\..\Bin_1000\StaticMbcsReleaseRdeWithMfcDll\ProfSkinLIB/</AssemblerListingLocation>
+      <ObjectFileName>.\..\Bin_1000\StaticMbcsReleaseRdeWithMfcDll\ProfSkinLIB/</ObjectFileName>
+      <ProgramDataBaseFileName>.\..\Bin_1000\StaticMbcsReleaseRdeWithMfcDll\ProfSkinLIB/</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;__STATPROFUIS_WITH_DLLMFC__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0419</Culture>
+      <AdditionalIncludeDirectories>..\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Lib>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Lib>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\..\Bin_1000/ProfSkinLIB_1000.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release RDE|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>..\include;..\UsedLibs\LibPNG;..\UsedLibs\ZLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;__PROF_SKIN_IMPL__;_WIN32_WINNT=0x0500;_WIN32_IE=0x0400;WIN32;_WINDOWS;__PROF_UIS_FOR_REGULAR_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\..\Bin_1000\StaticMbcsReleaseRde\ProfSkinLIB/ProfSkinLIB_1000.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\..\Bin_1000\StaticMbcsReleaseRde\ProfSkinLIB/</AssemblerListingLocation>
+      <ObjectFileName>.\..\Bin_1000\StaticMbcsReleaseRde\ProfSkinLIB/</ObjectFileName>
+      <ProgramDataBaseFileName>.\..\Bin_1000\StaticMbcsReleaseRde\ProfSkinLIB/</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0419</Culture>
+      <AdditionalIncludeDirectories>..\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Lib>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Lib>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\..\Bin_1000/ProfSkinLIB_1000.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug RDE with MFC DLL|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\include;..\UsedLibs\LibPNG;..\UsedLibs\ZLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;__STATPROFUIS_WITH_DLLMFC__;__PROF_SKIN_IMPL__;_WIN32_WINNT=0x0500;_WIN32_IE=0x0400;WIN32;_WINDOWS;__PROF_UIS_FOR_REGULAR_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\..\Bin_1000\StaticUnicodeDebugRdeWithMfcDll\ProfSkinLIB/ProfSkinLIB_1000.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\..\Bin_1000\StaticUnicodeDebugRdeWithMfcDll\ProfSkinLIB/</AssemblerListingLocation>
+      <ObjectFileName>.\..\Bin_1000\StaticUnicodeDebugRdeWithMfcDll\ProfSkinLIB/</ObjectFileName>
+      <ProgramDataBaseFileName>.\..\Bin_1000\StaticUnicodeDebugRdeWithMfcDll\ProfSkinLIB/</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;__STATPROFUIS_WITH_DLLMFC__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0419</Culture>
+      <AdditionalIncludeDirectories>..\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Lib>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Lib>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\..\Bin_1000/ProfSkinLIB_1000.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug RDE|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\include;..\UsedLibs\LibPNG;..\UsedLibs\ZLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;__PROF_SKIN_IMPL__;_WIN32_WINNT=0x0500;_WIN32_IE=0x0400;WIN32;_WINDOWS;__PROF_UIS_FOR_REGULAR_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\..\Bin_1000\StaticAnsiDebugRde\ProfSkinLIB/ProfSkinLIB_1000.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\..\Bin_1000\StaticAnsiDebugRde\ProfSkinLIB/</AssemblerListingLocation>
+      <ObjectFileName>.\..\Bin_1000\StaticAnsiDebugRde\ProfSkinLIB/</ObjectFileName>
+      <ProgramDataBaseFileName>.\..\Bin_1000\StaticAnsiDebugRde\ProfSkinLIB/</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0419</Culture>
+      <AdditionalIncludeDirectories>..\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Lib>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Lib>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\..\Bin_1000/ProfSkinLIB_1000.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release with MFC DLL|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>..\include;..\UsedLibs\LibPNG;..\UsedLibs\ZLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;__STATPROFUIS_WITH_DLLMFC__;__PROF_SKIN_IMPL__;_WIN32_WINNT=0x0500;_WIN32_IE=0x0400;WIN32;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\..\Bin_1000\StaticUnicodeReleaseWithMfcDll\ProfSkinLIB/ProfSkinLIB_1000.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\..\Bin_1000\StaticUnicodeReleaseWithMfcDll\ProfSkinLIB/</AssemblerListingLocation>
+      <ObjectFileName>.\..\Bin_1000\StaticUnicodeReleaseWithMfcDll\ProfSkinLIB/</ObjectFileName>
+      <ProgramDataBaseFileName>.\..\Bin_1000\StaticUnicodeReleaseWithMfcDll\ProfSkinLIB/</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;__STATPROFUIS_WITH_DLLMFC__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0419</Culture>
+      <AdditionalIncludeDirectories>..\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Lib>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Lib>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\..\Bin_1000/ProfSkinLIB_1000.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release RDE with MFC DLL|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>..\include;..\UsedLibs\LibPNG;..\UsedLibs\ZLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;__STATPROFUIS_WITH_DLLMFC__;__PROF_SKIN_IMPL__;_WIN32_WINNT=0x0500;_WIN32_IE=0x0400;WIN32;_WINDOWS;__PROF_UIS_FOR_REGULAR_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\..\Bin_1000\StaticAnsiReleaseRdeWithMfcDll\ProfSkinLIB/ProfSkinLIB_1000.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\..\Bin_1000\StaticAnsiReleaseRdeWithMfcDll\ProfSkinLIB/</AssemblerListingLocation>
+      <ObjectFileName>.\..\Bin_1000\StaticAnsiReleaseRdeWithMfcDll\ProfSkinLIB/</ObjectFileName>
+      <ProgramDataBaseFileName>.\..\Bin_1000\StaticAnsiReleaseRdeWithMfcDll\ProfSkinLIB/</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;__STATPROFUIS_WITH_DLLMFC__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0419</Culture>
+      <AdditionalIncludeDirectories>..\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Lib>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Lib>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\..\Bin_1000/ProfSkinLIB_1000.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug with MFC DLL|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\include;..\UsedLibs\LibPNG;..\UsedLibs\ZLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;__STATPROFUIS_WITH_DLLMFC__;__PROF_SKIN_IMPL__;_WIN32_WINNT=0x0500;_WIN32_IE=0x0400;WIN32;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\..\Bin_1000\StaticUnicodeDebugWithMfcDll\ProfSkinLIB/ProfSkinLIB_1000.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\..\Bin_1000\StaticUnicodeDebugWithMfcDll\ProfSkinLIB/</AssemblerListingLocation>
+      <ObjectFileName>.\..\Bin_1000\StaticUnicodeDebugWithMfcDll\ProfSkinLIB/</ObjectFileName>
+      <ProgramDataBaseFileName>.\..\Bin_1000\StaticUnicodeDebugWithMfcDll\ProfSkinLIB/</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;__STATPROFUIS_WITH_DLLMFC__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0419</Culture>
+      <AdditionalIncludeDirectories>..\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Lib>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Lib>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\..\Bin_1000/ProfSkinLIB_1000.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>..\include;..\UsedLibs\LibPNG;..\UsedLibs\ZLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;__PROF_SKIN_IMPL__;_WIN32_WINNT=0x0500;_WIN32_IE=0x0400;WIN32;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\..\Bin_1000\StaticAnsiRelease\ProfSkinLIB/ProfSkinLIB_1000.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\..\Bin_1000\StaticAnsiRelease\ProfSkinLIB/</AssemblerListingLocation>
+      <ObjectFileName>.\..\Bin_1000\StaticAnsiRelease\ProfSkinLIB/</ObjectFileName>
+      <ProgramDataBaseFileName>.\..\Bin_1000\StaticAnsiRelease\ProfSkinLIB/</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0419</Culture>
+      <AdditionalIncludeDirectories>..\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Lib>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Lib>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\..\Bin_1000/ProfSkinLIB_1000.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug with MFC DLL|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\include;..\UsedLibs\LibPNG;..\UsedLibs\ZLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;__STATPROFUIS_WITH_DLLMFC__;__PROF_SKIN_IMPL__;_WIN32_WINNT=0x0500;_WIN32_IE=0x0400;WIN32;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\..\Bin_1000\StaticMbcsDebugWithMfcDll\ProfSkinLIB/ProfSkinLIB_1000.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\..\Bin_1000\StaticMbcsDebugWithMfcDll\ProfSkinLIB/</AssemblerListingLocation>
+      <ObjectFileName>.\..\Bin_1000\StaticMbcsDebugWithMfcDll\ProfSkinLIB/</ObjectFileName>
+      <ProgramDataBaseFileName>.\..\Bin_1000\StaticMbcsDebugWithMfcDll\ProfSkinLIB/</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;__STATPROFUIS_WITH_DLLMFC__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0419</Culture>
+      <AdditionalIncludeDirectories>..\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Lib>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Lib>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\..\Bin_1000/ProfSkinLIB_1000.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug with MFC DLL|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\include;..\UsedLibs\LibPNG;..\UsedLibs\ZLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;__STATPROFUIS_WITH_DLLMFC__;__PROF_SKIN_IMPL__;_WIN32_WINNT=0x0500;_WIN32_IE=0x0400;WIN32;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\..\Bin_1000\StaticAnsiDebugWithMfcDll\ProfSkinLIB/ProfSkinLIB_1000.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\..\Bin_1000\StaticAnsiDebugWithMfcDll\ProfSkinLIB/</AssemblerListingLocation>
+      <ObjectFileName>.\..\Bin_1000\StaticAnsiDebugWithMfcDll\ProfSkinLIB/</ObjectFileName>
+      <ProgramDataBaseFileName>.\..\Bin_1000\StaticAnsiDebugWithMfcDll\ProfSkinLIB/</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;__STATPROFUIS_WITH_DLLMFC__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0419</Culture>
+      <AdditionalIncludeDirectories>..\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Lib>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Lib>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\..\Bin_1000/ProfSkinLIB_1000.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\include;..\UsedLibs\LibPNG;..\UsedLibs\ZLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;__PROF_SKIN_IMPL__;_WIN32_WINNT=0x0500;_WIN32_IE=0x0400;WIN32;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\..\Bin_1000\StaticMbcsDebug\ProfSkinLIB/ProfSkinLIB_1000.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\..\Bin_1000\StaticMbcsDebug\ProfSkinLIB/</AssemblerListingLocation>
+      <ObjectFileName>.\..\Bin_1000\StaticMbcsDebug\ProfSkinLIB/</ObjectFileName>
+      <ProgramDataBaseFileName>.\..\Bin_1000\StaticMbcsDebug\ProfSkinLIB/</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0419</Culture>
+      <AdditionalIncludeDirectories>..\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Lib>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Lib>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\..\Bin_1000/ProfSkinLIB_1000.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>..\include;..\UsedLibs\LibPNG;..\UsedLibs\ZLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;__PROF_SKIN_IMPL__;_WIN32_WINNT=0x0500;_WIN32_IE=0x0400;WIN32;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\..\Bin_1000\StaticUnicodeRelease\ProfSkinLIB/ProfSkinLIB_1000.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\..\Bin_1000\StaticUnicodeRelease\ProfSkinLIB/</AssemblerListingLocation>
+      <ObjectFileName>.\..\Bin_1000\StaticUnicodeRelease\ProfSkinLIB/</ObjectFileName>
+      <ProgramDataBaseFileName>.\..\Bin_1000\StaticUnicodeRelease\ProfSkinLIB/</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0419</Culture>
+      <AdditionalIncludeDirectories>..\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Lib>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Lib>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\..\Bin_1000/ProfSkinLIB_1000.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release with MFC DLL|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>..\include;..\UsedLibs\LibPNG;..\UsedLibs\ZLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;__STATPROFUIS_WITH_DLLMFC__;__PROF_SKIN_IMPL__;_WIN32_WINNT=0x0500;_WIN32_IE=0x0400;WIN32;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\..\Bin_1000\StaticAnsiReleaseWithMfcDll\ProfSkinLIB/ProfSkinLIB_1000.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\..\Bin_1000\StaticAnsiReleaseWithMfcDll\ProfSkinLIB/</AssemblerListingLocation>
+      <ObjectFileName>.\..\Bin_1000\StaticAnsiReleaseWithMfcDll\ProfSkinLIB/</ObjectFileName>
+      <ProgramDataBaseFileName>.\..\Bin_1000\StaticAnsiReleaseWithMfcDll\ProfSkinLIB/</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;__STATPROFUIS_WITH_DLLMFC__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0419</Culture>
+      <AdditionalIncludeDirectories>..\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Lib>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Lib>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\..\Bin_1000/ProfSkinLIB_1000.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release RDE with MFC DLL|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>..\include;..\UsedLibs\LibPNG;..\UsedLibs\ZLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;__STATPROFUIS_WITH_DLLMFC__;__PROF_SKIN_IMPL__;_WIN32_WINNT=0x0500;_WIN32_IE=0x0400;WIN32;_WINDOWS;__PROF_UIS_FOR_REGULAR_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\..\Bin_1000\StaticUnicodeReleaseRdeWithMfcDll\ProfSkinLIB/ProfSkinLIB_1000.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\..\Bin_1000\StaticUnicodeReleaseRdeWithMfcDll\ProfSkinLIB/</AssemblerListingLocation>
+      <ObjectFileName>.\..\Bin_1000\StaticUnicodeReleaseRdeWithMfcDll\ProfSkinLIB/</ObjectFileName>
+      <ProgramDataBaseFileName>.\..\Bin_1000\StaticUnicodeReleaseRdeWithMfcDll\ProfSkinLIB/</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;__STATPROFUIS_WITH_DLLMFC__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0419</Culture>
+      <AdditionalIncludeDirectories>..\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Lib>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Lib>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\..\Bin_1000/ProfSkinLIB_1000.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release RDE|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>..\include;..\UsedLibs\LibPNG;..\UsedLibs\ZLib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;__PROF_SKIN_IMPL__;_WIN32_WINNT=0x0500;_WIN32_IE=0x0400;WIN32;_WINDOWS;__PROF_UIS_FOR_REGULAR_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\..\Bin_1000\StaticAnsiReleaseRde\ProfSkinLIB/ProfSkinLIB_1000.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\..\Bin_1000\StaticAnsiReleaseRde\ProfSkinLIB/</AssemblerListingLocation>
+      <ObjectFileName>.\..\Bin_1000\StaticAnsiReleaseRde\ProfSkinLIB/</ObjectFileName>
+      <ProgramDataBaseFileName>.\..\Bin_1000\StaticAnsiReleaseRde\ProfSkinLIB/</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0419</Culture>
+      <AdditionalIncludeDirectories>..\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Lib>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Lib>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\..\Bin_1000/ProfSkinLIB_1000.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="ExtSkinBitmap.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug RDE with MFC DLL|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug RDE with MFC DLL|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug RDE with MFC DLL|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release with MFC DLL|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release with MFC DLL|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release with MFC DLL|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release RDE|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release RDE|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release RDE|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug RDE with MFC DLL|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug RDE with MFC DLL|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug RDE with MFC DLL|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug RDE|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug RDE|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug RDE|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug RDE|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug RDE|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug RDE|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release RDE with MFC DLL|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release RDE with MFC DLL|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release RDE with MFC DLL|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release RDE|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release RDE|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release RDE|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug RDE with MFC DLL|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug RDE with MFC DLL|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug RDE with MFC DLL|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug RDE|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug RDE|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug RDE|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release with MFC DLL|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release with MFC DLL|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release with MFC DLL|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release RDE with MFC DLL|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release RDE with MFC DLL|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release RDE with MFC DLL|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug with MFC DLL|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug with MFC DLL|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug with MFC DLL|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug with MFC DLL|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug with MFC DLL|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug with MFC DLL|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug with MFC DLL|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug with MFC DLL|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug with MFC DLL|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release with MFC DLL|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release with MFC DLL|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release with MFC DLL|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release RDE with MFC DLL|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release RDE with MFC DLL|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release RDE with MFC DLL|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release RDE|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release RDE|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release RDE|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="ExtSkinItem.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug RDE with MFC DLL|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug RDE with MFC DLL|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug RDE with MFC DLL|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release with MFC DLL|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release with MFC DLL|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release with MFC DLL|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release RDE|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release RDE|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release RDE|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug RDE with MFC DLL|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug RDE with MFC DLL|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug RDE with MFC DLL|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug RDE|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug RDE|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug RDE|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug RDE|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug RDE|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug RDE|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release RDE with MFC DLL|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release RDE with MFC DLL|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release RDE with MFC DLL|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release RDE|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release RDE|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release RDE|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug RDE with MFC DLL|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug RDE with MFC DLL|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug RDE with MFC DLL|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug RDE|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug RDE|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug RDE|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release with MFC DLL|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release with MFC DLL|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release with MFC DLL|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release RDE with MFC DLL|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release RDE with MFC DLL|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release RDE with MFC DLL|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug with MFC DLL|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug with MFC DLL|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug with MFC DLL|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug with MFC DLL|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug with MFC DLL|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug with MFC DLL|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug with MFC DLL|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug with MFC DLL|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug with MFC DLL|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release with MFC DLL|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release with MFC DLL|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release with MFC DLL|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release RDE with MFC DLL|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release RDE with MFC DLL|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release RDE with MFC DLL|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release RDE|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release RDE|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release RDE|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="ExtSkinPaintManager.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug RDE with MFC DLL|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug RDE with MFC DLL|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug RDE with MFC DLL|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release with MFC DLL|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release with MFC DLL|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release with MFC DLL|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release RDE|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release RDE|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release RDE|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug RDE with MFC DLL|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug RDE with MFC DLL|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug RDE with MFC DLL|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug RDE|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug RDE|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug RDE|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug RDE|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug RDE|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug RDE|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release RDE with MFC DLL|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release RDE with MFC DLL|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release RDE with MFC DLL|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release RDE|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release RDE|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release RDE|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug RDE with MFC DLL|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug RDE with MFC DLL|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug RDE with MFC DLL|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug RDE|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug RDE|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug RDE|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release with MFC DLL|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release with MFC DLL|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release with MFC DLL|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release RDE with MFC DLL|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release RDE with MFC DLL|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release RDE with MFC DLL|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug with MFC DLL|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug with MFC DLL|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug with MFC DLL|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug with MFC DLL|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug with MFC DLL|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug with MFC DLL|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug with MFC DLL|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug with MFC DLL|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug with MFC DLL|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release with MFC DLL|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release with MFC DLL|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release with MFC DLL|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release RDE with MFC DLL|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release RDE with MFC DLL|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release RDE with MFC DLL|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release RDE|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release RDE|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release RDE|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="ProfSkin.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug RDE with MFC DLL|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug RDE with MFC DLL|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug RDE with MFC DLL|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release with MFC DLL|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release with MFC DLL|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release with MFC DLL|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release RDE|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release RDE|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release RDE|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug RDE with MFC DLL|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug RDE with MFC DLL|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug RDE with MFC DLL|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug RDE|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug RDE|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug RDE|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug RDE|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug RDE|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug RDE|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release RDE with MFC DLL|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release RDE with MFC DLL|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release RDE with MFC DLL|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release RDE|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release RDE|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release RDE|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug RDE with MFC DLL|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug RDE with MFC DLL|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug RDE with MFC DLL|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug RDE|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug RDE|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug RDE|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release with MFC DLL|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release with MFC DLL|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release with MFC DLL|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release RDE with MFC DLL|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release RDE with MFC DLL|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release RDE with MFC DLL|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug with MFC DLL|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug with MFC DLL|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug with MFC DLL|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug with MFC DLL|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug with MFC DLL|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug with MFC DLL|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug with MFC DLL|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug with MFC DLL|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug with MFC DLL|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release with MFC DLL|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release with MFC DLL|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release with MFC DLL|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release RDE with MFC DLL|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release RDE with MFC DLL|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release RDE with MFC DLL|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release RDE|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release RDE|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release RDE|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug RDE with MFC DLL|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug RDE with MFC DLL|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug RDE with MFC DLL|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug RDE with MFC DLL|Win32'">Create</PrecompiledHeader>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release with MFC DLL|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release with MFC DLL|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release with MFC DLL|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release with MFC DLL|Win32'">Create</PrecompiledHeader>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug|Win32'">Create</PrecompiledHeader>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug|Win32'">Create</PrecompiledHeader>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release RDE|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release RDE|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release RDE|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release RDE|Win32'">Create</PrecompiledHeader>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug RDE with MFC DLL|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug RDE with MFC DLL|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug RDE with MFC DLL|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug RDE with MFC DLL|Win32'">Create</PrecompiledHeader>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release|Win32'">Create</PrecompiledHeader>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug RDE|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug RDE|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug RDE|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug RDE|Win32'">Create</PrecompiledHeader>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug RDE|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug RDE|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug RDE|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug RDE|Win32'">Create</PrecompiledHeader>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release RDE with MFC DLL|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release RDE with MFC DLL|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release RDE with MFC DLL|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release RDE with MFC DLL|Win32'">Create</PrecompiledHeader>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release RDE|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release RDE|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release RDE|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Static MBCS Release RDE|Win32'">Create</PrecompiledHeader>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug RDE with MFC DLL|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug RDE with MFC DLL|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug RDE with MFC DLL|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug RDE with MFC DLL|Win32'">Create</PrecompiledHeader>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug RDE|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug RDE|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug RDE|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug RDE|Win32'">Create</PrecompiledHeader>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release with MFC DLL|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release with MFC DLL|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release with MFC DLL|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release with MFC DLL|Win32'">Create</PrecompiledHeader>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release RDE with MFC DLL|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release RDE with MFC DLL|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release RDE with MFC DLL|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release RDE with MFC DLL|Win32'">Create</PrecompiledHeader>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug with MFC DLL|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug with MFC DLL|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug with MFC DLL|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Static Unicode Debug with MFC DLL|Win32'">Create</PrecompiledHeader>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release|Win32'">Create</PrecompiledHeader>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug with MFC DLL|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug with MFC DLL|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug with MFC DLL|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug with MFC DLL|Win32'">Create</PrecompiledHeader>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug with MFC DLL|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug with MFC DLL|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug with MFC DLL|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Static ANSI Debug with MFC DLL|Win32'">Create</PrecompiledHeader>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Static MBCS Debug|Win32'">Create</PrecompiledHeader>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release|Win32'">Create</PrecompiledHeader>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release with MFC DLL|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release with MFC DLL|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release with MFC DLL|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release with MFC DLL|Win32'">Create</PrecompiledHeader>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release RDE with MFC DLL|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release RDE with MFC DLL|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release RDE with MFC DLL|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Static Unicode Release RDE with MFC DLL|Win32'">Create</PrecompiledHeader>
+      <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release RDE|Win32'">/Zm512 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release RDE|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release RDE|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Static ANSI Release RDE|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ExtSkinBitmap.h" />
+    <ClInclude Include="ExtSkinItem.h" />
+    <ClInclude Include="ExtSkinPaintManager.h" />
+    <ClInclude Include="ProfSkin.h" />
+    <ClInclude Include="StdAfx.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

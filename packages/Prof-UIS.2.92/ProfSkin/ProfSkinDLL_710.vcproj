@@ -1,0 +1,1454 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="7.10"
+	Name="ProfSkinDLL"
+	ProjectGUID="{5DF9CB57-CEFC-43C9-8A37-3DA252C96F7E}"
+	SccProjectName=""
+	SccLocalPath=""
+	Keyword="MFCProj">
+	<Platforms>
+		<Platform
+			Name="Win32"/>
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="MBCS Release|Win32"
+			OutputDirectory=".\..\Bin_710"
+			IntermediateDirectory=".\..\Bin_710\MbcsRelease\ProfSkinDLL"
+			ConfigurationType="2"
+			UseOfMFC="2"
+			UseOfATL="1"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="1"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories="..\include,..\UsedLibs\LibPNG,..\UsedLibs\ZLib"
+				PreprocessorDefinitions="NDEBUG;WIN32;_WINDOWS;_AFXEXT;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;__PROF_SKIN_IMPL__"
+				StringPooling="TRUE"
+				RuntimeLibrary="2"
+				EnableFunctionLevelLinking="TRUE"
+				RuntimeTypeInfo="TRUE"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\Bin_710\MbcsRelease\ProfSkinDLL/ProfSkinDLL_710.pch"
+				AssemblerListingLocation=".\..\Bin_710\MbcsRelease\ProfSkinDLL/"
+				ObjectFile=".\..\Bin_710\MbcsRelease\ProfSkinDLL/"
+				ProgramDataBaseFileName=".\..\Bin_710\MbcsRelease\ProfSkinDLL/"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				CompileAs="0"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\Bin_710\ProfSkin292m.dll"
+				LinkIncremental="1"
+				SuppressStartupBanner="TRUE"
+				AdditionalLibraryDirectories="..\Bin_710"
+				ProgramDatabaseFile=".\..\Bin_710/ProfSkin292m.pdb"
+				SubSystem="2"
+				ImportLibrary=".\..\Bin_710/ProfSkin292m.lib"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				TypeLibraryName=".\..\Bin_710/ProfSkinDLL_710.tlb"
+				HeaderFileName=""/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG"
+				Culture="1033"
+				AdditionalIncludeDirectories="..\Include"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+			<Tool
+				Name="VCManagedWrapperGeneratorTool"/>
+			<Tool
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+		</Configuration>
+		<Configuration
+			Name="ANSI Debug|Win32"
+			OutputDirectory=".\..\Bin_710"
+			IntermediateDirectory=".\..\Bin_710\AnsiDebug\ProfSkinDLL"
+			ConfigurationType="2"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE">
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="0"
+				AdditionalIncludeDirectories="..\include,..\UsedLibs\LibPNG,..\UsedLibs\ZLib"
+				PreprocessorDefinitions="_DEBUG;WIN32;_WINDOWS;_AFXEXT;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;__PROF_SKIN_IMPL__"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="3"
+				RuntimeTypeInfo="TRUE"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\Bin_710\AnsiDebug\ProfSkinDLL/ProfSkinDLL_710.pch"
+				AssemblerListingLocation=".\..\Bin_710\AnsiDebug\ProfSkinDLL/"
+				ObjectFile=".\..\Bin_710\AnsiDebug\ProfSkinDLL/"
+				ProgramDataBaseFileName=".\..\Bin_710\AnsiDebug\ProfSkinDLL/"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				DebugInformationFormat="4"
+				CompileAs="0"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\Bin_710\ProfSkin292nd.dll"
+				LinkIncremental="2"
+				SuppressStartupBanner="TRUE"
+				AdditionalLibraryDirectories="..\Bin_710"
+				GenerateDebugInformation="TRUE"
+				SubSystem="2"
+				ImportLibrary=".\..\Bin_710/ProfSkin292nd.lib"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				TypeLibraryName=".\..\Bin_710/ProfSkinDLL_710.tlb"
+				HeaderFileName=""/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_DEBUG"
+				Culture="1033"
+				AdditionalIncludeDirectories="..\Include"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+			<Tool
+				Name="VCManagedWrapperGeneratorTool"/>
+			<Tool
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+		</Configuration>
+		<Configuration
+			Name="MBCS Release RDE|Win32"
+			OutputDirectory=".\..\Bin_710"
+			IntermediateDirectory=".\..\Bin_710\MbcsReleaseRDE\ProfSkinDLL"
+			ConfigurationType="2"
+			UseOfMFC="2"
+			UseOfATL="1"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="1"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories="..\include,..\UsedLibs\LibPNG,..\UsedLibs\ZLib"
+				PreprocessorDefinitions="NDEBUG;WIN32;_WINDOWS;_AFXEXT;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;__PROF_SKIN_IMPL__;__PROF_UIS_FOR_REGULAR_DLL"
+				StringPooling="TRUE"
+				RuntimeLibrary="2"
+				EnableFunctionLevelLinking="TRUE"
+				RuntimeTypeInfo="TRUE"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\Bin_710\MbcsReleaseRDE\ProfSkinDLL/ProfSkinDLL_710.pch"
+				AssemblerListingLocation=".\..\Bin_710\MbcsReleaseRDE\ProfSkinDLL/"
+				ObjectFile=".\..\Bin_710\MbcsReleaseRDE\ProfSkinDLL/"
+				ProgramDataBaseFileName=".\..\Bin_710\MbcsReleaseRDE\ProfSkinDLL/"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				CompileAs="0"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\Bin_710\ProfSkin292m-RDE.dll"
+				LinkIncremental="1"
+				SuppressStartupBanner="TRUE"
+				AdditionalLibraryDirectories="..\Bin_710"
+				ProgramDatabaseFile=".\..\Bin_710/ProfSkin292m-RDE.pdb"
+				SubSystem="2"
+				ImportLibrary=".\..\Bin_710/ProfSkin292m-RDE.lib"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				TypeLibraryName=".\..\Bin_710/ProfSkinDLL_710.tlb"
+				HeaderFileName=""/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG"
+				Culture="1033"
+				AdditionalIncludeDirectories="..\Include"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+			<Tool
+				Name="VCManagedWrapperGeneratorTool"/>
+			<Tool
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+		</Configuration>
+		<Configuration
+			Name="Unicode Release|Win32"
+			OutputDirectory=".\..\Bin_710"
+			IntermediateDirectory=".\..\Bin_710\UnicodeRelease\ProfSkinDLL"
+			ConfigurationType="2"
+			UseOfMFC="2"
+			UseOfATL="1"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="1">
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="1"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories="..\include,..\UsedLibs\LibPNG,..\UsedLibs\ZLib"
+				PreprocessorDefinitions="NDEBUG;WIN32;_WINDOWS;_AFXEXT;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;__PROF_SKIN_IMPL__"
+				StringPooling="TRUE"
+				RuntimeLibrary="2"
+				EnableFunctionLevelLinking="TRUE"
+				RuntimeTypeInfo="TRUE"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\Bin_710\UnicodeRelease\ProfSkinDLL/ProfSkinDLL_710.pch"
+				AssemblerListingLocation=".\..\Bin_710\UnicodeRelease\ProfSkinDLL/"
+				ObjectFile=".\..\Bin_710\UnicodeRelease\ProfSkinDLL/"
+				ProgramDataBaseFileName=".\..\Bin_710\UnicodeRelease\ProfSkinDLL/"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				CompileAs="0"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\Bin_710\ProfSkin292u.dll"
+				LinkIncremental="1"
+				SuppressStartupBanner="TRUE"
+				AdditionalLibraryDirectories="..\Bin_710"
+				ProgramDatabaseFile=".\..\Bin_710/ProfSkin292u.pdb"
+				SubSystem="2"
+				ImportLibrary=".\..\Bin_710/ProfSkin292u.lib"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				TypeLibraryName=".\..\Bin_710/ProfSkinDLL_710.tlb"
+				HeaderFileName=""/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG"
+				Culture="1033"
+				AdditionalIncludeDirectories="..\Include"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+			<Tool
+				Name="VCManagedWrapperGeneratorTool"/>
+			<Tool
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+		</Configuration>
+		<Configuration
+			Name="ANSI Release|Win32"
+			OutputDirectory=".\..\Bin_710"
+			IntermediateDirectory=".\..\Bin_710\AnsiRelease\ProfSkinDLL"
+			ConfigurationType="2"
+			UseOfMFC="2"
+			UseOfATL="1"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE">
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="1"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories="..\include,..\UsedLibs\LibPNG,..\UsedLibs\ZLib"
+				PreprocessorDefinitions="NDEBUG;WIN32;_WINDOWS;_AFXEXT;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;__PROF_SKIN_IMPL__"
+				StringPooling="TRUE"
+				RuntimeLibrary="2"
+				EnableFunctionLevelLinking="TRUE"
+				RuntimeTypeInfo="TRUE"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\Bin_710\AnsiRelease\ProfSkinDLL/ProfSkinDLL_710.pch"
+				AssemblerListingLocation=".\..\Bin_710\AnsiRelease\ProfSkinDLL/"
+				ObjectFile=".\..\Bin_710\AnsiRelease\ProfSkinDLL/"
+				ProgramDataBaseFileName=".\..\Bin_710\AnsiRelease\ProfSkinDLL/"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				CompileAs="0"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\Bin_710\ProfSkin292n.dll"
+				LinkIncremental="1"
+				SuppressStartupBanner="TRUE"
+				AdditionalLibraryDirectories="..\Bin_710"
+				ProgramDatabaseFile=".\..\Bin_710/ProfSkin292n.pdb"
+				SubSystem="2"
+				ImportLibrary=".\..\Bin_710/ProfSkin292n.lib"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				TypeLibraryName=".\..\Bin_710/ProfSkinDLL_710.tlb"
+				HeaderFileName=""/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG"
+				Culture="1033"
+				AdditionalIncludeDirectories="..\Include"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+			<Tool
+				Name="VCManagedWrapperGeneratorTool"/>
+			<Tool
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+		</Configuration>
+		<Configuration
+			Name="Unicode Debug|Win32"
+			OutputDirectory=".\..\Bin_710"
+			IntermediateDirectory=".\..\Bin_710\UnicodeDebug\ProfSkinDLL"
+			ConfigurationType="2"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="1">
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="0"
+				AdditionalIncludeDirectories="..\include,..\UsedLibs\LibPNG,..\UsedLibs\ZLib"
+				PreprocessorDefinitions="_DEBUG;WIN32;_WINDOWS;_AFXEXT;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;__PROF_SKIN_IMPL__"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="3"
+				RuntimeTypeInfo="TRUE"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\Bin_710\UnicodeDebug\ProfSkinDLL/ProfSkinDLL_710.pch"
+				AssemblerListingLocation=".\..\Bin_710\UnicodeDebug\ProfSkinDLL/"
+				ObjectFile=".\..\Bin_710\UnicodeDebug\ProfSkinDLL/"
+				ProgramDataBaseFileName=".\..\Bin_710\UnicodeDebug\ProfSkinDLL/"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				DebugInformationFormat="4"
+				CompileAs="0"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\Bin_710\ProfSkin292ud.dll"
+				LinkIncremental="1"
+				SuppressStartupBanner="TRUE"
+				AdditionalLibraryDirectories="..\Bin_710"
+				GenerateDebugInformation="TRUE"
+				ProgramDatabaseFile=".\..\Bin_710/ProfSkin292ud.pdb"
+				SubSystem="2"
+				ImportLibrary=".\..\Bin_710/ProfSkin292ud.lib"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				TypeLibraryName=".\..\Bin_710/ProfSkinDLL_710.tlb"
+				HeaderFileName=""/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_DEBUG"
+				Culture="1033"
+				AdditionalIncludeDirectories="..\Include"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+			<Tool
+				Name="VCManagedWrapperGeneratorTool"/>
+			<Tool
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+		</Configuration>
+		<Configuration
+			Name="ANSI Release RDE|Win32"
+			OutputDirectory=".\..\Bin_710"
+			IntermediateDirectory=".\..\Bin_710\AnsiReleaseRDE\ProfSkinDLL"
+			ConfigurationType="2"
+			UseOfMFC="2"
+			UseOfATL="1"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE">
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="1"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories="..\include,..\UsedLibs\LibPNG,..\UsedLibs\ZLib"
+				PreprocessorDefinitions="NDEBUG;WIN32;_WINDOWS;_AFXEXT;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;__PROF_SKIN_IMPL__;__PROF_UIS_FOR_REGULAR_DLL"
+				StringPooling="TRUE"
+				RuntimeLibrary="2"
+				EnableFunctionLevelLinking="TRUE"
+				RuntimeTypeInfo="TRUE"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\Bin_710\AnsiReleaseRDE\ProfSkinDLL/ProfSkinDLL_710.pch"
+				AssemblerListingLocation=".\..\Bin_710\AnsiReleaseRDE\ProfSkinDLL/"
+				ObjectFile=".\..\Bin_710\AnsiReleaseRDE\ProfSkinDLL/"
+				ProgramDataBaseFileName=".\..\Bin_710\AnsiReleaseRDE\ProfSkinDLL/"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				CompileAs="0"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\Bin_710\ProfSkin292n-RDE.dll"
+				LinkIncremental="1"
+				SuppressStartupBanner="TRUE"
+				AdditionalLibraryDirectories="..\Bin_710"
+				ProgramDatabaseFile=".\..\Bin_710/ProfSkin292n-RDE.pdb"
+				SubSystem="2"
+				ImportLibrary=".\..\Bin_710/ProfSkin292n-RDE.lib"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				TypeLibraryName=".\..\Bin_710/ProfSkinDLL_710.tlb"
+				HeaderFileName=""/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG"
+				Culture="1033"
+				AdditionalIncludeDirectories="..\Include"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+			<Tool
+				Name="VCManagedWrapperGeneratorTool"/>
+			<Tool
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+		</Configuration>
+		<Configuration
+			Name="MBCS Debug RDE|Win32"
+			OutputDirectory=".\..\Bin_710"
+			IntermediateDirectory=".\..\Bin_710\MbcsDebugRDE\ProfSkinDLL"
+			ConfigurationType="2"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="0"
+				AdditionalIncludeDirectories="..\include,..\UsedLibs\LibPNG,..\UsedLibs\ZLib"
+				PreprocessorDefinitions="_DEBUG;WIN32;_WINDOWS;_AFXEXT;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;__PROF_SKIN_IMPL__;__PROF_UIS_FOR_REGULAR_DLL"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="3"
+				RuntimeTypeInfo="TRUE"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\Bin_710\MbcsDebugRDE\ProfSkinDLL/ProfSkinDLL_710.pch"
+				AssemblerListingLocation=".\..\Bin_710\MbcsDebugRDE\ProfSkinDLL/"
+				ObjectFile=".\..\Bin_710\MbcsDebugRDE\ProfSkinDLL/"
+				ProgramDataBaseFileName=".\..\Bin_710\MbcsDebugRDE\ProfSkinDLL/"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				DebugInformationFormat="4"
+				CompileAs="0"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\Bin_710\ProfSkin292md-RDE.dll"
+				LinkIncremental="2"
+				SuppressStartupBanner="TRUE"
+				AdditionalLibraryDirectories="..\Bin_710"
+				GenerateDebugInformation="TRUE"
+				SubSystem="2"
+				ImportLibrary=".\..\Bin_710/ProfSkin292md-RDE.lib"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				TypeLibraryName=".\..\Bin_710/ProfSkinDLL_710.tlb"
+				HeaderFileName=""/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_DEBUG"
+				Culture="1033"
+				AdditionalIncludeDirectories="..\Include"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+			<Tool
+				Name="VCManagedWrapperGeneratorTool"/>
+			<Tool
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+		</Configuration>
+		<Configuration
+			Name="MBCS Debug|Win32"
+			OutputDirectory=".\..\Bin_710"
+			IntermediateDirectory=".\..\Bin_710\MbcsDebug\ProfSkinDLL"
+			ConfigurationType="2"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="0"
+				AdditionalIncludeDirectories="..\include,..\UsedLibs\LibPNG,..\UsedLibs\ZLib"
+				PreprocessorDefinitions="_DEBUG;WIN32;_WINDOWS;_AFXEXT;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;__PROF_SKIN_IMPL__"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="3"
+				RuntimeTypeInfo="TRUE"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\Bin_710\MbcsDebug\ProfSkinDLL/ProfSkinDLL_710.pch"
+				AssemblerListingLocation=".\..\Bin_710\MbcsDebug\ProfSkinDLL/"
+				ObjectFile=".\..\Bin_710\MbcsDebug\ProfSkinDLL/"
+				ProgramDataBaseFileName=".\..\Bin_710\MbcsDebug\ProfSkinDLL/"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				DebugInformationFormat="4"
+				CompileAs="0"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\Bin_710\ProfSkin292md.dll"
+				LinkIncremental="2"
+				SuppressStartupBanner="TRUE"
+				AdditionalLibraryDirectories="..\Bin_710"
+				GenerateDebugInformation="TRUE"
+				SubSystem="2"
+				ImportLibrary=".\..\Bin_710/ProfSkin292md.lib"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				TypeLibraryName=".\..\Bin_710/ProfSkinDLL_710.tlb"
+				HeaderFileName=""/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_DEBUG"
+				Culture="1033"
+				AdditionalIncludeDirectories="..\Include"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+			<Tool
+				Name="VCManagedWrapperGeneratorTool"/>
+			<Tool
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+		</Configuration>
+		<Configuration
+			Name="Unicode Debug RDE|Win32"
+			OutputDirectory=".\..\Bin_710"
+			IntermediateDirectory=".\..\Bin_710\UnicodeDebugRDE\ProfSkinDLL"
+			ConfigurationType="2"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="1">
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="0"
+				AdditionalIncludeDirectories="..\include,..\UsedLibs\LibPNG,..\UsedLibs\ZLib"
+				PreprocessorDefinitions="_DEBUG;WIN32;_WINDOWS;_AFXEXT;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;__PROF_SKIN_IMPL__;__PROF_UIS_FOR_REGULAR_DLL"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="3"
+				RuntimeTypeInfo="TRUE"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\Bin_710\UnicodeDebugRDE\ProfSkinDLL/ProfSkinDLL_710.pch"
+				AssemblerListingLocation=".\..\Bin_710\UnicodeDebugRDE\ProfSkinDLL/"
+				ObjectFile=".\..\Bin_710\UnicodeDebugRDE\ProfSkinDLL/"
+				ProgramDataBaseFileName=".\..\Bin_710\UnicodeDebugRDE\ProfSkinDLL/"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				DebugInformationFormat="4"
+				CompileAs="0"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\Bin_710\ProfSkin292ud-RDE.dll"
+				LinkIncremental="1"
+				SuppressStartupBanner="TRUE"
+				AdditionalLibraryDirectories="..\Bin_710"
+				GenerateDebugInformation="TRUE"
+				ProgramDatabaseFile=".\..\Bin_710/ProfSkin292ud-RDE.pdb"
+				SubSystem="2"
+				ImportLibrary=".\..\Bin_710/ProfSkin292ud-RDE.lib"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				TypeLibraryName=".\..\Bin_710/ProfSkinDLL_710.tlb"
+				HeaderFileName=""/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_DEBUG"
+				Culture="1033"
+				AdditionalIncludeDirectories="..\Include"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+			<Tool
+				Name="VCManagedWrapperGeneratorTool"/>
+			<Tool
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+		</Configuration>
+		<Configuration
+			Name="Unicode Release RDE|Win32"
+			OutputDirectory=".\..\Bin_710"
+			IntermediateDirectory=".\..\Bin_710\UnicodeReleaseRDE\ProfSkinDLL"
+			ConfigurationType="2"
+			UseOfMFC="2"
+			UseOfATL="1"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="1">
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="1"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories="..\include,..\UsedLibs\LibPNG,..\UsedLibs\ZLib"
+				PreprocessorDefinitions="NDEBUG;WIN32;_WINDOWS;_AFXEXT;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;__PROF_SKIN_IMPL__;__PROF_UIS_FOR_REGULAR_DLL"
+				StringPooling="TRUE"
+				RuntimeLibrary="2"
+				EnableFunctionLevelLinking="TRUE"
+				RuntimeTypeInfo="TRUE"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\Bin_710\UnicodeReleaseRDE\ProfSkinDLL/ProfSkinDLL_710.pch"
+				AssemblerListingLocation=".\..\Bin_710\UnicodeReleaseRDE\ProfSkinDLL/"
+				ObjectFile=".\..\Bin_710\UnicodeReleaseRDE\ProfSkinDLL/"
+				ProgramDataBaseFileName=".\..\Bin_710\UnicodeReleaseRDE\ProfSkinDLL/"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				CompileAs="0"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\Bin_710\ProfSkin292u-RDE.dll"
+				LinkIncremental="1"
+				SuppressStartupBanner="TRUE"
+				AdditionalLibraryDirectories="..\Bin_710"
+				ProgramDatabaseFile=".\..\Bin_710/ProfSkin292u-RDE.pdb"
+				SubSystem="2"
+				ImportLibrary=".\..\Bin_710/ProfSkin292u-RDE.lib"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				TypeLibraryName=".\..\Bin_710/ProfSkinDLL_710.tlb"
+				HeaderFileName=""/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG"
+				Culture="1033"
+				AdditionalIncludeDirectories="..\Include"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+			<Tool
+				Name="VCManagedWrapperGeneratorTool"/>
+			<Tool
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+		</Configuration>
+		<Configuration
+			Name="ANSI Debug RDE|Win32"
+			OutputDirectory=".\..\Bin_710"
+			IntermediateDirectory=".\..\Bin_710\AnsiDebugRDE\ProfSkinDLL"
+			ConfigurationType="2"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE">
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="0"
+				AdditionalIncludeDirectories="..\include,..\UsedLibs\LibPNG,..\UsedLibs\ZLib"
+				PreprocessorDefinitions="_DEBUG;WIN32;_WINDOWS;_AFXEXT;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;__PROF_SKIN_IMPL__;__PROF_UIS_FOR_REGULAR_DLL"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="3"
+				RuntimeTypeInfo="TRUE"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\Bin_710\AnsiDebugRDE\ProfSkinDLL/ProfSkinDLL_710.pch"
+				AssemblerListingLocation=".\..\Bin_710\AnsiDebugRDE\ProfSkinDLL/"
+				ObjectFile=".\..\Bin_710\AnsiDebugRDE\ProfSkinDLL/"
+				ProgramDataBaseFileName=".\..\Bin_710\AnsiDebugRDE\ProfSkinDLL/"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				DebugInformationFormat="4"
+				CompileAs="0"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\Bin_710\ProfSkin292nd-RDE.dll"
+				LinkIncremental="2"
+				SuppressStartupBanner="TRUE"
+				AdditionalLibraryDirectories="..\Bin_710"
+				GenerateDebugInformation="TRUE"
+				SubSystem="2"
+				ImportLibrary=".\..\Bin_710/ProfSkin292nd-RDE.lib"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				TypeLibraryName=".\..\Bin_710/ProfSkinDLL_710.tlb"
+				HeaderFileName=""/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_DEBUG"
+				Culture="1033"
+				AdditionalIncludeDirectories="..\Include"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+			<Tool
+				Name="VCManagedWrapperGeneratorTool"/>
+			<Tool
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+		</Configuration>
+	</Configurations>
+	<References>
+	</References>
+	<Files>
+		<Filter
+			Name="Source Files"
+			Filter="cpp;c;cxx;rc;def;r;odl;idl;hpj;bat">
+			<File
+				RelativePath="ExtSkinBitmap.cpp">
+				<FileConfiguration
+					Name="MBCS Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="1"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Release RDE|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="1"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="1"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="NDEBUG;_UNICODE;_ATL_STATIC_REGISTRY;WIN32;_WINDOWS;_WINDLL;_AFXDLL;_AFXEXT;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;__PROF_SKIN_IMPL__;$(NoInherit)"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="1"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="_DEBUG;_UNICODE;WIN32;_WINDOWS;_WINDLL;_AFXDLL;_AFXEXT;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;__PROF_SKIN_IMPL__;$(NoInherit)"
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Release RDE|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="1"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Debug RDE|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug RDE|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="_DEBUG;_UNICODE;WIN32;_WINDOWS;_WINDLL;_AFXDLL;_AFXEXT;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;__PROF_SKIN_IMPL__;__PROF_UIS_FOR_REGULAR_DLL;$(NoInherit)"
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release RDE|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="1"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="NDEBUG;_UNICODE;_ATL_STATIC_REGISTRY;WIN32;_WINDOWS;_WINDLL;_AFXDLL;_AFXEXT;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;__PROF_SKIN_IMPL__;__PROF_UIS_FOR_REGULAR_DLL;$(NoInherit)"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Debug RDE|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="ExtSkinItem.cpp">
+				<FileConfiguration
+					Name="MBCS Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="1"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Release RDE|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="1"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="1"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="NDEBUG;_UNICODE;_ATL_STATIC_REGISTRY;WIN32;_WINDOWS;_WINDLL;_AFXDLL;_AFXEXT;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;__PROF_SKIN_IMPL__;$(NoInherit)"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="1"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="_DEBUG;_UNICODE;WIN32;_WINDOWS;_WINDLL;_AFXDLL;_AFXEXT;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;__PROF_SKIN_IMPL__;$(NoInherit)"
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Release RDE|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="1"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Debug RDE|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug RDE|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="_DEBUG;_UNICODE;WIN32;_WINDOWS;_WINDLL;_AFXDLL;_AFXEXT;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;__PROF_SKIN_IMPL__;__PROF_UIS_FOR_REGULAR_DLL;$(NoInherit)"
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release RDE|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="1"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="NDEBUG;_UNICODE;_ATL_STATIC_REGISTRY;WIN32;_WINDOWS;_WINDLL;_AFXDLL;_AFXEXT;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;__PROF_SKIN_IMPL__;__PROF_UIS_FOR_REGULAR_DLL;$(NoInherit)"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Debug RDE|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="ExtSkinPaintManager.cpp">
+				<FileConfiguration
+					Name="MBCS Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="1"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Release RDE|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="1"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="1"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="NDEBUG;_UNICODE;_ATL_STATIC_REGISTRY;WIN32;_WINDOWS;_WINDLL;_AFXDLL;_AFXEXT;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;__PROF_SKIN_IMPL__;$(NoInherit)"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="1"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="_DEBUG;_UNICODE;WIN32;_WINDOWS;_WINDLL;_AFXDLL;_AFXEXT;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;__PROF_SKIN_IMPL__;$(NoInherit)"
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Release RDE|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="1"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Debug RDE|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug RDE|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="_DEBUG;_UNICODE;WIN32;_WINDOWS;_WINDLL;_AFXDLL;_AFXEXT;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;__PROF_SKIN_IMPL__;__PROF_UIS_FOR_REGULAR_DLL;$(NoInherit)"
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release RDE|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="1"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="NDEBUG;_UNICODE;_ATL_STATIC_REGISTRY;WIN32;_WINDOWS;_WINDLL;_AFXDLL;_AFXEXT;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;__PROF_SKIN_IMPL__;__PROF_UIS_FOR_REGULAR_DLL;$(NoInherit)"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Debug RDE|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="ProfSkin.cpp">
+				<FileConfiguration
+					Name="MBCS Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="1"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Release RDE|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="1"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="1"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="NDEBUG;_UNICODE;_ATL_STATIC_REGISTRY;WIN32;_WINDOWS;_WINDLL;_AFXDLL;_AFXEXT;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;__PROF_SKIN_IMPL__;$(NoInherit)"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="1"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="_DEBUG;_UNICODE;WIN32;_WINDOWS;_WINDLL;_AFXDLL;_AFXEXT;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;__PROF_SKIN_IMPL__;$(NoInherit)"
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Release RDE|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="1"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Debug RDE|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug RDE|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="_DEBUG;_UNICODE;WIN32;_WINDOWS;_WINDLL;_AFXDLL;_AFXEXT;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;__PROF_SKIN_IMPL__;__PROF_UIS_FOR_REGULAR_DLL;$(NoInherit)"
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release RDE|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="1"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="NDEBUG;_UNICODE;_ATL_STATIC_REGISTRY;WIN32;_WINDOWS;_WINDLL;_AFXDLL;_AFXEXT;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;__PROF_SKIN_IMPL__;__PROF_UIS_FOR_REGULAR_DLL;$(NoInherit)"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Debug RDE|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="ProfSkin.rc">
+				<FileConfiguration
+					Name="MBCS Release|Win32">
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Debug|Win32">
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Release RDE|Win32">
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|Win32">
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions="NDEBUG;_AFXDLL;$(NoInherit)"
+						AdditionalIncludeDirectories=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Release|Win32">
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|Win32">
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions="_DEBUG;_AFXDLL;$(NoInherit)"
+						AdditionalIncludeDirectories=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Release RDE|Win32">
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Debug RDE|Win32">
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Debug|Win32">
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug RDE|Win32">
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions="_DEBUG;_AFXDLL;$(NoInherit)"
+						AdditionalIncludeDirectories=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release RDE|Win32">
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions="NDEBUG;_AFXDLL;$(NoInherit)"
+						AdditionalIncludeDirectories=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Debug RDE|Win32">
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="StdAfx.cpp">
+				<FileConfiguration
+					Name="MBCS Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="1"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Release RDE|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="1"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="1"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="NDEBUG;_UNICODE;_ATL_STATIC_REGISTRY;WIN32;_WINDOWS;_WINDLL;_AFXDLL;_AFXEXT;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;__PROF_SKIN_IMPL__;$(NoInherit)"
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="1"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="_DEBUG;_UNICODE;WIN32;_WINDOWS;_WINDLL;_AFXDLL;_AFXEXT;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;__PROF_SKIN_IMPL__;$(NoInherit)"
+						BasicRuntimeChecks="3"
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Release RDE|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="1"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Debug RDE|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug RDE|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="_DEBUG;_UNICODE;WIN32;_WINDOWS;_WINDLL;_AFXDLL;_AFXEXT;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;__PROF_SKIN_IMPL__;__PROF_UIS_FOR_REGULAR_DLL;$(NoInherit)"
+						BasicRuntimeChecks="3"
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release RDE|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="1"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="NDEBUG;_UNICODE;_ATL_STATIC_REGISTRY;WIN32;_WINDOWS;_WINDLL;_AFXDLL;_AFXEXT;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;__PROF_SKIN_IMPL__;__PROF_UIS_FOR_REGULAR_DLL;$(NoInherit)"
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Debug RDE|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+			</File>
+		</Filter>
+		<Filter
+			Name="Header Files"
+			Filter="h;hpp;hxx;hm;inl">
+			<File
+				RelativePath="ExtSkinBitmap.h">
+			</File>
+			<File
+				RelativePath="ExtSkinItem.h">
+			</File>
+			<File
+				RelativePath="ExtSkinPaintManager.h">
+			</File>
+			<File
+				RelativePath="ProfSkin.h">
+			</File>
+			<File
+				RelativePath="Resource.h">
+			</File>
+			<File
+				RelativePath="StdAfx.h">
+			</File>
+		</Filter>
+		<Filter
+			Name="Resource Files"
+			Filter="ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe">
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

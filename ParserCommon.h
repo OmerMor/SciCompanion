@@ -28,7 +28,8 @@ inline void _DoComment(TContext *pContext, const _It &streamBegin, const _It &st
 {
     std::string comment;
     // Transfer to string:
-    copy(streamBegin, streamEnd, back_inserter(comment));
+	//TODO: OMER - uncomment next line
+    //copy(streamBegin, streamEnd, back_inserter(comment));
     // Create a new Comment syntax node and add it to the script
     auto_ptr<sci::Comment> pComment(new sci::Comment());
     pComment->SetPosition(streamBegin.GetPosition());

@@ -1,0 +1,2043 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="7.10"
+	Name="FunnyBars"
+	SccProjectName=""
+	SccLocalPath=""
+	Keyword="MFCProj">
+	<Platforms>
+		<Platform
+			Name="Win32"/>
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="MBCS Debug|Win32"
+			OutputDirectory=".\..\..\Bin_710"
+			IntermediateDirectory=".\..\..\Bin_710\MbcsDebug\FunnyBars"
+			ConfigurationType="1"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="0"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="_DEBUG;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="3"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_710\MbcsDebug\FunnyBars/FunnyBars_710.pch"
+				AssemblerListingLocation=".\..\..\Bin_710\MbcsDebug\FunnyBars/"
+				ObjectFile=".\..\..\Bin_710\MbcsDebug\FunnyBars/"
+				ProgramDataBaseFileName=".\..\..\Bin_710\MbcsDebug\FunnyBars/"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				DebugInformationFormat="4"
+				CompileAs="0"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_710/FunnyBars-md.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="TRUE"
+				AdditionalLibraryDirectories="..\..\Bin_710"
+				GenerateDebugInformation="TRUE"
+				ProgramDatabaseFile=".\..\..\Bin_710/FunnyBars-md.pdb"
+				SubSystem="2"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="_DEBUG"
+				MkTypLibCompatible="TRUE"
+				SuppressStartupBanner="TRUE"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_710/FunnyBars_710.tlb"
+				HeaderFileName=""/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_DEBUG"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+			<Tool
+				Name="VCManagedWrapperGeneratorTool"/>
+			<Tool
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+		</Configuration>
+		<Configuration
+			Name="MBCS Release|Win32"
+			OutputDirectory=".\..\..\Bin_710"
+			IntermediateDirectory=".\..\..\Bin_710\MbcsRelease\FunnyBars"
+			ConfigurationType="1"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="2"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="NDEBUG;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				StringPooling="TRUE"
+				RuntimeLibrary="2"
+				EnableFunctionLevelLinking="TRUE"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_710\MbcsRelease\FunnyBars/FunnyBars_710.pch"
+				AssemblerListingLocation=".\..\..\Bin_710\MbcsRelease\FunnyBars/"
+				ObjectFile=".\..\..\Bin_710\MbcsRelease\FunnyBars/"
+				ProgramDataBaseFileName=".\..\..\Bin_710\MbcsRelease\FunnyBars/"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				CompileAs="0"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_710/FunnyBars-m.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="TRUE"
+				AdditionalLibraryDirectories="..\..\Bin_710"
+				ProgramDatabaseFile=".\..\..\Bin_710/FunnyBars-m.pdb"
+				SubSystem="2"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="NDEBUG"
+				MkTypLibCompatible="TRUE"
+				SuppressStartupBanner="TRUE"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_710/FunnyBars_710.tlb"
+				HeaderFileName=""/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+			<Tool
+				Name="VCManagedWrapperGeneratorTool"/>
+			<Tool
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+		</Configuration>
+		<Configuration
+			Name="Static MBCS Debug|Win32"
+			OutputDirectory=".\..\..\Bin_710"
+			IntermediateDirectory=".\..\..\Bin_710\StaticMbcsDebug\FunnyBars"
+			ConfigurationType="1"
+			UseOfMFC="1"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="0"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="_DEBUG;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="1"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_710\StaticMbcsDebug\FunnyBars/FunnyBars_710.pch"
+				AssemblerListingLocation=".\..\..\Bin_710\StaticMbcsDebug\FunnyBars/"
+				ObjectFile=".\..\..\Bin_710\StaticMbcsDebug\FunnyBars/"
+				ProgramDataBaseFileName=".\..\..\Bin_710\StaticMbcsDebug\FunnyBars/"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				DebugInformationFormat="4"
+				CompileAs="0"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_710/FunnyBars-smd.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="TRUE"
+				AdditionalLibraryDirectories="..\..\Bin_710"
+				GenerateDebugInformation="TRUE"
+				ProgramDatabaseFile=".\..\..\Bin_710/FunnyBars-smd.pdb"
+				SubSystem="2"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="_DEBUG"
+				MkTypLibCompatible="TRUE"
+				SuppressStartupBanner="TRUE"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_710/FunnyBars_710.tlb"
+				HeaderFileName=""/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_DEBUG"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+			<Tool
+				Name="VCManagedWrapperGeneratorTool"/>
+			<Tool
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+		</Configuration>
+		<Configuration
+			Name="Static MBCS Release|Win32"
+			OutputDirectory=".\..\..\Bin_710"
+			IntermediateDirectory=".\..\..\Bin_710\StaticMbcsRelease\FunnyBars"
+			ConfigurationType="1"
+			UseOfMFC="1"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="2"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="NDEBUG;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				StringPooling="TRUE"
+				RuntimeLibrary="0"
+				EnableFunctionLevelLinking="TRUE"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_710\StaticMbcsRelease\FunnyBars/FunnyBars_710.pch"
+				AssemblerListingLocation=".\..\..\Bin_710\StaticMbcsRelease\FunnyBars/"
+				ObjectFile=".\..\..\Bin_710\StaticMbcsRelease\FunnyBars/"
+				ProgramDataBaseFileName=".\..\..\Bin_710\StaticMbcsRelease\FunnyBars/"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				CompileAs="0"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_710/FunnyBars-sm.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="TRUE"
+				AdditionalLibraryDirectories="..\..\Bin_710"
+				ProgramDatabaseFile=".\..\..\Bin_710/FunnyBars-sm.pdb"
+				SubSystem="2"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="NDEBUG"
+				MkTypLibCompatible="TRUE"
+				SuppressStartupBanner="TRUE"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_710/FunnyBars_710.tlb"
+				HeaderFileName=""/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+			<Tool
+				Name="VCManagedWrapperGeneratorTool"/>
+			<Tool
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+		</Configuration>
+		<Configuration
+			Name="Static Unicode Debug with MFC DLL|Win32"
+			OutputDirectory=".\..\..\Bin_710"
+			IntermediateDirectory=".\..\..\Bin_710\StaticUnicodeDebugWithMfcDll\FunnyBars"
+			ConfigurationType="1"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="1">
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="0"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="_DEBUG;__STATPROFUIS_WITH_DLLMFC__;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="3"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_710\StaticUnicodeDebugWithMfcDll\FunnyBars/FunnyBars_710.pch"
+				AssemblerListingLocation=".\..\..\Bin_710\StaticUnicodeDebugWithMfcDll\FunnyBars/"
+				ObjectFile=".\..\..\Bin_710\StaticUnicodeDebugWithMfcDll\FunnyBars/"
+				ProgramDataBaseFileName=".\..\..\Bin_710\StaticUnicodeDebugWithMfcDll\FunnyBars/"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				DebugInformationFormat="4"
+				CompileAs="0"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_710/FunnyBars-yud.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="TRUE"
+				AdditionalLibraryDirectories="..\..\Bin_710"
+				GenerateDebugInformation="TRUE"
+				ProgramDatabaseFile=".\..\..\Bin_710/FunnyBars-yud.pdb"
+				SubSystem="2"
+				EntryPointSymbol="wWinMainCRTStartup"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="_DEBUG"
+				MkTypLibCompatible="TRUE"
+				SuppressStartupBanner="TRUE"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_710/FunnyBars_710.tlb"
+				HeaderFileName=""/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_DEBUG;__STATPROFUIS_WITH_DLLMFC__"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+			<Tool
+				Name="VCManagedWrapperGeneratorTool"/>
+			<Tool
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+		</Configuration>
+		<Configuration
+			Name="ANSI Debug|Win32"
+			OutputDirectory=".\..\..\Bin_710"
+			IntermediateDirectory=".\..\..\Bin_710\AnsiDebug\FunnyBars"
+			ConfigurationType="1"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE">
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="0"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="_DEBUG;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="3"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_710\AnsiDebug\FunnyBars/FunnyBars_710.pch"
+				AssemblerListingLocation=".\..\..\Bin_710\AnsiDebug\FunnyBars/"
+				ObjectFile=".\..\..\Bin_710\AnsiDebug\FunnyBars/"
+				ProgramDataBaseFileName=".\..\..\Bin_710\AnsiDebug\FunnyBars/"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				DebugInformationFormat="4"
+				CompileAs="0"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_710/FunnyBars-nd.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="TRUE"
+				AdditionalLibraryDirectories="..\..\Bin_710"
+				GenerateDebugInformation="TRUE"
+				ProgramDatabaseFile=".\..\..\Bin_710/FunnyBars-nd.pdb"
+				SubSystem="2"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="_DEBUG"
+				MkTypLibCompatible="TRUE"
+				SuppressStartupBanner="TRUE"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_710/FunnyBars_710.tlb"
+				HeaderFileName=""/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_DEBUG"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+			<Tool
+				Name="VCManagedWrapperGeneratorTool"/>
+			<Tool
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+		</Configuration>
+		<Configuration
+			Name="Static Unicode Release with MFC DLL|Win32"
+			OutputDirectory=".\..\..\Bin_710"
+			IntermediateDirectory=".\..\..\Bin_710\StaticUnicodeReleaseWithMfcDll\FunnyBars"
+			ConfigurationType="1"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="1">
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="2"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="NDEBUG;__STATPROFUIS_WITH_DLLMFC__;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				StringPooling="TRUE"
+				RuntimeLibrary="2"
+				EnableFunctionLevelLinking="TRUE"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_710\StaticUnicodeReleaseWithMfcDll\FunnyBars/FunnyBars_710.pch"
+				AssemblerListingLocation=".\..\..\Bin_710\StaticUnicodeReleaseWithMfcDll\FunnyBars/"
+				ObjectFile=".\..\..\Bin_710\StaticUnicodeReleaseWithMfcDll\FunnyBars/"
+				ProgramDataBaseFileName=".\..\..\Bin_710\StaticUnicodeReleaseWithMfcDll\FunnyBars/"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				CompileAs="0"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_710/FunnyBars-yu.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="TRUE"
+				AdditionalLibraryDirectories="..\..\Bin_710"
+				ProgramDatabaseFile=".\..\..\Bin_710/FunnyBars-yu.pdb"
+				SubSystem="2"
+				EntryPointSymbol="wWinMainCRTStartup"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="NDEBUG"
+				MkTypLibCompatible="TRUE"
+				SuppressStartupBanner="TRUE"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_710/FunnyBars_710.tlb"
+				HeaderFileName=""/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG;__STATPROFUIS_WITH_DLLMFC__"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+			<Tool
+				Name="VCManagedWrapperGeneratorTool"/>
+			<Tool
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+		</Configuration>
+		<Configuration
+			Name="Static ANSI Release with MFC DLL|Win32"
+			OutputDirectory=".\..\..\Bin_710"
+			IntermediateDirectory=".\..\..\Bin_710\StaticAnsiReleaseWithMfcDll\FunnyBars"
+			ConfigurationType="1"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE">
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="2"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="NDEBUG;__STATPROFUIS_WITH_DLLMFC__;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				StringPooling="TRUE"
+				RuntimeLibrary="2"
+				EnableFunctionLevelLinking="TRUE"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_710\StaticAnsiReleaseWithMfcDll\FunnyBars/FunnyBars_710.pch"
+				AssemblerListingLocation=".\..\..\Bin_710\StaticAnsiReleaseWithMfcDll\FunnyBars/"
+				ObjectFile=".\..\..\Bin_710\StaticAnsiReleaseWithMfcDll\FunnyBars/"
+				ProgramDataBaseFileName=".\..\..\Bin_710\StaticAnsiReleaseWithMfcDll\FunnyBars/"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				CompileAs="0"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_710/FunnyBars-yn.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="TRUE"
+				AdditionalLibraryDirectories="..\..\Bin_710"
+				ProgramDatabaseFile=".\..\..\Bin_710/FunnyBars-yn.pdb"
+				SubSystem="2"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="NDEBUG"
+				MkTypLibCompatible="TRUE"
+				SuppressStartupBanner="TRUE"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_710/FunnyBars_710.tlb"
+				HeaderFileName=""/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG;__STATPROFUIS_WITH_DLLMFC__"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+			<Tool
+				Name="VCManagedWrapperGeneratorTool"/>
+			<Tool
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+		</Configuration>
+		<Configuration
+			Name="Static MBCS Debug with MFC DLL|Win32"
+			OutputDirectory=".\..\..\Bin_710"
+			IntermediateDirectory=".\..\..\Bin_710\StaticMbcsDebugWithMfcDll\FunnyBars"
+			ConfigurationType="1"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="0"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="_DEBUG;__STATPROFUIS_WITH_DLLMFC__;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="3"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_710\StaticMbcsDebugWithMfcDll\FunnyBars/FunnyBars_710.pch"
+				AssemblerListingLocation=".\..\..\Bin_710\StaticMbcsDebugWithMfcDll\FunnyBars/"
+				ObjectFile=".\..\..\Bin_710\StaticMbcsDebugWithMfcDll\FunnyBars/"
+				ProgramDataBaseFileName=".\..\..\Bin_710\StaticMbcsDebugWithMfcDll\FunnyBars/"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				DebugInformationFormat="4"
+				CompileAs="0"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_710/FunnyBars-ymd.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="TRUE"
+				AdditionalLibraryDirectories="..\..\Bin_710"
+				GenerateDebugInformation="TRUE"
+				ProgramDatabaseFile=".\..\..\Bin_710/FunnyBars-ymd.pdb"
+				SubSystem="2"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="_DEBUG"
+				MkTypLibCompatible="TRUE"
+				SuppressStartupBanner="TRUE"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_710/FunnyBars_710.tlb"
+				HeaderFileName=""/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_DEBUG;__STATPROFUIS_WITH_DLLMFC__"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+			<Tool
+				Name="VCManagedWrapperGeneratorTool"/>
+			<Tool
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+		</Configuration>
+		<Configuration
+			Name="Static ANSI Debug with MFC DLL|Win32"
+			OutputDirectory=".\..\..\Bin_710"
+			IntermediateDirectory=".\..\..\Bin_710\StaticAnsiDebugWithMfcDll\FunnyBars"
+			ConfigurationType="1"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE">
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="0"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="_DEBUG;__STATPROFUIS_WITH_DLLMFC__;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="3"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_710\StaticAnsiDebugWithMfcDll\FunnyBars/FunnyBars_710.pch"
+				AssemblerListingLocation=".\..\..\Bin_710\StaticAnsiDebugWithMfcDll\FunnyBars/"
+				ObjectFile=".\..\..\Bin_710\StaticAnsiDebugWithMfcDll\FunnyBars/"
+				ProgramDataBaseFileName=".\..\..\Bin_710\StaticAnsiDebugWithMfcDll\FunnyBars/"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				DebugInformationFormat="4"
+				CompileAs="0"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_710/FunnyBars-ynd.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="TRUE"
+				AdditionalLibraryDirectories="..\..\Bin_710"
+				GenerateDebugInformation="TRUE"
+				ProgramDatabaseFile=".\..\..\Bin_710/FunnyBars-ynd.pdb"
+				SubSystem="2"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="_DEBUG"
+				MkTypLibCompatible="TRUE"
+				SuppressStartupBanner="TRUE"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_710/FunnyBars_710.tlb"
+				HeaderFileName=""/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_DEBUG;__STATPROFUIS_WITH_DLLMFC__"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+			<Tool
+				Name="VCManagedWrapperGeneratorTool"/>
+			<Tool
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+		</Configuration>
+		<Configuration
+			Name="Unicode Debug|Win32"
+			OutputDirectory=".\..\..\Bin_710"
+			IntermediateDirectory=".\..\..\Bin_710\UnicodeDebug\FunnyBars"
+			ConfigurationType="1"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="1">
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="0"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="_DEBUG;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="3"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_710\UnicodeDebug\FunnyBars/FunnyBars_710.pch"
+				AssemblerListingLocation=".\..\..\Bin_710\UnicodeDebug\FunnyBars/"
+				ObjectFile=".\..\..\Bin_710\UnicodeDebug\FunnyBars/"
+				ProgramDataBaseFileName=".\..\..\Bin_710\UnicodeDebug\FunnyBars/"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				DebugInformationFormat="4"
+				CompileAs="0"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_710/FunnyBars-ud.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="TRUE"
+				AdditionalLibraryDirectories="..\..\Bin_710"
+				GenerateDebugInformation="TRUE"
+				ProgramDatabaseFile=".\..\..\Bin_710/FunnyBars-ud.pdb"
+				SubSystem="2"
+				EntryPointSymbol="wWinMainCRTStartup"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="_DEBUG"
+				MkTypLibCompatible="TRUE"
+				SuppressStartupBanner="TRUE"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_710/FunnyBars_710.tlb"
+				HeaderFileName=""/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_DEBUG"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+			<Tool
+				Name="VCManagedWrapperGeneratorTool"/>
+			<Tool
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+		</Configuration>
+		<Configuration
+			Name="ANSI Release|Win32"
+			OutputDirectory=".\..\..\Bin_710"
+			IntermediateDirectory=".\..\..\Bin_710\AnsiRelease\FunnyBars"
+			ConfigurationType="1"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE">
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="2"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="NDEBUG;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				StringPooling="TRUE"
+				RuntimeLibrary="2"
+				EnableFunctionLevelLinking="TRUE"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_710\AnsiRelease\FunnyBars/FunnyBars_710.pch"
+				AssemblerListingLocation=".\..\..\Bin_710\AnsiRelease\FunnyBars/"
+				ObjectFile=".\..\..\Bin_710\AnsiRelease\FunnyBars/"
+				ProgramDataBaseFileName=".\..\..\Bin_710\AnsiRelease\FunnyBars/"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				CompileAs="0"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_710/FunnyBars-n.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="TRUE"
+				AdditionalLibraryDirectories="..\..\Bin_710"
+				ProgramDatabaseFile=".\..\..\Bin_710/FunnyBars-n.pdb"
+				SubSystem="2"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="NDEBUG"
+				MkTypLibCompatible="TRUE"
+				SuppressStartupBanner="TRUE"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_710/FunnyBars_710.tlb"
+				HeaderFileName=""/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+			<Tool
+				Name="VCManagedWrapperGeneratorTool"/>
+			<Tool
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+		</Configuration>
+		<Configuration
+			Name="Static ANSI Debug|Win32"
+			OutputDirectory=".\..\..\Bin_710"
+			IntermediateDirectory=".\..\..\Bin_710\StaticAnsiDebug\FunnyBars"
+			ConfigurationType="1"
+			UseOfMFC="1"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE">
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="0"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="_DEBUG;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="1"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_710\StaticAnsiDebug\FunnyBars/FunnyBars_710.pch"
+				AssemblerListingLocation=".\..\..\Bin_710\StaticAnsiDebug\FunnyBars/"
+				ObjectFile=".\..\..\Bin_710\StaticAnsiDebug\FunnyBars/"
+				ProgramDataBaseFileName=".\..\..\Bin_710\StaticAnsiDebug\FunnyBars/"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				DebugInformationFormat="4"
+				CompileAs="0"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_710/FunnyBars-snd.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="TRUE"
+				AdditionalLibraryDirectories="..\..\Bin_710"
+				GenerateDebugInformation="TRUE"
+				ProgramDatabaseFile=".\..\..\Bin_710/FunnyBars-snd.pdb"
+				SubSystem="2"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="_DEBUG"
+				MkTypLibCompatible="TRUE"
+				SuppressStartupBanner="TRUE"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_710/FunnyBars_710.tlb"
+				HeaderFileName=""/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_DEBUG"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+			<Tool
+				Name="VCManagedWrapperGeneratorTool"/>
+			<Tool
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+		</Configuration>
+		<Configuration
+			Name="Static MBCS Release with MFC DLL|Win32"
+			OutputDirectory=".\..\..\Bin_710"
+			IntermediateDirectory=".\..\..\Bin_710\StaticMbcsReleaseWithMfcDll\FunnyBars"
+			ConfigurationType="1"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="2"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="NDEBUG;__STATPROFUIS_WITH_DLLMFC__;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				StringPooling="TRUE"
+				RuntimeLibrary="2"
+				EnableFunctionLevelLinking="TRUE"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_710\StaticMbcsReleaseWithMfcDll\FunnyBars/FunnyBars_710.pch"
+				AssemblerListingLocation=".\..\..\Bin_710\StaticMbcsReleaseWithMfcDll\FunnyBars/"
+				ObjectFile=".\..\..\Bin_710\StaticMbcsReleaseWithMfcDll\FunnyBars/"
+				ProgramDataBaseFileName=".\..\..\Bin_710\StaticMbcsReleaseWithMfcDll\FunnyBars/"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				CompileAs="0"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_710/FunnyBars-ym.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="TRUE"
+				AdditionalLibraryDirectories="..\..\Bin_710"
+				ProgramDatabaseFile=".\..\..\Bin_710/FunnyBars-ym.pdb"
+				SubSystem="2"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="NDEBUG"
+				MkTypLibCompatible="TRUE"
+				SuppressStartupBanner="TRUE"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_710/FunnyBars_710.tlb"
+				HeaderFileName=""/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG;__STATPROFUIS_WITH_DLLMFC__"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+			<Tool
+				Name="VCManagedWrapperGeneratorTool"/>
+			<Tool
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+		</Configuration>
+		<Configuration
+			Name="Static Unicode Release|Win32"
+			OutputDirectory=".\..\..\Bin_710"
+			IntermediateDirectory=".\..\..\Bin_710\StaticUnicodeRelease\FunnyBars"
+			ConfigurationType="1"
+			UseOfMFC="1"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="1">
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="2"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="NDEBUG;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				StringPooling="TRUE"
+				RuntimeLibrary="0"
+				EnableFunctionLevelLinking="TRUE"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_710\StaticUnicodeRelease\FunnyBars/FunnyBars_710.pch"
+				AssemblerListingLocation=".\..\..\Bin_710\StaticUnicodeRelease\FunnyBars/"
+				ObjectFile=".\..\..\Bin_710\StaticUnicodeRelease\FunnyBars/"
+				ProgramDataBaseFileName=".\..\..\Bin_710\StaticUnicodeRelease\FunnyBars/"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				CompileAs="0"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_710/FunnyBars-su.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="TRUE"
+				AdditionalLibraryDirectories="..\..\Bin_710"
+				ProgramDatabaseFile=".\..\..\Bin_710/FunnyBars-su.pdb"
+				SubSystem="2"
+				EntryPointSymbol="wWinMainCRTStartup"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="NDEBUG"
+				MkTypLibCompatible="TRUE"
+				SuppressStartupBanner="TRUE"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_710/FunnyBars_710.tlb"
+				HeaderFileName=""/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+			<Tool
+				Name="VCManagedWrapperGeneratorTool"/>
+			<Tool
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+		</Configuration>
+		<Configuration
+			Name="Static Unicode Debug|Win32"
+			OutputDirectory=".\..\..\Bin_710"
+			IntermediateDirectory=".\..\..\Bin_710\StaticUnicodeDebug\FunnyBars"
+			ConfigurationType="1"
+			UseOfMFC="1"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="1">
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="0"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="_DEBUG;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="1"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_710\StaticUnicodeDebug\FunnyBars/FunnyBars_710.pch"
+				AssemblerListingLocation=".\..\..\Bin_710\StaticUnicodeDebug\FunnyBars/"
+				ObjectFile=".\..\..\Bin_710\StaticUnicodeDebug\FunnyBars/"
+				ProgramDataBaseFileName=".\..\..\Bin_710\StaticUnicodeDebug\FunnyBars/"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				DebugInformationFormat="4"
+				CompileAs="0"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_710/FunnyBars-sud.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="TRUE"
+				AdditionalLibraryDirectories="..\..\Bin_710"
+				GenerateDebugInformation="TRUE"
+				ProgramDatabaseFile=".\..\..\Bin_710/FunnyBars-sud.pdb"
+				SubSystem="2"
+				EntryPointSymbol="wWinMainCRTStartup"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="_DEBUG"
+				MkTypLibCompatible="TRUE"
+				SuppressStartupBanner="TRUE"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_710/FunnyBars_710.tlb"
+				HeaderFileName=""/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_DEBUG"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+			<Tool
+				Name="VCManagedWrapperGeneratorTool"/>
+			<Tool
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+		</Configuration>
+		<Configuration
+			Name="Static ANSI Release|Win32"
+			OutputDirectory=".\..\..\Bin_710"
+			IntermediateDirectory=".\..\..\Bin_710\StaticAnsiRelease\FunnyBars"
+			ConfigurationType="1"
+			UseOfMFC="1"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE">
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="2"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="NDEBUG;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				StringPooling="TRUE"
+				RuntimeLibrary="0"
+				EnableFunctionLevelLinking="TRUE"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_710\StaticAnsiRelease\FunnyBars/FunnyBars_710.pch"
+				AssemblerListingLocation=".\..\..\Bin_710\StaticAnsiRelease\FunnyBars/"
+				ObjectFile=".\..\..\Bin_710\StaticAnsiRelease\FunnyBars/"
+				ProgramDataBaseFileName=".\..\..\Bin_710\StaticAnsiRelease\FunnyBars/"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				CompileAs="0"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_710/FunnyBars-sn.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="TRUE"
+				AdditionalLibraryDirectories="..\..\Bin_710"
+				ProgramDatabaseFile=".\..\..\Bin_710/FunnyBars-sn.pdb"
+				SubSystem="2"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="NDEBUG"
+				MkTypLibCompatible="TRUE"
+				SuppressStartupBanner="TRUE"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_710/FunnyBars_710.tlb"
+				HeaderFileName=""/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+			<Tool
+				Name="VCManagedWrapperGeneratorTool"/>
+			<Tool
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+		</Configuration>
+		<Configuration
+			Name="Unicode Release|Win32"
+			OutputDirectory=".\..\..\Bin_710"
+			IntermediateDirectory=".\..\..\Bin_710\UnicodeRelease\FunnyBars"
+			ConfigurationType="1"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="1">
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="2"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="NDEBUG;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				StringPooling="TRUE"
+				RuntimeLibrary="2"
+				EnableFunctionLevelLinking="TRUE"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_710\UnicodeRelease\FunnyBars/FunnyBars_710.pch"
+				AssemblerListingLocation=".\..\..\Bin_710\UnicodeRelease\FunnyBars/"
+				ObjectFile=".\..\..\Bin_710\UnicodeRelease\FunnyBars/"
+				ProgramDataBaseFileName=".\..\..\Bin_710\UnicodeRelease\FunnyBars/"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				CompileAs="0"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_710/FunnyBars-u.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="TRUE"
+				AdditionalLibraryDirectories="..\..\Bin_710"
+				ProgramDatabaseFile=".\..\..\Bin_710/FunnyBars-u.pdb"
+				SubSystem="2"
+				EntryPointSymbol="wWinMainCRTStartup"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="NDEBUG"
+				MkTypLibCompatible="TRUE"
+				SuppressStartupBanner="TRUE"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_710/FunnyBars_710.tlb"
+				HeaderFileName=""/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"/>
+			<Tool
+				Name="VCWebDeploymentTool"/>
+			<Tool
+				Name="VCManagedWrapperGeneratorTool"/>
+			<Tool
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+		</Configuration>
+	</Configurations>
+	<References>
+	</References>
+	<Files>
+		<Filter
+			Name="Source Files"
+			Filter="cpp;c;cxx;rc;def;r;odl;idl;hpj;bat">
+			<File
+				RelativePath="ChildView.cpp">
+				<FileConfiguration
+					Name="MBCS Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug with MFC DLL|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="_DEBUG;_UNICODE;__STATPROFUIS_WITH_DLLMFC__;_AFXDLL;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;$(NoInherit)"
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release with MFC DLL|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="NDEBUG;_UNICODE;__STATPROFUIS_WITH_DLLMFC__;_AFXDLL;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;$(NoInherit)"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release with MFC DLL|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug with MFC DLL|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug with MFC DLL|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="_DEBUG;_UNICODE;_AFXDLL;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;$(NoInherit)"
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release with MFC DLL|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="NDEBUG;_UNICODE;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;$(NoInherit)"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="_DEBUG;_UNICODE;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;$(NoInherit)"
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="NDEBUG;_UNICODE;_AFXDLL;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;$(NoInherit)"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="FunnyBars.cpp">
+				<FileConfiguration
+					Name="MBCS Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug with MFC DLL|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="_DEBUG;_UNICODE;__STATPROFUIS_WITH_DLLMFC__;_AFXDLL;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;$(NoInherit)"
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release with MFC DLL|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="NDEBUG;_UNICODE;__STATPROFUIS_WITH_DLLMFC__;_AFXDLL;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;$(NoInherit)"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release with MFC DLL|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug with MFC DLL|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug with MFC DLL|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="_DEBUG;_UNICODE;_AFXDLL;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;$(NoInherit)"
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release with MFC DLL|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="NDEBUG;_UNICODE;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;$(NoInherit)"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="_DEBUG;_UNICODE;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;$(NoInherit)"
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="NDEBUG;_UNICODE;_AFXDLL;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;$(NoInherit)"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="FunnyBars.rc">
+				<FileConfiguration
+					Name="MBCS Debug|Win32">
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Release|Win32">
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug|Win32">
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release|Win32">
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug with MFC DLL|Win32">
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions="_DEBUG;_AFXDLL;__STATPROFUIS_WITH_DLLMFC__;$(NoInherit)"
+						AdditionalIncludeDirectories=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Debug|Win32">
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release with MFC DLL|Win32">
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions="NDEBUG;_AFXDLL;__STATPROFUIS_WITH_DLLMFC__;$(NoInherit)"
+						AdditionalIncludeDirectories=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release with MFC DLL|Win32">
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug with MFC DLL|Win32">
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug with MFC DLL|Win32">
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|Win32">
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions="_DEBUG;_AFXDLL;$(NoInherit)"
+						AdditionalIncludeDirectories=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Release|Win32">
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug|Win32">
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release with MFC DLL|Win32">
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release|Win32">
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions="NDEBUG;$(NoInherit)"
+						AdditionalIncludeDirectories=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug|Win32">
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions="_DEBUG;$(NoInherit)"
+						AdditionalIncludeDirectories=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release|Win32">
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|Win32">
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions="NDEBUG;_AFXDLL;$(NoInherit)"
+						AdditionalIncludeDirectories=""/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="MainFrm.cpp">
+				<FileConfiguration
+					Name="MBCS Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug with MFC DLL|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="_DEBUG;_UNICODE;__STATPROFUIS_WITH_DLLMFC__;_AFXDLL;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;$(NoInherit)"
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release with MFC DLL|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="NDEBUG;_UNICODE;__STATPROFUIS_WITH_DLLMFC__;_AFXDLL;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;$(NoInherit)"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release with MFC DLL|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug with MFC DLL|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug with MFC DLL|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="_DEBUG;_UNICODE;_AFXDLL;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;$(NoInherit)"
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release with MFC DLL|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="NDEBUG;_UNICODE;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;$(NoInherit)"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="_DEBUG;_UNICODE;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;$(NoInherit)"
+						BasicRuntimeChecks="3"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="NDEBUG;_UNICODE;_AFXDLL;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;$(NoInherit)"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="StdAfx.cpp">
+				<FileConfiguration
+					Name="MBCS Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug with MFC DLL|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="_DEBUG;_UNICODE;__STATPROFUIS_WITH_DLLMFC__;_AFXDLL;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;$(NoInherit)"
+						BasicRuntimeChecks="3"
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release with MFC DLL|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="NDEBUG;_UNICODE;__STATPROFUIS_WITH_DLLMFC__;_AFXDLL;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;$(NoInherit)"
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release with MFC DLL|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug with MFC DLL|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug with MFC DLL|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="_DEBUG;_UNICODE;_AFXDLL;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;$(NoInherit)"
+						BasicRuntimeChecks="3"
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release with MFC DLL|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="NDEBUG;_UNICODE;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;$(NoInherit)"
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="_DEBUG;_UNICODE;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;$(NoInherit)"
+						BasicRuntimeChecks="3"
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions="NDEBUG;_UNICODE;_AFXDLL;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400;$(NoInherit)"
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+			</File>
+		</Filter>
+		<Filter
+			Name="Header Files"
+			Filter="h;hpp;hxx;hm;inl">
+			<File
+				RelativePath="ChildView.h">
+			</File>
+			<File
+				RelativePath="FunnyBars.h">
+			</File>
+			<File
+				RelativePath="MainFrm.h">
+			</File>
+			<File
+				RelativePath="Resource.h">
+			</File>
+			<File
+				RelativePath="StdAfx.h">
+			</File>
+		</Filter>
+		<Filter
+			Name="Resource Files"
+			Filter="ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe">
+			<File
+				RelativePath="res\FunnyBars.ico">
+			</File>
+			<File
+				RelativePath="res\FunnyBars.rc2">
+			</File>
+			<File
+				RelativePath="res\Toolbar.bmp">
+			</File>
+			<File
+				RelativePath="res\toolbar_16_16_8.bmp">
+			</File>
+			<File
+				RelativePath="res\toolbar_44_40_32.bmp">
+			</File>
+		</Filter>
+		<File
+			RelativePath="ReadMe.txt">
+		</File>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 10
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BosnianProfUIS", "BosnianProfUIS_1000_x64.vcxproj", "{FC21455E-958B-4D80-B76B-BF13E2EFFC31}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Bosnian|X64 = Bosnian|X64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC21455E-958B-4D80-B76B-BF13E2EFFC31}.Bosnian|X64.ActiveCfg = Bosnian|X64
+		{FC21455E-958B-4D80-B76B-BF13E2EFFC31}.Bosnian|X64.Build.0 = Bosnian|X64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

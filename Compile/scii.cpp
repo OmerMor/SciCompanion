@@ -478,7 +478,7 @@ WORD scicode::calc_size()
         }
         if (fNeedToRedo)
         {
-            for_each(_code.begin(), _code.end(), std::mem_fun_ref(scii::reset_size));
+            for_each(_code.begin(), _code.end(), std::mem_fun_ref(&scii::reset_size));
         }
     } while (fNeedToRedo);
 
@@ -703,10 +703,10 @@ bool scicode::has_dangling_branches(bool &fAllBranchesPrecededByReturns)
 }
 
 
-// This craziness is so that code_pos can be used in a multimap.
-// We use the node pointer as a < comparator.  Just something consistent but meaningless.
-bool operator<(const code_pos &_Right, const code_pos &_Left)
-{
-    return _Right._Mynode() < _Left._Mynode();
-}
+//// This craziness is so that code_pos can be used in a multimap.
+//// We use the node pointer as a < comparator.  Just something consistent but meaningless.
+//bool operator<(const code_pos &_Right, const code_pos &_Left)
+//{
+//    return _Right._Mynode() < _Left._Mynode();
+//}
 

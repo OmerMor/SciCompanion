@@ -32,7 +32,7 @@ BOOL IsDefaultUse(PCTSTR pszName)
     BOOL fRet = FALSE;
     for (int i = 0; !fRet && (i < ARRAYSIZE(g_UsedByDefault)); i++)
     {
-        fRet = (0 == strcmpi(pszName, g_UsedByDefault[i]));
+        fRet = (0 == _strcmpi(pszName, g_UsedByDefault[i]));
     }
     return fRet;
 }
@@ -129,12 +129,12 @@ void _AddPrevRoomNumSwitch(MethodDefinition &method)
         {
             auto_ptr<ComplexPropertyValue> pValue(new ComplexPropertyValue);
             pValue->SetValue(150);
-            _AddStatement(*pParam, pValue);
+            _AddStatement(*pParam, (auto_ptr<SyntaxNode>)pValue);
         }
         {
             auto_ptr<ComplexPropertyValue> pValue(new ComplexPropertyValue);
             pValue->SetValue(100);
-            _AddStatement(*pParam, pValue);
+            _AddStatement(*pParam, (auto_ptr<SyntaxNode>)pValue);
         }
         pSend->AddSendParam(pParam);
     }
@@ -144,18 +144,18 @@ void _AddPrevRoomNumSwitch(MethodDefinition &method)
         pParam->SetName("loop");
         auto_ptr<ComplexPropertyValue> pValue(new ComplexPropertyValue);
         pValue->SetValue(1);
-        _AddStatement(*pParam, pValue);
+        _AddStatement(*pParam, (auto_ptr<SyntaxNode>)pValue);
         pSend->AddSendParam(pParam);
     }
 
-    _AddStatement(*pCase, pSend);
+    _AddStatement(*pCase, (auto_ptr<SyntaxNode>)pSend);
 
 
     //_AddComment(*pCase, case0Comments);
     pSwitch->AddCase(pCase);
 
     // Add the switch to the method
-    _AddStatement(method, pSwitch);
+    _AddStatement(method, (auto_ptr<SyntaxNode>)pSwitch);
 }
 
 void CNewRoomDialog::_PrepareBuffer()
@@ -218,7 +218,7 @@ void CNewRoomDialog::_PrepareBuffer()
                 {
                     auto_ptr<ProcedureCall> pSetUpEgo(new ProcedureCall);
                     pSetUpEgo->SetName("SetUpEgo");
-                    _AddStatement(*pInit, pSetUpEgo);
+                    _AddStatement(*pInit, (auto_ptr<SyntaxNode>)pSetUpEgo);
                 }
 
                 _AddSendCall(*pInit, "gEgo", "init", "");

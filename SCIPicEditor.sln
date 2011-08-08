@@ -2,6 +2,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SCIComp", "SCIPicEditor.vcxproj", "{5202DD2E-E9D5-4212-9CF7-ED009D205292}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tmp_mfc", "tmp\tmp_mfc\tmp_mfc.vcxproj", "{61D386CE-797A-4338-A2EE-F5AAF3D12B88}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -15,6 +17,12 @@ Global
 		{5202DD2E-E9D5-4212-9CF7-ED009D205292}.Release|Win32.Build.0 = Release|Win32
 		{5202DD2E-E9D5-4212-9CF7-ED009D205292}.Template|Win32.ActiveCfg = Template|Win32
 		{5202DD2E-E9D5-4212-9CF7-ED009D205292}.Template|Win32.Build.0 = Template|Win32
+		{61D386CE-797A-4338-A2EE-F5AAF3D12B88}.Debug|Win32.ActiveCfg = Debug|Win32
+		{61D386CE-797A-4338-A2EE-F5AAF3D12B88}.Debug|Win32.Build.0 = Debug|Win32
+		{61D386CE-797A-4338-A2EE-F5AAF3D12B88}.Release|Win32.ActiveCfg = Release|Win32
+		{61D386CE-797A-4338-A2EE-F5AAF3D12B88}.Release|Win32.Build.0 = Release|Win32
+		{61D386CE-797A-4338-A2EE-F5AAF3D12B88}.Template|Win32.ActiveCfg = Release|Win32
+		{61D386CE-797A-4338-A2EE-F5AAF3D12B88}.Template|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

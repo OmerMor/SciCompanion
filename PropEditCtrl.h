@@ -128,7 +128,7 @@ protected:
     BOOL _fEnded;
 };
 
-BEGIN_TEMPLATE_MESSAGE_MAP(class T, CPropEditCtrl<T>, T)
+BEGIN_TPL_MESSAGE_MAP3(TEMPLATE_1(class T), TCLASS_1(CPropEditCtrl, T), T)
     ON_WM_KEYDOWN()
     ON_WM_NCDESTROY()
 END_MESSAGE_MAP()

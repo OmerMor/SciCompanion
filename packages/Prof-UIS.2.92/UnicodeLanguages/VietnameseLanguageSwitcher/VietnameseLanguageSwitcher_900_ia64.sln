@@ -1,0 +1,16 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VietnameseLanguageSwitcher", "VietnameseLanguageSwitcher_900_ia64.vcproj", "{4113D40E-C89F-4A80-8F2F-686EFC153453}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Vietnamese|Itanium = Vietnamese|Itanium
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4113D40E-C89F-4A80-8F2F-686EFC153453}.Vietnamese|Itanium.ActiveCfg = Vietnamese|Itanium
+		{4113D40E-C89F-4A80-8F2F-686EFC153453}.Vietnamese|Itanium.Build.0 = Vietnamese|Itanium
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

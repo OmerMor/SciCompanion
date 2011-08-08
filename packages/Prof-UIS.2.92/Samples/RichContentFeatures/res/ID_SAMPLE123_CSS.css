@@ -1,0 +1,4 @@
+td { text-align: center; vertical-align: middle; min-height: 2.2em; border-right: 1px solid black; border-bottom: 1px solid black; }
+table { border-left: 1px solid black; border-top: 1px solid black; }
+code { color: #800000; font-size: 98%; }
+p.tooltip { margin: 2pt; }

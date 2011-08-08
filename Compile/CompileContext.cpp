@@ -517,8 +517,8 @@ public:
         else
         {
             // Go in reverse... more recent contexts are searched first.
-            stack<const IVariableLookupContext *>::container_type::reverse_iterator index = _varContext.c.rbegin();
-            while ((tokenType == TokenUnknown) && (index != _varContext.c.rend()))
+            stack<const IVariableLookupContext *>::container_type::reverse_iterator index = _varContext._Get_container().rbegin();
+            while ((tokenType == TokenUnknown) && (index != _varContext._Get_container().rend()))
             {
                 tokenType = (*index)->LookupVariableName(*this, str, wIndex, dataType);
                 index++;   

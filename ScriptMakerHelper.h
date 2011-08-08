@@ -19,7 +19,7 @@ void _AddComment(_T &method, const std::string &comment)
 {
     std::auto_ptr<Comment> pComment(new sci::Comment);
     pComment->SetName(comment);
-    _AddStatement(method, pComment);
+    _AddStatement(method, (auto_ptr<SyntaxNode>)pComment);
 }
 
 void _AddBasicSwitch(sci::MethodDefinition &method, const std::string &switchValue, const std::string &case0Comments);

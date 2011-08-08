@@ -134,7 +134,7 @@ BOOL TextResource::MoveStringDown(int iIndex)
 
 void TextResource::DeleteString(int iIndex)
 {
-    _texts.erase(&_texts[iIndex]);
+    _texts.erase(_texts.begin() + iIndex);
 }
 
 BOOL TextResource::Serialize(sci::istream *pSerial) const

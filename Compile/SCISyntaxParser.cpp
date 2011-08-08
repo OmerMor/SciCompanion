@@ -41,8 +41,8 @@ Parser dot(CharP, ".");
 const sci::SyntaxNode *SyntaxContext::GetSyntaxNode(sci::NodeType type) const
 {
     sci::SyntaxNode *pNode = NULL;
-    std::deque<sci::SyntaxNode*>::const_reverse_iterator it = _statements.c.rbegin();
-    while (it != _statements.c.rend())
+    std::deque<sci::SyntaxNode*>::const_reverse_iterator it = _statements._Get_container().rbegin();
+    while (it != _statements._Get_container().rend())
     {
         if (*it)
         {
@@ -60,8 +60,8 @@ const sci::SyntaxNode *SyntaxContext::GetSyntaxNode(sci::NodeType type) const
 sci::NodeType SyntaxContext::GetTopKnownNode() const
 {
     sci::NodeType type = sci::NodeTypeUnknown;
-    std::deque<sci::SyntaxNode*>::const_reverse_iterator it = _statements.c.rbegin();
-    while (it != _statements.c.rend())
+    std::deque<sci::SyntaxNode*>::const_reverse_iterator it = _statements._Get_container().rbegin();
+    while (it != _statements._Get_container().rend())
     {
         if (*it)
         {

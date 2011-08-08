@@ -1,0 +1,348 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE MOVEABLE PURE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE MOVEABLE PURE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE MOVEABLE PURE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\AviFrames.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_TOOLBAR_PLAYER      BITMAP  MOVEABLE PURE   "res\\IDR_TOOLBAR_PLAYER.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_TOOLBAR_PLAYER TOOLBAR MOVEABLE PURE  16, 15
+BEGIN
+    BUTTON      ID_PLAY
+    BUTTON      ID_PAUSE
+    BUTTON      ID_STOP
+END
+
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP  MOVEABLE PURE   "res\\Toolbar.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR MOVEABLE PURE  16, 15
+BEGIN
+    BUTTON      ID_APP_EXIT
+    SEPARATOR
+    BUTTON      ID_FILE_OPEN
+    SEPARATOR
+    BUTTON      ID_APP_ABOUT
+END
+
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\SampleAppIcon.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Open\tCtrl+O",               ID_FILE_OPEN
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "Player"
+    BEGIN
+        MENUITEM "&Play",                       ID_PLAY
+        MENUITEM "&Stop",                       ID_STOP
+        MENUITEM "P&ause",                      ID_PAUSE
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Menu bar",                   ID_VIEW_MENUBAR
+        POPUP "&Toolbars"
+        BEGIN
+            MENUITEM "&Standard",                   ID_VIEW_TOOLBAR
+            MENUITEM "&UI Style",                   ID_VIEW_UI_LOOK_BAR
+            MENUITEM "&Player",                     IDR_TOOLBAR_PLAYER
+            MENUITEM "&Zoom",                       IDR_TOOLBAR_ZOOM
+            MENUITEM "S&eek",                       IDR_TOOLBAR_SEEK
+        END
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+        MENUITEM SEPARATOR
+        POPUP "&UI theme"
+        BEGIN
+            MENUITEM "<<< Prof-UIS Themes List >>>", 29999
+        END
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About AviFrames...",         ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS MOVEABLE PURE 
+BEGIN
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 2,9,2,0
+ PRODUCTVERSION 2,9,2,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "This is part of the Professional User Interface Suite library (www.prof-uis.com)\0"
+            VALUE "CompanyName", "FOSS Software, Inc.\0"
+            VALUE "FileDescription", "AviFrames MFC Application\0"
+            VALUE "FileVersion", " 2, 9, 2, 0\0"
+            VALUE "InternalName", "AviFrames\0"
+            VALUE "LegalCopyright", "Copyright © 2001-2011 FOSS Software, Inc.\0"
+            VALUE "OriginalFilename", "AviFrames.EXE\0"
+            VALUE "ProductName", "AviFrames Application\0"
+            VALUE "ProductVersion", " 2, 9, 2, 0\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "AviFrames"
+    IDS_PANE_TEXT           "Sample text"
+    IDR_TOOLBAR2            "Show or hide the toolbar2\nToggle ToolBar2"
+    IDS_PANE_EDIT           "         "
+    IDS_PANE_SLIDER_CTRL    "  "
+    IDS_PANE_BUTTON         " "
+    IDS_PANE_CURRENT_FRAME  " "
+    IDS_PANE_FRAMES_SKIPPED " "
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "AviFrames"
+    AFX_IDS_IDLEMESSAGE     "Ready"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Show or hide the toolbar\nToggle ToolBar"
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle StatusBar"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_MENUBAR         "Show or hide the menubar\nToggle MenuBar"
+    IDS_PANE_PROGRESS       " "
+    ID_VIEW_PANEL_EMPTY     "Show or hide the empty panel\nToggle Empty Panel"
+    ID_VIEW_PANEL_CUSTOM_DRAWN 
+                            "Show or hide the custom-drawn panel\nToggle Custom-drawn Panel"
+    ID_VIEW_PANEL_EDIT      "Show or hide the edit panel\nToggle Edit Panel"
+    ID_VIEW_PANEL_DIALOG    "Show or hide the dialog panel\nToggle Dialog Panel"
+    ID_VIEW_PANEL_PALETTE   "Show or hide the palette panel\nToggle Palette Panel"
+    ID_VIEW_PANEL_TOOLS     "Show or hide the tools panel\nToggle Tools Panel"
+    ID_VIEW_PANEL_RESIZABLE1 
+                            "Show or hide the resizable panel 1\nToggle Resizable Panel 1"
+    ID_VIEW_PANEL_RESIZABLE2 
+                            "Show or hide the resizable panel 2\nToggle Resizable Panel 2"
+    IDS_PANE_ANIMATE        " "
+    IDS_PANE_ZOOM           " "
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_PANE_LABEL          " "
+    IDS_PANE_HYPER_LINK     " "
+    IDS_PANE_FRAMES_TOTAL   " "
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\AviFrames.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

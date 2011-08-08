@@ -247,30 +247,30 @@ void CrystalScriptTokenStream::Tokenize(sci::Script *pScriptForComments)
 {
     CommentScript commentScript(pScriptForComments);
 
-    CCrystalScriptStream::const_iterator it = _stream.begin();
+    CCrystalScriptStream::const_buffer_iterator it = _stream.begin();
 
     while (*it) // end == NULL
     {
         if (pScriptForComments)
         {
-            _EatWhitespaceAndComments<CommentScript, CCrystalScriptStream::const_iterator>(&commentScript, it); // Hacky
+            _EatWhitespaceAndComments<CommentScript, CCrystalScriptStream::const_buffer_iterator>(&commentScript, it); // Hacky
         }
         else
         {
-            _EatWhitespaceAndComments<SyntaxContext, CCrystalScriptStream::const_iterator>(NULL, it); // Hacky
+            _EatWhitespaceAndComments<SyntaxContext, CCrystalScriptStream::const_buffer_iterator>(NULL, it); // Hacky
         }
 
         if (*it)
         {
             TokenInfo info;
             info.start = it.GetPosition();
-            if (_ReadString<SyntaxContext, CCrystalScriptStream::const_iterator, '"', '"'>(it, info.string))
+            if (_ReadString<SyntaxContext, CCrystalScriptStream::const_buffer_iterator, '"', '"'>(it, info.string))
             {
                 info.type = TokenQuotedString;
                 info.end = it.GetPosition();
                 _tokens.push_back(info);
             }
-            else if (_ReadString<SyntaxContext, CCrystalScriptStream::const_iterator, '\'', '\''>(it, info.string))
+            else if (_ReadString<SyntaxContext, CCrystalScriptStream::const_buffer_iterator, '\'', '\''>(it, info.string))
             {
                 info.type = TokenSingleQuotedString;
                 info.end = it.GetPosition();
@@ -290,7 +290,7 @@ void CrystalScriptTokenStream::Tokenize(sci::Script *pScriptForComments)
                 int i = 0;
                 for (; i < ARRAYSIZE(c_tokenMap); i++)
                 {
-                    CCrystalScriptStream::const_iterator itCur(it);
+                    CCrystalScriptStream::const_buffer_iterator itCur(it);
                     int j = 0;
                     for (; c_tokenMap[i].value[j]; j++, ++itCur)
                     {
@@ -385,8 +385,8 @@ void CrystalScriptTokenStream::DebugPrint()
                 }
                 else
                 {
-                    CCrystalScriptStream::const_iterator itStart = _stream.get_at(token.start);
-                    CCrystalScriptStream::const_iterator itEnd = _stream.get_at(token.end);
+                    CCrystalScriptStream::const_buffer_iterator itStart = _stream.get_at(token.start);
+                    CCrystalScriptStream::const_buffer_iterator itEnd = _stream.get_at(token.end);
                     std::string strTemp;
                     copy(itStart, itEnd, back_inserter(strTemp));
                     out << "<" << strTemp << ">";

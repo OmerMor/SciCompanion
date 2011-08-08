@@ -1,0 +1,49 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ProfSkinDLL", "ProfSkinDLL_800_ia64.vcproj", "{D5D5EE67-D20A-4790-B20C-1E751F546171}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		ANSI Debug RDE|Itanium = ANSI Debug RDE|Itanium
+		ANSI Debug|Itanium = ANSI Debug|Itanium
+		ANSI Release RDE|Itanium = ANSI Release RDE|Itanium
+		ANSI Release|Itanium = ANSI Release|Itanium
+		MBCS Debug RDE|Itanium = MBCS Debug RDE|Itanium
+		MBCS Debug|Itanium = MBCS Debug|Itanium
+		MBCS Release RDE|Itanium = MBCS Release RDE|Itanium
+		MBCS Release|Itanium = MBCS Release|Itanium
+		Unicode Debug RDE|Itanium = Unicode Debug RDE|Itanium
+		Unicode Debug|Itanium = Unicode Debug|Itanium
+		Unicode Release RDE|Itanium = Unicode Release RDE|Itanium
+		Unicode Release|Itanium = Unicode Release|Itanium
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D5D5EE67-D20A-4790-B20C-1E751F546171}.ANSI Debug RDE|Itanium.ActiveCfg = ANSI Debug RDE|Itanium
+		{D5D5EE67-D20A-4790-B20C-1E751F546171}.ANSI Debug RDE|Itanium.Build.0 = ANSI Debug RDE|Itanium
+		{D5D5EE67-D20A-4790-B20C-1E751F546171}.ANSI Debug|Itanium.ActiveCfg = ANSI Debug|Itanium
+		{D5D5EE67-D20A-4790-B20C-1E751F546171}.ANSI Debug|Itanium.Build.0 = ANSI Debug|Itanium
+		{D5D5EE67-D20A-4790-B20C-1E751F546171}.ANSI Release RDE|Itanium.ActiveCfg = ANSI Release RDE|Itanium
+		{D5D5EE67-D20A-4790-B20C-1E751F546171}.ANSI Release RDE|Itanium.Build.0 = ANSI Release RDE|Itanium
+		{D5D5EE67-D20A-4790-B20C-1E751F546171}.ANSI Release|Itanium.ActiveCfg = ANSI Release|Itanium
+		{D5D5EE67-D20A-4790-B20C-1E751F546171}.ANSI Release|Itanium.Build.0 = ANSI Release|Itanium
+		{D5D5EE67-D20A-4790-B20C-1E751F546171}.MBCS Debug RDE|Itanium.ActiveCfg = MBCS Debug RDE|Itanium
+		{D5D5EE67-D20A-4790-B20C-1E751F546171}.MBCS Debug RDE|Itanium.Build.0 = MBCS Debug RDE|Itanium
+		{D5D5EE67-D20A-4790-B20C-1E751F546171}.MBCS Debug|Itanium.ActiveCfg = MBCS Debug|Itanium
+		{D5D5EE67-D20A-4790-B20C-1E751F546171}.MBCS Debug|Itanium.Build.0 = MBCS Debug|Itanium
+		{D5D5EE67-D20A-4790-B20C-1E751F546171}.MBCS Release RDE|Itanium.ActiveCfg = MBCS Release RDE|Itanium
+		{D5D5EE67-D20A-4790-B20C-1E751F546171}.MBCS Release RDE|Itanium.Build.0 = MBCS Release RDE|Itanium
+		{D5D5EE67-D20A-4790-B20C-1E751F546171}.MBCS Release|Itanium.ActiveCfg = MBCS Release|Itanium
+		{D5D5EE67-D20A-4790-B20C-1E751F546171}.MBCS Release|Itanium.Build.0 = MBCS Release|Itanium
+		{D5D5EE67-D20A-4790-B20C-1E751F546171}.Unicode Debug RDE|Itanium.ActiveCfg = Unicode Debug RDE|Itanium
+		{D5D5EE67-D20A-4790-B20C-1E751F546171}.Unicode Debug RDE|Itanium.Build.0 = Unicode Debug RDE|Itanium
+		{D5D5EE67-D20A-4790-B20C-1E751F546171}.Unicode Debug|Itanium.ActiveCfg = Unicode Debug|Itanium
+		{D5D5EE67-D20A-4790-B20C-1E751F546171}.Unicode Debug|Itanium.Build.0 = Unicode Debug|Itanium
+		{D5D5EE67-D20A-4790-B20C-1E751F546171}.Unicode Release RDE|Itanium.ActiveCfg = Unicode Release RDE|Itanium
+		{D5D5EE67-D20A-4790-B20C-1E751F546171}.Unicode Release RDE|Itanium.Build.0 = Unicode Release RDE|Itanium
+		{D5D5EE67-D20A-4790-B20C-1E751F546171}.Unicode Release|Itanium.ActiveCfg = Unicode Release|Itanium
+		{D5D5EE67-D20A-4790-B20C-1E751F546171}.Unicode Release|Itanium.Build.0 = Unicode Release|Itanium
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

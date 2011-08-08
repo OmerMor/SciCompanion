@@ -1,0 +1,4961 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="ProfUIS_Controls"
+	ProjectGUID="{66CDBDB3-F714-44D4-A1B3-3D59AF1CA48E}"
+	RootNamespace="ProfUIS_Controls"
+	Keyword="MFCProj"
+	>
+	<Platforms>
+		<Platform
+			Name="x64"
+		/>
+	</Platforms>
+	<ToolFiles>
+	</ToolFiles>
+	<Configurations>
+		<Configuration
+			Name="ANSI Debug|x64"
+			OutputDirectory=".\..\..\Bin_800_x64"
+			IntermediateDirectory=".\..\..\Bin_800_x64\AnsiDebug\ProfUIS_Controls"
+			ConfigurationType="1"
+			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.vsprops"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="_DEBUG;PROF_UIS_X64"
+				MkTypLibCompatible="true"
+				SuppressStartupBanner="true"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_800_x64/ProfUIS_Controls_800_x64.tlb"
+				HeaderFileName=""
+			/>
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="0"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="_DEBUG;PROF_UIS_X64;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				MinimalRebuild="true"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="3"
+				UsePrecompiledHeader="2"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_800_x64\AnsiDebug\ProfUIS_Controls/ProfUIS_Controls_800_x64.pch"
+				AssemblerListingLocation=".\..\..\Bin_800_x64\AnsiDebug\ProfUIS_Controls/"
+				ObjectFile=".\..\..\Bin_800_x64\AnsiDebug\ProfUIS_Controls/"
+				ProgramDataBaseFileName=".\..\..\Bin_800_x64\AnsiDebug\ProfUIS_Controls/"
+				WarningLevel="4"
+				SuppressStartupBanner="true"
+				DebugInformationFormat="3"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_DEBUG;PROF_UIS_X64"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_800_x64/ProfUIS_Controls-nd.exe"
+				LinkIncremental="2"
+				SuppressStartupBanner="true"
+				AdditionalLibraryDirectories="..\..\Bin_800_x64"
+				GenerateDebugInformation="true"
+				ProgramDatabaseFile=".\..\..\Bin_800_x64/ProfUIS_Controls-nd.pdb"
+				SubSystem="2"
+				TargetMachine="17"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool"
+				AdditionalManifestFiles="res\\manifest_x64.xml"
+				EmbedManifest="true"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+				SuppressStartupBanner="true"
+				OutputFile=".\..\..\Bin_800_x64/ProfUIS_Controls_800_x64.bsc"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCWebDeploymentTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+		<Configuration
+			Name="Static Unicode Release with MFC DLL|x64"
+			OutputDirectory=".\..\..\Bin_800_x64"
+			IntermediateDirectory=".\..\..\Bin_800_x64\StaticUnicodeReleaseWithMfcDll\ProfUIS_Controls"
+			ConfigurationType="1"
+			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.vsprops"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="1"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="NDEBUG;PROF_UIS_X64"
+				MkTypLibCompatible="true"
+				SuppressStartupBanner="true"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_800_x64/ProfUIS_Controls_800_x64.tlb"
+				HeaderFileName=""
+			/>
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="2"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="NDEBUG;PROF_UIS_X64;__STATPROFUIS_WITH_DLLMFC__;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				StringPooling="true"
+				RuntimeLibrary="2"
+				EnableFunctionLevelLinking="true"
+				UsePrecompiledHeader="2"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_800_x64\StaticUnicodeReleaseWithMfcDll\ProfUIS_Controls/ProfUIS_Controls_800_x64.pch"
+				AssemblerListingLocation=".\..\..\Bin_800_x64\StaticUnicodeReleaseWithMfcDll\ProfUIS_Controls/"
+				ObjectFile=".\..\..\Bin_800_x64\StaticUnicodeReleaseWithMfcDll\ProfUIS_Controls/"
+				ProgramDataBaseFileName=".\..\..\Bin_800_x64\StaticUnicodeReleaseWithMfcDll\ProfUIS_Controls/"
+				WarningLevel="4"
+				SuppressStartupBanner="true"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG;PROF_UIS_X64;__STATPROFUIS_WITH_DLLMFC__"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_800_x64/ProfUIS_Controls-yu.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="true"
+				AdditionalLibraryDirectories="..\..\Bin_800_x64"
+				ProgramDatabaseFile=".\..\..\Bin_800_x64/ProfUIS_Controls-yu.pdb"
+				SubSystem="2"
+				EntryPointSymbol="wWinMainCRTStartup"
+				TargetMachine="17"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool"
+				AdditionalManifestFiles="res\\manifest_x64.xml"
+				EmbedManifest="true"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+				SuppressStartupBanner="true"
+				OutputFile=".\..\..\Bin_800_x64/ProfUIS_Controls_800_x64.bsc"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCWebDeploymentTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+		<Configuration
+			Name="Static MBCS Release|x64"
+			OutputDirectory=".\..\..\Bin_800_x64"
+			IntermediateDirectory=".\..\..\Bin_800_x64\StaticMbcsRelease\ProfUIS_Controls"
+			ConfigurationType="1"
+			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.vsprops"
+			UseOfMFC="1"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="NDEBUG;PROF_UIS_X64"
+				MkTypLibCompatible="true"
+				SuppressStartupBanner="true"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_800_x64/ProfUIS_Controls_800_x64.tlb"
+				HeaderFileName=""
+			/>
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="2"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="NDEBUG;PROF_UIS_X64;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				StringPooling="true"
+				RuntimeLibrary="0"
+				EnableFunctionLevelLinking="true"
+				UsePrecompiledHeader="2"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_800_x64\StaticMbcsRelease\ProfUIS_Controls/ProfUIS_Controls_800_x64.pch"
+				AssemblerListingLocation=".\..\..\Bin_800_x64\StaticMbcsRelease\ProfUIS_Controls/"
+				ObjectFile=".\..\..\Bin_800_x64\StaticMbcsRelease\ProfUIS_Controls/"
+				ProgramDataBaseFileName=".\..\..\Bin_800_x64\StaticMbcsRelease\ProfUIS_Controls/"
+				WarningLevel="4"
+				SuppressStartupBanner="true"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG;PROF_UIS_X64"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_800_x64/ProfUIS_Controls-sm.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="true"
+				AdditionalLibraryDirectories="..\..\Bin_800_x64"
+				ProgramDatabaseFile=".\..\..\Bin_800_x64/ProfUIS_Controls-sm.pdb"
+				SubSystem="2"
+				TargetMachine="17"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool"
+				AdditionalManifestFiles="res\\manifest_x64.xml"
+				EmbedManifest="true"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+				SuppressStartupBanner="true"
+				OutputFile=".\..\..\Bin_800_x64/ProfUIS_Controls_800_x64.bsc"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCWebDeploymentTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+		<Configuration
+			Name="ANSI Release|x64"
+			OutputDirectory=".\..\..\Bin_800_x64"
+			IntermediateDirectory=".\..\..\Bin_800_x64\AnsiRelease\ProfUIS_Controls"
+			ConfigurationType="1"
+			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.vsprops"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="NDEBUG;PROF_UIS_X64"
+				MkTypLibCompatible="true"
+				SuppressStartupBanner="true"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_800_x64/ProfUIS_Controls_800_x64.tlb"
+				HeaderFileName=""
+			/>
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="2"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="NDEBUG;PROF_UIS_X64;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				StringPooling="true"
+				RuntimeLibrary="2"
+				EnableFunctionLevelLinking="true"
+				UsePrecompiledHeader="2"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_800_x64\AnsiRelease\ProfUIS_Controls/ProfUIS_Controls_800_x64.pch"
+				AssemblerListingLocation=".\..\..\Bin_800_x64\AnsiRelease\ProfUIS_Controls/"
+				ObjectFile=".\..\..\Bin_800_x64\AnsiRelease\ProfUIS_Controls/"
+				ProgramDataBaseFileName=".\..\..\Bin_800_x64\AnsiRelease\ProfUIS_Controls/"
+				WarningLevel="4"
+				SuppressStartupBanner="true"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG;PROF_UIS_X64"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_800_x64/ProfUIS_Controls-n.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="true"
+				AdditionalLibraryDirectories="..\..\Bin_800_x64"
+				ProgramDatabaseFile=".\..\..\Bin_800_x64/ProfUIS_Controls-n.pdb"
+				SubSystem="2"
+				TargetMachine="17"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool"
+				AdditionalManifestFiles="res\\manifest_x64.xml"
+				EmbedManifest="true"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+				SuppressStartupBanner="true"
+				OutputFile=".\..\..\Bin_800_x64/ProfUIS_Controls_800_x64.bsc"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCWebDeploymentTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+		<Configuration
+			Name="Static Unicode Debug|x64"
+			OutputDirectory=".\..\..\Bin_800_x64"
+			IntermediateDirectory=".\..\..\Bin_800_x64\StaticUnicodeDebug\ProfUIS_Controls"
+			ConfigurationType="1"
+			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.vsprops"
+			UseOfMFC="1"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="1"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="_DEBUG;PROF_UIS_X64"
+				MkTypLibCompatible="true"
+				SuppressStartupBanner="true"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_800_x64/ProfUIS_Controls_800_x64.tlb"
+				HeaderFileName=""
+			/>
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="0"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="_DEBUG;PROF_UIS_X64;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				MinimalRebuild="true"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="1"
+				UsePrecompiledHeader="2"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_800_x64\StaticUnicodeDebug\ProfUIS_Controls/ProfUIS_Controls_800_x64.pch"
+				AssemblerListingLocation=".\..\..\Bin_800_x64\StaticUnicodeDebug\ProfUIS_Controls/"
+				ObjectFile=".\..\..\Bin_800_x64\StaticUnicodeDebug\ProfUIS_Controls/"
+				ProgramDataBaseFileName=".\..\..\Bin_800_x64\StaticUnicodeDebug\ProfUIS_Controls/"
+				WarningLevel="4"
+				SuppressStartupBanner="true"
+				DebugInformationFormat="3"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_DEBUG;PROF_UIS_X64"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_800_x64/ProfUIS_Controls-sud.exe"
+				LinkIncremental="2"
+				SuppressStartupBanner="true"
+				AdditionalLibraryDirectories="..\..\Bin_800_x64"
+				GenerateDebugInformation="true"
+				ProgramDatabaseFile=".\..\..\Bin_800_x64/ProfUIS_Controls-sud.pdb"
+				SubSystem="2"
+				EntryPointSymbol="wWinMainCRTStartup"
+				TargetMachine="17"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool"
+				AdditionalManifestFiles="res\\manifest_x64.xml"
+				EmbedManifest="true"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+				SuppressStartupBanner="true"
+				OutputFile=".\..\..\Bin_800_x64/ProfUIS_Controls_800_x64.bsc"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCWebDeploymentTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+		<Configuration
+			Name="Static MBCS Debug|x64"
+			OutputDirectory=".\..\..\Bin_800_x64"
+			IntermediateDirectory=".\..\..\Bin_800_x64\StaticMbcsDebug\ProfUIS_Controls"
+			ConfigurationType="1"
+			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.vsprops"
+			UseOfMFC="1"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="_DEBUG;PROF_UIS_X64"
+				MkTypLibCompatible="true"
+				SuppressStartupBanner="true"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_800_x64/ProfUIS_Controls_800_x64.tlb"
+				HeaderFileName=""
+			/>
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="0"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="_DEBUG;PROF_UIS_X64;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				MinimalRebuild="true"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="1"
+				UsePrecompiledHeader="2"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_800_x64\StaticMbcsDebug\ProfUIS_Controls/ProfUIS_Controls_800_x64.pch"
+				AssemblerListingLocation=".\..\..\Bin_800_x64\StaticMbcsDebug\ProfUIS_Controls/"
+				ObjectFile=".\..\..\Bin_800_x64\StaticMbcsDebug\ProfUIS_Controls/"
+				ProgramDataBaseFileName=".\..\..\Bin_800_x64\StaticMbcsDebug\ProfUIS_Controls/"
+				WarningLevel="4"
+				SuppressStartupBanner="true"
+				DebugInformationFormat="3"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_DEBUG;PROF_UIS_X64"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_800_x64/ProfUIS_Controls-smd.exe"
+				LinkIncremental="2"
+				SuppressStartupBanner="true"
+				AdditionalLibraryDirectories="..\..\Bin_800_x64"
+				GenerateDebugInformation="true"
+				ProgramDatabaseFile=".\..\..\Bin_800_x64/ProfUIS_Controls-smd.pdb"
+				SubSystem="2"
+				TargetMachine="17"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool"
+				AdditionalManifestFiles="res\\manifest_x64.xml"
+				EmbedManifest="true"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+				SuppressStartupBanner="true"
+				OutputFile=".\..\..\Bin_800_x64/ProfUIS_Controls_800_x64.bsc"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCWebDeploymentTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+		<Configuration
+			Name="Static Unicode Release|x64"
+			OutputDirectory=".\..\..\Bin_800_x64"
+			IntermediateDirectory=".\..\..\Bin_800_x64\StaticUnicodeRelease\ProfUIS_Controls"
+			ConfigurationType="1"
+			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.vsprops"
+			UseOfMFC="1"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="1"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="NDEBUG;PROF_UIS_X64"
+				MkTypLibCompatible="true"
+				SuppressStartupBanner="true"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_800_x64/ProfUIS_Controls_800_x64.tlb"
+				HeaderFileName=""
+			/>
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="2"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="NDEBUG;PROF_UIS_X64;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				StringPooling="true"
+				RuntimeLibrary="0"
+				EnableFunctionLevelLinking="true"
+				UsePrecompiledHeader="2"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_800_x64\StaticUnicodeRelease\ProfUIS_Controls/ProfUIS_Controls_800_x64.pch"
+				AssemblerListingLocation=".\..\..\Bin_800_x64\StaticUnicodeRelease\ProfUIS_Controls/"
+				ObjectFile=".\..\..\Bin_800_x64\StaticUnicodeRelease\ProfUIS_Controls/"
+				ProgramDataBaseFileName=".\..\..\Bin_800_x64\StaticUnicodeRelease\ProfUIS_Controls/"
+				WarningLevel="4"
+				SuppressStartupBanner="true"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG;PROF_UIS_X64"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_800_x64/ProfUIS_Controls-su.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="true"
+				AdditionalLibraryDirectories="..\..\Bin_800_x64"
+				ProgramDatabaseFile=".\..\..\Bin_800_x64/ProfUIS_Controls-su.pdb"
+				SubSystem="2"
+				EntryPointSymbol="wWinMainCRTStartup"
+				TargetMachine="17"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool"
+				AdditionalManifestFiles="res\\manifest_x64.xml"
+				EmbedManifest="true"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+				SuppressStartupBanner="true"
+				OutputFile=".\..\..\Bin_800_x64/ProfUIS_Controls_800_x64.bsc"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCWebDeploymentTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+		<Configuration
+			Name="Unicode Debug|x64"
+			OutputDirectory=".\..\..\Bin_800_x64"
+			IntermediateDirectory=".\..\..\Bin_800_x64\UnicodeDebug\ProfUIS_Controls"
+			ConfigurationType="1"
+			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.vsprops"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="1"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="_DEBUG;PROF_UIS_X64"
+				MkTypLibCompatible="true"
+				SuppressStartupBanner="true"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_800_x64/ProfUIS_Controls_800_x64.tlb"
+				HeaderFileName=""
+			/>
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="0"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="_DEBUG;PROF_UIS_X64;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				MinimalRebuild="true"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="3"
+				UsePrecompiledHeader="2"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_800_x64\UnicodeDebug\ProfUIS_Controls/ProfUIS_Controls_800_x64.pch"
+				AssemblerListingLocation=".\..\..\Bin_800_x64\UnicodeDebug\ProfUIS_Controls/"
+				ObjectFile=".\..\..\Bin_800_x64\UnicodeDebug\ProfUIS_Controls/"
+				ProgramDataBaseFileName=".\..\..\Bin_800_x64\UnicodeDebug\ProfUIS_Controls/"
+				WarningLevel="4"
+				SuppressStartupBanner="true"
+				DebugInformationFormat="3"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_DEBUG;PROF_UIS_X64"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_800_x64/ProfUIS_Controls-ud.exe"
+				LinkIncremental="2"
+				SuppressStartupBanner="true"
+				AdditionalLibraryDirectories="..\..\Bin_800_x64"
+				GenerateDebugInformation="true"
+				ProgramDatabaseFile=".\..\..\Bin_800_x64/ProfUIS_Controls-ud.pdb"
+				SubSystem="2"
+				EntryPointSymbol="wWinMainCRTStartup"
+				TargetMachine="17"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool"
+				AdditionalManifestFiles="res\\manifest_x64.xml"
+				EmbedManifest="true"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+				SuppressStartupBanner="true"
+				OutputFile=".\..\..\Bin_800_x64/ProfUIS_Controls_800_x64.bsc"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCWebDeploymentTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+		<Configuration
+			Name="Static MBCS Debug with MFC DLL|x64"
+			OutputDirectory=".\..\..\Bin_800_x64"
+			IntermediateDirectory=".\..\..\Bin_800_x64\StaticMbcsDebugWithMfcDll\ProfUIS_Controls"
+			ConfigurationType="1"
+			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.vsprops"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="_DEBUG;PROF_UIS_X64"
+				MkTypLibCompatible="true"
+				SuppressStartupBanner="true"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_800_x64/ProfUIS_Controls_800_x64.tlb"
+				HeaderFileName=""
+			/>
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="0"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="_DEBUG;PROF_UIS_X64;__STATPROFUIS_WITH_DLLMFC__;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				MinimalRebuild="true"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="3"
+				UsePrecompiledHeader="2"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_800_x64\StaticMbcsDebugWithMfcDll\ProfUIS_Controls/ProfUIS_Controls_800_x64.pch"
+				AssemblerListingLocation=".\..\..\Bin_800_x64\StaticMbcsDebugWithMfcDll\ProfUIS_Controls/"
+				ObjectFile=".\..\..\Bin_800_x64\StaticMbcsDebugWithMfcDll\ProfUIS_Controls/"
+				ProgramDataBaseFileName=".\..\..\Bin_800_x64\StaticMbcsDebugWithMfcDll\ProfUIS_Controls/"
+				WarningLevel="4"
+				SuppressStartupBanner="true"
+				DebugInformationFormat="3"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_DEBUG;PROF_UIS_X64;__STATPROFUIS_WITH_DLLMFC__"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_800_x64/ProfUIS_Controls-ymd.exe"
+				LinkIncremental="2"
+				SuppressStartupBanner="true"
+				AdditionalLibraryDirectories="..\..\Bin_800_x64"
+				GenerateDebugInformation="true"
+				ProgramDatabaseFile=".\..\..\Bin_800_x64/ProfUIS_Controls-ymd.pdb"
+				SubSystem="2"
+				TargetMachine="17"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool"
+				AdditionalManifestFiles="res\\manifest_x64.xml"
+				EmbedManifest="true"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+				SuppressStartupBanner="true"
+				OutputFile=".\..\..\Bin_800_x64/ProfUIS_Controls_800_x64.bsc"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCWebDeploymentTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+		<Configuration
+			Name="Static ANSI Release with MFC DLL|x64"
+			OutputDirectory=".\..\..\Bin_800_x64"
+			IntermediateDirectory=".\..\..\Bin_800_x64\StaticAnsiReleaseWithMfcDll\ProfUIS_Controls"
+			ConfigurationType="1"
+			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.vsprops"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="NDEBUG;PROF_UIS_X64"
+				MkTypLibCompatible="true"
+				SuppressStartupBanner="true"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_800_x64/ProfUIS_Controls_800_x64.tlb"
+				HeaderFileName=""
+			/>
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="2"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="NDEBUG;PROF_UIS_X64;__STATPROFUIS_WITH_DLLMFC__;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				StringPooling="true"
+				RuntimeLibrary="2"
+				EnableFunctionLevelLinking="true"
+				UsePrecompiledHeader="2"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_800_x64\StaticAnsiReleaseWithMfcDll\ProfUIS_Controls/ProfUIS_Controls_800_x64.pch"
+				AssemblerListingLocation=".\..\..\Bin_800_x64\StaticAnsiReleaseWithMfcDll\ProfUIS_Controls/"
+				ObjectFile=".\..\..\Bin_800_x64\StaticAnsiReleaseWithMfcDll\ProfUIS_Controls/"
+				ProgramDataBaseFileName=".\..\..\Bin_800_x64\StaticAnsiReleaseWithMfcDll\ProfUIS_Controls/"
+				WarningLevel="4"
+				SuppressStartupBanner="true"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG;PROF_UIS_X64;__STATPROFUIS_WITH_DLLMFC__"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_800_x64/ProfUIS_Controls-yn.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="true"
+				AdditionalLibraryDirectories="..\..\Bin_800_x64"
+				ProgramDatabaseFile=".\..\..\Bin_800_x64/ProfUIS_Controls-yn.pdb"
+				SubSystem="2"
+				TargetMachine="17"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool"
+				AdditionalManifestFiles="res\\manifest_x64.xml"
+				EmbedManifest="true"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+				SuppressStartupBanner="true"
+				OutputFile=".\..\..\Bin_800_x64/ProfUIS_Controls_800_x64.bsc"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCWebDeploymentTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+		<Configuration
+			Name="Static ANSI Debug with MFC DLL|x64"
+			OutputDirectory=".\..\..\Bin_800_x64"
+			IntermediateDirectory=".\..\..\Bin_800_x64\StaticAnsiDebugWithMfcDll\ProfUIS_Controls"
+			ConfigurationType="1"
+			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.vsprops"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="_DEBUG;PROF_UIS_X64"
+				MkTypLibCompatible="true"
+				SuppressStartupBanner="true"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_800_x64/ProfUIS_Controls_800_x64.tlb"
+				HeaderFileName=""
+			/>
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="0"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="_DEBUG;PROF_UIS_X64;__STATPROFUIS_WITH_DLLMFC__;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				MinimalRebuild="true"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="3"
+				UsePrecompiledHeader="2"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_800_x64\StaticAnsiDebugWithMfcDll\ProfUIS_Controls/ProfUIS_Controls_800_x64.pch"
+				AssemblerListingLocation=".\..\..\Bin_800_x64\StaticAnsiDebugWithMfcDll\ProfUIS_Controls/"
+				ObjectFile=".\..\..\Bin_800_x64\StaticAnsiDebugWithMfcDll\ProfUIS_Controls/"
+				ProgramDataBaseFileName=".\..\..\Bin_800_x64\StaticAnsiDebugWithMfcDll\ProfUIS_Controls/"
+				WarningLevel="4"
+				SuppressStartupBanner="true"
+				DebugInformationFormat="3"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_DEBUG;PROF_UIS_X64;__STATPROFUIS_WITH_DLLMFC__"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_800_x64/ProfUIS_Controls-ynd.exe"
+				LinkIncremental="2"
+				SuppressStartupBanner="true"
+				AdditionalLibraryDirectories="..\..\Bin_800_x64"
+				GenerateDebugInformation="true"
+				ProgramDatabaseFile=".\..\..\Bin_800_x64/ProfUIS_Controls-ynd.pdb"
+				SubSystem="2"
+				TargetMachine="17"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool"
+				AdditionalManifestFiles="res\\manifest_x64.xml"
+				EmbedManifest="true"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+				SuppressStartupBanner="true"
+				OutputFile=".\..\..\Bin_800_x64/ProfUIS_Controls_800_x64.bsc"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCWebDeploymentTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+		<Configuration
+			Name="Static ANSI Release|x64"
+			OutputDirectory=".\..\..\Bin_800_x64"
+			IntermediateDirectory=".\..\..\Bin_800_x64\StaticAnsiRelease\ProfUIS_Controls"
+			ConfigurationType="1"
+			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.vsprops"
+			UseOfMFC="1"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="NDEBUG;PROF_UIS_X64"
+				MkTypLibCompatible="true"
+				SuppressStartupBanner="true"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_800_x64/ProfUIS_Controls_800_x64.tlb"
+				HeaderFileName=""
+			/>
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="2"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="NDEBUG;PROF_UIS_X64;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				StringPooling="true"
+				RuntimeLibrary="0"
+				EnableFunctionLevelLinking="true"
+				UsePrecompiledHeader="2"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_800_x64\StaticAnsiRelease\ProfUIS_Controls/ProfUIS_Controls_800_x64.pch"
+				AssemblerListingLocation=".\..\..\Bin_800_x64\StaticAnsiRelease\ProfUIS_Controls/"
+				ObjectFile=".\..\..\Bin_800_x64\StaticAnsiRelease\ProfUIS_Controls/"
+				ProgramDataBaseFileName=".\..\..\Bin_800_x64\StaticAnsiRelease\ProfUIS_Controls/"
+				WarningLevel="4"
+				SuppressStartupBanner="true"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG;PROF_UIS_X64"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_800_x64/ProfUIS_Controls-sn.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="true"
+				AdditionalLibraryDirectories="..\..\Bin_800_x64"
+				ProgramDatabaseFile=".\..\..\Bin_800_x64/ProfUIS_Controls-sn.pdb"
+				SubSystem="2"
+				TargetMachine="17"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool"
+				AdditionalManifestFiles="res\\manifest_x64.xml"
+				EmbedManifest="true"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+				SuppressStartupBanner="true"
+				OutputFile=".\..\..\Bin_800_x64/ProfUIS_Controls_800_x64.bsc"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCWebDeploymentTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+		<Configuration
+			Name="Static Unicode Debug with MFC DLL|x64"
+			OutputDirectory=".\..\..\Bin_800_x64"
+			IntermediateDirectory=".\..\..\Bin_800_x64\StaticUnicodeDebugWithMfcDll\ProfUIS_Controls"
+			ConfigurationType="1"
+			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.vsprops"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="1"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="_DEBUG;PROF_UIS_X64"
+				MkTypLibCompatible="true"
+				SuppressStartupBanner="true"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_800_x64/ProfUIS_Controls_800_x64.tlb"
+				HeaderFileName=""
+			/>
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="0"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="_DEBUG;PROF_UIS_X64;__STATPROFUIS_WITH_DLLMFC__;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				MinimalRebuild="true"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="3"
+				UsePrecompiledHeader="2"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_800_x64\StaticUnicodeDebugWithMfcDll\ProfUIS_Controls/ProfUIS_Controls_800_x64.pch"
+				AssemblerListingLocation=".\..\..\Bin_800_x64\StaticUnicodeDebugWithMfcDll\ProfUIS_Controls/"
+				ObjectFile=".\..\..\Bin_800_x64\StaticUnicodeDebugWithMfcDll\ProfUIS_Controls/"
+				ProgramDataBaseFileName=".\..\..\Bin_800_x64\StaticUnicodeDebugWithMfcDll\ProfUIS_Controls/"
+				WarningLevel="4"
+				SuppressStartupBanner="true"
+				DebugInformationFormat="3"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_DEBUG;PROF_UIS_X64;__STATPROFUIS_WITH_DLLMFC__"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_800_x64/ProfUIS_Controls-yud.exe"
+				LinkIncremental="2"
+				SuppressStartupBanner="true"
+				AdditionalLibraryDirectories="..\..\Bin_800_x64"
+				GenerateDebugInformation="true"
+				ProgramDatabaseFile=".\..\..\Bin_800_x64/ProfUIS_Controls-yud.pdb"
+				SubSystem="2"
+				EntryPointSymbol="wWinMainCRTStartup"
+				TargetMachine="17"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool"
+				AdditionalManifestFiles="res\\manifest_x64.xml"
+				EmbedManifest="true"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+				SuppressStartupBanner="true"
+				OutputFile=".\..\..\Bin_800_x64/ProfUIS_Controls_800_x64.bsc"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCWebDeploymentTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+		<Configuration
+			Name="MBCS Debug|x64"
+			OutputDirectory=".\..\..\Bin_800_x64"
+			IntermediateDirectory=".\..\..\Bin_800_x64\MbcsDebug\ProfUIS_Controls"
+			ConfigurationType="1"
+			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.vsprops"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="_DEBUG;PROF_UIS_X64"
+				MkTypLibCompatible="true"
+				SuppressStartupBanner="true"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_800_x64/ProfUIS_Controls_800_x64.tlb"
+				HeaderFileName=""
+			/>
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="0"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="_DEBUG;PROF_UIS_X64;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				MinimalRebuild="true"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="3"
+				UsePrecompiledHeader="2"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_800_x64\MbcsDebug\ProfUIS_Controls/ProfUIS_Controls_800_x64.pch"
+				AssemblerListingLocation=".\..\..\Bin_800_x64\MbcsDebug\ProfUIS_Controls/"
+				ObjectFile=".\..\..\Bin_800_x64\MbcsDebug\ProfUIS_Controls/"
+				ProgramDataBaseFileName=".\..\..\Bin_800_x64\MbcsDebug\ProfUIS_Controls/"
+				WarningLevel="4"
+				SuppressStartupBanner="true"
+				DebugInformationFormat="3"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_DEBUG;PROF_UIS_X64"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_800_x64/ProfUIS_Controls-md.exe"
+				LinkIncremental="2"
+				SuppressStartupBanner="true"
+				AdditionalLibraryDirectories="..\..\Bin_800_x64"
+				GenerateDebugInformation="true"
+				ProgramDatabaseFile=".\..\..\Bin_800_x64/ProfUIS_Controls-md.pdb"
+				SubSystem="2"
+				TargetMachine="17"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool"
+				AdditionalManifestFiles="res\\manifest_x64.xml"
+				EmbedManifest="true"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+				SuppressStartupBanner="true"
+				OutputFile=".\..\..\Bin_800_x64/ProfUIS_Controls_800_x64.bsc"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCWebDeploymentTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+		<Configuration
+			Name="Unicode Release|x64"
+			OutputDirectory=".\..\..\Bin_800_x64"
+			IntermediateDirectory=".\..\..\Bin_800_x64\UnicodeRelease\ProfUIS_Controls"
+			ConfigurationType="1"
+			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.vsprops"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="1"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="NDEBUG;PROF_UIS_X64"
+				MkTypLibCompatible="true"
+				SuppressStartupBanner="true"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_800_x64/ProfUIS_Controls_800_x64.tlb"
+				HeaderFileName=""
+			/>
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="2"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="NDEBUG;PROF_UIS_X64;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				StringPooling="true"
+				RuntimeLibrary="2"
+				EnableFunctionLevelLinking="true"
+				UsePrecompiledHeader="2"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_800_x64\UnicodeRelease\ProfUIS_Controls/ProfUIS_Controls_800_x64.pch"
+				AssemblerListingLocation=".\..\..\Bin_800_x64\UnicodeRelease\ProfUIS_Controls/"
+				ObjectFile=".\..\..\Bin_800_x64\UnicodeRelease\ProfUIS_Controls/"
+				ProgramDataBaseFileName=".\..\..\Bin_800_x64\UnicodeRelease\ProfUIS_Controls/"
+				WarningLevel="4"
+				SuppressStartupBanner="true"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG;PROF_UIS_X64"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_800_x64/ProfUIS_Controls-u.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="true"
+				AdditionalLibraryDirectories="..\..\Bin_800_x64"
+				ProgramDatabaseFile=".\..\..\Bin_800_x64/ProfUIS_Controls-u.pdb"
+				SubSystem="2"
+				EntryPointSymbol="wWinMainCRTStartup"
+				TargetMachine="17"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool"
+				AdditionalManifestFiles="res\\manifest_x64.xml"
+				EmbedManifest="true"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+				SuppressStartupBanner="true"
+				OutputFile=".\..\..\Bin_800_x64/ProfUIS_Controls_800_x64.bsc"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCWebDeploymentTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+		<Configuration
+			Name="Static ANSI Debug|x64"
+			OutputDirectory=".\..\..\Bin_800_x64"
+			IntermediateDirectory=".\..\..\Bin_800_x64\StaticAnsiDebug\ProfUIS_Controls"
+			ConfigurationType="1"
+			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.vsprops"
+			UseOfMFC="1"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="_DEBUG;PROF_UIS_X64"
+				MkTypLibCompatible="true"
+				SuppressStartupBanner="true"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_800_x64/ProfUIS_Controls_800_x64.tlb"
+				HeaderFileName=""
+			/>
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="0"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="_DEBUG;PROF_UIS_X64;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				MinimalRebuild="true"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="1"
+				UsePrecompiledHeader="2"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_800_x64\StaticAnsiDebug\ProfUIS_Controls/ProfUIS_Controls_800_x64.pch"
+				AssemblerListingLocation=".\..\..\Bin_800_x64\StaticAnsiDebug\ProfUIS_Controls/"
+				ObjectFile=".\..\..\Bin_800_x64\StaticAnsiDebug\ProfUIS_Controls/"
+				ProgramDataBaseFileName=".\..\..\Bin_800_x64\StaticAnsiDebug\ProfUIS_Controls/"
+				WarningLevel="4"
+				SuppressStartupBanner="true"
+				DebugInformationFormat="3"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_DEBUG;PROF_UIS_X64"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_800_x64/ProfUIS_Controls-snd.exe"
+				LinkIncremental="2"
+				SuppressStartupBanner="true"
+				AdditionalLibraryDirectories="..\..\Bin_800_x64"
+				GenerateDebugInformation="true"
+				ProgramDatabaseFile=".\..\..\Bin_800_x64/ProfUIS_Controls-snd.pdb"
+				SubSystem="2"
+				TargetMachine="17"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool"
+				AdditionalManifestFiles="res\\manifest_x64.xml"
+				EmbedManifest="true"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+				SuppressStartupBanner="true"
+				OutputFile=".\..\..\Bin_800_x64/ProfUIS_Controls_800_x64.bsc"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCWebDeploymentTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+		<Configuration
+			Name="MBCS Release|x64"
+			OutputDirectory=".\..\..\Bin_800_x64"
+			IntermediateDirectory=".\..\..\Bin_800_x64\MbcsRelease\ProfUIS_Controls"
+			ConfigurationType="1"
+			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.vsprops"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="NDEBUG;PROF_UIS_X64"
+				MkTypLibCompatible="true"
+				SuppressStartupBanner="true"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_800_x64/ProfUIS_Controls_800_x64.tlb"
+				HeaderFileName=""
+			/>
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="2"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="NDEBUG;PROF_UIS_X64;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				StringPooling="true"
+				RuntimeLibrary="2"
+				EnableFunctionLevelLinking="true"
+				UsePrecompiledHeader="2"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_800_x64\MbcsRelease\ProfUIS_Controls/ProfUIS_Controls_800_x64.pch"
+				AssemblerListingLocation=".\..\..\Bin_800_x64\MbcsRelease\ProfUIS_Controls/"
+				ObjectFile=".\..\..\Bin_800_x64\MbcsRelease\ProfUIS_Controls/"
+				ProgramDataBaseFileName=".\..\..\Bin_800_x64\MbcsRelease\ProfUIS_Controls/"
+				WarningLevel="4"
+				SuppressStartupBanner="true"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG;PROF_UIS_X64"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_800_x64/ProfUIS_Controls-m.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="true"
+				AdditionalLibraryDirectories="..\..\Bin_800_x64"
+				ProgramDatabaseFile=".\..\..\Bin_800_x64/ProfUIS_Controls-m.pdb"
+				SubSystem="2"
+				TargetMachine="17"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool"
+				AdditionalManifestFiles="res\\manifest_x64.xml"
+				EmbedManifest="true"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+				SuppressStartupBanner="true"
+				OutputFile=".\..\..\Bin_800_x64/ProfUIS_Controls_800_x64.bsc"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCWebDeploymentTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+		<Configuration
+			Name="Static MBCS Release with MFC DLL|x64"
+			OutputDirectory=".\..\..\Bin_800_x64"
+			IntermediateDirectory=".\..\..\Bin_800_x64\StaticMbcsReleaseWithMfcDll\ProfUIS_Controls"
+			ConfigurationType="1"
+			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.vsprops"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="NDEBUG;PROF_UIS_X64"
+				MkTypLibCompatible="true"
+				SuppressStartupBanner="true"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_800_x64/ProfUIS_Controls_800_x64.tlb"
+				HeaderFileName=""
+			/>
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="2"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="NDEBUG;PROF_UIS_X64;__STATPROFUIS_WITH_DLLMFC__;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				StringPooling="true"
+				RuntimeLibrary="2"
+				EnableFunctionLevelLinking="true"
+				UsePrecompiledHeader="2"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_800_x64\StaticMbcsReleaseWithMfcDll\ProfUIS_Controls/ProfUIS_Controls_800_x64.pch"
+				AssemblerListingLocation=".\..\..\Bin_800_x64\StaticMbcsReleaseWithMfcDll\ProfUIS_Controls/"
+				ObjectFile=".\..\..\Bin_800_x64\StaticMbcsReleaseWithMfcDll\ProfUIS_Controls/"
+				ProgramDataBaseFileName=".\..\..\Bin_800_x64\StaticMbcsReleaseWithMfcDll\ProfUIS_Controls/"
+				WarningLevel="4"
+				SuppressStartupBanner="true"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG;PROF_UIS_X64;__STATPROFUIS_WITH_DLLMFC__"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_800_x64/ProfUIS_Controls-ym.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="true"
+				AdditionalLibraryDirectories="..\..\Bin_800_x64"
+				ProgramDatabaseFile=".\..\..\Bin_800_x64/ProfUIS_Controls-ym.pdb"
+				SubSystem="2"
+				TargetMachine="17"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool"
+				AdditionalManifestFiles="res\\manifest_x64.xml"
+				EmbedManifest="true"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+				SuppressStartupBanner="true"
+				OutputFile=".\..\..\Bin_800_x64/ProfUIS_Controls_800_x64.bsc"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCWebDeploymentTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+	</Configurations>
+	<References>
+	</References>
+	<Files>
+		<Filter
+			Name="Source Files"
+			Filter="cpp;c;cxx;rc;def;r;odl;idl;hpj;bat"
+			>
+			<File
+				RelativePath="IconListBox.cpp"
+				>
+				<FileConfiguration
+					Name="ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="MainDlg.cpp"
+				>
+				<FileConfiguration
+					Name="ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="PageBase.cpp"
+				>
+				<FileConfiguration
+					Name="ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="PageButtons.cpp"
+				>
+				<FileConfiguration
+					Name="ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="PageCalendar.cpp"
+				>
+				<FileConfiguration
+					Name="ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="PageDateTimeDuration.cpp"
+				>
+				<FileConfiguration
+					Name="ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="PageGrid.cpp"
+				>
+				<FileConfiguration
+					Name="ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="PageHyperLinks.cpp"
+				>
+				<FileConfiguration
+					Name="ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="PageNotAvailable.cpp"
+				>
+				<FileConfiguration
+					Name="ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="PagePopupMenus.cpp"
+				>
+				<FileConfiguration
+					Name="ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="PageMaskedEdit.cpp">
+			</File>
+			<File
+				RelativePath="PageListCtrl.cpp">
+			</File>
+			<File
+				RelativePath="PageTreeCtrl.cpp">
+			</File>
+			<File
+				RelativePath="PageShellListCtrl.cpp">
+			</File>
+			<File
+				RelativePath="PageShellTreeCtrl.cpp">
+			</File>
+			<File
+				RelativePath="PageShellDialogFile.cpp">
+			</File>
+			<File
+				RelativePath="PageShellDialogBrowseFor.cpp">
+			</File>
+			<File
+				RelativePath="PageShellBrowser.cpp">
+			</File>
+			<File
+				RelativePath="PageStatusBar.cpp"
+				>
+				<FileConfiguration
+					Name="ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="PageTabContainers.cpp"
+				>
+				<FileConfiguration
+					Name="ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="PageTabWindow.cpp"
+				>
+				<FileConfiguration
+					Name="ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="PageToolbars.cpp"
+				>
+				<FileConfiguration
+					Name="ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="ProfUIS_Controls.cpp"
+				>
+				<FileConfiguration
+					Name="ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="ProfUIS_Controls.rc"
+				>
+				<FileConfiguration
+					Name="ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release|x64"
+					>
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Release|x64"
+					>
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release|x64"
+					>
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release|x64"
+					>
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|x64"
+					>
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Release|x64"
+					>
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="StdAfx.cpp"
+				>
+				<FileConfiguration
+					Name="ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"
+					/>
+				</FileConfiguration>
+			</File>
+		</Filter>
+		<Filter
+			Name="Header Files"
+			Filter="h;hpp;hxx;hm;inl"
+			>
+			<File
+				RelativePath="IconListBox.h"
+				>
+			</File>
+			<File
+				RelativePath="MainDlg.h"
+				>
+			</File>
+			<File
+				RelativePath="PageBase.h"
+				>
+			</File>
+			<File
+				RelativePath="PageButtons.h"
+				>
+			</File>
+			<File
+				RelativePath="PageCalendar.h"
+				>
+			</File>
+			<File
+				RelativePath="PageDateTimeDuration.h"
+				>
+			</File>
+			<File
+				RelativePath="PageGrid.h"
+				>
+			</File>
+			<File
+				RelativePath="PageHyperLinks.h"
+				>
+			</File>
+			<File
+				RelativePath="PageNotAvailable.h"
+				>
+			</File>
+			<File
+				RelativePath="PagePopupMenus.h"
+				>
+			</File>
+			<File
+				RelativePath="PageStatusBar.h"
+				>
+			</File>
+			<File
+				RelativePath="PageMaskedEdit.h">
+			</File>
+			<File
+				RelativePath="PageListCtrl.h">
+			</File>
+			<File
+				RelativePath="PageTreeCtrl.h">
+			</File>
+			<File
+				RelativePath="PageShellListCtrl.h">
+			</File>
+			<File
+				RelativePath="PageShellTreeCtrl.h">
+			</File>
+			<File
+				RelativePath="PageShellDialogFile.h">
+			</File>
+			<File
+				RelativePath="PageShellDialogBrowseFor.h">
+			</File>
+			<File
+				RelativePath="PageShellBrowser.h">
+			</File>
+			<File
+				RelativePath="PageTabContainers.h"
+				>
+			</File>
+			<File
+				RelativePath="PageTabWindow.h"
+				>
+			</File>
+			<File
+				RelativePath="PageToolbars.h"
+				>
+			</File>
+			<File
+				RelativePath="ProfUIS_Controls.h"
+				>
+			</File>
+			<File
+				RelativePath="Resource.h"
+				>
+			</File>
+			<File
+				RelativePath="StdAfx.h"
+				>
+			</File>
+		</Filter>
+		<Filter
+			Name="Resource Files"
+			Filter="ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe"
+			>
+			<File
+				RelativePath="res\checkbox_cross.bmp"
+				>
+			</File>
+			<File
+				RelativePath="res\checkbox_xp.bmp"
+				>
+			</File>
+			<File
+				RelativePath="res\checkbox_xp_blue.bmp"
+				>
+			</File>
+			<File
+				RelativePath="res\colorctrl.ico"
+				>
+			</File>
+			<File
+				RelativePath="res\download.avi"
+				>
+			</File>
+			<File
+				RelativePath="res\edit.ico"
+				>
+			</File>
+			<File
+				RelativePath="res\icon1.ico"
+				>
+			</File>
+			<File
+				RelativePath="res\IconForPopupMenu.ico"
+				>
+			</File>
+			<File
+				RelativePath="res\IconIn.ico"
+				>
+			</File>
+			<File
+				RelativePath="res\IconOut.ico"
+				>
+			</File>
+			<File
+				RelativePath="res\IDI_BUTTONS.ico"
+				>
+			</File>
+			<File
+				RelativePath="res\IDI_CALENDAR.ico"
+				>
+			</File>
+			<File
+				RelativePath="res\IDI_DATE_TIME_DURATION.ico"
+				>
+			</File>
+			<File
+				RelativePath="res\IDI_HYPER_LINKS.ico"
+				>
+			</File>
+			<File
+				RelativePath="res\IDI_MENU.ico"
+				>
+			</File>
+			<File
+				RelativePath="res\IDI_MENU_TOOLBAR.ico"
+				>
+			</File>
+			<File
+				RelativePath="res\IDI_STATUS_BAR.ico"
+				>
+			</File>
+			<File
+				RelativePath="res\IDI_TAB_CONTAINER.ico"
+				>
+			</File>
+			<File
+				RelativePath="res\IDI_TAB_WINDOW.ico"
+				>
+			</File>
+			<File
+				RelativePath="res\IDR_EDIT.bmp"
+				>
+			</File>
+			<File
+				RelativePath="res\IDR_MAIN_TOOLBAR.bmp"
+				>
+			</File>
+			<File
+				RelativePath="res\IDR_TOOLBAR_PALETTE.bmp"
+				>
+			</File>
+			<File
+				RelativePath="res\LedOff.ico"
+				>
+			</File>
+			<File
+				RelativePath="res\LedOn.ico"
+				>
+			</File>
+			<File
+				RelativePath="res\main_too.bmp"
+				>
+			</File>
+			<File
+				RelativePath="res\Notepad.ico"
+				>
+			</File>
+			<File
+				RelativePath="res\paint_palette.bmp"
+				>
+			</File>
+			<File
+				RelativePath="res\ProfUIS_Controls.ico"
+				>
+			</File>
+			<File
+				RelativePath="res\ProfUIS_Controls.rc2"
+				>
+			</File>
+			<File
+				RelativePath="res\radiobox_xp.bmp"
+				>
+			</File>
+			<File
+				RelativePath="res\radiobox_xp_blue.bmp"
+				>
+			</File>
+			<File
+				RelativePath="res\radiobox_xp_cross.bmp"
+				>
+			</File>
+			<File
+				RelativePath="res\tab_imag.bmp"
+				>
+			</File>
+			<File
+				RelativePath="res\Toolbar.bmp"
+				>
+			</File>
+			<File
+				RelativePath="res\toolbar1.bmp"
+				>
+			</File>
+			<File
+				RelativePath="res\TOOLBAR_2_16bit.bmp"
+				>
+			</File>
+			<File
+				RelativePath="res\tree.ico"
+				>
+			</File>
+			<File
+				RelativePath="res\xptheme.bin"
+				>
+			</File>
+		</Filter>
+		<File
+			RelativePath="ReadMe.txt"
+			>
+		</File>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

@@ -1,0 +1,25 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LibPNG", "LibPNG_800_ia64.vcproj", "{861B642A-9319-4CEF-8B20-FFAC801F1150}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Used LIBs Debug (DLL CRT)|Itanium = Used LIBs Debug (DLL CRT)|Itanium
+		Used LIBs Debug (LIB CRT)|Itanium = Used LIBs Debug (LIB CRT)|Itanium
+		Used LIBs Release (DLL CRT)|Itanium = Used LIBs Release (DLL CRT)|Itanium
+		Used LIBs Release (LIB CRT)|Itanium = Used LIBs Release (LIB CRT)|Itanium
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{861B642A-9319-4CEF-8B20-FFAC801F1150}.Used LIBs Debug (DLL CRT)|Itanium.ActiveCfg = Used LIBs Debug (DLL CRT)|Itanium
+		{861B642A-9319-4CEF-8B20-FFAC801F1150}.Used LIBs Debug (DLL CRT)|Itanium.Build.0 = Used LIBs Debug (DLL CRT)|Itanium
+		{861B642A-9319-4CEF-8B20-FFAC801F1150}.Used LIBs Debug (LIB CRT)|Itanium.ActiveCfg = Used LIBs Debug (LIB CRT)|Itanium
+		{861B642A-9319-4CEF-8B20-FFAC801F1150}.Used LIBs Debug (LIB CRT)|Itanium.Build.0 = Used LIBs Debug (LIB CRT)|Itanium
+		{861B642A-9319-4CEF-8B20-FFAC801F1150}.Used LIBs Release (DLL CRT)|Itanium.ActiveCfg = Used LIBs Release (DLL CRT)|Itanium
+		{861B642A-9319-4CEF-8B20-FFAC801F1150}.Used LIBs Release (DLL CRT)|Itanium.Build.0 = Used LIBs Release (DLL CRT)|Itanium
+		{861B642A-9319-4CEF-8B20-FFAC801F1150}.Used LIBs Release (LIB CRT)|Itanium.ActiveCfg = Used LIBs Release (LIB CRT)|Itanium
+		{861B642A-9319-4CEF-8B20-FFAC801F1150}.Used LIBs Release (LIB CRT)|Itanium.Build.0 = Used LIBs Release (LIB CRT)|Itanium
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

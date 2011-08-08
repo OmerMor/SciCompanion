@@ -1,0 +1,16 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FarsiProfUIS", "FarsiProfUIS_800_ia64.vcproj", "{50345B9D-FA64-63F6-7F57-D9D345345340}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Farsi|Itanium = Farsi|Itanium
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50345B9D-FA64-63F6-7F57-D9D345345340}.Farsi|Itanium.ActiveCfg = Farsi|Itanium
+		{50345B9D-FA64-63F6-7F57-D9D345345340}.Farsi|Itanium.Build.0 = Farsi|Itanium
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

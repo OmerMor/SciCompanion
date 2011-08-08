@@ -1,0 +1,186 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FarsiLanguageSwitcher", "FarsiLanguageSwitcher\FarsiLanguageSwitcher_800_ia64.vcproj", "{50345B9D-FA64-63F6-7F57-D9D345345340}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FarsiProfUIS", "FarsiProfUIS\FarsiProfUIS_800_ia64.vcproj", "{AFEEC31C-79FB-467D-801C-714A6BAC19E9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KhmerLanguageSwitcher", "KhmerLanguageSwitcher\KhmerLanguageSwitcher_800_ia64.vcproj", "{E07EC5E5-40B2-4354-9B94-5463477A3812}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KhmerProfUIS", "KhmerProfUIS\KhmerProfUIS_800_ia64.vcproj", "{6B5543A2-6462-41B6-BCED-BD6649E0E81E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BosnianProfUIS", "BosnianProfUIS\BosnianProfUIS_800_ia64.vcproj", "{FC21455E-958B-4D80-B76B-BF13E2EFFC31}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BosnianLanguageSwitcher", "BosnianLanguageSwitcher\BosnianLanguageSwitcher_800_ia64.vcproj", "{8E42C59C-14FE-41DC-9457-A1151E2B83E7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EasternArmenianProfUIS", "EasternArmenianProfUIS\EasternArmenianProfUIS_800_ia64.vcproj", "{8F54C7B5-EC82-4E9F-9500-63E35AD62D2C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EasternArmenianLanguageSwitcher", "EasternArmenianLanguageSwitcher\EasternArmenianLanguageSwitcher_800_ia64.vcproj", "{9133012B-5D09-4752-B271-74C2CB790C58}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VietnameseProfUIS", "VietnameseProfUIS\VietnameseProfUIS_800_ia64.vcproj", "{B2CE4487-A785-4ADF-AC82-2B64782E4548}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MacedonianProfUIS", "MacedonianProfUIS\MacedonianProfUIS_800_ia64.vcproj", "{DA5B460A-98BE-49AE-A996-46647301687A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MacedonianLanguageSwitcher", "MacedonianLanguageSwitcher\MacedonianLanguageSwitcher_800_ia64.vcproj", "{8538D006-4D51-4008-9ED1-E8BD3066BAEA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VietnameseLanguageSwitcher", "VietnameseLanguageSwitcher\VietnameseLanguageSwitcher_800_ia64.vcproj", "{4113D40E-C89F-4A80-8F2F-686EFC153453}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Bosnian|Itanium = Bosnian|Itanium
+		EasternArmenian|Itanium = EasternArmenian|Itanium
+		Farsi|Itanium = Farsi|Itanium
+		Khmer|Itanium = Khmer|Itanium
+		Macedonian|Itanium = Macedonian|Itanium
+		Vietnamese|Itanium = Vietnamese|Itanium
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50345B9D-FA64-63F6-7F57-D9D345345340}.Bosnian|Itanium.ActiveCfg = Farsi|Itanium
+		{50345B9D-FA64-63F6-7F57-D9D345345340}.Bosnian|Itanium.Build.0 = Farsi|Itanium
+		{50345B9D-FA64-63F6-7F57-D9D345345340}.EasternArmenian|Itanium.ActiveCfg = Farsi|Itanium
+		{50345B9D-FA64-63F6-7F57-D9D345345340}.EasternArmenian|Itanium.Build.0 = Farsi|Itanium
+		{50345B9D-FA64-63F6-7F57-D9D345345340}.Farsi|Itanium.ActiveCfg = Farsi|Itanium
+		{50345B9D-FA64-63F6-7F57-D9D345345340}.Farsi|Itanium.Build.0 = Farsi|Itanium
+		{50345B9D-FA64-63F6-7F57-D9D345345340}.Khmer|Itanium.ActiveCfg = Farsi|Itanium
+		{50345B9D-FA64-63F6-7F57-D9D345345340}.Khmer|Itanium.Build.0 = Farsi|Itanium
+		{50345B9D-FA64-63F6-7F57-D9D345345340}.Macedonian|Itanium.ActiveCfg = Farsi|Itanium
+		{50345B9D-FA64-63F6-7F57-D9D345345340}.Macedonian|Itanium.Build.0 = Farsi|Itanium
+		{50345B9D-FA64-63F6-7F57-D9D345345340}.Vietnamese|Itanium.ActiveCfg = Farsi|Itanium
+		{50345B9D-FA64-63F6-7F57-D9D345345340}.Vietnamese|Itanium.Build.0 = Farsi|Itanium
+		{AFEEC31C-79FB-467D-801C-714A6BAC19E9}.Bosnian|Itanium.ActiveCfg = Farsi|Itanium
+		{AFEEC31C-79FB-467D-801C-714A6BAC19E9}.Bosnian|Itanium.Build.0 = Farsi|Itanium
+		{AFEEC31C-79FB-467D-801C-714A6BAC19E9}.EasternArmenian|Itanium.ActiveCfg = Farsi|Itanium
+		{AFEEC31C-79FB-467D-801C-714A6BAC19E9}.EasternArmenian|Itanium.Build.0 = Farsi|Itanium
+		{AFEEC31C-79FB-467D-801C-714A6BAC19E9}.Farsi|Itanium.ActiveCfg = Farsi|Itanium
+		{AFEEC31C-79FB-467D-801C-714A6BAC19E9}.Farsi|Itanium.Build.0 = Farsi|Itanium
+		{AFEEC31C-79FB-467D-801C-714A6BAC19E9}.Khmer|Itanium.ActiveCfg = Farsi|Itanium
+		{AFEEC31C-79FB-467D-801C-714A6BAC19E9}.Khmer|Itanium.Build.0 = Farsi|Itanium
+		{AFEEC31C-79FB-467D-801C-714A6BAC19E9}.Macedonian|Itanium.ActiveCfg = Farsi|Itanium
+		{AFEEC31C-79FB-467D-801C-714A6BAC19E9}.Macedonian|Itanium.Build.0 = Farsi|Itanium
+		{AFEEC31C-79FB-467D-801C-714A6BAC19E9}.Vietnamese|Itanium.ActiveCfg = Farsi|Itanium
+		{AFEEC31C-79FB-467D-801C-714A6BAC19E9}.Vietnamese|Itanium.Build.0 = Farsi|Itanium
+		{E07EC5E5-40B2-4354-9B94-5463477A3812}.Bosnian|Itanium.ActiveCfg = Khmer|Itanium
+		{E07EC5E5-40B2-4354-9B94-5463477A3812}.Bosnian|Itanium.Build.0 = Khmer|Itanium
+		{E07EC5E5-40B2-4354-9B94-5463477A3812}.EasternArmenian|Itanium.ActiveCfg = Khmer|Itanium
+		{E07EC5E5-40B2-4354-9B94-5463477A3812}.EasternArmenian|Itanium.Build.0 = Khmer|Itanium
+		{E07EC5E5-40B2-4354-9B94-5463477A3812}.Farsi|Itanium.ActiveCfg = Khmer|Itanium
+		{E07EC5E5-40B2-4354-9B94-5463477A3812}.Farsi|Itanium.Build.0 = Khmer|Itanium
+		{E07EC5E5-40B2-4354-9B94-5463477A3812}.Khmer|Itanium.ActiveCfg = Khmer|Itanium
+		{E07EC5E5-40B2-4354-9B94-5463477A3812}.Khmer|Itanium.Build.0 = Khmer|Itanium
+		{E07EC5E5-40B2-4354-9B94-5463477A3812}.Macedonian|Itanium.ActiveCfg = Khmer|Itanium
+		{E07EC5E5-40B2-4354-9B94-5463477A3812}.Macedonian|Itanium.Build.0 = Khmer|Itanium
+		{E07EC5E5-40B2-4354-9B94-5463477A3812}.Vietnamese|Itanium.ActiveCfg = Khmer|Itanium
+		{E07EC5E5-40B2-4354-9B94-5463477A3812}.Vietnamese|Itanium.Build.0 = Khmer|Itanium
+		{6B5543A2-6462-41B6-BCED-BD6649E0E81E}.Bosnian|Itanium.ActiveCfg = Khmer|Itanium
+		{6B5543A2-6462-41B6-BCED-BD6649E0E81E}.Bosnian|Itanium.Build.0 = Khmer|Itanium
+		{6B5543A2-6462-41B6-BCED-BD6649E0E81E}.EasternArmenian|Itanium.ActiveCfg = Khmer|Itanium
+		{6B5543A2-6462-41B6-BCED-BD6649E0E81E}.EasternArmenian|Itanium.Build.0 = Khmer|Itanium
+		{6B5543A2-6462-41B6-BCED-BD6649E0E81E}.Farsi|Itanium.ActiveCfg = Khmer|Itanium
+		{6B5543A2-6462-41B6-BCED-BD6649E0E81E}.Farsi|Itanium.Build.0 = Khmer|Itanium
+		{6B5543A2-6462-41B6-BCED-BD6649E0E81E}.Khmer|Itanium.ActiveCfg = Khmer|Itanium
+		{6B5543A2-6462-41B6-BCED-BD6649E0E81E}.Khmer|Itanium.Build.0 = Khmer|Itanium
+		{6B5543A2-6462-41B6-BCED-BD6649E0E81E}.Macedonian|Itanium.ActiveCfg = Khmer|Itanium
+		{6B5543A2-6462-41B6-BCED-BD6649E0E81E}.Macedonian|Itanium.Build.0 = Khmer|Itanium
+		{6B5543A2-6462-41B6-BCED-BD6649E0E81E}.Vietnamese|Itanium.ActiveCfg = Khmer|Itanium
+		{6B5543A2-6462-41B6-BCED-BD6649E0E81E}.Vietnamese|Itanium.Build.0 = Khmer|Itanium
+		{FC21455E-958B-4D80-B76B-BF13E2EFFC31}.Bosnian|Itanium.ActiveCfg = Bosnian|Itanium
+		{FC21455E-958B-4D80-B76B-BF13E2EFFC31}.Bosnian|Itanium.Build.0 = Bosnian|Itanium
+		{FC21455E-958B-4D80-B76B-BF13E2EFFC31}.EasternArmenian|Itanium.ActiveCfg = Bosnian|Itanium
+		{FC21455E-958B-4D80-B76B-BF13E2EFFC31}.EasternArmenian|Itanium.Build.0 = Bosnian|Itanium
+		{FC21455E-958B-4D80-B76B-BF13E2EFFC31}.Farsi|Itanium.ActiveCfg = Bosnian|Itanium
+		{FC21455E-958B-4D80-B76B-BF13E2EFFC31}.Farsi|Itanium.Build.0 = Bosnian|Itanium
+		{FC21455E-958B-4D80-B76B-BF13E2EFFC31}.Khmer|Itanium.ActiveCfg = Bosnian|Itanium
+		{FC21455E-958B-4D80-B76B-BF13E2EFFC31}.Khmer|Itanium.Build.0 = Bosnian|Itanium
+		{FC21455E-958B-4D80-B76B-BF13E2EFFC31}.Macedonian|Itanium.ActiveCfg = Bosnian|Itanium
+		{FC21455E-958B-4D80-B76B-BF13E2EFFC31}.Macedonian|Itanium.Build.0 = Bosnian|Itanium
+		{FC21455E-958B-4D80-B76B-BF13E2EFFC31}.Vietnamese|Itanium.ActiveCfg = Bosnian|Itanium
+		{FC21455E-958B-4D80-B76B-BF13E2EFFC31}.Vietnamese|Itanium.Build.0 = Bosnian|Itanium
+		{8E42C59C-14FE-41DC-9457-A1151E2B83E7}.Bosnian|Itanium.ActiveCfg = Bosnian|Itanium
+		{8E42C59C-14FE-41DC-9457-A1151E2B83E7}.Bosnian|Itanium.Build.0 = Bosnian|Itanium
+		{8E42C59C-14FE-41DC-9457-A1151E2B83E7}.EasternArmenian|Itanium.ActiveCfg = Bosnian|Itanium
+		{8E42C59C-14FE-41DC-9457-A1151E2B83E7}.EasternArmenian|Itanium.Build.0 = Bosnian|Itanium
+		{8E42C59C-14FE-41DC-9457-A1151E2B83E7}.Farsi|Itanium.ActiveCfg = Bosnian|Itanium
+		{8E42C59C-14FE-41DC-9457-A1151E2B83E7}.Farsi|Itanium.Build.0 = Bosnian|Itanium
+		{8E42C59C-14FE-41DC-9457-A1151E2B83E7}.Khmer|Itanium.ActiveCfg = Bosnian|Itanium
+		{8E42C59C-14FE-41DC-9457-A1151E2B83E7}.Khmer|Itanium.Build.0 = Bosnian|Itanium
+		{8E42C59C-14FE-41DC-9457-A1151E2B83E7}.Macedonian|Itanium.ActiveCfg = Bosnian|Itanium
+		{8E42C59C-14FE-41DC-9457-A1151E2B83E7}.Macedonian|Itanium.Build.0 = Bosnian|Itanium
+		{8E42C59C-14FE-41DC-9457-A1151E2B83E7}.Vietnamese|Itanium.ActiveCfg = Bosnian|Itanium
+		{8E42C59C-14FE-41DC-9457-A1151E2B83E7}.Vietnamese|Itanium.Build.0 = Bosnian|Itanium
+		{8F54C7B5-EC82-4E9F-9500-63E35AD62D2C}.Bosnian|Itanium.ActiveCfg = EasternArmenian|Itanium
+		{8F54C7B5-EC82-4E9F-9500-63E35AD62D2C}.Bosnian|Itanium.Build.0 = EasternArmenian|Itanium
+		{8F54C7B5-EC82-4E9F-9500-63E35AD62D2C}.EasternArmenian|Itanium.ActiveCfg = EasternArmenian|Itanium
+		{8F54C7B5-EC82-4E9F-9500-63E35AD62D2C}.EasternArmenian|Itanium.Build.0 = EasternArmenian|Itanium
+		{8F54C7B5-EC82-4E9F-9500-63E35AD62D2C}.Farsi|Itanium.ActiveCfg = EasternArmenian|Itanium
+		{8F54C7B5-EC82-4E9F-9500-63E35AD62D2C}.Farsi|Itanium.Build.0 = EasternArmenian|Itanium
+		{8F54C7B5-EC82-4E9F-9500-63E35AD62D2C}.Khmer|Itanium.ActiveCfg = EasternArmenian|Itanium
+		{8F54C7B5-EC82-4E9F-9500-63E35AD62D2C}.Khmer|Itanium.Build.0 = EasternArmenian|Itanium
+		{8F54C7B5-EC82-4E9F-9500-63E35AD62D2C}.Macedonian|Itanium.ActiveCfg = EasternArmenian|Itanium
+		{8F54C7B5-EC82-4E9F-9500-63E35AD62D2C}.Macedonian|Itanium.Build.0 = EasternArmenian|Itanium
+		{8F54C7B5-EC82-4E9F-9500-63E35AD62D2C}.Vietnamese|Itanium.ActiveCfg = EasternArmenian|Itanium
+		{8F54C7B5-EC82-4E9F-9500-63E35AD62D2C}.Vietnamese|Itanium.Build.0 = EasternArmenian|Itanium
+		{9133012B-5D09-4752-B271-74C2CB790C58}.Bosnian|Itanium.ActiveCfg = EasternArmenian|Itanium
+		{9133012B-5D09-4752-B271-74C2CB790C58}.Bosnian|Itanium.Build.0 = EasternArmenian|Itanium
+		{9133012B-5D09-4752-B271-74C2CB790C58}.EasternArmenian|Itanium.ActiveCfg = EasternArmenian|Itanium
+		{9133012B-5D09-4752-B271-74C2CB790C58}.EasternArmenian|Itanium.Build.0 = EasternArmenian|Itanium
+		{9133012B-5D09-4752-B271-74C2CB790C58}.Farsi|Itanium.ActiveCfg = EasternArmenian|Itanium
+		{9133012B-5D09-4752-B271-74C2CB790C58}.Farsi|Itanium.Build.0 = EasternArmenian|Itanium
+		{9133012B-5D09-4752-B271-74C2CB790C58}.Khmer|Itanium.ActiveCfg = EasternArmenian|Itanium
+		{9133012B-5D09-4752-B271-74C2CB790C58}.Khmer|Itanium.Build.0 = EasternArmenian|Itanium
+		{9133012B-5D09-4752-B271-74C2CB790C58}.Macedonian|Itanium.ActiveCfg = EasternArmenian|Itanium
+		{9133012B-5D09-4752-B271-74C2CB790C58}.Macedonian|Itanium.Build.0 = EasternArmenian|Itanium
+		{9133012B-5D09-4752-B271-74C2CB790C58}.Vietnamese|Itanium.ActiveCfg = EasternArmenian|Itanium
+		{9133012B-5D09-4752-B271-74C2CB790C58}.Vietnamese|Itanium.Build.0 = EasternArmenian|Itanium
+		{B2CE4487-A785-4ADF-AC82-2B64782E4548}.Bosnian|Itanium.ActiveCfg = Vietnamese|Itanium
+		{B2CE4487-A785-4ADF-AC82-2B64782E4548}.Bosnian|Itanium.Build.0 = Vietnamese|Itanium
+		{B2CE4487-A785-4ADF-AC82-2B64782E4548}.EasternArmenian|Itanium.ActiveCfg = Vietnamese|Itanium
+		{B2CE4487-A785-4ADF-AC82-2B64782E4548}.EasternArmenian|Itanium.Build.0 = Vietnamese|Itanium
+		{B2CE4487-A785-4ADF-AC82-2B64782E4548}.Farsi|Itanium.ActiveCfg = Vietnamese|Itanium
+		{B2CE4487-A785-4ADF-AC82-2B64782E4548}.Farsi|Itanium.Build.0 = Vietnamese|Itanium
+		{B2CE4487-A785-4ADF-AC82-2B64782E4548}.Khmer|Itanium.ActiveCfg = Vietnamese|Itanium
+		{B2CE4487-A785-4ADF-AC82-2B64782E4548}.Khmer|Itanium.Build.0 = Vietnamese|Itanium
+		{B2CE4487-A785-4ADF-AC82-2B64782E4548}.Macedonian|Itanium.ActiveCfg = Vietnamese|Itanium
+		{B2CE4487-A785-4ADF-AC82-2B64782E4548}.Macedonian|Itanium.Build.0 = Vietnamese|Itanium
+		{B2CE4487-A785-4ADF-AC82-2B64782E4548}.Vietnamese|Itanium.ActiveCfg = Vietnamese|Itanium
+		{B2CE4487-A785-4ADF-AC82-2B64782E4548}.Vietnamese|Itanium.Build.0 = Vietnamese|Itanium
+		{DA5B460A-98BE-49AE-A996-46647301687A}.Bosnian|Itanium.ActiveCfg = Macedonian|Itanium
+		{DA5B460A-98BE-49AE-A996-46647301687A}.Bosnian|Itanium.Build.0 = Macedonian|Itanium
+		{DA5B460A-98BE-49AE-A996-46647301687A}.EasternArmenian|Itanium.ActiveCfg = Macedonian|Itanium
+		{DA5B460A-98BE-49AE-A996-46647301687A}.EasternArmenian|Itanium.Build.0 = Macedonian|Itanium
+		{DA5B460A-98BE-49AE-A996-46647301687A}.Farsi|Itanium.ActiveCfg = Macedonian|Itanium
+		{DA5B460A-98BE-49AE-A996-46647301687A}.Farsi|Itanium.Build.0 = Macedonian|Itanium
+		{DA5B460A-98BE-49AE-A996-46647301687A}.Khmer|Itanium.ActiveCfg = Macedonian|Itanium
+		{DA5B460A-98BE-49AE-A996-46647301687A}.Khmer|Itanium.Build.0 = Macedonian|Itanium
+		{DA5B460A-98BE-49AE-A996-46647301687A}.Macedonian|Itanium.ActiveCfg = Macedonian|Itanium
+		{DA5B460A-98BE-49AE-A996-46647301687A}.Macedonian|Itanium.Build.0 = Macedonian|Itanium
+		{DA5B460A-98BE-49AE-A996-46647301687A}.Vietnamese|Itanium.ActiveCfg = Macedonian|Itanium
+		{DA5B460A-98BE-49AE-A996-46647301687A}.Vietnamese|Itanium.Build.0 = Macedonian|Itanium
+		{8538D006-4D51-4008-9ED1-E8BD3066BAEA}.Bosnian|Itanium.ActiveCfg = Macedonian|Itanium
+		{8538D006-4D51-4008-9ED1-E8BD3066BAEA}.Bosnian|Itanium.Build.0 = Macedonian|Itanium
+		{8538D006-4D51-4008-9ED1-E8BD3066BAEA}.EasternArmenian|Itanium.ActiveCfg = Macedonian|Itanium
+		{8538D006-4D51-4008-9ED1-E8BD3066BAEA}.EasternArmenian|Itanium.Build.0 = Macedonian|Itanium
+		{8538D006-4D51-4008-9ED1-E8BD3066BAEA}.Farsi|Itanium.ActiveCfg = Macedonian|Itanium
+		{8538D006-4D51-4008-9ED1-E8BD3066BAEA}.Farsi|Itanium.Build.0 = Macedonian|Itanium
+		{8538D006-4D51-4008-9ED1-E8BD3066BAEA}.Khmer|Itanium.ActiveCfg = Macedonian|Itanium
+		{8538D006-4D51-4008-9ED1-E8BD3066BAEA}.Khmer|Itanium.Build.0 = Macedonian|Itanium
+		{8538D006-4D51-4008-9ED1-E8BD3066BAEA}.Macedonian|Itanium.ActiveCfg = Macedonian|Itanium
+		{8538D006-4D51-4008-9ED1-E8BD3066BAEA}.Macedonian|Itanium.Build.0 = Macedonian|Itanium
+		{8538D006-4D51-4008-9ED1-E8BD3066BAEA}.Vietnamese|Itanium.ActiveCfg = Macedonian|Itanium
+		{8538D006-4D51-4008-9ED1-E8BD3066BAEA}.Vietnamese|Itanium.Build.0 = Macedonian|Itanium
+		{4113D40E-C89F-4A80-8F2F-686EFC153453}.Bosnian|Itanium.ActiveCfg = Vietnamese|Itanium
+		{4113D40E-C89F-4A80-8F2F-686EFC153453}.Bosnian|Itanium.Build.0 = Vietnamese|Itanium
+		{4113D40E-C89F-4A80-8F2F-686EFC153453}.EasternArmenian|Itanium.ActiveCfg = Vietnamese|Itanium
+		{4113D40E-C89F-4A80-8F2F-686EFC153453}.EasternArmenian|Itanium.Build.0 = Vietnamese|Itanium
+		{4113D40E-C89F-4A80-8F2F-686EFC153453}.Farsi|Itanium.ActiveCfg = Vietnamese|Itanium
+		{4113D40E-C89F-4A80-8F2F-686EFC153453}.Farsi|Itanium.Build.0 = Vietnamese|Itanium
+		{4113D40E-C89F-4A80-8F2F-686EFC153453}.Khmer|Itanium.ActiveCfg = Vietnamese|Itanium
+		{4113D40E-C89F-4A80-8F2F-686EFC153453}.Khmer|Itanium.Build.0 = Vietnamese|Itanium
+		{4113D40E-C89F-4A80-8F2F-686EFC153453}.Macedonian|Itanium.ActiveCfg = Vietnamese|Itanium
+		{4113D40E-C89F-4A80-8F2F-686EFC153453}.Macedonian|Itanium.Build.0 = Vietnamese|Itanium
+		{4113D40E-C89F-4A80-8F2F-686EFC153453}.Vietnamese|Itanium.ActiveCfg = Vietnamese|Itanium
+		{4113D40E-C89F-4A80-8F2F-686EFC153453}.Vietnamese|Itanium.Build.0 = Vietnamese|Itanium
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

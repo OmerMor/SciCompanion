@@ -1,6 +1,6 @@
 #pragma once
 
-class CCrystalScriptStream::const_iterator;
+class CCrystalScriptStream::const_buffer_iterator;
 class CScriptStreamLimiter;
 class SyntaxContext;;
 
@@ -62,7 +62,7 @@ public:
     AutoCompleteThread();
     ~AutoCompleteThread();
     void Exit();
-    void AutoCompleteThread::InitAutoComplete(CCrystalScriptStream::const_iterator it, CScriptStreamLimiter *pLimit);
+    void AutoCompleteThread::InitAutoComplete(CCrystalScriptStream::const_buffer_iterator it, CScriptStreamLimiter *pLimit);
     AutoCompleteResult DoAutoComplete(CPoint pt);
     CPoint GetCompletedPosition();
     CPoint GetInsertPosition() { ASSERT(FALSE); return CPoint(0, 0); }
@@ -76,8 +76,8 @@ private:
     HANDLE _hEndWork;
     bool _fCancel;
     bool _fDoingWork;
-    CCrystalScriptStream::const_iterator _it;
-    CCrystalScriptStream::const_iterator _itOrig;
+    CCrystalScriptStream::const_buffer_iterator _it;
+    CCrystalScriptStream::const_buffer_iterator _itOrig;
     CScriptStreamLimiter *_pLimit;            // Not owned by us.
     SyntaxContext *_pContext;
 };

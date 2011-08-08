@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 10
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VietnameseProfUIS", "VietnameseProfUIS_1000.vcxproj", "{24F3E33B-E8D8-48C5-8C6E-85FB47297630}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Vietnamese|Win32 = Vietnamese|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24F3E33B-E8D8-48C5-8C6E-85FB47297630}.Vietnamese|Win32.ActiveCfg = Vietnamese|Win32
+		{24F3E33B-E8D8-48C5-8C6E-85FB47297630}.Vietnamese|Win32.Build.0 = Vietnamese|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

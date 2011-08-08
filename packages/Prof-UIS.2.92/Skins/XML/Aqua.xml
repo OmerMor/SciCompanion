@@ -1,0 +1,4908 @@
+<Prof-UIS-Skin Name="Aqua">
+  <SkinItem Name="General">
+    <Color
+      Name="IconAlphaColor"
+      Color="0xD08060"
+      />
+  </SkinItem>
+  <SkinItem Name="Label">
+    <Color
+      Name="Normal"
+      Color="0x000000"
+      />
+    <Color
+      Name="Disabled"
+      Color="0x606060"
+      />
+  </SkinItem>
+  <SkinItem Name="ComboBox">
+		<SkinItem Name="ComboBoxFrame">
+			<Glyph
+				Name="Normal"
+				Tp="2" Lp="2" Bp="2"
+				Image="Aqua\ComboBox\Frame\Frame.png"
+				DrawCenter="false"
+				/>
+			<Glyph
+				Name="Disabled"
+				Tp="2" Lp="2" Bp="2"
+				Image="Aqua\ComboBox\Frame\Frame.png"
+				DrawCenter="false"
+				/>
+			<Glyph
+				Name="Hover"
+				Tp="2" Lp="2" Bp="2"
+				Image="Aqua\ComboBox\Frame\Frame.png"
+				DrawCenter="false"
+				/>
+			<Glyph
+				Name="Pressed"
+				Tp="2" Lp="2" Bp="2"
+				Image="Aqua\ComboBox\Frame\Frame.png"
+				DrawCenter="false"
+				/>
+		</SkinItem>
+		<SkinItem Name="ComboBoxDropDownButton">
+			<Glyph
+				Name="Normal"
+				Tp="8" Lp="1" Bp="8" Rp="5"
+				Image="Aqua\ComboBox\DropDownButton\Normal.png"
+				/>
+			<Glyph
+				Name="Disabled"
+				Tp="8" Lp="1" Bp="8" Rp="5"
+				Image="Aqua\ComboBox\DropDownButton\Disabled.png"
+				/>
+			<Glyph
+				Name="Hover"
+				Tp="8" Lp="1" Bp="8" Rp="5"
+				Image="Aqua\ComboBox\DropDownButton\Hover.png"
+				/>
+			<Glyph
+				Name="Pressed"
+				Tp="8" Lp="1" Bp="8" Rp="5"
+				Image="Aqua\ComboBox\DropDownButton\Pressed.png"
+				/>
+		</SkinItem>
+		<SkinItem Name="ComboBoxDropDownArrow">
+			<Glyph
+				Name="Normal"
+				Image="Aqua\ComboBox\DropDownArrow\Normal.png"
+				DrawMethod="Center"
+				/>
+			<Glyph
+				Name="Disabled"
+				Image="Aqua\ComboBox\DropDownArrow\Disabled.png"
+				DrawMethod="Center"		
+				/>
+			<Glyph
+				Name="Hover"
+				Image="Aqua\ComboBox\DropDownArrow\Hover.png"
+				DrawMethod="Center"
+				/>
+			<Glyph
+				Name="Pressed"
+				Image="Aqua\ComboBox\DropDownArrow\Normal.png"
+				DrawMethod="Center"
+				/>
+		</SkinItem>
+  </SkinItem>
+  <SkinItem Name="GroupBox">
+    <Color
+      Name="Disabled"
+      Color="0x808080"
+      />
+    <Color
+      Name="Enabled"
+      Color="0x000000"
+      />
+    <Glyph
+      Name="Border"
+      Image="Aqua\ImageCollection\GroupBoxFrame.png"
+      Lp="4" Rp="4" Tp="4" Bp="4"
+			/>
+  </SkinItem>
+	<SkinItem Name="Button">
+    <Color
+      Name="Disabled"
+      Color="0x808080"
+      />
+    <Color
+      Name="Normal"
+      Color="0x000000"
+      />
+    <Color
+      Name="Hover"
+      Color="0x000000"
+      />
+    <Color
+      Name="Pressed"
+      Color="0x000000"
+      />
+    <Font
+      Name="Measure"
+      FaceName="Tahoma"
+      Width="0"
+      Height="-12"
+      />
+    <Font
+      Name="Disabled"
+      FaceName="Tahoma"
+      Width="0"
+      Height="-12"
+      />
+    <Font
+      Name="Normal"
+      FaceName="Tahoma"
+      Width="0"
+      Height="-12"
+      />
+    <Font
+      Name="Hover"
+      FaceName="Tahoma"
+      Width="0"
+      Height="-12"
+      />
+    <Font
+      Name="Pressed"
+      FaceName="Tahoma"
+      Width="0"
+      Height="-12"
+      />
+    <Font
+      Name="DisabledDefault"
+      FaceName="Tahoma"
+      Width="0"
+      Height="-12"
+      />
+    <Font
+      Name="NormalDefault"
+      FaceName="Tahoma"
+      Width="0"
+      Height="-12"
+      />
+    <Font
+      Name="HoverDefault"
+      FaceName="Tahoma"
+      Width="0"
+      Height="-12"
+      />
+    <Font
+      Name="PressedDefault"
+      FaceName="Tahoma"
+      Width="0"
+      Height="-12"
+      />
+    <SkinItem Name="RibbonButton">
+		<Color Name="RibbonButtonTextColor" Color="0x000000" />
+		<SkinItem Name="Small">
+			<SkinItem Name="PushButton">
+											<SkinItem Name="Normal">
+												<Glyph Name="Background"         DrawMethod="Hollow"
+													Lp ="6"  Tp ="6"  Rp ="6"  Bp ="6"
+													Clp="3"  Ctp="1"  Crp="3"  Cbp="1"
+													Image="Aqua\Button\RibbonButton\Small\PushButton\Normal.png"
+													/>
+											</SkinItem>
+											<SkinItem Name="Disabled">
+												<Color Name="RibbonButtonTextColor" Color="0x808080" />
+												<Glyph Name="Background"         DrawMethod="Hollow"
+													Lp ="6"  Tp ="6"  Rp ="6"  Bp ="6"
+													Clp="3"  Ctp="1"  Crp="3"  Cbp="1"
+													Image="Aqua\Button\RibbonButton\Small\PushButton\Disabled.png"
+													/>
+											</SkinItem>
+											<SkinItem Name="Hover">
+												<Glyph Name="Background"
+													Lp ="6"  Tp ="6"  Rp ="6"  Bp ="6"
+													Clp="3"  Ctp="1"  Crp="3"  Cbp="1"
+													Image="Aqua\Button\RibbonButton\Small\PushButton\Hover.png"
+													/>
+											</SkinItem>
+											<SkinItem Name="Pressed">
+												<Glyph Name="Background"
+													Lp ="6"  Tp ="6"  Rp ="6"  Bp ="6"
+													Clp="3"  Ctp="1"  Crp="3"  Cbp="1"
+													Image="Aqua\Button\RibbonButton\Small\PushButton\Pressed.png"
+													/>
+											</SkinItem>
+			</SkinItem>
+			<SkinItem Name="DropDownButton">
+											<SkinItem Name="Normal">
+												<Glyph Name="Background"         DrawMethod="Hollow"
+													Lp ="6"  Tp ="6"  Rp ="6"  Bp ="6"
+													Clp="3"  Ctp="1"  Crp="3"  Cbp="1"
+													Image="Aqua\Button\RibbonButton\Small\DropDownButton\Normal.png"
+													/>
+											</SkinItem>
+											<SkinItem Name="Disabled">
+												<Color Name="RibbonButtonTextColor" Color="0x808080" />
+												<Glyph Name="Background"         DrawMethod="Hollow"
+													Lp ="6"  Tp ="6"  Rp ="6"  Bp ="6"
+													Clp="3"  Ctp="1"  Crp="3"  Cbp="1"
+													Image="Aqua\Button\RibbonButton\Small\DropDownButton\Disabled.png"
+													/>
+											</SkinItem>
+											<SkinItem Name="Hover">
+												<Glyph Name="Background"
+													Lp ="6"  Tp ="6"  Rp ="6"  Bp ="6"
+													Clp="3"  Ctp="1"  Crp="3"  Cbp="1"
+													Image="Aqua\Button\RibbonButton\Small\DropDownButton\Hover.png"
+													/>
+											</SkinItem>
+											<SkinItem Name="Pressed">
+												<Glyph Name="Background"
+													Lp ="6"  Tp ="6"  Rp ="6"  Bp ="6"
+													Clp="3"  Ctp="1"  Crp="3"  Cbp="1"
+													Image="Aqua\Button\RibbonButton\Small\DropDownButton\Pressed.png"
+													/>
+											</SkinItem>
+			</SkinItem>
+			<SkinItem Name="SplitButton">
+				<SkinItem Name="PushButton">
+											<SkinItem Name="Normal">
+												<Glyph Name="Background"         DrawMethod="Hollow"
+													Lp ="6"  Tp ="4"  Rp ="2"  Bp ="4"
+													Clp="3"  Ctp="1"  Crp="2"  Cbp="1"
+													Image="Aqua\Button\RibbonButton\Small\SplitButton\PushButton\Normal.png"
+													/>
+											</SkinItem>
+											<SkinItem Name="Disabled">
+												<Color Name="RibbonButtonTextColor" Color="0x808080" />
+												<Glyph Name="Background"         DrawMethod="Hollow"
+													Lp ="6"  Tp ="4"  Rp ="2"  Bp ="4"
+													Clp="3"  Ctp="1"  Crp="2"  Cbp="1"
+													Image="Aqua\Button\RibbonButton\Small\SplitButton\PushButton\Disabled.png"
+													/>
+											</SkinItem>
+											<SkinItem Name="Hover">
+												<Glyph Name="Background"
+													Lp ="6"  Tp ="4"  Rp ="2"  Bp ="4"
+													Clp="3"  Ctp="1"  Crp="2"  Cbp="1"
+													Image="Aqua\Button\RibbonButton\Small\SplitButton\PushButton\Hover.png"
+													/>
+											</SkinItem>
+											<SkinItem Name="HoverNP">
+												<Glyph Name="Background"
+													Lp ="6"  Tp ="4"  Rp ="2"  Bp ="4"
+													Clp="3"  Ctp="1"  Crp="2"  Cbp="1"
+													Image="Aqua\Button\RibbonButton\Small\SplitButton\PushButton\Normal.png"
+													/>
+											</SkinItem>
+											<SkinItem Name="Pressed">
+												<Glyph Name="Background"
+													Lp ="6"  Tp ="4"  Rp ="2"  Bp ="4"
+													Clp="3"  Ctp="1"  Crp="2"  Cbp="1"
+													Image="Aqua\Button\RibbonButton\Small\SplitButton\PushButton\Pressed.png"
+													/>
+											</SkinItem>
+				</SkinItem>
+				<SkinItem Name="DropDownButton">
+											<SkinItem Name="Normal">
+												<Glyph Name="Background"         DrawMethod="Hollow"
+													Lp ="1"  Tp ="4"  Rp ="6"  Bp ="4"
+													Clp="1"  Ctp="1"  Crp="3"  Cbp="1"
+													Image="Aqua\Button\RibbonButton\Small\SplitButton\DropDownButton\Normal.png"
+													/>
+											</SkinItem>
+											<SkinItem Name="Disabled">
+												<Color Name="RibbonButtonTextColor" Color="0x808080" />
+												<Glyph Name="Background"         DrawMethod="Hollow"
+													Lp ="1"  Tp ="4"  Rp ="6"  Bp ="4"
+													Clp="1"  Ctp="1"  Crp="3"  Cbp="1"
+													Image="Aqua\Button\RibbonButton\Small\SplitButton\DropDownButton\Disabled.png"
+													/>
+											</SkinItem>
+											<SkinItem Name="Hover">
+												<Glyph Name="Background"
+													Lp ="1"  Tp ="4"  Rp ="6"  Bp ="4"
+													Clp="1"  Ctp="1"  Crp="3"  Cbp="1"
+													Image="Aqua\Button\RibbonButton\Small\SplitButton\DropDownButton\Hover.png"
+													/>
+											</SkinItem>
+											<SkinItem Name="HoverNP">
+												<Glyph Name="Background"
+													Lp ="1"  Tp ="4"  Rp ="6"  Bp ="4"
+													Clp="1"  Ctp="1"  Crp="3"  Cbp="1"
+													Image="Aqua\Button\RibbonButton\Small\SplitButton\DropDownButton\Normal.png"
+													/>
+											</SkinItem>
+											<SkinItem Name="Pressed">
+												<Glyph Name="Background"
+													Lp ="1"  Tp ="4"  Rp ="6"  Bp ="4"
+													Clp="1"  Ctp="1"  Crp="3"  Cbp="1"
+													Image="Aqua\Button\RibbonButton\Small\SplitButton\DropDownButton\Pressed.png"
+													/>
+											</SkinItem>
+				</SkinItem>
+			</SkinItem>
+			<SkinItem Name="DropDownArrow">
+			</SkinItem>
+		</SkinItem>
+		<SkinItem Name="Large">
+			<SkinItem Name="PushButton">
+											<SkinItem Name="Normal">
+												<Glyph Name="Background"         DrawMethod="Hollow"
+													Lp ="6"  Tp ="6"  Rp ="6"  Bp ="6"
+													Clp="1"  Ctp="1"  Crp="1"  Cbp="1"
+													Image="Aqua\Button\RibbonButton\Large\PushButton\Normal.png"
+													/>
+											</SkinItem>
+											<SkinItem Name="Disabled">
+												<Color Name="RibbonButtonTextColor" Color="0x808080" />
+												<Glyph Name="Background"         DrawMethod="Hollow"
+													Lp ="6"  Tp ="6"  Rp ="6"  Bp ="6"
+													Clp="1"  Ctp="1"  Crp="1"  Cbp="1"
+													Image="Aqua\Button\RibbonButton\Large\PushButton\Disabled.png"
+													/>
+											</SkinItem>
+											<SkinItem Name="Hover">
+												<Glyph Name="Background"
+													Lp ="6"  Tp ="6"  Rp ="6"  Bp ="6"
+													Clp="1"  Ctp="1"  Crp="1"  Cbp="1"
+													Image="Aqua\Button\RibbonButton\Large\PushButton\Hover.png"
+													/>
+											</SkinItem>
+											<SkinItem Name="Pressed">
+												<Glyph Name="Background"
+													Lp ="6"  Tp ="6"  Rp ="6"  Bp ="6"
+													Clp="1"  Ctp="1"  Crp="1"  Cbp="1"
+													Image="Aqua\Button\RibbonButton\Large\PushButton\Pressed.png"
+													/>
+											</SkinItem>
+			</SkinItem>
+			<SkinItem Name="DropDownButton">
+											<SkinItem Name="Normal">
+												<Glyph Name="Background"         DrawMethod="Hollow"
+													Lp ="6"  Tp ="6"  Rp ="6"  Bp ="6"
+													Clp="1"  Ctp="1"  Crp="1"  Cbp="1"
+													Image="Aqua\Button\RibbonButton\Large\DropDownButton\Normal.png"
+													/>
+											</SkinItem>
+											<SkinItem Name="Disabled">
+												<Color Name="RibbonButtonTextColor" Color="0x808080" />
+												<Glyph Name="Background"         DrawMethod="Hollow"
+													Lp ="6"  Tp ="6"  Rp ="6"  Bp ="6"
+													Clp="1"  Ctp="1"  Crp="1"  Cbp="1"
+													Image="Aqua\Button\RibbonButton\Large\DropDownButton\Disabled.png"
+													/>
+											</SkinItem>
+											<SkinItem Name="Hover">
+												<Glyph Name="Background"
+													Lp ="6"  Tp ="6"  Rp ="6"  Bp ="6"
+													Clp="1"  Ctp="1"  Crp="1"  Cbp="1"
+													Image="Aqua\Button\RibbonButton\Large\DropDownButton\Hover.png"
+													/>
+											</SkinItem>
+											<SkinItem Name="Pressed">
+												<Glyph Name="Background"
+													Lp ="6"  Tp ="6"  Rp ="6"  Bp ="6"
+													Clp="1"  Ctp="1"  Crp="1"  Cbp="1"
+													Image="Aqua\Button\RibbonButton\Large\DropDownButton\Pressed.png"
+													/>
+											</SkinItem>
+			</SkinItem>
+			<SkinItem Name="SplitButton">
+				<SkinItem Name="PushButton">
+											<SkinItem Name="Normal">
+												<Glyph Name="Background"         DrawMethod="Hollow"
+													Lp ="6"  Tp ="6"  Rp ="6"  Bp ="2"
+													Clp="1"  Ctp="1"  Crp="1"  Cbp="1"
+													Image="Aqua\Button\RibbonButton\Large\SplitButton\PushButton\Normal.png"
+													/>
+											</SkinItem>
+											<SkinItem Name="Disabled">
+												<Color Name="RibbonButtonTextColor" Color="0x808080" />
+												<Glyph Name="Background"         DrawMethod="Hollow"
+													Lp ="6"  Tp ="6"  Rp ="6"  Bp ="2"
+													Clp="1"  Ctp="1"  Crp="1"  Cbp="1"
+													Image="Aqua\Button\RibbonButton\Large\SplitButton\PushButton\Disabled.png"
+													/>
+											</SkinItem>
+											<SkinItem Name="Hover">
+												<Glyph Name="Background"
+													Lp ="6"  Tp ="6"  Rp ="6"  Bp ="2"
+													Clp="1"  Ctp="1"  Crp="1"  Cbp="1"
+													Image="Aqua\Button\RibbonButton\Large\SplitButton\PushButton\Hover.png"
+													/>
+											</SkinItem>
+											<SkinItem Name="HoverNP">
+												<Glyph Name="Background"
+													Lp ="6"  Tp ="6"  Rp ="6"  Bp ="2"
+													Clp="1"  Ctp="1"  Crp="1"  Cbp="1"
+													Image="Aqua\Button\RibbonButton\Large\SplitButton\PushButton\Normal.png"
+													/>
+											</SkinItem>
+											<SkinItem Name="Pressed">
+												<Glyph Name="Background"
+													Lp ="6"  Tp ="6"  Rp ="6"  Bp ="2"
+													Clp="1"  Ctp="1"  Crp="1"  Cbp="1"
+													Image="Aqua\Button\RibbonButton\Large\SplitButton\PushButton\Pressed.png"
+													/>
+											</SkinItem>
+				</SkinItem>
+				<SkinItem Name="DropDownButton">
+											<SkinItem Name="Normal">
+												<Glyph Name="Background"         DrawMethod="Hollow"
+													Lp ="6"  Tp ="2"  Rp ="6"  Bp ="6"
+													Clp="1"  Ctp="1"  Crp="1"  Cbp="1"
+													Image="Aqua\Button\RibbonButton\Large\SplitButton\DropDownButton\Normal.png"
+													/>
+											</SkinItem>
+											<SkinItem Name="Disabled">
+												<Color Name="RibbonButtonTextColor" Color="0x808080" />
+												<Glyph Name="Background"         DrawMethod="Hollow"
+													Lp ="6"  Tp ="2"  Rp ="6"  Bp ="6"
+													Clp="1"  Ctp="1"  Crp="1"  Cbp="1"
+													Image="Aqua\Button\RibbonButton\Large\SplitButton\DropDownButton\Disabled.png"
+													/>
+											</SkinItem>
+											<SkinItem Name="Hover">
+												<Glyph Name="Background"
+													Lp ="6"  Tp ="2"  Rp ="6"  Bp ="6"
+													Clp="1"  Ctp="1"  Crp="1"  Cbp="1"
+													Image="Aqua\Button\RibbonButton\Large\SplitButton\DropDownButton\Hover.png"
+													/>
+											</SkinItem>
+											<SkinItem Name="HoverNP">
+												<Glyph Name="Background"
+													Lp ="6"  Tp ="2"  Rp ="6"  Bp ="6"
+													Clp="1"  Ctp="1"  Crp="1"  Cbp="1"
+													Image="Aqua\Button\RibbonButton\Large\SplitButton\DropDownButton\Normal.png"
+													/>
+											</SkinItem>
+											<SkinItem Name="Pressed">
+												<Glyph Name="Background"
+													Lp ="6"  Tp ="2"  Rp ="6"  Bp ="6"
+													Clp="1"  Ctp="1"  Crp="1"  Cbp="1"
+													Image="Aqua\Button\RibbonButton\Large\SplitButton\DropDownButton\Pressed.png"
+													/>
+											</SkinItem>
+				</SkinItem>
+			</SkinItem>
+			<SkinItem Name="DropDownArrow">
+			</SkinItem>
+		</SkinItem>
+		<SkinItem Name="Tool">
+			<SkinItem Name="PushButton">
+											<SkinItem Name="Normal">
+												<Glyph Name="Background"
+													Lp ="6"  Tp ="6"  Rp ="6"  Bp ="6"
+													Clp="3"  Ctp="1"  Crp="3"  Cbp="1"
+													Image="Aqua\Button\RibbonButton\Tool\PushButton\Normal.png"
+													/>
+											</SkinItem>
+											<SkinItem Name="Disabled">
+												<Color Name="RibbonButtonTextColor" Color="0x808080" />
+												<Glyph Name="Background"
+													Lp ="6"  Tp ="6"  Rp ="6"  Bp ="6"
+													Clp="3"  Ctp="1"  Crp="3"  Cbp="1"
+													Image="Aqua\Button\RibbonButton\Tool\PushButton\Disabled.png"
+													/>
+											</SkinItem>
+											<SkinItem Name="Hover">
+												<Glyph Name="Background"
+													Lp ="6"  Tp ="6"  Rp ="6"  Bp ="6"
+													Clp="3"  Ctp="1"  Crp="3"  Cbp="1"
+													Image="Aqua\Button\RibbonButton\Tool\PushButton\Hover.png"
+													/>
+											</SkinItem>
+											<SkinItem Name="Pressed">
+												<Glyph Name="Background"
+													Lp ="6"  Tp ="6"  Rp ="6"  Bp ="6"
+													Clp="3"  Ctp="1"  Crp="3"  Cbp="1"
+													Image="Aqua\Button\RibbonButton\Tool\PushButton\Pressed.png"
+													/>
+											</SkinItem>
+			</SkinItem>
+			<SkinItem Name="DropDownButton">
+											<SkinItem Name="Normal">
+												<Glyph Name="Background"
+													Lp ="6"  Tp ="6"  Rp ="6"  Bp ="6"
+													Clp="3"  Ctp="1"  Crp="3"  Cbp="1"
+													Image="Aqua\Button\RibbonButton\Tool\DropDownButton\Normal.png"
+													/>
+											</SkinItem>
+											<SkinItem Name="Disabled">
+												<Color Name="RibbonButtonTextColor" Color="0x808080" />
+												<Glyph Name="Background"
+													Lp ="6"  Tp ="6"  Rp ="6"  Bp ="6"
+													Clp="3"  Ctp="1"  Crp="3"  Cbp="1"
+													Image="Aqua\Button\RibbonButton\Tool\DropDownButton\Disabled.png"
+													/>
+											</SkinItem>
+											<SkinItem Name="Hover">
+												<Glyph Name="Background"
+													Lp ="6"  Tp ="6"  Rp ="6"  Bp ="6"
+													Clp="3"  Ctp="1"  Crp="3"  Cbp="1"
+													Image="Aqua\Button\RibbonButton\Tool\DropDownButton\Hover.png"
+													/>
+											</SkinItem>
+											<SkinItem Name="Pressed">
+												<Glyph Name="Background"
+													Lp ="6"  Tp ="6"  Rp ="6"  Bp ="6"
+													Clp="3"  Ctp="1"  Crp="3"  Cbp="1"
+													Image="Aqua\Button\RibbonButton\Tool\DropDownButton\Pressed.png"
+													/>
+											</SkinItem>
+			</SkinItem>
+			<SkinItem Name="SplitButton">
+				<SkinItem Name="PushButton">
+											<SkinItem Name="Normal">
+												<Glyph Name="Background"
+													Lp ="6"  Tp ="4"  Rp ="2"  Bp ="4"
+													Clp="3"  Ctp="1"  Crp="2"  Cbp="1"
+													Image="Aqua\Button\RibbonButton\Tool\SplitButton\PushButton\Normal.png"
+													/>
+											</SkinItem>
+											<SkinItem Name="Disabled">
+												<Color Name="RibbonButtonTextColor" Color="0x808080" />
+												<Glyph Name="Background"
+													Lp ="6"  Tp ="4"  Rp ="2"  Bp ="4"
+													Clp="3"  Ctp="1"  Crp="2"  Cbp="1"
+													Image="Aqua\Button\RibbonButton\Tool\SplitButton\PushButton\Disabled.png"
+													/>
+											</SkinItem>
+											<SkinItem Name="Hover">
+												<Glyph Name="Background"
+													Lp ="6"  Tp ="4"  Rp ="2"  Bp ="4"
+													Clp="3"  Ctp="1"  Crp="2"  Cbp="1"
+													Image="Aqua\Button\RibbonButton\Tool\SplitButton\PushButton\Hover.png"
+													/>
+											</SkinItem>
+											<SkinItem Name="HoverNP">
+												<Glyph Name="Background"
+													Lp ="6"  Tp ="4"  Rp ="2"  Bp ="4"
+													Clp="3"  Ctp="1"  Crp="2"  Cbp="1"
+													Image="Aqua\Button\RibbonButton\Tool\SplitButton\PushButton\Normal.png"
+													/>
+											</SkinItem>
+											<SkinItem Name="Pressed">
+												<Glyph Name="Background"
+													Lp ="6"  Tp ="4"  Rp ="2"  Bp ="4"
+													Clp="3"  Ctp="1"  Crp="2"  Cbp="1"
+													Image="Aqua\Button\RibbonButton\Tool\SplitButton\PushButton\Pressed.png"
+													/>
+											</SkinItem>
+				</SkinItem>
+				<SkinItem Name="DropDownButton">
+											<SkinItem Name="Normal">
+												<Glyph Name="Background"
+													Lp ="1"  Tp ="4"  Rp ="6"  Bp ="4"
+													Clp="1"  Ctp="1"  Crp="3"  Cbp="1"
+													Image="Aqua\Button\RibbonButton\Tool\SplitButton\DropDownButton\Normal.png"
+													/>
+											</SkinItem>
+											<SkinItem Name="Disabled">
+												<Color Name="RibbonButtonTextColor" Color="0x808080" />
+												<Glyph Name="Background"
+													Lp ="1"  Tp ="4"  Rp ="6"  Bp ="4"
+													Clp="1"  Ctp="1"  Crp="3"  Cbp="1"
+													Image="Aqua\Button\RibbonButton\Tool\SplitButton\DropDownButton\Disabled.png"
+													/>
+											</SkinItem>
+											<SkinItem Name="Hover">
+												<Glyph Name="Background"
+													Lp ="1"  Tp ="4"  Rp ="6"  Bp ="4"
+													Clp="1"  Ctp="1"  Crp="3"  Cbp="1"
+													Image="Aqua\Button\RibbonButton\Tool\SplitButton\DropDownButton\Hover.png"
+													/>
+											</SkinItem>
+											<SkinItem Name="HoverNP">
+												<Glyph Name="Background"
+													Lp ="1"  Tp ="4"  Rp ="6"  Bp ="4"
+													Clp="1"  Ctp="1"  Crp="3"  Cbp="1"
+													Image="Aqua\Button\RibbonButton\Tool\SplitButton\DropDownButton\Normal.png"
+													/>
+											</SkinItem>
+											<SkinItem Name="Pressed">
+												<Glyph Name="Background"
+													Lp ="1"  Tp ="4"  Rp ="6"  Bp ="4"
+													Clp="1"  Ctp="1"  Crp="3"  Cbp="1"
+													Image="Aqua\Button\RibbonButton\Tool\SplitButton\DropDownButton\Pressed.png"
+													/>
+											</SkinItem>
+				</SkinItem>
+			</SkinItem>
+			<SkinItem Name="DropDownArrow">
+			</SkinItem>
+		</SkinItem>
+    </SkinItem>
+    <SkinItem Name="RibbonGallery">
+      <SkinItem Name="Disabled">
+        <Glyph Name="Background"
+          Image="Aqua\Button\RibbonGallery\Disabled.png"
+				  Tp="1" Bp="1" Lp="1" Rp="1"
+          />
+      </SkinItem>
+      <SkinItem Name="Normal">
+        <Glyph Name="Background"
+          DrawMethod="Hollow"
+          />
+      </SkinItem>
+      <SkinItem Name="Hover">
+        <Glyph Name="Background"
+          Image="Aqua\Button\RibbonGallery\Hover.png"
+				  Tp="1" Bp="1" Lp="1" Rp="1"
+          />
+      </SkinItem>
+      <SkinItem Name="Pressed">
+        <Glyph Name="Background"
+          Image="Aqua\Button\RibbonGallery\Pressed.png"
+				  Tp="1" Bp="1" Lp="1" Rp="1"
+          />
+      </SkinItem>
+    </SkinItem>
+    <SkinItem Name="Grid">
+      <SkinItem Name="DropDown">
+        <Glyph
+          Name="Normal-Arrow"
+          DrawMethod="Center"
+          Image="Aqua\Button\GridButton\Arrow\DropDown-Normal.png"
+				  />
+        <Glyph
+          Name="Disabled-Arrow"
+          DrawMethod="Center"
+          Image="Aqua\Button\GridButton\Arrow\DropDown-Disabled.png"
+				  />
+        <Glyph
+          Name="Hover-Arrow"
+          DrawMethod="Center"
+          Image="Aqua\Button\GridButton\Arrow\DropDown-Normal.png"
+				  />
+        <Glyph
+          Name="Pressed-Arrow"
+          DrawMethod="Center"
+          Image="Aqua\Button\GridButton\Arrow\DropDown-Normal.png"
+				  />
+      </SkinItem>
+      <SkinItem Name="Ellipsis">
+        <Glyph
+          Name="Normal-Arrow"
+          DrawMethod="Center"
+          Image="Aqua\Button\GridButton\Arrow\Ellipsis-Normal.png"
+				  />
+        <Glyph
+          Name="Disabled-Arrow"
+          DrawMethod="Center"
+          Image="Aqua\Button\GridButton\Arrow\Ellipsis-Disabled.png"
+				  />
+        <Glyph
+          Name="Hover-Arrow"
+          DrawMethod="Center"
+          Image="Aqua\Button\GridButton\Arrow\Ellipsis-Normal.png"
+				  />
+        <Glyph
+          Name="Pressed-Arrow"
+          DrawMethod="Center"
+          Image="Aqua\Button\GridButton\Arrow\Ellipsis-Normal.png"
+				  />
+      </SkinItem>
+      <SkinItem Name="Up">
+        <Glyph
+          Name="Normal-Arrow"
+          DrawMethod="Center"
+          Image="Aqua\Button\GridButton\Arrow\Up-Normal.png"
+				  />
+        <Glyph
+          Name="Disabled-Arrow"
+          DrawMethod="Center"
+          Image="Aqua\Button\GridButton\Arrow\Up-Disabled.png"
+				  />
+        <Glyph
+          Name="Hover-Arrow"
+          DrawMethod="Center"
+          Image="Aqua\Button\GridButton\Arrow\Up-Normal.png"
+				  />
+        <Glyph
+          Name="Pressed-Arrow"
+          DrawMethod="Center"
+          Image="Aqua\Button\GridButton\Arrow\Up-Normal.png"
+				  />
+      </SkinItem>
+      <SkinItem Name="Down">
+        <Glyph
+          Name="Normal-Arrow"
+          DrawMethod="Center"
+          Image="Aqua\Button\GridButton\Arrow\Down-Normal.png"
+				  />
+        <Glyph
+          Name="Disabled-Arrow"
+          DrawMethod="Center"
+          Image="Aqua\Button\GridButton\Arrow\Down-Disabled.png"
+				  />
+        <Glyph
+          Name="Hover-Arrow"
+          DrawMethod="Center"
+          Image="Aqua\Button\GridButton\Arrow\Down-Normal.png"
+				  />
+        <Glyph
+          Name="Pressed-Arrow"
+          DrawMethod="Center"
+          Image="Aqua\Button\GridButton\Arrow\Down-Normal.png"
+				  />
+      </SkinItem>
+      <Glyph
+        Name="Normal-Background"
+        Tp="1" Lp="1" Bp="1" Rp="1"
+        Ctp="1" Clp="1" Cbp="1" Crp="1"
+        Image="Aqua\Button\GridButton\Background\Normal.png"
+				/>
+      <Glyph
+        Name="Disabled-Background"
+        Tp="1" Lp="1" Bp="1" Rp="1"
+        Ctp="1" Clp="1" Cbp="1" Crp="1"
+        Image="Aqua\Button\GridButton\Background\Disabled.png"
+				/>
+      <Glyph
+        Name="Hover-Background"
+        Tp="1" Lp="1" Bp="1" Rp="1"
+        Ctp="1" Clp="1" Cbp="1" Crp="1"
+        Image="Aqua\Button\GridButton\Background\Hover.png"
+				/>
+      <Glyph
+        Name="Pressed-Background"
+        Tp="1" Lp="1" Bp="1" Rp="1"
+        Ctp="1" Clp="1" Cbp="1" Crp="1"
+        Image="Aqua\Button\GridButton\Background\Pressed.png"
+				/>
+    </SkinItem>
+    <SkinItem Name="Spin">
+      <SkinItem Name="Horizontal">
+        <SkinItem Name="Left">
+          <SkinItem Name="Button">
+            <Glyph
+              Name="Disabled"
+              Image="Aqua\Button\Spin\Horizontal\Left\Button\Disabled.png"
+              Lp="2" Rp="2" Tp="2" Bp="2"
+              Clp="2" Crp="2" Ctp="2" Cbp="2"
+		          />
+            <Glyph
+              Name="Normal"
+              Image="Aqua\Button\Spin\Horizontal\Left\Button\Normal.png"
+              Lp="2" Rp="2" Tp="2" Bp="2"
+              Clp="2" Crp="2" Ctp="2" Cbp="2"
+		          />
+            <Glyph
+              Name="Hover"
+              Image="Aqua\Button\Spin\Horizontal\Left\Button\Hover.png"
+              Lp="2" Rp="2" Tp="2" Bp="2"
+              Clp="2" Crp="2" Ctp="2" Cbp="2"
+		          />
+            <Glyph
+              Name="Pressed"
+              Image="Aqua\Button\Spin\Horizontal\Left\Button\Pressed.png"
+              Lp="2" Rp="2" Tp="2" Bp="2"
+              Clp="2" Crp="2" Ctp="2" Cbp="2"
+		          />
+          </SkinItem>
+          <SkinItem Name="Arrow">
+            <Glyph
+              Name="Disabled"
+              DrawMethod="Hollow"
+		          />
+            <Glyph
+              Name="Normal"
+              DrawMethod="Hollow"
+		          />
+            <Glyph
+              Name="Hover"
+              DrawMethod="Hollow"
+		          />
+            <Glyph
+              Name="Pressed"
+              DrawMethod="Hollow"
+		          />
+          </SkinItem>
+        </SkinItem>
+        <SkinItem Name="Right">
+          <SkinItem Name="Button">
+            <Glyph
+              Name="Disabled"
+              Image="Aqua\Button\Spin\Horizontal\Right\Button\Disabled.png"
+              Lp="2" Rp="2" Tp="2" Bp="2"
+              Clp="2" Crp="2" Ctp="2" Cbp="2"
+		          />
+            <Glyph
+              Name="Normal"
+              Image="Aqua\Button\Spin\Horizontal\Right\Button\Normal.png"
+              Lp="2" Rp="2" Tp="2" Bp="2"
+              Clp="2" Crp="2" Ctp="2" Cbp="2"
+		         />
+            <Glyph
+              Name="Hover"
+              Image="Aqua\Button\Spin\Horizontal\Right\Button\Hover.png"
+              Lp="2" Rp="2" Tp="2" Bp="2"
+              Clp="2" Crp="2" Ctp="2" Cbp="2"
+	    	      />
+            <Glyph
+              Name="Pressed"
+              Image="Aqua\Button\Spin\Horizontal\Right\Button\Pressed.png"
+              Lp="2" Rp="2" Tp="2" Bp="2"
+              Clp="2" Crp="2" Ctp="2" Cbp="2"
+		          />
+          </SkinItem>
+          <SkinItem Name="Arrow">
+            <Glyph
+              Name="Disabled"
+              DrawMethod="Hollow"
+		          />
+            <Glyph
+              Name="Normal"
+              DrawMethod="Hollow"
+		          />
+            <Glyph
+              Name="Hover"
+              DrawMethod="Hollow"
+		          />
+            <Glyph
+              Name="Pressed"
+              DrawMethod="Hollow"
+		         />
+          </SkinItem>
+        </SkinItem>
+      </SkinItem>
+      <SkinItem Name="Vertical">
+        <SkinItem Name="Up">
+          <SkinItem Name="Button">
+            <Glyph
+              Name="Disabled"
+              Image="Aqua\Button\Spin\Vertical\Up\Button\Disabled.png"
+              Lp="2" Rp="2" Tp="2" Bp="2"
+              Clp="2" Crp="2" Ctp="2" Cbp="2"
+		      />
+            <Glyph
+              Name="Normal"
+              Image="Aqua\Button\Spin\Vertical\Up\Button\Normal.png"
+              Lp="2" Rp="2" Tp="2" Bp="2"
+              Clp="2" Crp="2" Ctp="2" Cbp="2"
+		      />
+            <Glyph
+              Name="Hover"
+              Image="Aqua\Button\Spin\Vertical\Up\Button\Hover.png"
+              Lp="2" Rp="2" Tp="2" Bp="2"
+              Clp="2" Crp="2" Ctp="2" Cbp="2"
+		      />
+            <Glyph
+              Name="Pressed"
+              Image="Aqua\Button\Spin\Vertical\Up\Button\Pressed.png"
+              Lp="2" Rp="2" Tp="2" Bp="2"
+              Clp="2" Crp="2" Ctp="2" Cbp="2"
+		      />
+          </SkinItem>
+          <SkinItem Name="Arrow">
+            <Glyph
+              Name="Disabled"
+              DrawMethod="Hollow"
+		      />
+            <Glyph
+              Name="Normal"
+              DrawMethod="Hollow"
+		      />
+            <Glyph
+              Name="Hover"
+              DrawMethod="Hollow"
+		      />
+            <Glyph
+              Name="Pressed"
+              DrawMethod="Hollow"
+		      />
+          </SkinItem>
+        </SkinItem>
+        <SkinItem Name="Down">
+          <SkinItem Name="Button">
+            <Glyph
+              Name="Disabled"
+              Image="Aqua\Button\Spin\Vertical\Down\Button\Disabled.png"
+              Lp="2" Rp="2" Tp="2" Bp="2"
+              Clp="2" Crp="2" Ctp="2" Cbp="2"
+		      />
+            <Glyph
+              Name="Normal"
+              Image="Aqua\Button\Spin\Vertical\Down\Button\Normal.png"
+              Lp="2" Rp="2" Tp="2" Bp="2"
+              Clp="2" Crp="2" Ctp="2" Cbp="2"
+		      />
+            <Glyph
+              Name="Hover"
+              Image="Aqua\Button\Spin\Vertical\Down\Button\Hover.png"
+              Lp="2" Rp="2" Tp="2" Bp="2"
+              Clp="2" Crp="2" Ctp="2" Cbp="2"
+		      />
+            <Glyph
+              Name="Pressed"
+              Image="Aqua\Button\Spin\Vertical\Down\Button\Pressed.png"
+              Lp="2" Rp="2" Tp="2" Bp="2"
+              Clp="2" Crp="2" Ctp="2" Cbp="2"
+		      />
+          </SkinItem>
+          <SkinItem Name="Arrow">
+            <Glyph
+              Name="Disabled"
+              DrawMethod="Hollow"
+		      />
+            <Glyph
+              Name="Normal"
+              DrawMethod="Hollow"
+		      />
+            <Glyph
+              Name="Hover"
+              DrawMethod="Hollow"
+		      />
+            <Glyph
+              Name="Pressed"
+              DrawMethod="Hollow"
+		      />
+          </SkinItem>
+        </SkinItem>
+      </SkinItem>
+    </SkinItem>
+    <SkinItem Name="HyperLink">
+      <Color
+        Name="Disabled"
+        Color="0x808080"
+        />
+      <Color
+        Name="Pressed"
+        Color="0xFF2020"
+        />
+      <Color
+        Name="Hover"
+        Color="0xFF5050"
+        />
+      <Color
+        Name="Focused"
+        Color="0x600000"
+        />
+      <Color
+        Name="Normal"
+        Color="0x200000"
+        />
+    </SkinItem>
+    <SkinItem Name="CheckAndRadio">
+      <Color
+        Name="Disabled"
+        Color="0x808080"
+        />
+      <Color
+        Name="Pressed"
+        Color="0x000000"
+        />
+      <Color
+        Name="Hover"
+        Color="0x000000"
+        />
+      <Color
+        Name="Focused"
+        Color="0x000000"
+        />
+      <Color
+        Name="Normal"
+        Color="0x000000"
+        />
+      <SkinItem Name="Check">
+        <SkinItem Name="Checked">
+          <Glyph
+            Name="Disabled"
+            Image="Aqua\Button\CheckAndRadio\Check\Disabled\Checked.png"
+			      />
+          <Glyph
+            Name="Normal"
+            Image="Aqua\Button\CheckAndRadio\Check\Normal\Checked.png"
+		  	    />
+          <Glyph
+            Name="Hover"
+            Image="Aqua\Button\CheckAndRadio\Check\Hover\Checked.png"
+	  		    />
+          <Glyph
+            Name="Pressed"
+            Image="Aqua\Button\CheckAndRadio\Check\Pressed\Checked.png"
+  			    />
+        </SkinItem>
+        <SkinItem Name="Unchecked">
+          <Glyph
+            Name="Disabled"
+            Image="Aqua\Button\CheckAndRadio\Check\Disabled\Unchecked.png"
+			      />
+          <Glyph
+            Name="Normal"
+            Image="Aqua\Button\CheckAndRadio\Check\Normal\Unchecked.png"
+		  	    />
+          <Glyph
+            Name="Hover"
+            Image="Aqua\Button\CheckAndRadio\Check\Hover\Unchecked.png"
+	  		    />
+          <Glyph
+            Name="Pressed"
+            Image="Aqua\Button\CheckAndRadio\Check\Pressed\Unchecked.png"
+  			    />
+        </SkinItem>
+        <SkinItem Name="Indeterminate">
+          <Glyph
+            Name="Disabled"
+            Image="Aqua\Button\CheckAndRadio\Check\Disabled\Indeterminate.png"
+			      />
+          <Glyph
+            Name="Normal"
+            Image="Aqua\Button\CheckAndRadio\Check\Normal\Indeterminate.png"
+		  	    />
+          <Glyph
+            Name="Hover"
+            Image="Aqua\Button\CheckAndRadio\Check\Hover\Indeterminate.png"
+	  		    />
+          <Glyph
+            Name="Pressed"
+            Image="Aqua\Button\CheckAndRadio\Check\Pressed\Indeterminate.png"
+  			    />
+        </SkinItem>
+      </SkinItem>
+      <SkinItem Name="Radio">
+        <SkinItem Name="Checked">
+          <Glyph
+            Name="Disabled"
+            Image="Aqua\Button\CheckAndRadio\Radio\Disabled\Checked.png"
+			      />
+          <Glyph
+            Name="Normal"
+            Image="Aqua\Button\CheckAndRadio\Radio\Normal\Checked.png"
+		  	    />
+          <Glyph
+            Name="Hover"
+            Image="Aqua\Button\CheckAndRadio\Radio\Hover\Checked.png"
+	  		    />
+          <Glyph
+            Name="Pressed"
+            Image="Aqua\Button\CheckAndRadio\Radio\Pressed\Checked.png"
+  			    />
+        </SkinItem>
+        <SkinItem Name="Unchecked">
+          <Glyph
+            Name="Disabled"
+            Image="Aqua\Button\CheckAndRadio\Radio\Disabled\Unchecked.png"
+			      />
+          <Glyph
+            Name="Normal"
+            Image="Aqua\Button\CheckAndRadio\Radio\Normal\Unchecked.png"
+		  	    />
+          <Glyph
+            Name="Hover"
+            Image="Aqua\Button\CheckAndRadio\Radio\Hover\Unchecked.png"
+	  		    />
+          <Glyph
+            Name="Pressed"
+            Image="Aqua\Button\CheckAndRadio\Radio\Pressed\Unchecked.png"
+  			    />
+        </SkinItem>
+      </SkinItem>
+    </SkinItem>
+    <SkinItem Name="FrameNcButton">
+      <SkinItem Name="Help">
+        <SkinItem Name="Active">
+        </SkinItem>
+        <SkinItem Name="Inactive">
+        </SkinItem>
+        <Glyph
+          Name="Normal"
+          DrawMethod="Hollow"
+					    />
+        <Glyph
+          Name="Hover"
+          DrawMethod="Hollow"
+					    />
+        <Glyph
+          Name="Pressed"
+          DrawMethod="Hollow"
+					    />
+      </SkinItem>
+      <SkinItem Name="Minimize">
+        <SkinItem Name="Active">
+          <Glyph
+            Name="Normal"
+            To="3" Bo="2" 
+            Image="Aqua\Button\FrameNcButton\Active\SC_MINIMIZE-normal.png"
+					    />
+          <Glyph
+            Name="Hover"
+            To="3" Bo="2"
+            Image="Aqua\Button\FrameNcButton\Active\SC_MINIMIZE-hover.png"
+					    />
+          <Glyph
+            Name="Pressed"
+            To="3" Bo="2"
+            Image="Aqua\Button\FrameNcButton\Active\SC_MINIMIZE-pressed.png"
+					    />
+          <Glyph
+            Name="Disabled"
+            To="3" Bo="2"
+            Image="Aqua\Button\FrameNcButton\Active\SC_MINIMIZE-disabled.png"
+					    />
+        </SkinItem>
+        <SkinItem Name="Inactive">
+          <Glyph
+            Name="Normal"
+            To="3" Bo="2"
+            Image="Aqua\Button\FrameNcButton\Inactive\SC_MINIMIZE-normal.png"
+					    />
+          <Glyph
+            Name="Hover"
+            To="3" Bo="2"
+            Image="Aqua\Button\FrameNcButton\Inactive\SC_MINIMIZE-hover.png"
+					    />
+          <Glyph
+            Name="Pressed"
+            To="3" Bo="2"
+            Image="Aqua\Button\FrameNcButton\Inactive\SC_MINIMIZE-pressed.png"
+					    />
+          <Glyph
+            Name="Disabled"
+            To="3" Bo="2"
+            Image="Aqua\Button\FrameNcButton\Inactive\SC_MINIMIZE-disabled.png"
+					    />
+        </SkinItem>
+      </SkinItem>
+      <SkinItem Name="Maximize">
+        <SkinItem Name="Active">
+          <Glyph
+            Name="Normal"
+            To="3" Bo="2"
+            Image="Aqua\Button\FrameNcButton\Active\SC_MAXIMIZE-normal.png"
+					    />
+          <Glyph
+            Name="Hover"
+            To="3" Bo="2"
+            Image="Aqua\Button\FrameNcButton\Active\SC_MAXIMIZE-hover.png"
+					    />
+          <Glyph
+            Name="Pressed"
+            To="3" Bo="2"
+            Image="Aqua\Button\FrameNcButton\Active\SC_MAXIMIZE-pressed.png"
+					    />
+          <Glyph
+            Name="Disabled"
+            To="3" Bo="2"
+            Image="Aqua\Button\FrameNcButton\Active\SC_MAXIMIZE-disabled.png"
+					    />
+        </SkinItem>
+        <SkinItem Name="Inactive">
+          <Glyph
+            Name="Normal"
+            To="3" Bo="2"
+            Image="Aqua\Button\FrameNcButton\Inactive\SC_MAXIMIZE-normal.png"
+					    />
+          <Glyph
+            Name="Hover"
+            To="3" Bo="2"
+            Image="Aqua\Button\FrameNcButton\Inactive\SC_MAXIMIZE-hover.png"
+					    />
+          <Glyph
+            Name="Pressed"
+            To="3" Bo="2"
+            Image="Aqua\Button\FrameNcButton\Inactive\SC_MAXIMIZE-pressed.png"
+					    />
+          <Glyph
+            Name="Disabled"
+            To="3" Bo="2"
+            Image="Aqua\Button\FrameNcButton\Inactive\SC_MAXIMIZE-disabled.png"
+					    />
+        </SkinItem>
+      </SkinItem>
+      <SkinItem Name="Restore">
+        <SkinItem Name="Active">
+          <Glyph
+            Name="Normal"
+            To="3" Bo="2"
+            Image="Aqua\Button\FrameNcButton\Active\SC_RESTORE-normal.png"
+					    />
+          <Glyph
+            Name="Hover"
+            To="3" Bo="2"
+            Image="Aqua\Button\FrameNcButton\Active\SC_RESTORE-hover.png"
+					    />
+          <Glyph
+            Name="Pressed"
+            To="3" Bo="2"
+            Image="Aqua\Button\FrameNcButton\Active\SC_RESTORE-pressed.png"
+					    />
+          <Glyph
+            Name="Disabled"
+            To="3" Bo="2"
+            Image="Aqua\Button\FrameNcButton\Active\SC_RESTORE-disabled.png"
+					    />
+        </SkinItem>
+        <SkinItem Name="Inactive">
+          <Glyph
+            Name="Normal"
+            To="3" Bo="2"
+            Image="Aqua\Button\FrameNcButton\Inactive\SC_RESTORE-normal.png"
+					    />
+          <Glyph
+            Name="Hover"
+            To="3" Bo="2"
+            Image="Aqua\Button\FrameNcButton\Inactive\SC_RESTORE-hover.png"
+					    />
+          <Glyph
+            Name="Pressed"
+            To="3" Bo="2"
+            Image="Aqua\Button\FrameNcButton\Inactive\SC_RESTORE-pressed.png"
+					    />
+          <Glyph
+            Name="Disabled"
+            To="3" Bo="2"
+            Image="Aqua\Button\FrameNcButton\Inactive\SC_RESTORE-disabled.png"
+					    />
+        </SkinItem>
+      </SkinItem>
+      <SkinItem Name="Close">
+        <SkinItem Name="Active">
+          <Glyph
+            Name="Normal"
+            To="3" Bo="2" Ro="-2"
+            Image="Aqua\Button\FrameNcButton\Active\SC_CLOSE-normal.png"
+					    />
+          <Glyph
+            Name="Hover"
+            To="3" Bo="2" Ro="-2"
+            Image="Aqua\Button\FrameNcButton\Active\SC_CLOSE-hover.png"
+					    />
+          <Glyph
+            Name="Pressed"
+            To="3" Bo="2" Ro="-2"
+            Image="Aqua\Button\FrameNcButton\Active\SC_CLOSE-pressed.png"
+					    />
+          <Glyph
+            Name="Disabled"
+            To="3" Bo="2" Ro="-2"
+            Image="Aqua\Button\FrameNcButton\Active\SC_CLOSE-disabled.png"
+					    />
+        </SkinItem>
+        <SkinItem Name="Inactive">
+          <Glyph
+            Name="Normal"
+            To="3" Bo="2" Ro="-2"
+            Image="Aqua\Button\FrameNcButton\Inactive\SC_CLOSE-normal.png"
+					    />
+          <Glyph
+            Name="Hover"
+            To="3" Bo="2" Ro="-2"
+            Image="Aqua\Button\FrameNcButton\Inactive\SC_CLOSE-hover.png"
+					    />
+          <Glyph
+            Name="Pressed"
+            To="3" Bo="2" Ro="-2"
+            Image="Aqua\Button\FrameNcButton\Inactive\SC_CLOSE-pressed.png"
+					    />
+          <Glyph
+            Name="Disabled"
+            To="3" Bo="2" Ro="-2"
+            Image="Aqua\Button\FrameNcButton\Inactive\SC_CLOSE-disabled.png"
+					    />
+        </SkinItem>
+      </SkinItem>
+    </SkinItem>
+		<SkinItem Name="Simple">
+			<SkinItem Name="PushButton">
+				<Glyph 
+					Name="PushButton"
+					DrawMethod="Hollow"
+					Ctp="2" Clp="12" Cbp="1" Crp="12"
+					/>
+				<SkinItem Name="Control">
+					<SkinItem Name="Normal">
+						<Glyph 
+							Name="PushButton"
+							Tp="12" Lp="14" Bp="11" Rp="14"
+							Ctp="2" Clp="12" Cbp="1" Crp="12"
+							Image="Aqua\Button\ControlPushButton\Normal.png"
+							/>
+          </SkinItem>
+          <SkinItem Name="Disabled">
+            <Glyph 
+							Name="PushButton"
+							Tp="12" Lp="14" Bp="11" Rp="14"
+							Ctp="2" Clp="12" Cbp="1" Crp="12"
+							Image="Aqua\Button\ControlPushButton\Disabled.png"
+							/>
+					</SkinItem>
+					<SkinItem Name="Hover">
+						<Glyph 
+							Name="PushButton"
+							Tp="12" Lp="14" Bp="11" Rp="14"
+							Ctp="2" Clp="12" Cbp="1" Crp="12"
+							Image="Aqua\Button\ControlPushButton\Hover.png"
+							/>
+          </SkinItem>
+          <SkinItem Name="Pressed">
+            <Glyph 
+							Name="PushButton"
+							Tp="12" Lp="14" Bp="11" Rp="14"
+							Ctp="2" Clp="12" Cbp="1" Crp="12"
+							Image="Aqua\Button\ControlPushButton\Pressed.png"
+							/>
+          </SkinItem>
+          <SkinItem Name="Default">
+            <Glyph 
+							Name="PushButton"
+							Tp="12" Lp="14" Bp="11" Rp="14"
+							Ctp="2" Clp="12" Cbp="1" Crp="12"
+							Image="Aqua\Button\ControlPushButton\Default.png"
+							/>
+					</SkinItem>
+				</SkinItem>
+				<SkinItem Name="ControlBar">
+          <Color
+            Name="Disabled"
+            Color="0x808080"
+            />
+          <Color
+            Name="Normal"
+            Color="0x000000"
+            />
+          <Color
+            Name="Hover"
+            Color="0x000000"
+            />
+          <Color
+            Name="Pressed"
+            Color="0x404040"
+            />
+          <Glyph 
+            Name="PushButton"
+            DrawMethod="Hollow"
+            Ctp="3" Clp="3" Cbp="3" Crp="3"
+            Width="25" Height="25"
+					  />
+          <SkinItem Name="Horizontal">
+						<SkinItem Name="ToolBar">
+							<SkinItem Name="MenuBar">
+                <SkinItem Name="Normal">
+                  <SkinItem Name="PaletteMenu" >
+                    <Color Name="Normal" Color="0x000000" />
+                  </SkinItem>
+                  <SkinItem Name="Chevron" >
+                    <Glyph
+                      Name="PushButton"
+										  Image="Aqua\Button\Chevron\NormalH.png"
+                      Tp="7" Bp="7" Lp="6" Rp="6"
+                      />
+                  </SkinItem>
+                  <Glyph 
+										Name="PushButton"
+							      Tp="12" Lp="14" Bp="11" Rp="14"
+										Ctp="3" Clp="3" Cbp="3" Crp="3"
+                    Width="25" Height="25"
+										Image="Aqua\Button\ToolBarPushButton\Normal.png"
+                    DrawMethod="Hollow"
+										/>
+                </SkinItem>
+                <SkinItem Name="Hover">
+                  <SkinItem Name="Chevron" >
+                    <Glyph
+                      Name="PushButton"
+										  Image="Aqua\Button\Chevron\HoverH.png"
+                      Tp="7" Bp="7" Lp="6" Rp="6"
+                      />
+                  </SkinItem>
+                  <Glyph 
+										Name="PushButton"
+							      Tp="12" Lp="14" Bp="11" Rp="14"
+										Ctp="3" Clp="3" Cbp="3" Crp="3"
+                    Width="25" Height="25"
+										Image="Aqua\Button\ToolBarPushButton\Hover.png"
+										/>
+                </SkinItem>
+                <SkinItem Name="Pressed">
+                  <SkinItem Name="Chevron" >
+                    <Glyph
+                      Name="PushButton"
+										  Image="Aqua\Button\Chevron\PressedH.png"
+                      Tp="7" Bp="7" Lp="6" Rp="6"
+                      />
+                  </SkinItem>
+                  <Glyph 
+										Name="PushButton"
+							      Tp="12" Lp="14" Bp="11" Rp="14"
+										Ctp="3" Clp="3" Cbp="3" Crp="3"
+                    Width="25" Height="25"
+										Image="Aqua\Button\ToolBarPushButton\Pressed.png"
+										/>
+                </SkinItem>
+                <SkinItem Name="Disabled">
+                  <SkinItem Name="Chevron" >
+                    <Glyph
+                      Name="PushButton"
+										  Image="Aqua\Button\Chevron\DisabledH.png"
+                      Tp="7" Bp="7" Lp="6" Rp="6"
+                      />
+                  </SkinItem>
+                  <Glyph 
+										Name="PushButton"
+							      Tp="12" Lp="14" Bp="11" Rp="14"
+										Ctp="3" Clp="3" Cbp="3" Crp="3"
+                    Width="25" Height="25"
+										Image="Aqua\Button\ToolBarPushButton\Disabled.png"
+                    DrawMethod="Hollow"
+										/>
+                </SkinItem>
+              </SkinItem>
+              <SkinItem Name="Normal">
+                <SkinItem Name="PaletteMenu" >
+                  <Color Name="Normal" Color="0x000000" />
+                </SkinItem>
+                <SkinItem Name="Chevron" >
+                  <Glyph
+                    Name="PushButton"
+									  Image="Aqua\Button\Chevron\NormalH.png"
+                    Tp="7" Bp="7" Lp="6" Rp="6"
+                    />
+                </SkinItem>
+                <Glyph 
+									Name="PushButton"
+							    Tp="12" Lp="14" Bp="11" Rp="14"
+									Ctp="3" Clp="3" Cbp="3" Crp="3"
+                  Width="25" Height="25"
+									Image="Aqua\Button\ToolBarPushButton\Normal.png"
+                  DrawMethod="Hollow"
+									/>
+              </SkinItem>
+              <SkinItem Name="Hover">
+                <SkinItem Name="Chevron" >
+                  <Glyph
+                    Name="PushButton"
+                    Image="Aqua\Button\Chevron\HoverH.png"
+                    Tp="7" Bp="7" Lp="6" Rp="6"
+                      />
+                </SkinItem>
+                <Glyph 
+									Name="PushButton"
+							    Tp="12" Lp="14" Bp="11" Rp="14"
+									Ctp="3" Clp="3" Cbp="3" Crp="3"
+                  Width="25" Height="25"
+									Image="Aqua\Button\ToolBarPushButton\Hover.png"
+									/>
+							</SkinItem>
+              <SkinItem Name="Pressed">
+                <SkinItem Name="Chevron" >
+                  <Glyph
+                    Name="PushButton"
+                    Image="Aqua\Button\Chevron\PressedH.png"
+                    Tp="7" Bp="7" Lp="6" Rp="6"
+                      />
+                </SkinItem>
+                <Glyph 
+									Name="PushButton"
+							    Tp="12" Lp="14" Bp="11" Rp="14"
+									Ctp="3" Clp="3" Cbp="3" Crp="3"
+                  Width="25" Height="25"
+									Image="Aqua\Button\ToolBarPushButton\Pressed.png"
+									/>
+              </SkinItem>
+              <SkinItem Name="Disabled">
+                <SkinItem Name="Chevron" >
+                  <Glyph
+                    Name="PushButton"
+                    Image="Aqua\Button\Chevron\DisabledH.png"
+                    Tp="7" Bp="7" Lp="6" Rp="6"
+                      />
+                </SkinItem>
+                <Glyph 
+									Name="PushButton"
+							    Tp="12" Lp="14" Bp="11" Rp="14"
+									Ctp="3" Clp="3" Cbp="3" Crp="3"
+                  Width="25" Height="25"
+									Image="Aqua\Button\ToolBarPushButton\Disabled.png"
+                  DrawMethod="Hollow"
+									/>
+              </SkinItem>
+            </SkinItem>
+					</SkinItem>
+					<SkinItem Name="Vertical">
+						<SkinItem Name="ToolBar">
+							<SkinItem Name="MenuBar">
+                <SkinItem Name="Normal">
+                  <SkinItem Name="PaletteMenu" >
+                    <Color Name="Normal" Color="0x000000" />
+                  </SkinItem>
+                  <SkinItem Name="Chevron" >
+                    <Glyph
+                      Name="PushButton"
+										  Image="Aqua\Button\Chevron\NormalV.png"
+                      Tp="6" Bp="6" Lp="6" Rp="6"
+                      />
+                  </SkinItem>
+                  <Glyph 
+										Name="PushButton"
+							      Tp="12" Lp="14" Bp="11" Rp="14"
+										Ctp="3" Clp="3" Cbp="3" Crp="3"
+                    Width="25" Height="25"
+										Image="Aqua\Button\ToolBarPushButton\Normal.png"
+                    DrawMethod="Hollow"
+										/>
+                </SkinItem>
+                <SkinItem Name="Hover">
+                  <SkinItem Name="Chevron" >
+                    <Glyph
+                      Name="PushButton"
+										  Image="Aqua\Button\Chevron\HoverV.png"
+                      Tp="6" Bp="6" Lp="6" Rp="6"
+                      />
+                  </SkinItem>
+                  <Glyph 
+										Name="PushButton"
+							      Tp="12" Lp="14" Bp="11" Rp="14"
+										Ctp="3" Clp="3" Cbp="3" Crp="3"
+                    Width="25" Height="25"
+										Image="Aqua\Button\ToolBarPushButton\Hover.png"
+										/>
+                </SkinItem>
+                <SkinItem Name="Pressed">
+                  <SkinItem Name="Chevron" >
+                    <Glyph
+                      Name="PushButton"
+										  Image="Aqua\Button\Chevron\PressedV.png"
+                      Tp="6" Bp="6" Lp="6" Rp="6"
+                      />
+                  </SkinItem>
+                  <Glyph 
+										Name="PushButton"
+							      Tp="12" Lp="14" Bp="11" Rp="14"
+										Ctp="3" Clp="3" Cbp="3" Crp="3"
+                    Width="25" Height="25"
+										Image="Aqua\Button\ToolBarPushButton\Pressed.png"
+										/>
+                </SkinItem>
+                <SkinItem Name="Disabled">
+                  <SkinItem Name="Chevron" >
+                    <Glyph
+                      Name="PushButton"
+										  Image="Aqua\Button\Chevron\DisabledV.png"
+                      Tp="6" Bp="6" Lp="6" Rp="6"
+                      />
+                  </SkinItem>
+                  <Glyph 
+										Name="PushButton"
+							      Tp="12" Lp="14" Bp="11" Rp="14"
+										Ctp="3" Clp="3" Cbp="3" Crp="3"
+                    Width="25" Height="25"
+										Image="Aqua\Button\ToolBarPushButton\Disabled.png"
+                    DrawMethod="Hollow"
+										/>
+                </SkinItem>
+              </SkinItem>
+              <SkinItem Name="Normal">
+                <SkinItem Name="PaletteMenu" >
+                  <Color Name="Normal" Color="0x000000" />
+                </SkinItem>
+                <SkinItem Name="Chevron" >
+                  <Glyph
+                    Name="PushButton"
+                    Image="Aqua\Button\Chevron\NormalV.png"
+                    Tp="6" Bp="6" Lp="6" Rp="6"
+                      />
+                </SkinItem>
+                <Glyph 
+									Name="PushButton"
+						      Tp="12" Lp="14" Bp="11" Rp="14"
+									Ctp="3" Clp="3" Cbp="3" Crp="3"
+                  Width="25" Height="25"
+									Image="Aqua\Button\ToolBarPushButton\Normal.png"
+                  DrawMethod="Hollow"
+									/>
+              </SkinItem>
+              <SkinItem Name="Hover">
+                <SkinItem Name="Chevron" >
+                  <Glyph
+                    Name="PushButton"
+                    Image="Aqua\Button\Chevron\HoverV.png"
+                    Tp="6" Bp="6" Lp="6" Rp="6"
+                      />
+                </SkinItem>
+                <Glyph 
+									Name="PushButton"
+						      Tp="12" Lp="14" Bp="11" Rp="14"
+									Ctp="3" Clp="3" Cbp="3" Crp="3"
+                  Width="25" Height="25"
+									Image="Aqua\Button\ToolBarPushButton\Hover.png"
+									/>
+              </SkinItem>
+              <SkinItem Name="Pressed">
+                <SkinItem Name="Chevron" >
+                  <Glyph
+                    Name="PushButton"
+                    Image="Aqua\Button\Chevron\PressedV.png"
+                    Tp="6" Bp="6" Lp="6" Rp="6"
+                      />
+                </SkinItem>
+                <Glyph 
+									Name="PushButton"
+						      Tp="12" Lp="14" Bp="11" Rp="14"
+									Ctp="3" Clp="3" Cbp="3" Crp="3"
+                  Width="25" Height="25"
+									Image="Aqua\Button\ToolBarPushButton\Pressed.png"
+									/>
+              </SkinItem>
+              <SkinItem Name="Disabled">
+                <SkinItem Name="Chevron" >
+                  <Glyph
+                    Name="PushButton"
+                    Image="Aqua\Button\Chevron\DisabledV.png"
+                    Tp="6" Bp="6" Lp="6" Rp="6"
+                    />
+                </SkinItem>
+                <Glyph 
+									Name="PushButton"
+						      Tp="12" Lp="14" Bp="11" Rp="14"
+									Ctp="3" Clp="3" Cbp="3" Crp="3"
+                  Width="25" Height="25"
+									Image="Aqua\Button\ToolBarPushButton\Disabled.png"
+                  DrawMethod="Hollow"
+									/>
+              </SkinItem>
+            </SkinItem>			
+					</SkinItem>
+				</SkinItem>
+			</SkinItem>
+		</SkinItem>
+		<SkinItem Name="DropDown">
+			<SkinItem Name="PushButton">
+				<Glyph 
+					Name="PushButton"
+					DrawMethod="Hollow"
+					Ctp="2" Clp="12" Cbp="1" Crp="12"
+					/>
+        <SkinItem Name="Control">
+          <SkinItem Name="Normal">
+            <Glyph 
+							Name="PushButton"
+							Tp="12" Lp="14" Bp="11" Rp="14"
+							Ctp="2" Clp="12" Cbp="1" Crp="12"
+							Image="Aqua\Button\ControlDropDownButton\PushButton\Normal.png"
+							/>
+					</SkinItem>
+					<SkinItem Name="Disabled">
+						<Glyph 
+							Name="PushButton"
+							Tp="12" Lp="14" Bp="11" Rp="14"
+							Ctp="2" Clp="12" Cbp="1" Crp="12"
+							Image="Aqua\Button\ControlDropDownButton\PushButton\Disabled.png"
+							/>
+          </SkinItem>
+          <SkinItem Name="Hover">
+            <Glyph 
+							Name="PushButton"
+							Tp="12" Lp="14" Bp="11" Rp="14"
+							Ctp="2" Clp="12" Cbp="1" Crp="12"
+							Image="Aqua\Button\ControlDropDownButton\PushButton\Hover.png"
+							/>
+          </SkinItem>
+          <SkinItem Name="Pressed">
+            <Glyph 
+							Name="PushButton"
+							Tp="12" Lp="14" Bp="11" Rp="14"
+							Ctp="2" Clp="12" Cbp="1" Crp="12"
+							Image="Aqua\Button\ControlDropDownButton\PushButton\Pressed.png"
+							/>
+					</SkinItem>
+					<SkinItem Name="Default">
+						<Glyph 
+							Name="PushButton"
+							Tp="12" Lp="14" Bp="11" Rp="14"
+							Ctp="2" Clp="12" Cbp="1" Crp="12"
+							Image="Aqua\Button\ControlDropDownButton\PushButton\Default.png"
+							/>
+					</SkinItem>
+				</SkinItem>
+				<SkinItem Name="ControlBar">
+          <Color
+            Name="Disabled"
+            Color="0xB0B0B0"
+            />
+          <Color
+            Name="Normal"
+            Color="0x000000"
+            />
+          <Color
+            Name="Hover"
+            Color="0x000000"
+            />
+          <Color
+            Name="Pressed"
+            Color="0x000040"
+            />
+          <SkinItem Name="Horizontal">
+						<SkinItem Name="ToolBar">
+              <SkinItem Name="Normal">
+                <SkinItem Name="PaletteMenu" >
+                  <Color Name="Normal" Color="0x000000" />
+                </SkinItem>
+                <SkinItem Name="Chevron" >
+                  <Glyph
+                    Name="PushButton"
+                    Image="Aqua\Button\Chevron\NormalH.png"
+                    Tp="7" Bp="7" Lp="6" Rp="6"
+                      />
+                </SkinItem>
+                <Glyph 
+									Name="PushButton"
+							    Tp="12" Lp="14" Bp="11" Rp="14"
+									Ctp="5" Clp="5" Cbp="5" Crp="5"
+                  Width="25" Height="25"
+									Image="Aqua\Button\ToolBarDropDownButton\PushButton\Normal.png"
+                  DrawMethod="Hollow"
+									/>
+              </SkinItem>
+              <SkinItem Name="Hover">
+                <SkinItem Name="Chevron" >
+                  <Glyph
+                    Name="PushButton"
+                    Image="Aqua\Button\Chevron\HoverH.png"
+                    Tp="7" Bp="7" Lp="6" Rp="6"
+                      />
+                </SkinItem>
+                <Glyph 
+									Name="PushButton"
+							    Tp="12" Lp="14" Bp="11" Rp="14"
+									Ctp="5" Clp="5" Cbp="5" Crp="5"
+                  Width="25" Height="25"
+									Image="Aqua\Button\ToolBarDropDownButton\PushButton\Hover.png"
+									/>
+							</SkinItem>
+							<SkinItem Name="Pressed">
+                <SkinItem Name="Chevron" >
+                  <Glyph
+                    Name="PushButton"
+                    Image="Aqua\Button\Chevron\PressedH.png"
+                    Tp="7" Bp="7" Lp="6" Rp="6"
+                      />
+                </SkinItem>
+                <Glyph 
+									Name="PushButton"
+							    Tp="12" Lp="14" Bp="11" Rp="14"
+									Ctp="5" Clp="5" Cbp="5" Crp="5"
+                  Width="25" Height="25"
+									Image="Aqua\Button\ToolBarDropDownButton\PushButton\Pressed.png"
+									/>
+							</SkinItem>
+              <SkinItem Name="Disabled">
+                <SkinItem Name="Chevron" >
+                  <Glyph
+                    Name="PushButton"
+                    Image="Aqua\Button\Chevron\DisabledH.png"
+                    Tp="7" Bp="7" Lp="6" Rp="6"
+                      />
+                </SkinItem>
+                <Glyph 
+									Name="PushButton"
+							    Tp="12" Lp="14" Bp="11" Rp="14"
+									Ctp="5" Clp="5" Cbp="5" Crp="5"
+                  Width="25" Height="25"
+									Image="Aqua\Button\ToolBarDropDownButton\PushButton\Disabled.png"
+                  DrawMethod="Hollow"
+									/>
+              </SkinItem>
+            </SkinItem>
+					</SkinItem>
+					<SkinItem Name="Vertical">
+						<SkinItem Name="ToolBar">
+              <SkinItem Name="Normal">
+                <SkinItem Name="PaletteMenu" >
+                  <Color Name="Normal" Color="0x000000" />
+                </SkinItem>
+                <SkinItem Name="Chevron" >
+                  <Glyph
+                    Name="PushButton"
+                    Image="Aqua\Button\Chevron\NormalV.png"
+                    Tp="6" Bp="6" Lp="6" Rp="6"
+                      />
+                </SkinItem>
+                <Glyph 
+									Name="PushButton"
+							    Tp="12" Lp="14" Bp="11" Rp="14"
+									Ctp="5" Clp="5" Cbp="5" Crp="5"
+                  Width="25" Height="25"
+									Image="Aqua\Button\ToolBarDropDownButton\PushButton\Normal.png"
+                  DrawMethod="Hollow"
+									/>
+              </SkinItem>
+              <SkinItem Name="Hover">
+                <SkinItem Name="Chevron" >
+                  <Glyph
+                    Name="PushButton"
+                    Image="Aqua\Button\Chevron\HoverV.png"
+                    Tp="6" Bp="6" Lp="6" Rp="6"
+                      />
+                </SkinItem>
+                <Glyph 
+									Name="PushButton"
+							    Tp="12" Lp="14" Bp="11" Rp="14"
+									Ctp="5" Clp="5" Cbp="5" Crp="5"
+                  Width="25" Height="25"
+									Image="Aqua\Button\ToolBarDropDownButton\PushButton\Hover.png"
+									/>
+							</SkinItem>
+							<SkinItem Name="Pressed">
+                <SkinItem Name="Chevron" >
+                  <Glyph
+                    Name="PushButton"
+                    Image="Aqua\Button\Chevron\PressedV.png"
+                    Tp="6" Bp="6" Lp="6" Rp="6"
+                      />
+                </SkinItem>
+                <Glyph 
+									Name="PushButton"
+							    Tp="12" Lp="14" Bp="11" Rp="14"
+									Ctp="5" Clp="5" Cbp="5" Crp="5"
+                  Width="25" Height="25"
+									Image="Aqua\Button\ToolBarDropDownButton\PushButton\Pressed.png"
+									/>
+							</SkinItem>
+              <SkinItem Name="Disabled">
+                <SkinItem Name="Chevron" >
+                  <Glyph
+                    Name="PushButton"
+                    Image="Aqua\Button\Chevron\DisabledV.png"
+                    Tp="6" Bp="6" Lp="6" Rp="6"
+                      />
+                </SkinItem>
+                <Glyph 
+									Name="PushButton"
+							    Tp="12" Lp="14" Bp="11" Rp="14"
+									Ctp="5" Clp="5" Cbp="5" Crp="5"
+                  Width="25" Height="25"
+									Image="Aqua\Button\ToolBarDropDownButton\PushButton\Disabled.png"
+                  DrawMethod="Hollow"
+									/>
+              </SkinItem>
+            </SkinItem>
+					</SkinItem>
+				</SkinItem>
+			</SkinItem>
+			<SkinItem Name="DropDownArrow">
+				<SkinItem Name="Control">
+					<SkinItem Name="Disabled">
+						<Glyph 
+							Name="DropDownArrow"
+							Image="Aqua\Button\ControlDropDownButton\DropDownArrow\Disabled.png"
+							DrawMethod="Center"		
+							/>
+					</SkinItem>
+					<Glyph 
+						Name="DropDownArrow"
+						Image="Aqua\Button\ControlDropDownButton\DropDownArrow\Normal.png"
+						DrawMethod="Center"		
+						/>
+				</SkinItem>
+				<SkinItem Name="ControlBar">
+					<Glyph 
+						Name="DropDownArrow"
+						DrawMethod="Hollow"		
+						/>
+					<SkinItem Name="Horizontal">
+						<SkinItem Name="ToolBar">
+              <SkinItem Name="Normal">
+                <Glyph 
+									Name="DropDownArrow"
+									Image="Aqua\Button\ToolBarDropDownButton\DropDownArrow\NormalH.png"
+									DrawMethod="Center"		
+									/>
+              </SkinItem>
+              <SkinItem Name="Hover">
+                <Glyph 
+									Name="DropDownArrow"
+									Image="Aqua\Button\ToolBarDropDownButton\DropDownArrow\NormalH.png"
+									DrawMethod="Center"		
+									/>
+              </SkinItem>
+              <SkinItem Name="Pressed">
+                <Glyph 
+									Name="DropDownArrow"
+									Image="Aqua\Button\ToolBarDropDownButton\DropDownArrow\NormalH.png"
+									DrawMethod="Center"		
+									/>
+              </SkinItem>
+              <SkinItem Name="Disabled">
+                <Glyph 
+									Name="DropDownArrow"
+									Image="Aqua\Button\ToolBarDropDownButton\DropDownArrow\DisabledH.png"
+									DrawMethod="Center"		
+									/>
+              </SkinItem>
+            </SkinItem>
+					</SkinItem>
+					<SkinItem Name="Vertical">
+						<SkinItem Name="ToolBar">
+              <SkinItem Name="Normal">
+                <Glyph 
+									Name="DropDownArrow"
+									Image="Aqua\Button\ToolBarDropDownButton\DropDownArrow\NormalV.png"
+									DrawMethod="Center"		
+									/>
+              </SkinItem>
+              <SkinItem Name="Hover">
+                <Glyph 
+									Name="DropDownArrow"
+									Image="Aqua\Button\ToolBarDropDownButton\DropDownArrow\NormalV.png"
+									DrawMethod="Center"		
+									/>
+              </SkinItem>
+              <SkinItem Name="Pressed">
+                <Glyph 
+									Name="DropDownArrow"
+									Image="Aqua\Button\ToolBarDropDownButton\DropDownArrow\NormalV.png"
+									DrawMethod="Center"		
+									/>
+              </SkinItem>
+              <SkinItem Name="Disabled">
+                <Glyph 
+									Name="DropDownArrow"
+									Image="Aqua\Button\ToolBarDropDownButton\DropDownArrow\DisabledV.png"
+									DrawMethod="Center"		
+									/>
+              </SkinItem>
+            </SkinItem>
+					</SkinItem>
+				</SkinItem>
+			</SkinItem>
+		</SkinItem>
+		<SkinItem Name="SeparatedDropDown">
+			<SkinItem Name="PushButton">
+				<SkinItem Name="Control">
+					<SkinItem Name="Normal">
+						<Glyph 
+							Name="PushButton"
+							Tp="12" Lp="14" Bp="11" Rp="2"
+							Ctp="2" Clp="12" Cbp="1" Crp="2"
+							Image="Aqua\Button\ControlSeparatedDropDownButton\PushButton\Normal.png"
+							/>
+          </SkinItem>
+          <SkinItem Name="Disabled">
+            <Glyph 
+							Name="PushButton"
+							Tp="12" Lp="14" Bp="11" Rp="2"
+							Ctp="2" Clp="12" Cbp="1" Crp="2"
+							Image="Aqua\Button\ControlSeparatedDropDownButton\PushButton\Disabled.png"
+							/>
+          </SkinItem>
+          <SkinItem Name="Hover">
+            <Glyph 
+							Name="PushButton"
+							Tp="12" Lp="14" Bp="11" Rp="2"
+							Ctp="2" Clp="12" Cbp="1" Crp="2"
+							Image="Aqua\Button\ControlSeparatedDropDownButton\PushButton\Hover.png"
+							/>
+					</SkinItem>
+					<SkinItem Name="Pressed">
+						<Glyph 
+							Name="PushButton"
+							Tp="12" Lp="14" Bp="11" Rp="2"
+							Ctp="2" Clp="12" Cbp="1" Crp="2"
+							Image="Aqua\Button\ControlSeparatedDropDownButton\PushButton\Pressed.png"
+							/>
+          </SkinItem>
+          <SkinItem Name="Default">
+            <Glyph 
+							Name="PushButton"
+							Tp="12" Lp="14" Bp="11" Rp="2"
+							Ctp="2" Clp="12" Cbp="1" Crp="2"
+							Image="Aqua\Button\ControlSeparatedDropDownButton\PushButton\Default.png"
+							/>
+					</SkinItem>
+				</SkinItem>
+				<SkinItem Name="ControlBar">
+          <Color
+            Name="Disabled"
+            Color="0xB0B0B0"
+            />
+          <Color
+            Name="Normal"
+            Color="0xE7E7E7"
+            />
+          <Color
+            Name="Hover"
+            Color="0x000000"
+            />
+          <Color
+            Name="Pressed"
+            Color="0x000040"
+            />
+          <Glyph 
+						Name="PushButton"
+						Ctp="3" Clp="3" Cbp="3" Crp="1"
+						DrawMethod="Hollow"
+						/>
+					<SkinItem Name="Horizontal">
+						<SkinItem Name="ToolBar">
+              <SkinItem Name="Normal">
+                <SkinItem Name="PaletteMenu" >
+                  <Color Name="Normal" Color="0x000000" />
+                </SkinItem>
+                <SkinItem Name="Chevron" >
+                  <Glyph
+                    Name="PushButton"
+                    Image="Aqua\Button\Chevron\NormalH.png"
+                    Tp="7" Bp="7" Lp="6" Rp="6"
+                      />
+                </SkinItem>
+                <Glyph 
+									Name="PushButton"
+							    Lp="12" Rp="2" Tp="11" Bp="14"
+									Ctp="5" Clp="5" Cbp="5" Crp="1"
+                  Height="25"
+									Image="Aqua\Button\ToolBarSeparatedDropDownButton\PushButton\NormalH.png"
+                  DrawMethod="Hollow"
+									/>
+              </SkinItem>
+              <SkinItem Name="Hover">
+                <SkinItem Name="Chevron" >
+                  <Glyph
+                    Name="PushButton"
+                    Image="Aqua\Button\Chevron\HoverH.png"
+                    Tp="7" Bp="7" Lp="6" Rp="6"
+                      />
+                </SkinItem>
+                <Glyph 
+									Name="PushButton"
+							    Lp="12" Rp="2" Tp="11" Bp="14"
+									Ctp="5" Clp="5" Cbp="5" Crp="1"
+                  Height="25"
+									Image="Aqua\Button\ToolBarSeparatedDropDownButton\PushButton\HoverH.png"
+									/>
+							</SkinItem>
+							<SkinItem Name="Pressed">
+                <SkinItem Name="Chevron" >
+                  <Glyph
+                    Name="PushButton"
+                    Image="Aqua\Button\Chevron\PressedH.png"
+                    Tp="7" Bp="7" Lp="6" Rp="6"
+                      />
+                </SkinItem>
+                <Glyph 
+									Name="PushButton"
+							    Lp="12" Rp="2" Tp="11" Bp="14"
+									Ctp="5" Clp="5" Cbp="5" Crp="1"
+                  Height="25"
+									Image="Aqua\Button\ToolBarSeparatedDropDownButton\PushButton\PressedH.png"
+									/>
+							</SkinItem>
+              <SkinItem Name="Disabled">
+                <SkinItem Name="Chevron" >
+                  <Glyph
+                    Name="PushButton"
+                    Image="Aqua\Button\Chevron\DisabledH.png"
+                    Tp="7" Bp="7" Lp="6" Rp="6"
+                      />
+                </SkinItem>
+                <Glyph
+									Name="PushButton"
+							    Lp="12" Rp="2" Tp="11" Bp="14"
+									Ctp="5" Clp="5" Cbp="5" Crp="1"
+                  Height="25"
+									Image="Aqua\Button\ToolBarSeparatedDropDownButton\PushButton\DisabledH.png"
+                  DrawMethod="Hollow"
+									/>
+              </SkinItem>
+            </SkinItem>
+					</SkinItem>
+					<SkinItem Name="Vertical">
+						<SkinItem Name="ToolBar">
+              <SkinItem Name="Normal">
+                <SkinItem Name="PaletteMenu" >
+                  <Color Name="Normal" Color="0x000000"/>
+                </SkinItem>
+                <SkinItem Name="Chevron" >
+                  <Glyph
+                    Name="PushButton"
+                    Image="Aqua\Button\Chevron\NormalV.png"
+                    Tp="6" Bp="6" Lp="6" Rp="6"
+                    />
+                </SkinItem>
+                <Glyph 
+									Name="PushButton"
+							    Lp="12" Rp="14" Tp="11" Bp="2"
+									Ctp="5" Clp="5" Cbp="1" Crp="5"
+                  Width="25"
+									Image="Aqua\Button\ToolBarSeparatedDropDownButton\PushButton\NormalV.png"
+                  DrawMethod="Hollow"
+									/>
+              </SkinItem>
+              <SkinItem Name="Hover">
+                <SkinItem Name="Chevron" >
+                  <Glyph
+                    Name="PushButton"
+                    Image="Aqua\Button\Chevron\HoverV.png"
+                    Tp="6" Bp="6" Lp="6" Rp="6"
+                      />
+                </SkinItem>
+                <Glyph 
+									Name="PushButton"
+							    Lp="12" Rp="14" Tp="11" Bp="2"
+									Ctp="5" Clp="5" Cbp="1" Crp="5"
+                  Width="25"
+									Image="Aqua\Button\ToolBarSeparatedDropDownButton\PushButton\HoverV.png"
+									/>
+							</SkinItem>
+							<SkinItem Name="Pressed">
+                <SkinItem Name="Chevron" >
+                  <Glyph
+                    Name="PushButton"
+                    Image="Aqua\Button\Chevron\PressedV.png"
+                    Tp="6" Bp="6" Lp="6" Rp="6"
+                      />
+                </SkinItem>
+                <Glyph 
+									Name="PushButton"
+							    Lp="12" Rp="14" Tp="11" Bp="2"
+									Ctp="5" Clp="5" Cbp="1" Crp="5"
+                  Width="25"
+									Image="Aqua\Button\ToolBarSeparatedDropDownButton\PushButton\PressedV.png"
+									/>
+							</SkinItem>
+              <SkinItem Name="Disabled">
+                <SkinItem Name="Chevron" >
+                  <Glyph
+                    Name="PushButton"
+                    Image="Aqua\Button\Chevron\DisabledV.png"
+                    Tp="6" Bp="6" Lp="6" Rp="6"
+                      />
+                </SkinItem>
+                <Glyph 
+									Name="PushButton"
+							    Lp="12" Rp="14" Tp="11" Bp="2"
+									Ctp="5" Clp="5" Cbp="1" Crp="5"
+                  Width="25"
+									Image="Aqua\Button\ToolBarSeparatedDropDownButton\PushButton\DisabledV.png"
+                  DrawMethod="Hollow"
+									/>
+              </SkinItem>
+            </SkinItem>
+					</SkinItem>
+				</SkinItem>
+			</SkinItem>
+			<SkinItem Name="DropDownButton">
+				<SkinItem Name="Control">
+					<SkinItem Name="Normal">
+						<Glyph 
+							Name="DropDownButton"
+							Tp="12" Bp="11" Rp="2"
+							Ctp="2" Cbp="1" Crp="4"
+							Image="Aqua\Button\ControlSeparatedDropDownButton\DropDownButton\Normal.png"
+							/>
+					</SkinItem>
+					<SkinItem Name="Disabled">
+						<Glyph 
+							Name="DropDownButton"
+							Tp="12" Bp="11" Rp="2"
+							Ctp="2" Cbp="1" Crp="4"
+							Image="Aqua\Button\ControlSeparatedDropDownButton\DropDownButton\Disabled.png"
+							/>
+					</SkinItem>
+					<SkinItem Name="Hover">
+						<Glyph 
+							Name="DropDownButton"
+							Tp="12" Bp="11" Rp="2"
+							Ctp="2" Cbp="1" Crp="4"
+							Image="Aqua\Button\ControlSeparatedDropDownButton\DropDownButton\Hover.png"
+							/>
+					</SkinItem>
+					<SkinItem Name="Pressed">
+						<Glyph 
+							Name="DropDownButton"
+							Tp="12" Bp="11" Rp="2"
+							Ctp="2" Cbp="1" Crp="4"
+							Image="Aqua\Button\ControlSeparatedDropDownButton\DropDownButton\Pressed.png"
+							/>
+					</SkinItem>
+					<SkinItem Name="Default">
+						<Glyph 
+							Name="DropDownButton"
+							Tp="12" Bp="11" Rp="2"
+							Ctp="2" Cbp="1" Crp="4"
+							Image="Aqua\Button\ControlSeparatedDropDownButton\DropDownButton\Default.png"
+							/>
+					</SkinItem>
+				</SkinItem>
+				<SkinItem Name="ControlBar">
+					<Glyph 
+						Name="DropDownButton"
+						Ctp="3" Cbp="3" Crp="3"
+						DrawMethod="Hollow"
+						/>
+					<SkinItem Name="Horizontal">
+						<SkinItem Name="ToolBar">
+              <SkinItem Name="Normal">
+                <Glyph 
+									Name="DropDownButton"
+							    Lp="0" Rp="11" Tp="11" Bp="14"
+									Ctp="3" Cbp="3" Crp="3"
+                  Height="25"
+									Image="Aqua\Button\ToolBarSeparatedDropDownButton\DropDownButton\NormalH.png"
+                  DrawMethod="Hollow"
+									/>
+              </SkinItem>
+              <SkinItem Name="Hover">
+                <Glyph 
+									Name="DropDownButton"
+							    Lp="0" Rp="11" Tp="11" Bp="14"
+									Ctp="3" Cbp="3" Crp="3"
+                  Height="25"
+									Image="Aqua\Button\ToolBarSeparatedDropDownButton\DropDownButton\HoverH.png"
+									/>
+              </SkinItem>
+              <SkinItem Name="Pressed">
+                <Glyph 
+									Name="DropDownButton"
+							    Lp="0" Rp="11" Tp="11" Bp="14"
+									Ctp="3" Cbp="3" Crp="3"
+                  Height="25"
+									Image="Aqua\Button\ToolBarSeparatedDropDownButton\DropDownButton\PressedH.png"
+									/>
+              </SkinItem>
+              <SkinItem Name="Disabled">
+                <Glyph 
+									Name="DropDownButton"
+							    Lp="0" Rp="11" Tp="11" Bp="14"
+									Ctp="3" Cbp="3" Crp="3"
+                  Height="25"
+									Image="Aqua\Button\ToolBarSeparatedDropDownButton\DropDownButton\DisabledH.png"
+                  DrawMethod="Hollow"
+									/>
+              </SkinItem>
+            </SkinItem>
+					</SkinItem>
+					<SkinItem Name="Vertical">
+						<SkinItem Name="ToolBar">
+              <SkinItem Name="Normal">
+                <Glyph 
+									Name="DropDownButton"
+							    Lp="12" Rp="14" Tp="0" Bp="11"
+									Ctp="3" Cbp="3" Crp="3"
+                  Width="25"
+									Image="Aqua\Button\ToolBarSeparatedDropDownButton\DropDownButton\NormalV.png"
+                  DrawMethod="Hollow"
+									/>
+              </SkinItem>
+              <SkinItem Name="Hover">
+                <Glyph 
+									Name="DropDownButton"
+							    Lp="12" Rp="14" Tp="0" Bp="11"
+									Ctp="3" Cbp="3" Crp="3"
+                  Width="25"
+									Image="Aqua\Button\ToolBarSeparatedDropDownButton\DropDownButton\HoverV.png"
+									/>
+              </SkinItem>
+              <SkinItem Name="Pressed">
+                <Glyph 
+									Name="DropDownButton"
+							    Lp="12" Rp="14" Tp="0" Bp="11"
+									Ctp="3" Cbp="3" Crp="3"
+                  Width="25"
+									Image="Aqua\Button\ToolBarSeparatedDropDownButton\DropDownButton\PressedV.png"
+									/>
+              </SkinItem>
+              <SkinItem Name="Disabled">
+                <Glyph 
+									Name="DropDownButton"
+							    Lp="12" Rp="14" Tp="0" Bp="11"
+									Ctp="3" Cbp="3" Crp="3"
+                  Width="25"
+									Image="Aqua\Button\ToolBarSeparatedDropDownButton\DropDownButton\DisabledV.png"
+                  DrawMethod="Hollow"
+									/>
+              </SkinItem>
+            </SkinItem>
+					</SkinItem>
+				</SkinItem>
+			</SkinItem>
+			<SkinItem Name="DropDownArrow">
+				<SkinItem Name="Control">
+					<SkinItem Name="Disabled">
+						<Glyph 
+							Name="DropDownArrow"
+							Image="Aqua\Button\ControlSeparatedDropDownButton\DropDownArrow\Disabled.png"
+							DrawMethod="Center"		
+							/>
+					</SkinItem>
+					<Glyph 
+						Name="DropDownArrow"
+						Image="Aqua\Button\ControlSeparatedDropDownButton\DropDownArrow\Normal.png"
+						DrawMethod="Center"		
+						/>
+				</SkinItem>
+				<SkinItem Name="ControlBar">
+					<Glyph 
+						Name="DropDownArrow"
+						DrawMethod="Hollow"		
+						/>
+					<SkinItem Name="Horizontal">
+						<SkinItem Name="ToolBar">
+              <SkinItem Name="Normal">
+                <Glyph 
+									Name="DropDownArrow"
+									Image="Aqua\Button\ToolBarDropDownButton\DropDownArrow\NormalH.png"
+									DrawMethod="Center"		
+									/>
+              </SkinItem>
+              <SkinItem Name="Hover">
+                <Glyph 
+									Name="DropDownArrow"
+									Image="Aqua\Button\ToolBarDropDownButton\DropDownArrow\NormalH.png"
+									DrawMethod="Center"		
+									/>
+              </SkinItem>
+              <SkinItem Name="Pressed">
+                <Glyph 
+									Name="DropDownArrow"
+									Image="Aqua\Button\ToolBarDropDownButton\DropDownArrow\NormalH.png"
+									DrawMethod="Center"		
+									/>
+              </SkinItem>
+              <SkinItem Name="Disabled">
+                <Glyph 
+									Name="DropDownArrow"
+									Image="Aqua\Button\ToolBarDropDownButton\DropDownArrow\DisabledH.png"
+									DrawMethod="Center"		
+									/>
+              </SkinItem>
+            </SkinItem>
+					</SkinItem>
+					<SkinItem Name="Vertical">
+						<SkinItem Name="ToolBar">
+              <SkinItem Name="Normal">
+                <Glyph 
+									Name="DropDownArrow"
+									Image="Aqua\Button\ToolBarDropDownButton\DropDownArrow\NormalV.png"
+									DrawMethod="Center"		
+									/>
+              </SkinItem>
+              <SkinItem Name="Hover">
+                <Glyph 
+									Name="DropDownArrow"
+									Image="Aqua\Button\ToolBarDropDownButton\DropDownArrow\NormalV.png"
+									DrawMethod="Center"		
+									/>
+              </SkinItem>
+              <SkinItem Name="Pressed">
+                <Glyph 
+									Name="DropDownArrow"
+									Image="Aqua\Button\ToolBarDropDownButton\DropDownArrow\NormalV.png"
+									DrawMethod="Center"		
+									/>
+              </SkinItem>
+              <SkinItem Name="Disabled">
+                <Glyph 
+									Name="DropDownArrow"
+									Image="Aqua\Button\ToolBarDropDownButton\DropDownArrow\DisabledV.png"
+									DrawMethod="Center"		
+									/>
+              </SkinItem>
+            </SkinItem>
+					</SkinItem>
+				</SkinItem>
+			</SkinItem>
+		</SkinItem>
+	</SkinItem>		
+	<SkinItem Name="MenuItem">
+    <Color
+      Name="TextColor"
+      Color="0x000000"
+      />
+		<SkinItem Name="MenuItem"> 
+			<SkinItem Name="Normal">
+				<SkinItem Name="RarelyUsed">
+					<Glyph 
+						Name="IconArea"
+						Image="Aqua\MenuItem\IconAreaRarelyUsed.png"
+						/>
+				</SkinItem>
+			</SkinItem>
+			<SkinItem Name="Selected">
+				<Glyph 
+					Name="MenuItem"
+					Tp="12" Bp="11" Rp="14"
+					Image="Aqua\MenuItem\MenuItemSelected.png"
+					/>
+				<Glyph 
+					Name="IconArea"
+					Tp="12" Lp="14" Bp="11"
+					Image="Aqua\MenuItem\IconAreaSelected.png"
+					/>
+			</SkinItem>
+			<SkinItem Name="Disabled">
+        <Color
+          Name="TextColor"
+          Color="0x808080"
+          />
+        <SkinItem Name="RarelyUsed">
+					<Glyph 
+						Name="IconArea"
+						Image="Aqua\MenuItem\IconAreaRarelyUsed.png"
+						/>
+				</SkinItem>
+			</SkinItem>
+			<Glyph 
+				Name="MenuItem"
+				DrawMethod="Hollow"
+				/>
+		</SkinItem>		
+		<SkinItem Name="PopupMenuItem">
+			<SkinItem Name="Normal">
+				<SkinItem Name="RarelyUsed">
+					<Glyph 
+						Name="IconArea"
+						Image="Aqua\MenuItem\IconAreaRarelyUsed.png"
+						/>
+				</SkinItem>
+			</SkinItem>
+			<SkinItem Name="Selected">
+				<Glyph 
+					Name="MenuItem"
+					Tp="12" Bp="11" Rp="14"
+					Image="Aqua\MenuItem\MenuItemSelected.png"
+					/>
+				<Glyph 
+					Name="IconArea"
+					Tp="12" Lp="14" Bp="11"
+					Image="Aqua\MenuItem\IconAreaSelected.png"
+					/>
+			</SkinItem>
+			<SkinItem Name="Disabled">
+        <Color
+          Name="TextColor"
+          Color="0x808080"
+          />
+        <SkinItem Name="RarelyUsed">
+          <Glyph 
+						Name="IconArea"
+						Image="Aqua\MenuItem\IconAreaRarelyUsed.png"
+						/>
+        </SkinItem>
+        <Glyph 
+					Name="DropDownArrow"
+					Image="Aqua\MenuItem\DropDownArrowDisabled.png"
+					DrawMethod="Center"
+					/>
+      </SkinItem>
+      <Glyph 
+				Name="MenuItem"
+				DrawMethod="Hollow"
+				/>
+      <Glyph 
+				Name="DropDownArrow"
+				Image="Aqua\MenuItem\DropDownArrow.png"
+				DrawMethod="Center"
+				/>
+    </SkinItem>
+    <SkinItem Name="SeparatedDropDownMenuItem">
+      <SkinItem Name="Normal">
+        <SkinItem Name="RarelyUsed">
+          <Glyph 
+						Name="IconArea"
+						Image="Aqua\MenuItem\IconAreaRarelyUsed.png"
+						/>
+        </SkinItem>
+      </SkinItem>
+      <SkinItem Name="Selected">
+        <Glyph 
+					Name="MenuItem"
+					Tp="2" Bp="2" Rp="2"
+					Image="Aqua\MenuItem\MenuItemSeparatedDropDownSelected.png"
+					/>
+        <Glyph 
+					Name="IconArea"
+					Tp="12" Lp="14" Bp="11"
+					Image="Aqua\MenuItem\IconAreaSelected.png"
+					/>
+        <Glyph 
+					Name="DropDownArea"
+					Tp="2" Lp="2" Bp="2"
+					Image="Aqua\MenuItem\DropDownAreaSelected.png"
+					/>
+      </SkinItem>
+      <SkinItem Name="Disabled">
+        <Color
+          Name="TextColor"
+          Color="0x808080"
+          />
+        <SkinItem Name="RarelyUsed">
+					<Glyph 
+						Name="IconArea"
+						Image="Aqua\MenuItem\IconAreaRarelyUsed.png"
+						/>
+				</SkinItem>
+				<Glyph 
+					Name="DropDownArrow"
+					Image="Aqua\MenuItem\DropDownArrowDisabled.png"
+					DrawMethod="Center"
+					/>
+			</SkinItem>
+			<Glyph 
+				Name="MenuItem"
+				Rp="2"
+				Image="Aqua\MenuItem\MenuItemSeparatedDropDown.png"
+				/>
+			<Glyph 
+				Name="DropDownArea"
+				DrawMethod="Hollow"
+				/>
+			<Glyph 
+				Name="DropDownArrow"
+				Image="Aqua\MenuItem\DropDownArrow.png"
+				DrawMethod="Center"
+				/>
+		</SkinItem>
+		<SkinItem Name="Separator">
+			<SkinItem Name="RarelyUsed">
+				<Glyph 
+					Name="IconArea"
+					Image="Aqua\MenuItem\IconAreaRarelyUsed.png"
+					/>
+			</SkinItem>
+			<Glyph 
+				Name="Separator"
+				Lp="3" Rp="1"
+				Image="Aqua\MenuItem\Separator.png"
+        DrawMethod="TileH"
+				/>
+		</SkinItem>
+		<SkinItem Name="ExpandButton">
+			<SkinItem Name="Normal">
+				<Glyph 
+					Name="MenuItem"
+					DrawMethod="Hollow"
+					/>
+				<Glyph 
+					Name="IconArea"
+					Image="Aqua\MenuItem\IconArea.png"
+					/>
+			</SkinItem>
+			<SkinItem Name="Selected">
+				<Glyph 
+					Name="MenuItem"
+					Tp="5" Bp="5" Rp="6"
+					Image="Aqua\MenuItem\ExpandButton_MenuItemSelected.png"
+					/>
+				<Glyph 
+					Name="IconArea"
+					Tp="5" Bp="5" Lp="6"
+					Image="Aqua\MenuItem\ExpandButton_IconAreaSelected.png"
+					/>
+			</SkinItem>
+			<Glyph 
+				Name="ExpandButton"
+				Image="Aqua\MenuItem\ExpandButton.png"
+				DrawMethod="Center"		
+				/>
+		</SkinItem>
+		<SkinItem Name="TearOffButton">
+			<SkinItem Name="Normal">
+				<Glyph 
+					Name="MenuItem"
+					DrawMethod="Hollow"
+					/>
+				<Glyph 
+					Name="IconArea"
+					DrawMethod="Hollow"
+					/>
+			</SkinItem>
+			<SkinItem Name="Selected">
+				<Glyph 
+					Name="MenuItem"
+					Image="Aqua\MenuItem\ExpandButton_MenuItemSelected.png"
+					DrawMethod="Stretch"
+					Lp="0" Rp="10"		
+					/>
+				<Glyph 
+					Name="IconArea"
+					Image="Aqua\MenuItem\ExpandButton_IconAreaSelected.png"
+					DrawMethod="Stretch"
+					Lp="8" Rp="0"		
+					/>
+			</SkinItem>
+			<Glyph 
+				Name="TearOffButton"
+				Image="Aqua\MenuItem\TearOffButton.png"
+				DrawMethod="TileH"
+				Lp="16" Rp="16"		
+				/>
+		</SkinItem>
+		<SkinItem Name="ScrollButton">
+			<SkinItem Name="Normal">
+				<Glyph 
+					Name="MenuItem"
+					DrawMethod="Hollow"
+					/>
+				<Glyph 
+					Name="IconArea"
+					Image="Aqua\MenuItem\IconArea.png"
+					/>
+			</SkinItem>
+			<SkinItem Name="Selected">
+				<Glyph 
+					Name="MenuItem"
+					Tp="12" Bp="11" Rp="14"
+					Image="Aqua\MenuItem\ExpandButton_MenuItemSelected.png"
+					/>
+				<Glyph 
+					Name="IconArea"
+					Tp="12" Lp="14" Bp="11"
+					Image="Aqua\MenuItem\ExpandButton_IconAreaSelected.png"
+					/>
+			</SkinItem>
+			<Glyph 
+				Name="ScrollButtonTop"
+				Image="Aqua\MenuItem\ScrollButtonTop.png"
+				DrawMethod="Center"		
+				/>
+			<Glyph 
+				Name="ScrollButtonBottom"
+				Image="Aqua\MenuItem\ScrollButtonBottom.png"
+				DrawMethod="Center"		
+				/>
+		</SkinItem>
+		<SkinItem Name="CheckMark">
+			<SkinItem Name="Selected">
+				<Glyph 
+					Name="Frame"
+					Tp="1" Lp="1" Bp="1" Rp="1"
+					Image="Aqua\MenuItem\CheckMarkFrameSelected.png"
+					/>
+			</SkinItem>
+			<Glyph 
+				Name="Frame"
+				Tp="1" Lp="1" Bp="1" Rp="1"
+				Image="Aqua\MenuItem\CheckMarkFrame.png"
+				/>
+			<Glyph 
+				Name="CheckMark"
+				Image="Aqua\MenuItem\CheckMark.png"
+				DrawMethod="Center"
+				/>
+		</SkinItem>
+		<SkinItem Name="RadioDot">
+			<SkinItem Name="Selected">
+				<Glyph 
+					Name="Frame"
+					Tp="1" Lp="1" Bp="1" Rp="1"
+					Image="Aqua\MenuItem\CheckMarkFrameSelected.png"
+					/>
+			</SkinItem>
+			<Glyph 
+				Name="Frame"
+				Tp="1" Lp="1" Bp="1" Rp="1"
+				Image="Aqua\MenuItem\CheckMarkFrame.png"
+				/>
+			<Glyph 
+				Name="RadioDot"
+				Image="Aqua\MenuItem\RadioDot.png"
+				DrawMethod="Center"
+				/>
+		</SkinItem>
+		<Glyph 
+			Name="IconArea"
+			Image="Aqua\MenuItem\IconArea.png"
+			/>
+	</SkinItem>
+	<SkinItem Name="Caption">
+		<SkinItem Name="ControlBar">
+      <Color      
+        Name="Text"
+        Color="0x000000"
+				/>
+      <SkinItem Name="ResizableBar">
+				<SkinItem Name="Active">
+					<Glyph 
+						Name="Caption"
+						Tp="12" Lp="14" Bp="11" Rp="14"
+						Ctp="2" Clp="12" Cbp="1" Crp="12"
+						Image="Aqua\Caption\CaptionActive.png"
+						/>
+				</SkinItem>
+				<SkinItem Name="Inactive">
+					<Glyph 
+						Name="Caption"
+						Tp="12" Lp="14" Bp="11" Rp="14"
+						Ctp="2" Clp="12" Cbp="1" Crp="12"
+						Image="Aqua\Caption\CaptionInactive.png"
+						/>
+				</SkinItem>
+				<SkinItem Name="Floating">
+					<SkinItem Name="Active">
+					</SkinItem>
+					<SkinItem Name="Inactive">
+					</SkinItem>
+				</SkinItem>
+			</SkinItem>
+			<SkinItem Name="ToolBar">
+			</SkinItem>
+			<SkinItem Name="MenuBar">
+			</SkinItem>
+			<Glyph 
+				Name="Caption"
+				Height="22"
+				DrawMethod="Hollow"
+				/>
+		</SkinItem>
+		<SkinItem Name="Frame">
+			<SkinItem Name="MiniFrame">
+				<SkinItem Name="ControlBar">
+					<SkinItem Name="ResizableBar">
+						<SkinItem Name="Active">
+						</SkinItem>
+						<SkinItem Name="Inactive">
+						</SkinItem>
+					</SkinItem>
+					<SkinItem Name="ToolBar">
+					</SkinItem>
+					<SkinItem Name="MenuBar">
+					</SkinItem>
+				</SkinItem>
+			</SkinItem>
+			<Glyph 
+				Name="Caption"
+				Height="22"
+				DrawMethod="Hollow"
+				/>
+		</SkinItem>
+		<SkinItem Name="CaptionButton">
+			<SkinItem Name="Normal">
+				<SkinItem Name="Close">
+					<SkinItem Name="Active">
+            <Glyph
+						  Name="Frame"
+					    Tp="7" Lp="7" Rp="7" Bp="7"
+              To="4" Ro="-2"
+              Width="17" Height="17"  
+						  Image="Aqua\Caption\ButtonFrameActive.png"
+						  />
+          </SkinItem>
+          <SkinItem Name="Inactive">
+            <Glyph
+              Name="Frame"
+              Tp="7" Lp="7" Rp="7" Bp="7"
+              To="4" Ro="-2"
+              Width="17" Height="17"  
+              Image="Aqua\Caption\ButtonFrameNormal.png"
+					    />
+          </SkinItem>
+        </SkinItem>
+				<SkinItem Name="PinOn">
+					<SkinItem Name="Active">
+						<Glyph
+							Name="Frame"
+					    Tp="7" Lp="7" Rp="7" Bp="7"
+              To="4" Ro="2"
+              Width="17" Height="17"  
+							Image="Aqua\Caption\ButtonFrameActive.png"
+							/>
+					</SkinItem>
+					<SkinItem Name="Inactive">
+					</SkinItem>
+				</SkinItem>
+				<SkinItem Name="PinOff">
+					<SkinItem Name="Active">
+						<Glyph
+							Name="Frame"
+					    Tp="7" Lp="7" Rp="7" Bp="7"
+              To="4" Ro="2"
+              Width="17" Height="17"  
+							Image="Aqua\Caption\ButtonFrameActive.png"
+							/>
+					</SkinItem>
+					<SkinItem Name="Inactive">
+					</SkinItem>
+				</SkinItem>
+				<SkinItem Name="Options">
+					<SkinItem Name="Active">
+						<Glyph
+							Name="Frame"
+					    Tp="7" Lp="7" Rp="7" Bp="7"
+              To="4" Ro="2"
+              Width="17" Height="17"  
+							Image="Aqua\Caption\ButtonFrameActive.png"
+							/>
+					</SkinItem>
+					<SkinItem Name="Inactive">
+					</SkinItem>
+				</SkinItem>
+				<Glyph
+					Name="Frame"
+					Tp="7" Lp="7" Rp="7" Bp="7"
+          To="4" Ro="2"
+          Width="17" Height="17"  
+					Image="Aqua\Caption\ButtonFrameNormal.png"
+					/>
+			</SkinItem>
+			<SkinItem Name="Hover">
+				<Glyph
+					Name="Frame"
+			    Tp="7" Lp="7" Rp="7" Bp="7"
+          To="4" Ro="2"
+          Width="17" Height="17"  
+					Image="Aqua\Caption\ButtonFrameHover.png"
+					/>
+			</SkinItem>
+			<SkinItem Name="Pressed">
+				<Glyph
+					Name="Frame"
+			    Tp="7" Lp="7" Rp="7" Bp="7"
+          To="4" Ro="2"
+          Width="17" Height="17"  
+					Image="Aqua\Caption\ButtonFramePressed.png"
+					/>
+			</SkinItem>
+			<SkinItem Name="Disabled">
+				<Glyph
+					Name="Frame"
+			    Tp="7" Lp="7" Rp="7" Bp="7"
+          To="4" Ro="2"
+          Width="17" Height="17"  
+					Image="Aqua\Caption\ButtonFrameDisabled.png"
+					/>
+			</SkinItem>
+			<Glyph
+				Name="Close"
+				Image="Aqua\Caption\Close.png"
+				DrawMethod="Center"
+				/>
+			<Glyph
+				Name="PinOn"
+				Image="Aqua\Caption\PinOn.png"
+				DrawMethod="Center"
+				/>
+			<Glyph
+				Name="PinOff"
+				Image="Aqua\Caption\PinOff.png"
+				DrawMethod="Center"
+				/>
+			<Glyph
+				Name="Options"
+				Image="Aqua\Caption\Options.png"
+				DrawMethod="Center"
+				/>
+		</SkinItem>
+	</SkinItem>
+	<SkinItem Name="Frame">
+		<SkinItem Name="MiniFrame">
+			<SkinItem Name="ControlBar">
+				<SkinItem Name="ResizableBar">
+					<SkinItem Name="Active">
+						<Glyph 
+							Name="Frame"
+							Tp="4" Lp="4" Rp="4" Bp="4"
+							Image="Aqua\Frame\FloatingFrameActive.png"
+							DrawCenter="false"
+							/>
+					</SkinItem>
+					<SkinItem Name="Inactive">
+						<Glyph 
+							Name="Frame"
+							Tp="4" Lp="4" Rp="4" Bp="4"
+							Image="Aqua\Frame\FloatingFrameInactive.png"
+							DrawCenter="false"
+							/>
+					</SkinItem>
+				</SkinItem>
+				<Glyph 
+					Name="Frame"
+					Tp="4" Lp="4" Rp="4" Bp="4"
+					Image="Aqua\Frame\FloatingFrameActive.png"
+					DrawCenter="false"
+					/>
+			</SkinItem>
+		</SkinItem>
+		<SkinItem Name="ToolControlBar">
+			<SkinItem Name="ToolBar">
+			</SkinItem>
+			<SkinItem Name="MenuBar">
+			</SkinItem>
+			<Glyph 
+				Name="Frame"
+				DrawMethod="Hollow"
+				/>
+		</SkinItem>
+		<SkinItem Name="Menu">
+			<Glyph
+				Name="Frame"
+				Lp="2" Tp="1" Rp="2" Bp="1"
+				Image="Aqua\Frame\MenuFrame.png"
+				DrawMethod="TileV"
+				/>
+		</SkinItem>
+	</SkinItem>
+	<SkinItem Name="Background">
+			<Glyph
+				Name="Area"
+				Image="Aqua\Background\Hollow.png"
+				DrawMethod="Hollow"
+				/>
+		<SkinItem Name="Tab">
+			<SkinItem Name="EntireArea">
+				<SkinItem Name="Top">
+					<Glyph
+						Name="Area"
+						DrawMethod="Hollow"
+						Tp="1" Bp="1"
+						/>
+					<SkinItem Name="Control">
+					</SkinItem>
+					<SkinItem Name="MDI">
+					</SkinItem>
+					<SkinItem Name="ResizableBarGroup">
+					</SkinItem>
+					<SkinItem Name="AutoHideArea">
+            <Glyph
+              Name="Area"
+              Image="Aqua\Background\Hollow.png"
+              DrawMethod="Hollow"
+				    />
+          </SkinItem>
+					<SkinItem Name="PageContainer">
+					</SkinItem>
+				</SkinItem>
+				<SkinItem Name="Bottom">
+					<Glyph
+						Name="Area"
+						DrawMethod="Hollow"
+						Tp="1" Bp="1"
+						/>
+          <SkinItem Name="AutoHideArea">
+            <Glyph
+              Name="Area"
+              Image="Aqua\Background\Hollow.png"
+              DrawMethod="Hollow"
+				    />
+          </SkinItem>
+        </SkinItem>
+				<SkinItem Name="Left">
+					<Glyph
+						Name="Area"
+						DrawMethod="Hollow"
+						Tp="1" Bp="1"
+						/>
+          <SkinItem Name="AutoHideArea">
+            <Glyph
+              Name="Area"
+              Image="Aqua\Background\Hollow.png"
+              DrawMethod="Hollow"
+				    />
+          </SkinItem>
+        </SkinItem>
+				<SkinItem Name="Right">
+					<Glyph
+						Name="Area"
+						DrawMethod="Hollow"
+						Tp="1" Bp="1"
+						/>
+          <SkinItem Name="AutoHideArea">
+            <Glyph
+              Name="Area"
+              Image="Aqua\Background\Hollow.png"
+              DrawMethod="Hollow"
+				    />
+          </SkinItem>
+        </SkinItem>
+			</SkinItem>
+			<SkinItem Name="NearBorder">
+				<SkinItem Name="Top">
+					<Glyph
+						Name="Area"
+						Lp="1" Rp="1"
+						To="-1"
+						Image="Aqua\Background\TabTop-NearBorder.png"
+						DrawMethod="TileH"
+						/>
+          <SkinItem Name="AutoHideArea">
+            <Glyph
+              Name="Area"
+              DrawMethod="Hollow"
+				    />
+          </SkinItem>
+        </SkinItem>
+				<SkinItem Name="Bottom">
+					<Glyph
+						Name="Area"
+						Lp="1" Tp="1" Rp="1" Bp="1"
+						To="1"
+						Image="Aqua\Background\TabBottom-NearBorder.png"
+						DrawMethod="TileH"
+						/>
+          <SkinItem Name="AutoHideArea">
+            <Glyph
+              Name="Area"
+              DrawMethod="Hollow"
+				    />
+          </SkinItem>
+         </SkinItem>
+				<SkinItem Name="Left">
+					<Glyph
+						Name="Area"
+						Lp="1" Tp="1" Rp="1" Bp="1"
+						Lo="-1"
+						Image="Aqua\Background\TabLeft-NearBorder.png"
+						DrawMethod="TileV"
+						/>
+          <SkinItem Name="AutoHideArea">
+            <Glyph
+              Name="Area"
+              DrawMethod="Hollow"
+				    />
+          </SkinItem>
+        </SkinItem>
+				<SkinItem Name="Right">
+					<Glyph
+						Name="Area"
+						Lp="1" Tp="1" Rp="1" Bp="1"
+						Lo="1"
+						Image="Aqua\Background\TabRight-NearBorder.png"
+						DrawMethod="TileV"
+						/>
+          <SkinItem Name="AutoHideArea">
+            <Glyph
+              Name="Area"
+              DrawMethod="Hollow"
+				    />
+          </SkinItem>
+        </SkinItem>
+			</SkinItem>
+			<SkinItem Name="ItemsArea">
+				<SkinItem Name="Top">
+				</SkinItem>
+				<SkinItem Name="Bottom">
+				</SkinItem>
+				<SkinItem Name="Left">
+				</SkinItem>
+				<SkinItem Name="Right">
+				</SkinItem>
+			</SkinItem>
+		</SkinItem>
+		<SkinItem Name="ClientArea">
+			<SkinItem Name="ControlBar">
+				<SkinItem Name="ToolBar">
+					<SkinItem Name="Vertical">	
+						<SkinItem Name="Dockable">
+						</SkinItem>
+						<SkinItem Name="Static">
+						</SkinItem>
+					</SkinItem>
+					<SkinItem Name="Horizontal">
+						<SkinItem Name="Dockable">
+						</SkinItem>
+						<SkinItem Name="Static">
+						</SkinItem>
+					</SkinItem>
+					<SkinItem Name="Floating">
+					</SkinItem>
+				</SkinItem>
+				<SkinItem Name="MenuBar">
+				</SkinItem>
+				<SkinItem Name="StatusBar">
+				</SkinItem>
+			</SkinItem>
+			<Glyph
+				Name="Background"
+				DrawMethod="Hollow"
+				/>
+		</SkinItem>
+		<SkinItem Name="Frame">
+			<SkinItem Name="MiniFrame">
+			</SkinItem>
+		</SkinItem>
+		<SkinItem Name="Dialog">
+		</SkinItem>
+		<SkinItem Name="ReportGroupArea">
+			<Glyph
+				Name="Background"
+				Image="Aqua\Background\ReportGroupAreaBackground.png" 
+				Tp="0" Bp="0" Lp="0" Rp="0"
+				DrawMethod="TileV"
+				/>
+		</SkinItem>
+		<SkinItem Name="ControlBar">
+			<SkinItem Name="StatusBar">
+				<SkinItem Name="EntireBackground">
+					<Glyph
+						Name="Background"
+						DrawMethod="Hollow"
+						/>	
+				</SkinItem>
+			</SkinItem>
+			<SkinItem Name="ToolBar">
+				<SkinItem Name="Vertical">
+					<SkinItem Name="Dockable">	
+					</SkinItem>
+					<SkinItem Name="Static">
+					</SkinItem>
+					<Glyph
+						Name="Background"
+						Image="Aqua\Background\ToolbarV.png" 
+						Tp="10" Bp="5" Lp="10" Rp="10"
+						/>
+				</SkinItem>
+				<SkinItem Name="Horizontal">
+					<SkinItem Name="Dockable">
+					</SkinItem>
+					<SkinItem Name="Static">
+					</SkinItem>
+					<Glyph
+						Name="Background"
+						Image="Aqua\Background\ToolbarH.png" 
+						Tp="10" Bp="10" Lp="10" Rp="5"
+						/>
+				</SkinItem>
+				<SkinItem Name="Floating">
+				</SkinItem>
+			</SkinItem>
+			<SkinItem Name="MenuBar">
+				<SkinItem Name="Vertical">
+					<Glyph
+						Name="Background"
+						Image="Aqua\Background\ToolbarV.png" 
+						Tp="10" Bp="5" Lp="10" Rp="10"
+						DrawMethod="Hollow"
+						/>
+				</SkinItem>
+				<SkinItem Name="Horizontal">
+					<Glyph
+						Name="Background"
+						Image="Aqua\Background\ToolbarH.png" 
+						Tp="10" Bp="10" Lp="10" Rp="5"
+						DrawMethod="Hollow"
+						/>
+				</SkinItem>
+			</SkinItem>
+		</SkinItem>
+		<SkinItem Name="Menu">
+			<Glyph
+				Name="Background"
+				Image="Aqua\Background\MenuBackground.png"
+        DrawMethod="TileV"
+				/>	
+		</SkinItem>
+		<Glyph
+			Name="Background"
+			Image="Aqua\Background\WindowBackground.png"
+			DrawMethod="TileV" 
+			/>
+	</SkinItem>
+	<SkinItem Name="ImageCollection">
+		<SkinItem Name="ControlBar">
+			<SkinItem Name="ResizableBar">
+				<Glyph 
+					Name="SeparatorH"
+					Image="Aqua\ImageCollection\ResizableBarSeparatorH.png" 
+					DrawMethod="TileH"
+					/>
+				<Glyph 
+					Name="SeparatorV"
+					Image="Aqua\ImageCollection\ResizableBarSeparatorV.png" 
+					DrawMethod="TileV"
+					/>
+			</SkinItem>
+			<SkinItem Name="ToolBar">
+				<SkinItem Name="Vertical">
+					<SkinItem Name="Dockable">	
+					</SkinItem>
+					<SkinItem Name="Static">
+					</SkinItem>
+					<Glyph 
+						Name="ChevronAll"
+						Image="Aqua\ImageCollection\ChevronAllH.png" 
+						Rp="12"
+						/>
+					<Glyph 
+						Name="ChevronPartial"
+						Image="Aqua\ImageCollection\ChevronPartialH.png" 
+						Lp="10" Rp="10"
+						/>
+				</SkinItem>
+				<SkinItem Name="Horizontal">
+					<Glyph 
+						Name="ChevronAll"
+						Image="Aqua\ImageCollection\ChevronAllV.png" 
+						Bp="13"
+						/>
+					<Glyph 
+						Name="ChevronPartial"
+						Image="Aqua\ImageCollection\ChevronPartialV.png" 
+						Bp="12" Tp="9"
+						/>
+				</SkinItem>
+			</SkinItem>
+			<SkinItem Name="MenuBar">
+			</SkinItem>
+			<SkinItem Name="StatusBar">
+				<SkinItem Name="Enabled">
+				    <Color      
+				      Name="Text"
+				      Color="0x000000"
+				      />
+				</SkinItem>
+				<SkinItem Name="Disabled">
+				    <Color      
+				      Name="Text"
+				      Color="0x808080"
+				      />
+				</SkinItem>
+				<Glyph 
+					Name="Separator"
+					Image="Aqua\ImageCollection\SeparatorStatus.png"
+          Tp="3" Bp="2"
+          DrawMethod="TileV"
+					/>
+				<Glyph 
+					Name="Pane"
+					DrawMethod="Hollow"
+					Clp="3"
+					/>
+			</SkinItem>
+			<Glyph 
+				Name="GripperH"
+				Image="Aqua\ImageCollection\GripperH.png" 
+				DrawMethod="Center"
+				/>
+			<Glyph 
+				Name="GripperV"
+				Image="Aqua\ImageCollection\GripperV.png" 
+				DrawMethod="Center"
+				/>
+			<Glyph 
+				Name="SeparatorV"
+				Image="Aqua\ImageCollection\SeparatorV.png" 
+        DrawMethod="TileV"
+				/>
+			<Glyph 
+				Name="SeparatorH"
+				Image="Aqua\ImageCollection\SeparatorH.png"
+        DrawMethod="TileH"
+				/>
+		</SkinItem>
+	</SkinItem>
+	<SkinItem Name="ResizingGripper">
+		<Glyph 
+			Name="ResizingGripper"
+			Image="Aqua\ImageCollection\ResizingGripper.png" 
+			DrawMethod="Tile"
+			Bp="13" Rp="13"
+			/>
+		<SkinItem Name="StatusBar">
+		</SkinItem>
+		<SkinItem Name="Dialog">
+		</SkinItem>
+		<SkinItem Name="Generic">
+		</SkinItem>
+	</SkinItem>
+	<SkinItem Name="TabItem">
+		<Glyph 
+			Name="Area"
+			Image="Aqua\Tab\DefImpl.png" 
+			DrawMethod="Stretch"
+			/>
+    <Color
+      Name="Text"
+      Color="0x000000"
+      />
+		<SkinItem Name="Simple">
+			<SkinItem Name="Default">
+				<SkinItem Name="Normal">
+					<SkinItem Name="Top">
+					  <Glyph 
+						  Name="Area"
+						  Image="Aqua\Tab\Normal-top.png" 
+						  DrawMethod="Stretch"
+						  Tp="4" Lp="4" Rp="4" Bp="2"
+						  Ctp="2" Clp="2" Crp="2" Cbp="3"
+						  />
+						<SkinItem Name="Control">
+						</SkinItem>
+						<SkinItem Name="MDI">
+						</SkinItem>
+						<SkinItem Name="ResizableBarGroup">
+						</SkinItem>
+						<SkinItem Name="AutoHideArea">
+              <Glyph 
+                Name="Area"
+                Image="Aqua\Tab\Normal-bottom.png" 
+                DrawMethod="Stretch"
+                Tp="2" Lp="4" Rp="4" Bp="4"
+						    Ctp="2" Clp="2" Crp="2" Cbp="2"
+						    />
+            </SkinItem>
+						<SkinItem Name="PageContainer">
+						</SkinItem>
+					</SkinItem>
+					<SkinItem Name="Bottom">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Normal-bottom.png" 
+							DrawMethod="Stretch"
+							Tp="2" Lp="4" Rp="4" Bp="4"
+							Ctp="1" Clp="2" Crp="2" Cbp="3"
+							/>
+            <SkinItem Name="AutoHideArea">
+              <Glyph 
+                Name="Area"
+                Image="Aqua\Tab\Normal-top.png" 
+                DrawMethod="Stretch"
+                Tp="4" Lp="4" Rp="4" Bp="2"
+                Ctp="2" Clp="2" Crp="2" Cbp="2"
+						    />
+            </SkinItem>
+          </SkinItem>
+					<SkinItem Name="Left">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Normal-left.png" 
+							DrawMethod="Stretch"
+							Tp="4" Lp="4" Rp="2" Bp="4"
+							Ctp="2" Clp="2" Crp="2" Cbp="2"
+							/>
+            <SkinItem Name="AutoHideArea">
+              <Glyph 
+                Name="Area"
+                Image="Aqua\Tab\Normal-right.png" 
+                DrawMethod="Stretch"
+                Tp="4" Lp="2" Rp="4" Bp="4"
+                Ctp="2" Clp="2" Crp="2" Cbp="2"
+						    />
+            </SkinItem>
+          </SkinItem>
+					<SkinItem Name="Right">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Normal-right.png" 
+							DrawMethod="Stretch"
+							Tp="4" Lp="2" Rp="4" Bp="4"
+							Ctp="2" Clp="2" Crp="2" Cbp="2"
+							/>
+            <SkinItem Name="AutoHideArea">
+              <Glyph 
+                Name="Area"
+                Image="Aqua\Tab\Normal-left.png" 
+                DrawMethod="Stretch"
+                Tp="4" Lp="4" Rp="2" Bp="4"
+                Ctp="2" Clp="2" Crp="2" Cbp="2"
+						    />
+            </SkinItem>
+          </SkinItem>
+				</SkinItem>
+				<SkinItem Name="Hover">
+					<SkinItem Name="Top">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Hover-top.png" 
+							DrawMethod="Stretch"
+							Tp="4" Lp="4" Rp="4" Bp="2"
+							Ctp="2" Clp="2" Crp="2"
+							/>
+            <SkinItem Name="AutoHideArea">
+              <Glyph 
+                Name="Area"
+                Image="Aqua\Tab\Hover-bottom.png" 
+                DrawMethod="Stretch"
+                Tp="2" Lp="4" Rp="4" Bp="4"
+                Ctp="2" Clp="2" Crp="2" Cbp="2"
+						    />
+            </SkinItem>
+          </SkinItem>
+					<SkinItem Name="Bottom">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Hover-bottom.png" 
+							DrawMethod="Stretch"
+							Tp="2" Bp="4" Lp="4" Rp="4"
+							Cbp="2" Clp="2" Crp="2"
+							/>
+            <SkinItem Name="AutoHideArea">
+              <Glyph 
+                Name="Area"
+                Image="Aqua\Tab\Hover-top.png" 
+                DrawMethod="Stretch"
+                Tp="4" Lp="4" Rp="4" Bp="2"
+                Ctp="2" Clp="2" Crp="2" Cbp="2"
+						    />
+            </SkinItem>
+          </SkinItem>
+					<SkinItem Name="Left">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Hover-left.png" 
+							DrawMethod="Stretch"
+							Tp="4" Bp="4" Lp="4" Rp="2"
+							Ctp="2" Cbp="2" Crp="2"
+							/>
+            <SkinItem Name="AutoHideArea">
+              <Glyph 
+                Name="Area"
+                Image="Aqua\Tab\Hover-right.png" 
+                DrawMethod="Stretch"
+                Tp="4" Lp="2" Rp="4" Bp="4"
+                Ctp="2" Clp="2" Crp="2" Cbp="2"
+						    />
+            </SkinItem>
+					</SkinItem>
+					<SkinItem Name="Right">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Hover-right.png" 
+							DrawMethod="Stretch"
+							Tp="4" Bp="4" Lp="2" Rp="4"
+							Ctp="2" Cbp="2" Clp="2"
+							/>
+            <SkinItem Name="AutoHideArea">
+              <Glyph 
+                Name="Area"
+                Image="Aqua\Tab\Hover-left.png" 
+                DrawMethod="Stretch"
+                Tp="4" Lp="4" Rp="2" Bp="4"
+                Ctp="2" Clp="2" Crp="2" Cbp="2"
+						    />
+            </SkinItem>
+					</SkinItem>
+				</SkinItem>
+			</SkinItem>
+			<SkinItem Name="Selected">
+				<SkinItem Name="Normal">
+					<SkinItem Name="Top">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Selected-top.png" 
+							DrawMethod="Stretch"
+							Tp="4" Bp="2" Lp="4" Rp="4"
+							Ctp="2" Clp="2" Crp="2"
+							/>
+					</SkinItem>
+					<SkinItem Name="Bottom">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Selected-bottom.png" 
+							DrawMethod="Stretch"
+							Tp="2" Bp="4" Lp="4" Rp="4"
+							Cbp="2" Clp="2" Crp="2"
+							/>
+					</SkinItem>
+					<SkinItem Name="Left">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Selected-left.png" 
+							DrawMethod="Stretch"
+							Tp="4" Bp="4" Lp="4" Rp="2"
+							Ctp="2" Cbp="2" Clp="2"
+							/>
+					</SkinItem>
+					<SkinItem Name="Right">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Selected-right.png" 
+							DrawMethod="Stretch"
+							Tp="4" Bp="4" L="2" Rp="4"
+							Ctp="2" Cbp="2" Crp="2"
+							/>
+					</SkinItem>
+				</SkinItem>
+				<SkinItem Name="Hover">
+					<SkinItem Name="Top">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Selected-top.png" 
+							DrawMethod="Stretch"
+							Tp="4" Bp="2" Lp="4" Rp="4"
+							Ctp="2" Clp="2" Crp="2"
+							/>
+					</SkinItem>
+					<SkinItem Name="Bottom">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Selected-bottom.png" 
+							DrawMethod="Stretch"
+							Tp="2" Bp="4" Lp="4" Rp="4"
+							Cbp="2" Clp="2" Crp="2"
+							/>
+					</SkinItem>
+					<SkinItem Name="Left">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Selected-left.png" 
+							DrawMethod="Stretch"
+							Lp="4" Rp="2" Tp="4" Bp="4"
+							Clp="2" Ctp="2" Cbp="2"
+							/>
+					</SkinItem>
+					<SkinItem Name="Right">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Selected-right.png" 
+							DrawMethod="Stretch"
+							Lp="2" Rp="4" Tp="4" Bp="4"
+							Crp="2" Ctp="2" Cbp="2"
+							/>
+					</SkinItem>
+				</SkinItem>
+			</SkinItem>
+			<SkinItem Name="Disabled">
+        <Color
+          Name="Text"
+          Color="0x808080"
+          />
+        <SkinItem Name="Normal">
+					<SkinItem Name="Top">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Disabled-top.png" 
+							DrawMethod="Stretch"
+							Tp="4" Lp="4" Rp="4" Bp="2"
+							Ctp="2" Clp="2" Crp="2" Cbp="3"
+							/>
+					</SkinItem>
+					<SkinItem Name="Bottom">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Disabled-bottom.png" 
+							DrawMethod="Stretch"
+							Tp="2" Lp="4" Rp="4" Bp="4"
+							Ctp="3" Clp="2" Crp="2" Cbp="0"
+							/>
+					</SkinItem>
+					<SkinItem Name="Left">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Disabled-left.png" 
+							DrawMethod="Stretch"
+							Tp="4" Lp="4" Rp="2" Bp="4"
+							Ctp="2" Clp="3" Crp="0" Cbp="0"
+							/>
+					</SkinItem>
+					<SkinItem Name="Right">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Disabled-right.png" 
+							DrawMethod="Stretch"
+							Tp="4" Lp="2" Rp="4" Bp="4"
+							Ctp="2" Clp="2" Crp="3" Cbp="2"
+							/>
+					</SkinItem>
+				</SkinItem>
+				<SkinItem Name="Hover">
+					<SkinItem Name="Top">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Disabled-top.png" 
+							DrawMethod="Stretch"
+							Tp="4" Lp="4" Rp="4" Bp="2"
+							Ctp="2" Clp="2" Crp="2" Cbp="3"
+							/>
+					</SkinItem>
+					<SkinItem Name="Bottom">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Disabled-bottom.png" 
+							DrawMethod="Stretch"
+							Tp="2" Lp="4" Rp="4" Bp="4"
+							Ctp="3" Clp="2" Crp="2" Cbp="2"
+							/>
+					</SkinItem>
+					<SkinItem Name="Left">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Disabled-left.png" 
+							DrawMethod="Stretch"
+							Tp="4" Lp="4" Rp="2" Bp="4"
+							Ctp="2" Clp="2" Crp="3" Cbp="2"
+							/>
+					</SkinItem>
+					<SkinItem Name="Right">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Disabled-right.png" 
+							DrawMethod="Stretch"
+							Tp="4" Lp="2" Rp="4" Bp="4"
+							Ctp="2" Clp="3" Crp="2" Cbp="2"
+							/>
+					</SkinItem>
+				</SkinItem>
+			</SkinItem>
+		</SkinItem>
+		<SkinItem Name="Groupped">
+    		 <Glyph
+				Name="Area"
+				Image="Aqua\Background\Hollow.png"
+				DrawMethod="Hollow"
+				/>
+		</SkinItem>
+	</SkinItem>
+	<SkinItem Name="TabButton">
+		<SkinItem Name="Simple">
+			<SkinItem Name="Up">
+				<SkinItem Name="Normal">
+					<SkinItem Name="Top">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Buttons\Up-Normal-TB.png" 
+							DrawMethod="Center"
+							/>
+					</SkinItem>
+					<SkinItem Name="Bottom">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Buttons\Up-Normal-TB.png" 
+							DrawMethod="Center"
+							/>
+					</SkinItem>
+					<SkinItem Name="Left">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Buttons\Up-Normal-LR.png" 
+							DrawMethod="Center"
+							/>
+					</SkinItem>
+					<SkinItem Name="Right">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Buttons\Up-Normal-LR.png" 
+							DrawMethod="Center"
+							/>
+					</SkinItem>
+				</SkinItem>
+				<SkinItem Name="Hover">
+					<SkinItem Name="Top">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Buttons\Up-Hover-TB.png" 
+							DrawMethod="Center"
+							/>
+					</SkinItem>
+					<SkinItem Name="Bottom">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Buttons\Up-Hover-TB.png" 
+							DrawMethod="Center"
+							/>
+					</SkinItem>
+					<SkinItem Name="Left">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Buttons\Up-Hover-LR.png" 
+							DrawMethod="Center"
+							/>
+					</SkinItem>
+					<SkinItem Name="Right">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Buttons\Up-Hover-LR.png" 
+							DrawMethod="Center"
+							/>
+					</SkinItem>
+				</SkinItem>
+				<SkinItem Name="Pressed">
+					<SkinItem Name="Top">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Buttons\Up-Pressed-TB.png" 
+							DrawMethod="Center"
+							/>
+					</SkinItem>
+					<SkinItem Name="Bottom">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Buttons\Up-Pressed-TB.png" 
+							DrawMethod="Center"
+							/>
+					</SkinItem>
+					<SkinItem Name="Left">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Buttons\Up-Pressed-LR.png" 
+							DrawMethod="Center"
+							/>
+					</SkinItem>
+					<SkinItem Name="Right">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Buttons\Up-Pressed-LR.png" 
+							DrawMethod="Center"
+							/>
+					</SkinItem>
+				</SkinItem>
+				<SkinItem Name="Disabled">
+					<SkinItem Name="Top">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Buttons\Up-Disabled-TB.png" 
+							DrawMethod="Center"
+							/>
+					</SkinItem>
+					<SkinItem Name="Bottom">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Buttons\Up-Disabled-TB.png" 
+							DrawMethod="Center"
+							/>
+					</SkinItem>
+					<SkinItem Name="Left">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Buttons\Up-Disabled-LR.png" 
+							DrawMethod="Center"
+							/>
+					</SkinItem>
+					<SkinItem Name="Right">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Buttons\Up-Disabled-LR.png" 
+							DrawMethod="Center"
+							/>
+					</SkinItem>
+				</SkinItem>
+			</SkinItem>
+			<SkinItem Name="Down">
+				<SkinItem Name="Normal">
+					<SkinItem Name="Top">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Buttons\Down-Normal-TB.png" 
+							DrawMethod="Center"
+							/>
+					</SkinItem>
+					<SkinItem Name="Bottom">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Buttons\Down-Normal-TB.png" 
+							DrawMethod="Center"
+							/>
+					</SkinItem>
+					<SkinItem Name="Left">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Buttons\Down-Normal-LR.png" 
+							DrawMethod="Center"
+							/>
+					</SkinItem>
+					<SkinItem Name="Right">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Buttons\Down-Normal-LR.png" 
+							DrawMethod="Center"
+							/>
+					</SkinItem>
+				</SkinItem>
+				<SkinItem Name="Hover">
+					<SkinItem Name="Top">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Buttons\Down-Hover-TB.png" 
+							DrawMethod="Center"
+							/>
+					</SkinItem>
+					<SkinItem Name="Bottom">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Buttons\Down-Hover-TB.png" 
+							DrawMethod="Center"
+							/>
+					</SkinItem>
+					<SkinItem Name="Left">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Buttons\Down-Hover-LR.png" 
+							DrawMethod="Center"
+							/>
+					</SkinItem>
+					<SkinItem Name="Right">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Buttons\Down-Hover-LR.png" 
+							DrawMethod="Center"
+							/>
+					</SkinItem>
+				</SkinItem>
+				<SkinItem Name="Pressed">
+					<SkinItem Name="Top">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Buttons\Down-Pressed-TB.png" 
+							DrawMethod="Center"
+							/>
+					</SkinItem>
+					<SkinItem Name="Bottom">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Buttons\Down-Pressed-TB.png" 
+							DrawMethod="Center"
+							/>
+					</SkinItem>
+					<SkinItem Name="Left">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Buttons\Down-Pressed-LR.png" 
+							DrawMethod="Center"
+							/>
+					</SkinItem>
+					<SkinItem Name="Right">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Buttons\Down-Pressed-LR.png" 
+							DrawMethod="Center"
+							/>
+					</SkinItem>
+				</SkinItem>
+				<SkinItem Name="Disabled">
+					<SkinItem Name="Top">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Buttons\Down-Disabled-TB.png" 
+							DrawMethod="Center"
+							/>
+					</SkinItem>
+					<SkinItem Name="Bottom">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Buttons\Down-Disabled-TB.png" 
+							DrawMethod="Center"
+							/>
+					</SkinItem>
+					<SkinItem Name="Left">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Buttons\Down-Disabled-LR.png" 
+							DrawMethod="Center"
+							/>
+					</SkinItem>
+					<SkinItem Name="Right">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Buttons\Down-Disabled-LR.png" 
+							DrawMethod="Center"
+							/>
+					</SkinItem>
+				</SkinItem>
+			</SkinItem>
+			<SkinItem Name="Home">
+				<SkinItem Name="Normal">
+					<SkinItem Name="Top">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Buttons\Home-Normal-TB.png" 
+							DrawMethod="Center"
+							/>
+					</SkinItem>
+					<SkinItem Name="Bottom">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Buttons\Home-Normal-TB.png" 
+							DrawMethod="Center"
+							/>
+					</SkinItem>
+					<SkinItem Name="Left">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Buttons\Home-Normal-LR.png" 
+							DrawMethod="Center"
+							/>
+					</SkinItem>
+					<SkinItem Name="Right">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Buttons\Home-Normal-LR.png" 
+							DrawMethod="Center"
+							/>
+					</SkinItem>
+				</SkinItem>
+				<SkinItem Name="Hover">
+					<SkinItem Name="Top">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Buttons\Home-Hover-TB.png" 
+							DrawMethod="Center"
+							/>
+					</SkinItem>
+					<SkinItem Name="Bottom">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Buttons\Home-Hover-TB.png" 
+							DrawMethod="Center"
+							/>
+					</SkinItem>
+					<SkinItem Name="Left">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Buttons\Home-Hover-LR.png" 
+							DrawMethod="Center"
+							/>
+					</SkinItem>
+					<SkinItem Name="Right">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Buttons\Home-Hover-LR.png" 
+							DrawMethod="Center"
+							/>
+					</SkinItem>
+				</SkinItem>
+				<SkinItem Name="Pressed">
+					<SkinItem Name="Top">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Buttons\Home-Pressed-TB.png" 
+							DrawMethod="Center"
+							/>
+					</SkinItem>
+					<SkinItem Name="Bottom">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Buttons\Home-Pressed-TB.png" 
+							DrawMethod="Center"
+							/>
+					</SkinItem>
+					<SkinItem Name="Left">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Buttons\Home-Pressed-LR.png" 
+							DrawMethod="Center"
+							/>
+					</SkinItem>
+					<SkinItem Name="Right">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Buttons\Home-Pressed-LR.png" 
+							DrawMethod="Center"
+							/>
+					</SkinItem>
+				</SkinItem>
+				<SkinItem Name="Disabled">
+					<SkinItem Name="Top">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Buttons\Home-Disabled-TB.png" 
+							DrawMethod="Center"
+							/>
+					</SkinItem>
+					<SkinItem Name="Bottom">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Buttons\Home-Disabled-TB.png" 
+							DrawMethod="Center"
+							/>
+					</SkinItem>
+					<SkinItem Name="Left">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Buttons\Home-Disabled-LR.png" 
+							DrawMethod="Center"
+							/>
+					</SkinItem>
+					<SkinItem Name="Right">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Buttons\Home-Disabled-LR.png" 
+							DrawMethod="Center"
+							/>
+					</SkinItem>
+				</SkinItem>
+			</SkinItem>
+			<SkinItem Name="End">
+				<SkinItem Name="Normal">
+					<SkinItem Name="Top">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Buttons\End-Normal-TB.png" 
+							DrawMethod="Center"
+							/>
+					</SkinItem>
+					<SkinItem Name="Bottom">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Buttons\End-Normal-TB.png" 
+							DrawMethod="Center"
+							/>
+					</SkinItem>
+					<SkinItem Name="Left">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Buttons\End-Normal-LR.png" 
+							DrawMethod="Center"
+							/>
+					</SkinItem>
+					<SkinItem Name="Right">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Buttons\End-Normal-LR.png" 
+							DrawMethod="Center"
+							/>
+					</SkinItem>
+				</SkinItem>
+				<SkinItem Name="Hover">
+					<SkinItem Name="Top">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Buttons\End-Hover-TB.png" 
+							DrawMethod="Center"
+							/>
+					</SkinItem>
+					<SkinItem Name="Bottom">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Buttons\End-Hover-TB.png" 
+							DrawMethod="Center"
+							/>
+					</SkinItem>
+					<SkinItem Name="Left">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Buttons\End-Hover-LR.png" 
+							DrawMethod="Center"
+							/>
+					</SkinItem>
+					<SkinItem Name="Right">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Buttons\End-Hover-LR.png" 
+							DrawMethod="Center"
+							/>
+					</SkinItem>
+				</SkinItem>
+				<SkinItem Name="Pressed">
+					<SkinItem Name="Top">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Buttons\End-Pressed-TB.png" 
+							DrawMethod="Center"
+							/>
+					</SkinItem>
+					<SkinItem Name="Bottom">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Buttons\End-Pressed-TB.png" 
+							DrawMethod="Center"
+							/>
+					</SkinItem>
+					<SkinItem Name="Left">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Buttons\End-Pressed-LR.png" 
+							DrawMethod="Center"
+							/>
+					</SkinItem>
+					<SkinItem Name="Right">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Buttons\End-Pressed-LR.png" 
+							DrawMethod="Center"
+							/>
+					</SkinItem>
+				</SkinItem>
+				<SkinItem Name="Disabled">
+					<SkinItem Name="Top">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Buttons\End-Disabled-TB.png" 
+							DrawMethod="Center"
+							/>
+					</SkinItem>
+					<SkinItem Name="Bottom">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Buttons\End-Disabled-TB.png" 
+							DrawMethod="Center"
+							/>
+					</SkinItem>
+					<SkinItem Name="Left">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Buttons\End-Disabled-LR.png" 
+							DrawMethod="Center"
+							/>
+					</SkinItem>
+					<SkinItem Name="Right">
+						<Glyph 
+							Name="Area"
+							Image="Aqua\Tab\Buttons\End-Disabled-LR.png" 
+							DrawMethod="Center"
+							/>
+					</SkinItem>
+				</SkinItem>
+			</SkinItem>
+			<SkinItem Name="TabList">
+				<SkinItem Name="Normal">
+					<Glyph 
+						Name="Area"
+						Image="Aqua\Tab\Buttons\TabList-Normal.png" 
+						DrawMethod="Center"
+						/>
+					<SkinItem Name="Top">
+					</SkinItem>
+					<SkinItem Name="Bottom">
+					</SkinItem>
+					<SkinItem Name="Left">
+					</SkinItem>
+					<SkinItem Name="Right">
+					</SkinItem>
+				</SkinItem>
+				<SkinItem Name="Hover">
+					<Glyph 
+						Name="Area"
+						Image="Aqua\Tab\Buttons\TabList-Hover.png" 
+						DrawMethod="Center"
+						/>
+					<SkinItem Name="Top">
+					</SkinItem>
+					<SkinItem Name="Bottom">
+					</SkinItem>
+					<SkinItem Name="Left">
+					</SkinItem>
+					<SkinItem Name="Right">
+					</SkinItem>
+				</SkinItem>
+				<SkinItem Name="Pressed">
+					<Glyph 
+						Name="Area"
+						Image="Aqua\Tab\Buttons\TabList-Pressed.png" 
+						DrawMethod="Center"
+						/>
+					<SkinItem Name="Top">
+					</SkinItem>
+					<SkinItem Name="Bottom">
+					</SkinItem>
+					<SkinItem Name="Left">
+					</SkinItem>
+					<SkinItem Name="Right">
+					</SkinItem>
+				</SkinItem>
+				<SkinItem Name="Disabled">
+					<Glyph 
+						Name="Area"
+						Image="Aqua\Tab\Buttons\TabList-Disabled.png" 
+						DrawMethod="Center"
+						/>
+					<SkinItem Name="Top">
+					</SkinItem>
+					<SkinItem Name="Bottom">
+					</SkinItem>
+					<SkinItem Name="Left">
+					</SkinItem>
+					<SkinItem Name="Right">
+					</SkinItem>
+				</SkinItem>
+			</SkinItem>
+			<SkinItem Name="Help">
+				<SkinItem Name="Normal">
+					<Glyph 
+						Name="Area"
+						Image="Aqua\Tab\Buttons\Help-Normal.png" 
+						DrawMethod="Center"
+						/>
+					<SkinItem Name="Top">
+					</SkinItem>
+					<SkinItem Name="Bottom">
+					</SkinItem>
+					<SkinItem Name="Left">
+					</SkinItem>
+					<SkinItem Name="Right">
+					</SkinItem>
+				</SkinItem>
+				<SkinItem Name="Hover">
+					<Glyph 
+						Name="Area"
+						Image="Aqua\Tab\Buttons\Help-Hover.png" 
+						DrawMethod="Center"
+						/>
+					<SkinItem Name="Top">
+					</SkinItem>
+					<SkinItem Name="Bottom">
+					</SkinItem>
+					<SkinItem Name="Left">
+					</SkinItem>
+					<SkinItem Name="Right">
+					</SkinItem>
+				</SkinItem>
+				<SkinItem Name="Pressed">
+					<Glyph 
+						Name="Area"
+						Image="Aqua\Tab\Buttons\Help-Pressed.png" 
+						DrawMethod="Center"
+						/>
+					<SkinItem Name="Top">
+					</SkinItem>
+					<SkinItem Name="Bottom">
+					</SkinItem>
+					<SkinItem Name="Left">
+					</SkinItem>
+					<SkinItem Name="Right">
+					</SkinItem>
+				</SkinItem>
+				<SkinItem Name="Disabled">
+					<Glyph 
+						Name="Area"
+						Image="Aqua\Tab\Buttons\Help-Disabled.png" 
+						DrawMethod="Center"
+						/>
+					<SkinItem Name="Top">
+					</SkinItem>
+					<SkinItem Name="Bottom">
+					</SkinItem>
+					<SkinItem Name="Left">
+					</SkinItem>
+					<SkinItem Name="Right">
+					</SkinItem>
+				</SkinItem>
+			</SkinItem>
+			<SkinItem Name="Close">
+				<SkinItem Name="Normal">
+					<Glyph 
+						Name="Area"
+						Image="Aqua\Tab\Buttons\Close-Normal.png" 
+						DrawMethod="Center"
+						/>
+					<SkinItem Name="Top">
+					</SkinItem>
+					<SkinItem Name="Bottom">
+					</SkinItem>
+					<SkinItem Name="Left">
+					</SkinItem>
+					<SkinItem Name="Right">
+					</SkinItem>
+				</SkinItem>
+				<SkinItem Name="Hover">
+					<Glyph 
+						Name="Area"
+						Image="Aqua\Tab\Buttons\Close-Hover.png" 
+						DrawMethod="Center"
+						/>
+					<SkinItem Name="Top">
+					</SkinItem>
+					<SkinItem Name="Bottom">
+					</SkinItem>
+					<SkinItem Name="Left">
+					</SkinItem>
+					<SkinItem Name="Right">
+					</SkinItem>
+				</SkinItem>
+				<SkinItem Name="Pressed">
+					<Glyph 
+						Name="Area"
+						Image="Aqua\Tab\Buttons\Close-Pressed.png" 
+						DrawMethod="Center"
+						/>
+					<SkinItem Name="Top">
+					</SkinItem>
+					<SkinItem Name="Bottom">
+					</SkinItem>
+					<SkinItem Name="Left">
+					</SkinItem>
+					<SkinItem Name="Right">
+					</SkinItem>
+				</SkinItem>
+				<SkinItem Name="Disabled">
+					<Glyph 
+						Name="Area"
+						Image="Aqua\Tab\Buttons\Close-Disabled.png" 
+						DrawMethod="Center"
+						/>
+					<SkinItem Name="Top">
+					</SkinItem>
+					<SkinItem Name="Bottom">
+					</SkinItem>
+					<SkinItem Name="Left">
+					</SkinItem>
+					<SkinItem Name="Right">
+					</SkinItem>
+				</SkinItem>
+			</SkinItem>
+		</SkinItem>
+		<SkinItem Name="Groupped">
+      <Glyph
+				Name="Area"
+				Image="Aqua\Background\Hollow.png"
+				DrawMethod="Hollow"
+				/>
+    </SkinItem>
+	</SkinItem>
+  <SkinItem Name="NcFrame">
+    <SkinItem Name="NcArea">
+      <Glyph
+        Name="Inactive"
+        Image="Aqua\WindowNcArea\FrameInActive.png"
+        Lp="5" Rp="5" Tp="32" Bp="5"
+        Clp="5" Crp="5" Ctp="2" Cbp="5"
+			  />
+      <Glyph
+        Name="Active"
+        Image="Aqua\WindowNcArea\FrameActive.png"
+        Lp="5" Rp="5" Tp="32" Bp="5"
+        Clp="5" Crp="5" Ctp="2" Cbp="5"
+			  />
+      <Color
+        Name="Inactive"
+        Color="0x606060"
+        />
+      <Color
+        Name="Active"
+        Color="0x000000"
+        />
+      <Font
+        Name="Inactive"
+        FaceName="Tahoma"
+        Weight="900"
+        Width="0"
+        Height="-12"
+        />
+      <Font
+        Name="Active"
+        FaceName="Tahoma"
+        Weight="900"
+        Width="0"
+        Height="-12"
+        />
+    </SkinItem>
+  </SkinItem>
+  <SkinItem Name="ControlFrame">
+    <SkinItem Name="Active">
+      <Glyph
+        Name="Normal"
+        Image="Aqua\Frame\ControlFrame\Active\Normal.png"
+        Lp="2" Rp="2" Tp="2" Bp="2"
+        Clp="2" Crp="2" Ctp="2" Cbp="2"
+        />
+      <Glyph
+        Name="Normal"
+        Image="Aqua\Frame\ControlFrame\Active\Hover.png"
+        Lp="2" Rp="2" Tp="2" Bp="2"
+        Clp="2" Crp="2" Ctp="2" Cbp="2"
+        />
+    </SkinItem>
+    <SkinItem Name="Inactive">
+      <Glyph
+        Name="Normal"
+        Image="Aqua\Frame\ControlFrame\Inactive\Normal.png"
+        Lp="2" Rp="2" Tp="2" Bp="2"
+        Clp="2" Crp="2" Ctp="2" Cbp="2"
+        />
+      <Glyph
+        Name="Normal"
+        Image="Aqua\Frame\ControlFrame\Inactive\Hover.png"
+        Lp="2" Rp="2" Tp="2" Bp="2"
+        Clp="2" Crp="2" Ctp="2" Cbp="2"
+        />
+    </SkinItem>
+    <Glyph
+      Name="Disabled"
+      Image="Aqua\Frame\ControlFrame\Disabled.png"
+      Lp="2" Rp="2" Tp="2" Bp="2"
+      Clp="2" Crp="2" Ctp="2" Cbp="2"
+      />
+  </SkinItem>
+    <Font
+      Name="Dialog"
+      FaceName="Tahoma"
+      Height="8"
+      />
+  <SkinItem Name="DialogTemplate">
+  </SkinItem>
+
+  <SkinItem Name="ScrollBar">
+    <SkinItem Name="Zoom">
+      <SkinItem Name="Horizontal">
+        <SkinItem Name="Disabled">
+          <Glyph Name="ButtonUp"
+            Image="Aqua\ScrollBar\Zoom\Horizontal\ButtonDown-Disabled.png"
+	          />
+          <Glyph Name="ButtonDown"
+            Image="Aqua\ScrollBar\Zoom\Horizontal\ButtonUp-Disabled.png"
+	          />
+          <Glyph Name="ButtonThumb"
+            Image="Aqua\ScrollBar\Zoom\Horizontal\ButtonThumb-Disabled.png"
+	          />
+        </SkinItem>
+        <SkinItem Name="Cold">
+          <Glyph Name="ButtonUp"
+            Image="Aqua\ScrollBar\Zoom\Horizontal\ButtonDown-Normal.png"
+	          />
+          <Glyph Name="ButtonDown"
+            Image="Aqua\ScrollBar\Zoom\Horizontal\ButtonUp-Normal.png"
+	          />
+          <Glyph Name="PageUp"
+            Image="Aqua\ScrollBar\Zoom\Horizontal\SolidScrollableArea-Normal.png"
+	          />
+          <Glyph Name="PageDown"
+            Image="Aqua\ScrollBar\Zoom\Horizontal\SolidScrollableArea-Normal.png"
+	          />
+          <Glyph Name="ButtonThumb"
+            Image="Aqua\ScrollBar\Zoom\Horizontal\ButtonThumb-Normal.png"
+	          />
+        </SkinItem>
+        <SkinItem Name="Normal">
+          <Glyph Name="ButtonUp"
+            Image="Aqua\ScrollBar\Zoom\Horizontal\ButtonDown-Normal.png"
+	          />
+          <Glyph Name="ButtonDown"
+            Image="Aqua\ScrollBar\Zoom\Horizontal\ButtonUp-Normal.png"
+	          />
+          <Glyph Name="PageUp"
+            Image="Aqua\ScrollBar\Zoom\Horizontal\SolidScrollableArea-Normal.png"
+	          />
+          <Glyph Name="PageDown"
+            Image="Aqua\ScrollBar\Zoom\Horizontal\SolidScrollableArea-Normal.png"
+	          />
+          <Glyph Name="ButtonThumb"
+            Image="Aqua\ScrollBar\Zoom\Horizontal\ButtonThumb-Normal.png"
+	          />
+        </SkinItem>
+        <SkinItem Name="Hot">
+          <Glyph Name="ButtonUp"
+            Image="Aqua\ScrollBar\Zoom\Horizontal\ButtonDown-Hover.png"
+	          />
+          <Glyph Name="ButtonDown"
+            Image="Aqua\ScrollBar\Zoom\Horizontal\ButtonUp-Hover.png"
+	          />
+          <Glyph Name="ButtonThumb"
+            Image="Aqua\ScrollBar\Zoom\Horizontal\ButtonThumb-Hover.png"
+	          />
+        </SkinItem>
+        <SkinItem Name="Pressed">
+          <Glyph Name="ButtonUp"
+            Image="Aqua\ScrollBar\Zoom\Horizontal\ButtonDown-Normal.png"
+	          />
+          <Glyph Name="ButtonDown"
+            Image="Aqua\ScrollBar\Zoom\Horizontal\ButtonUp-Normal.png"
+	          />
+          <Glyph Name="ButtonThumb"
+            Image="Aqua\ScrollBar\Zoom\Horizontal\ButtonThumb-Normal.png"
+	          />
+        </SkinItem>
+      </SkinItem>
+      <SkinItem Name="Vertical">
+        <SkinItem Name="Disabled">
+          <Glyph Name="ButtonUp"
+            Image="Aqua\ScrollBar\Zoom\Vertical\ButtonDown-Disabled.png"
+	          />
+          <Glyph Name="ButtonDown"
+            Image="Aqua\ScrollBar\Zoom\Vertical\ButtonUp-Disabled.png"
+	          />
+          <Glyph Name="ButtonThumb"
+            Image="Aqua\ScrollBar\Zoom\Vertical\ButtonThumb-Disabled.png"
+	          />
+        </SkinItem>
+        <SkinItem Name="Cold">
+          <Glyph Name="ButtonUp"
+            Image="Aqua\ScrollBar\Zoom\Vertical\ButtonDown-Normal.png"
+	          />
+          <Glyph Name="ButtonDown"
+            Image="Aqua\ScrollBar\Zoom\Vertical\ButtonUp-Normal.png"
+	          />
+          <Glyph Name="PageUp"
+            Image="Aqua\ScrollBar\Zoom\Vertical\SolidScrollableArea-Normal.png"
+	          />
+          <Glyph Name="PageDown"
+            Image="Aqua\ScrollBar\Zoom\Vertical\SolidScrollableArea-Normal.png"
+	          />
+          <Glyph Name="ButtonThumb"
+            Image="Aqua\ScrollBar\Zoom\Vertical\ButtonThumb-Normal.png"
+	          />
+        </SkinItem>
+        <SkinItem Name="Normal">
+          <Glyph Name="ButtonUp"
+            Image="Aqua\ScrollBar\Zoom\Vertical\ButtonDown-Normal.png"
+	          />
+          <Glyph Name="ButtonDown"
+            Image="Aqua\ScrollBar\Zoom\Vertical\ButtonUp-Normal.png"
+	          />
+          <Glyph Name="PageUp"
+            Image="Aqua\ScrollBar\Zoom\Vertical\SolidScrollableArea-Normal.png"
+	          />
+          <Glyph Name="PageDown"
+            Image="Aqua\ScrollBar\Zoom\Vertical\SolidScrollableArea-Normal.png"
+	          />
+          <Glyph Name="ButtonThumb"
+            Image="Aqua\ScrollBar\Zoom\Vertical\ButtonThumb-Normal.png"
+	          />
+        </SkinItem>
+        <SkinItem Name="Hot">
+          <Glyph Name="ButtonUp"
+            Image="Aqua\ScrollBar\Zoom\Vertical\ButtonDown-Hover.png"
+	          />
+          <Glyph Name="ButtonDown"
+            Image="Aqua\ScrollBar\Zoom\Vertical\ButtonUp-Hover.png"
+	          />
+          <Glyph Name="ButtonThumb"
+            Image="Aqua\ScrollBar\Zoom\Vertical\ButtonThumb-Hover.png"
+	          />
+        </SkinItem>
+        <SkinItem Name="Pressed">
+          <Glyph Name="ButtonUp"
+            Image="Aqua\ScrollBar\Zoom\Vertical\ButtonDown-Normal.png"
+	          />
+          <Glyph Name="ButtonDown"
+            Image="Aqua\ScrollBar\Zoom\Vertical\ButtonUp-Normal.png"
+	          />
+          <Glyph Name="ButtonThumb"
+            Image="Aqua\ScrollBar\Zoom\Vertical\ButtonThumb-Normal.png"
+	          />
+        </SkinItem>
+      </SkinItem>
+    </SkinItem>
+    <SkinItem Name="Classic">
+      <SkinItem Name="Horizontal">
+        <SkinItem Name="Disabled">
+          <Glyph Name="ButtonUp"
+            Lp="1" Rp="1" Tp="1" Bp="1"
+            Image="Aqua\ScrollBar\Classic\Horizontal\ButtonUp-Disabled.png"
+	          />
+          <Glyph Name="ButtonDown"
+            Lp="1" Rp="1" Tp="1" Bp="1"
+            Image="Aqua\ScrollBar\Classic\Horizontal\ButtonDown-Disabled.png"
+	          />
+          <Glyph Name="PageUp"
+            Lp="15" Rp="1" Tp="1" Bp="1"
+            Image="Aqua\ScrollBar\Classic\Horizontal\PageUp-Disabled.png"
+	          />
+          <Glyph Name="PageDown"
+            Lp="1" Rp="15" Tp="1" Bp="1"
+            Image="Aqua\ScrollBar\Classic\Horizontal\PageDown-Disabled.png"
+	          />
+          <Glyph Name="SolidScrollableArea"
+            Lp="1" Rp="1" Tp="1" Bp="1"
+            Image="Aqua\ScrollBar\Classic\Horizontal\PageUp-Disabled.png"
+	          />
+        </SkinItem>
+        <SkinItem Name="Cold">
+          <Glyph Name="ButtonUp"
+            Lp="1" Rp="1" Tp="1" Bp="1"
+            Image="Aqua\ScrollBar\Classic\Horizontal\ButtonUp-Normal.png"
+	          />
+          <Glyph Name="ButtonDown"
+            Lp="1" Rp="1" Tp="1" Bp="1"
+            Image="Aqua\ScrollBar\Classic\Horizontal\ButtonDown-Normal.png"
+	          />
+          <Glyph Name="PageUp"
+            Lp="15" Rp="1" Tp="1" Bp="1"
+            Image="Aqua\ScrollBar\Classic\Horizontal\PageUp-Normal.png"
+	          />
+          <Glyph Name="PageDown"
+            Lp="1" Rp="15" Tp="1" Bp="1"
+            Image="Aqua\ScrollBar\Classic\Horizontal\PageDown-Normal.png"
+	          />
+          <Glyph Name="ArrowUp"
+            Lp="0" Rp="0" Tp="0" Bp="0"
+            Image="Aqua\ScrollBar\Classic\Horizontal\ArrowUp-Normal.png"
+	          />
+          <Glyph Name="ArrowDown"
+            Lp="0" Rp="0" Tp="0" Bp="0"
+            Image="Aqua\ScrollBar\Classic\Horizontal\ArrowDown-Normal.png"
+	          />
+          <Glyph Name="ButtonThumb"
+            Lp="9" Rp="9" Tp="2" Bp="2"
+            Image="Aqua\ScrollBar\Classic\Horizontal\ButtonThumb-Normal.png"
+	          />
+        </SkinItem>
+        <SkinItem Name="Normal">
+          <Glyph Name="ButtonUp"
+            Lp="1" Rp="1" Tp="1" Bp="1"
+            Image="Aqua\ScrollBar\Classic\Horizontal\ButtonUp-Normal.png"
+	          />
+          <Glyph Name="ButtonDown"
+            Lp="1" Rp="1" Tp="1" Bp="1"
+            Image="Aqua\ScrollBar\Classic\Horizontal\ButtonDown-Normal.png"
+	          />
+          <Glyph Name="PageUp"
+            Lp="15" Rp="1" Tp="1" Bp="1"
+            Image="Aqua\ScrollBar\Classic\Horizontal\PageUp-Normal.png"
+	          />
+          <Glyph Name="PageDown"
+            Lp="1" Rp="15" Tp="1" Bp="1"
+            Image="Aqua\ScrollBar\Classic\Horizontal\PageDown-Normal.png"
+	          />
+          <Glyph Name="ArrowUp"
+            Lp="0" Rp="0" Tp="0" Bp="0"
+            Image="Aqua\ScrollBar\Classic\Horizontal\ArrowUp-Normal.png"
+	          />
+          <Glyph Name="ArrowDown"
+            Lp="0" Rp="0" Tp="0" Bp="0"
+            Image="Aqua\ScrollBar\Classic\Horizontal\ArrowDown-Normal.png"
+	          />
+          <Glyph Name="ButtonThumb"
+            Lp="9" Rp="9" Tp="2" Bp="2"
+            Image="Aqua\ScrollBar\Classic\Horizontal\ButtonThumb-Normal.png"
+	          />
+        </SkinItem>
+        <SkinItem Name="Hot">
+        </SkinItem>
+        <SkinItem Name="Pressed">
+        </SkinItem>
+      </SkinItem>
+      <SkinItem Name="Vertical">
+        <SkinItem Name="Disabled">
+          <Glyph Name="ButtonUp"
+            Lp="1" Rp="1" Tp="1" Bp="1"
+            Image="Aqua\ScrollBar\Classic\Vertical\ButtonUp-Disabled.png"
+	          />
+          <Glyph Name="ButtonDown"
+            Lp="1" Rp="1" Tp="1" Bp="1"
+            Image="Aqua\ScrollBar\Classic\Vertical\ButtonDown-Disabled.png"
+	          />
+          <Glyph Name="PageUp"
+            Lp="1" Rp="1" Tp="15" Bp="1"
+            Image="Aqua\ScrollBar\Classic\Vertical\PageUp-Disabled.png"
+	          />
+          <Glyph Name="PageDown"
+            Lp="1" Rp="1" Tp="1" Bp="15"
+            Image="Aqua\ScrollBar\Classic\Vertical\PageDown-Disabled.png"
+	          />
+          <Glyph Name="SolidScrollableArea"
+            Lp="1" Rp="1" Tp="1" Bp="1"
+            Image="Aqua\ScrollBar\Classic\Vertical\PageUp-Disabled.png"
+	          />
+        </SkinItem>
+        <SkinItem Name="Cold">
+          <Glyph Name="ButtonUp"
+            Lp="1" Rp="1" Tp="1" Bp="1"
+            Image="Aqua\ScrollBar\Classic\Vertical\ButtonUp-Normal.png"
+	          />
+          <Glyph Name="ButtonDown"
+            Lp="1" Rp="1" Tp="1" Bp="1"
+            Image="Aqua\ScrollBar\Classic\Vertical\ButtonDown-Normal.png"
+	          />
+          <Glyph Name="PageUp"
+            Lp="1" Rp="1" Tp="15" Bp="1"
+            Image="Aqua\ScrollBar\Classic\Vertical\PageUp-Normal.png"
+	          />
+          <Glyph Name="PageDown"
+            Lp="1" Rp="1" Tp="1" Bp="15"
+            Image="Aqua\ScrollBar\Classic\Vertical\PageDown-Normal.png"
+	          />
+          <Glyph Name="ArrowUp"
+            Lp="0" Rp="0" Tp="0" Bp="0"
+            Image="Aqua\ScrollBar\Classic\Vertical\ArrowUp-Normal.png"
+	          />
+          <Glyph Name="ArrowDown"
+            Lp="0" Rp="0" Tp="0" Bp="0"
+            Image="Aqua\ScrollBar\Classic\Vertical\ArrowDown-Normal.png"
+	          />
+          <Glyph Name="ButtonThumb"
+            Lp="2" Rp="2" Tp="9" Bp="9"
+            Image="Aqua\ScrollBar\Classic\Vertical\ButtonThumb-Normal.png"
+	          />
+        </SkinItem>
+        <SkinItem Name="Normal">
+          <Glyph Name="ButtonUp"
+            Lp="1" Rp="1" Tp="1" Bp="1"
+            Image="Aqua\ScrollBar\Classic\Vertical\ButtonUp-Normal.png"
+	          />
+          <Glyph Name="ButtonDown"
+            Lp="1" Rp="1" Tp="1" Bp="1"
+            Image="Aqua\ScrollBar\Classic\Vertical\ButtonDown-Normal.png"
+	          />
+          <Glyph Name="PageUp"
+            Lp="1" Rp="1" Tp="15" Bp="1"
+            Image="Aqua\ScrollBar\Classic\Vertical\PageUp-Normal.png"
+	          />
+          <Glyph Name="PageDown"
+            Lp="1" Rp="1" Tp="1" Bp="15"
+            Image="Aqua\ScrollBar\Classic\Vertical\PageDown-Normal.png"
+	          />
+          <Glyph Name="ArrowUp"
+            Lp="0" Rp="0" Tp="0" Bp="0"
+            Image="Aqua\ScrollBar\Classic\Vertical\ArrowUp-Normal.png"
+	          />
+          <Glyph Name="ArrowDown"
+            Lp="0" Rp="0" Tp="0" Bp="0"
+            Image="Aqua\ScrollBar\Classic\Vertical\ArrowDown-Normal.png"
+	          />
+          <Glyph Name="ButtonThumb"
+            Lp="2" Rp="2" Tp="9" Bp="9"
+            Image="Aqua\ScrollBar\Classic\Vertical\ButtonThumb-Normal.png"
+	          />
+        </SkinItem>
+        <SkinItem Name="Hot">
+        </SkinItem>
+        <SkinItem Name="Pressed">
+        </SkinItem>
+      </SkinItem>
+    </SkinItem>
+  </SkinItem>
+
+  <SkinItem Name="Grid">
+    <Color Name="Normal"                  Color="0x000000" />
+    <Color Name="Hover"                   Color="0x000000" />
+    <Color Name="Pressed"                 Color="0x000000" />
+    <Color Name="HighlightedByFocus"      Color="0x000000" />
+    <Color Name="HighlightedBySelection"  Color="0x000000" />
+    <Color Name="HighlightedByHover"      Color="0x000000" />
+    <Color Name="ReportEmptyMessageColor" Color="0x000000" />
+    <Color Name="ReportGroupConnector"    Color="0x000000" />
+    <SkinItem Name="HeaderCell">
+      <SkinItem Name="Top">
+      </SkinItem>
+      <SkinItem Name="Bottom">
+      </SkinItem>
+      <SkinItem Name="Left">
+      </SkinItem>
+      <SkinItem Name="Right">
+      </SkinItem>
+      <SkinItem Name="TopLeft">
+      </SkinItem>
+      <SkinItem Name="TopRight">
+      </SkinItem>
+      <SkinItem Name="BottomLeft">
+      </SkinItem>
+      <SkinItem Name="BottomRight">
+      </SkinItem>
+      <Glyph Name="Normal"
+        Lp="1" Rp="1" Tp="1" Bp="2"
+        Image="Aqua\Grid\HdrCellBk-Normal.png"
+        />
+      <Glyph Name="Hover"
+        Lp="1" Rp="1" Tp="1" Bp="2"
+        Image="Aqua\Grid\HdrCellBk-Hover.png"
+        />
+      <Glyph Name="Pressed"
+        Lp="1" Rp="1" Tp="1" Bp="2"
+        Image="Aqua\Grid\HdrCellBk-Pressed.png"
+        />
+      <Glyph Name="HighlightedByFocus"
+        Lp="1" Rp="1" Tp="1" Bp="2"
+        Image="Aqua\Grid\HdrCellBk-HBF.png"
+        />
+      <Glyph Name="HighlightedBySelection"
+        Lp="1" Rp="1" Tp="1" Bp="2"
+        Image="Aqua\Grid\HdrCellBk-HBS.png"
+        />
+      <Glyph Name="HighlightedByHover"
+        Lp="1" Rp="1" Tp="1" Bp="2"
+        Image="Aqua\Grid\HdrCellBk-HBH.png"
+        />
+    </SkinItem>
+    <SkinItem Name="SortArrow">
+      <Glyph Name="AscendingTopBottom"
+        DrawMethod="Center"
+        Image="Aqua\Grid\SortArrow-AscTB.png"
+        />
+      <Glyph Name="DescendingTopBottom"
+        DrawMethod="Center"
+        Image="Aqua\Grid\SortArrow-DescTB.png"
+        />
+      <Glyph Name="AscendingLeftRight"
+        DrawMethod="Center"
+        Image="Aqua\Grid\SortArrow-AscLR.png"
+        />
+      <Glyph Name="DescendingLeftRight"
+        DrawMethod="Center"
+        Image="Aqua\Grid\SortArrow-DescLR.png"
+        />
+    </SkinItem>
+    <SkinItem Name="OuterBackground">
+      <SkinItem Name="Top">
+      </SkinItem>
+      <SkinItem Name="Bottom">
+      </SkinItem>
+      <SkinItem Name="Left">
+      </SkinItem>
+      <SkinItem Name="Right">
+      </SkinItem>
+      <SkinItem Name="TopLeft">
+      </SkinItem>
+      <SkinItem Name="TopRight">
+      </SkinItem>
+      <SkinItem Name="BottomLeft">
+      </SkinItem>
+      <SkinItem Name="BottomRight">
+      </SkinItem>
+      <SkinItem Name="GeneralOuterBackground">
+      </SkinItem>
+      <SkinItem Name="ReportGroupAreaItem">
+      </SkinItem>
+      <Glyph Name="Background"
+        Image="Aqua\Grid\AnyOuterBackground.png"
+        />
+    </SkinItem>
+  </SkinItem>
+
+  <SkinItem Name="MenuCaption">
+    <Glyph Name="Background"
+      Image="Aqua\Background\MenuCaption.png"
+		  Tp="2" Lp="0" Rp="0" Bp="1"
+		  Ctp="4" Cbp="4" Clp="10" Crp="10"
+      />
+    <Color
+      Name="TextColor"
+      Color="0x000000"
+      />
+  </SkinItem>
+
+  <SkinItem Name="RibbonScrollBar">
+    <SkinItem Name="ButtonUp">
+      <SkinItem Name="Disabled">
+        <Glyph Name="Arrow"
+          Image="Aqua\ScrollBar\RibbonGalleryInplace\ArrowUp-Disabled.png"
+          DrawMethod="Center"
+          />
+      </SkinItem>
+      <SkinItem Name="Normal">
+      </SkinItem>
+      <SkinItem Name="Hover">
+      </SkinItem>
+      <SkinItem Name="Pressed">
+      </SkinItem>
+      <Glyph Name="Background"
+        Image="Aqua\ScrollBar\RibbonGalleryInplace\ButtonUp-Normal.png"
+        />
+      <Glyph Name="Arrow"
+        Image="Aqua\ScrollBar\RibbonGalleryInplace\ArrowUp-Normal.png"
+			  DrawMethod="Center"
+        />
+    </SkinItem>
+    <SkinItem Name="ButtonDown">
+      <SkinItem Name="Disabled">
+        <Glyph Name="Arrow"
+          Image="Aqua\ScrollBar\RibbonGalleryInplace\ArrowDown-Disabled.png"
+          DrawMethod="Center"
+          />
+      </SkinItem>
+      <SkinItem Name="Normal">
+      </SkinItem>
+      <SkinItem Name="Hover">
+      </SkinItem>
+      <SkinItem Name="Pressed">
+      </SkinItem>
+      <Glyph Name="Background"
+        Image="Aqua\ScrollBar\RibbonGalleryInplace\ButtonDown-Normal.png"
+        />
+      <Glyph Name="Arrow"
+        Image="Aqua\ScrollBar\RibbonGalleryInplace\ArrowDown-Normal.png"
+			  DrawMethod="Center"
+        />
+    </SkinItem>
+    <SkinItem Name="ButtonMenu">
+      <SkinItem Name="Disabled">
+        <Glyph Name="Arrow"
+          Image="Aqua\ScrollBar\RibbonGalleryInplace\ArrowMenu-Disabled.png"
+          DrawMethod="Center"
+          />
+      </SkinItem>
+      <SkinItem Name="Normal">
+      </SkinItem>
+      <SkinItem Name="Hover">
+      </SkinItem>
+      <SkinItem Name="Pressed">
+      </SkinItem>
+      <Glyph Name="Background"
+        Image="Aqua\ScrollBar\RibbonGalleryInplace\ButtonMenu-Normal.png"
+        />
+      <Glyph Name="Arrow"
+        Image="Aqua\ScrollBar\RibbonGalleryInplace\ArrowMenu-Normal.png"
+			  DrawMethod="Center"
+        />
+    </SkinItem>
+  </SkinItem>
+
+  <SkinItem Name="Ribbon">
+    <SkinItem Name="Page">
+      <Glyph Name="Background"
+        Image="Aqua\Background\RibbonPage.png"
+        Lp="10" Bp="10" Rp="12" Tp="12"
+        />
+    </SkinItem>
+    <SkinItem Name="Group">
+      <Glyph Name="Background"
+        Image="Aqua\Background\RibbonGroup.png"
+        Lp="4" Bp="4" Rp="4" Tp="4"
+			  DrawMethod="Tile"
+        />
+		<SkinItem Name="Collapsed">
+			<SkinItem Name="Normal">
+				<Color Name="RibbonGroupCaptionTextColor" Color="0x000000" />
+			</SkinItem>
+			<SkinItem Name="Hover">
+				<Color Name="RibbonGroupCaptionTextColor" Color="0x000000" />
+			</SkinItem>
+			<SkinItem Name="Pressed">
+				<Color Name="RibbonGroupCaptionTextColor" Color="0x000000" />
+			</SkinItem>
+		</SkinItem>
+		<SkinItem Name="Expanded">
+			<SkinItem Name="Normal">
+				<Color Name="RibbonGroupCaptionTextColor" Color="0x000000" />
+			</SkinItem>
+			<SkinItem Name="Hover">
+				<Color Name="RibbonGroupCaptionTextColor" Color="0x000000" />
+			</SkinItem>
+		</SkinItem>
+    </SkinItem>
+  </SkinItem>
+
+</Prof-UIS-Skin>

@@ -276,7 +276,7 @@ private:
 //
 // Handles an indentation scope
 //
-const cIndent = 4;
+const int cIndent = 4;
 class DebugIndent
 {
 public:

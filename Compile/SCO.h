@@ -205,7 +205,7 @@ public:
     std::string GetClassName(WORD wIndex) const;
     bool GetVariableIndex(const std::string &name, WORD &wIndex, WORD &wType) const;
     bool GetExportIndex(const std::string &name, WORD &wIndex) const;
-    bool GetPublicExportByName(const std::string &exportName, CSCOPublicExport &export) const;
+    bool GetPublicExportByName(const std::string &exportName, CSCOPublicExport &export1) const;
     std::vector<CSCOFunctionSignature> GetExportSignatures(WORD wIndex) const;
     bool GetClassIndex(std::string, WORD &wIndex) const;
     bool GetClass(std::string className, const CSCOObjectClass **ppClass) const;

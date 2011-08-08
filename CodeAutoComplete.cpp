@@ -102,7 +102,7 @@ OutputDebugString("(RP) Waiting for AC thread to come around... getting stuck he
 }
 
 // Needs to be called when you switch to a new script
-void AutoCompleteThread::InitAutoComplete(CCrystalScriptStream::const_iterator it, CScriptStreamLimiter *pLimit)
+void AutoCompleteThread::InitAutoComplete(CCrystalScriptStream::const_buffer_iterator it, CScriptStreamLimiter *pLimit)
 {
     _itOrig = it;
     _pLimit = pLimit;

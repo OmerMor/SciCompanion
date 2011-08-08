@@ -1,0 +1,25 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZLib", "ZLib_800.vcproj", "{07E8B9E7-59B6-4ECA-9B98-5B4261EBF526}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Used LIBs Debug (DLL CRT)|Win32 = Used LIBs Debug (DLL CRT)|Win32
+		Used LIBs Debug (LIB CRT)|Win32 = Used LIBs Debug (LIB CRT)|Win32
+		Used LIBs Release (DLL CRT)|Win32 = Used LIBs Release (DLL CRT)|Win32
+		Used LIBs Release (LIB CRT)|Win32 = Used LIBs Release (LIB CRT)|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07E8B9E7-59B6-4ECA-9B98-5B4261EBF526}.Used LIBs Debug (DLL CRT)|Win32.ActiveCfg = Used LIBs Debug (DLL CRT)|Win32
+		{07E8B9E7-59B6-4ECA-9B98-5B4261EBF526}.Used LIBs Debug (DLL CRT)|Win32.Build.0 = Used LIBs Debug (DLL CRT)|Win32
+		{07E8B9E7-59B6-4ECA-9B98-5B4261EBF526}.Used LIBs Debug (LIB CRT)|Win32.ActiveCfg = Used LIBs Debug (LIB CRT)|Win32
+		{07E8B9E7-59B6-4ECA-9B98-5B4261EBF526}.Used LIBs Debug (LIB CRT)|Win32.Build.0 = Used LIBs Debug (LIB CRT)|Win32
+		{07E8B9E7-59B6-4ECA-9B98-5B4261EBF526}.Used LIBs Release (DLL CRT)|Win32.ActiveCfg = Used LIBs Release (DLL CRT)|Win32
+		{07E8B9E7-59B6-4ECA-9B98-5B4261EBF526}.Used LIBs Release (DLL CRT)|Win32.Build.0 = Used LIBs Release (DLL CRT)|Win32
+		{07E8B9E7-59B6-4ECA-9B98-5B4261EBF526}.Used LIBs Release (LIB CRT)|Win32.ActiveCfg = Used LIBs Release (LIB CRT)|Win32
+		{07E8B9E7-59B6-4ECA-9B98-5B4261EBF526}.Used LIBs Release (LIB CRT)|Win32.Build.0 = Used LIBs Release (LIB CRT)|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -203,7 +203,7 @@ void CFontResource::_RenderLetter(CDC *pDC, LetterInfo *pLetter, TCHAR ch, BOOL 
     }
 }
 
-static const CharTableOffset = 6;
+static const int CharTableOffset = 6;
 
 BOOL CFontResource::Serialize(sci::istream *pSerial) const
 {

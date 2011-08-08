@@ -11,6 +11,18 @@
 
 #pragma once
 
+template <class T>
+	class CCC : public T
+	{
+protected:
+	DECLARE_MESSAGE_MAP()
+	};
+BEGIN_TEMPLATE_MESSAGE_MAP(CCC, T, T)
+    ON_WM_VSCROLL()
+    ON_WM_HSCROLL()
+    ON_WM_MOUSEWHEEL()
+    ON_WM_SIZE()
+END_MESSAGE_MAP()
 
 // CScrollingThing
 template <class T>
@@ -66,7 +78,7 @@ CScrollingThing<T>::~CScrollingThing()
 {
 }
 
-BEGIN_TEMPLATE_MESSAGE_MAP(class T, CScrollingThing<T>, T)
+BEGIN_TEMPLATE_MESSAGE_MAP(CScrollingThing, T, T)
     ON_WM_VSCROLL()
     ON_WM_HSCROLL()
     ON_WM_MOUSEWHEEL()

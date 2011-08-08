@@ -1,0 +1,16 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MacedonianLanguageSwitcher", "MacedonianLanguageSwitcher_900_ia64.vcproj", "{8538D006-4D51-4008-9ED1-E8BD3066BAEA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Macedonian|Itanium = Macedonian|Itanium
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8538D006-4D51-4008-9ED1-E8BD3066BAEA}.Macedonian|Itanium.ActiveCfg = Macedonian|Itanium
+		{8538D006-4D51-4008-9ED1-E8BD3066BAEA}.Macedonian|Itanium.Build.0 = Macedonian|Itanium
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

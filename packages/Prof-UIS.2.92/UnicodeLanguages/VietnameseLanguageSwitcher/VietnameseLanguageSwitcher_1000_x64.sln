@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 10
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VietnameseLanguageSwitcher", "VietnameseLanguageSwitcher_1000_x64.vcxproj", "{9168C48A-F89F-45B8-B61B-4BF0354B0F60}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Vietnamese|X64 = Vietnamese|X64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9168C48A-F89F-45B8-B61B-4BF0354B0F60}.Vietnamese|X64.ActiveCfg = Vietnamese|X64
+		{9168C48A-F89F-45B8-B61B-4BF0354B0F60}.Vietnamese|X64.Build.0 = Vietnamese|X64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 10
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FarsiProfUIS", "FarsiProfUIS_1000_x64.vcxproj", "{AFEEC31C-79FB-467D-801C-714A6BAC19E9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Farsi|X64 = Farsi|X64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AFEEC31C-79FB-467D-801C-714A6BAC19E9}.Farsi|X64.ActiveCfg = Farsi|X64
+		{AFEEC31C-79FB-467D-801C-714A6BAC19E9}.Farsi|X64.Build.0 = Farsi|X64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -173,10 +173,13 @@ private:
 };
 
 
-BEGIN_TEMPLATE_MESSAGE_MAP( TEMPLATE_2(class _TBase, class _TItem) , TCLASS_2(CUndoResource, _TBase, _TItem), _TBase)
+
+BEGIN_TPL_MESSAGE_MAP3( TEMPLATE_2(class _TBase, class _TItem) , TCLASS_2(CUndoResource, _TBase, _TItem), _TBase)
+//BEGIN_TPL_MESSAGE_MAP2(ARGS2(class _TBase, class _TItem), TCLASS_2(CUndoResource, _TBase, _TItem), _TBase)
     ON_COMMAND(ID_EDIT_UNDO, OnUndo)
     ON_COMMAND(ID_EDIT_REDO, OnRedo)
     ON_UPDATE_COMMAND_UI(ID_EDIT_UNDO, OnUpdateUndo)
     ON_UPDATE_COMMAND_UI(ID_EDIT_REDO, OnUpdateRedo)
 END_MESSAGE_MAP()
 
+;

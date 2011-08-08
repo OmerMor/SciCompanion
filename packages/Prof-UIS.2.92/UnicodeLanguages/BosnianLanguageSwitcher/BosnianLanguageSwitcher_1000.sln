@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 10
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BosnianLanguageSwitcher", "BosnianLanguageSwitcher_1000.vcxproj", "{F83AE1BC-5089-4106-A136-97648C6E44BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Bosnian|Win32 = Bosnian|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F83AE1BC-5089-4106-A136-97648C6E44BC}.Bosnian|Win32.ActiveCfg = Bosnian|Win32
+		{F83AE1BC-5089-4106-A136-97648C6E44BC}.Bosnian|Win32.Build.0 = Bosnian|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

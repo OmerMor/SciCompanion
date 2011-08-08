@@ -568,7 +568,7 @@ BOOL IsResourceFileName(PCTSTR pszFileName, int *piNumber)
 
 bool _IsBitmapFile(PCSTR pszFileName)
 {
-    return (0 == strcmpi(PathFindExtension(pszFileName), ".bmp"));
+    return (0 == _strcmpi(PathFindExtension(pszFileName), ".bmp"));
 }
 
 //

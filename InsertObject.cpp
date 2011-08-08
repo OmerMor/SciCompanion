@@ -105,7 +105,7 @@ void _AddAssignment(MethodDefinition &method, const string &lvalueName, const st
     _MakeTokenStatement(statement, assigned);
     pEquals->SetStatement1(statement);
 
-    _AddStatement(method, pEquals);
+    _AddStatement(method, (auto_ptr<SyntaxNode>)pEquals);
 }
 
 void _AddBasicSwitch(MethodDefinition &method, const string &switchValue, const string &case0Comments)
@@ -127,7 +127,7 @@ void _AddBasicSwitch(MethodDefinition &method, const string &switchValue, const 
     pCase.release();
 
     // Add the switch to the method
-    _AddStatement(method, pSwitch);
+    _AddStatement(method, (auto_ptr<SyntaxNode>)pSwitch);
 }
 
 
@@ -148,12 +148,12 @@ void _AddSendCall(MethodDefinition &method, const string &objectName, const stri
         // Add the parameter to the sendparam.
         auto_ptr<ComplexPropertyValue> pValue(new ComplexPropertyValue);
         pValue->SetValue(parameter, ValueTypeToken);
-        _AddStatement(*pParam, pValue);
+        _AddStatement(*pParam, (auto_ptr<SyntaxNode>)pValue);
     }
 
     pSend->AddSendParam(pParam.get());
     pParam.release();
-    _AddStatement(method, pSend);
+    _AddStatement(method, (auto_ptr<SyntaxNode>)pSend);
 }
 
 BOOL CInsertObject::_PrepareBuffer()

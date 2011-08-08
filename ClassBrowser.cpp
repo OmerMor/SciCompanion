@@ -612,7 +612,7 @@ void SCIClassBrowser::_RemoveAllRelatedData(Script *pScript)
             if (pNode->GetScript() == pScript)
             {
                 // Remove this node.
-                _instances.erase(&_instances[i]);
+                _instances.erase(_instances.at(i));
                 ASSERT(pNode->GetSubClasses().size() == 0); // since it's an instance
                 if (pNode->GetSuperClass())
                 {

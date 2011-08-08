@@ -1,0 +1,16 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EasternArmenianLanguageSwitcher", "EasternArmenianLanguageSwitcher_900_ia64.vcproj", "{9133012B-5D09-4752-B271-74C2CB790C58}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		EasternArmenian|Itanium = EasternArmenian|Itanium
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9133012B-5D09-4752-B271-74C2CB790C58}.EasternArmenian|Itanium.ActiveCfg = EasternArmenian|Itanium
+		{9133012B-5D09-4752-B271-74C2CB790C58}.EasternArmenian|Itanium.Build.0 = EasternArmenian|Itanium
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

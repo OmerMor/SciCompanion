@@ -149,21 +149,26 @@ class CCrystalScriptStream
 public:
     CCrystalScriptStream(CScriptStreamLimiter *pBuffer);
 
-    class const_iterator
+    class const_buffer_iterator
     {
     public:
-        const_iterator() : _pBuffer(NULL), _pidStream(NULL), _id(0) {}
-        const_iterator(CScriptStreamLimiter *pBuffer, LineCol dwPos = LineCol());
+        const_buffer_iterator() : _pBuffer(NULL), _pidStream(NULL), _id(0) {}
+        const_buffer_iterator(CScriptStreamLimiter *pBuffer, LineCol dwPos = LineCol());
         char operator*();
-        const_iterator& operator++();
-        bool operator<(const const_iterator& _Right) const;
+        const_buffer_iterator& operator++();
+        bool operator<(const const_buffer_iterator& _Right) const;
         std::string tostring() const;
         LineCol GetPosition() const;
         int GetLineNumber() const;
         int GetColumnNumber() const;
-        bool operator==(const const_iterator& value) const;
-        bool operator!=(const const_iterator& value) const;
+        bool operator==(const const_buffer_iterator& value) const;
+        bool operator!=(const const_buffer_iterator& value) const;
 
+		typedef std::output_iterator_tag iterator_category;
+		typedef void value_type;
+		typedef void difference_type;
+		typedef CScriptStreamLimiter* pointer;
+		typedef CScriptStreamLimiter* reference;
     private:
         CScriptStreamLimiter *_pBuffer;
         int _nLine;
@@ -174,8 +179,8 @@ public:
         int *_pidStream;
     };
 
-    const_iterator begin() { return const_iterator(_pBuffer); }
-    const_iterator get_at(LineCol dwPos) { return const_iterator(_pBuffer, dwPos); }
+    const_buffer_iterator begin() { return const_buffer_iterator(_pBuffer); }
+    const_buffer_iterator get_at(LineCol dwPos) { return const_buffer_iterator(_pBuffer, dwPos); }
 
 protected:
     CScriptStreamLimiter *_pBuffer;
@@ -306,7 +311,7 @@ public:
 
     public:
         const_iterator(std::vector<TokenInfo> &tokens, size_t iIndex = 0) :
-            _it(&tokens[iIndex]), _itEnd(tokens.end())
+            _it(tokens.begin() + iIndex), _itEnd(tokens.end())
         {
         }
         TokenInfo operator*()

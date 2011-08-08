@@ -1,0 +1,16 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BosnianProfUIS", "BosnianProfUIS_900_ia64.vcproj", "{FC21455E-958B-4D80-B76B-BF13E2EFFC31}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Bosnian|Itanium = Bosnian|Itanium
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC21455E-958B-4D80-B76B-BF13E2EFFC31}.Bosnian|Itanium.ActiveCfg = Bosnian|Itanium
+		{FC21455E-958B-4D80-B76B-BF13E2EFFC31}.Bosnian|Itanium.Build.0 = Bosnian|Itanium
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

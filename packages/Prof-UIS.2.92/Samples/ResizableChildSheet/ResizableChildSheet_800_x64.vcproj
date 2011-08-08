@@ -1,0 +1,3406 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="ResizableChildSheet"
+	ProjectGUID="{27530359-44DF-477E-A7DB-183ABFADB145}"
+	Keyword="MFCProj"
+	>
+	<Platforms>
+		<Platform
+			Name="x64"
+		/>
+	</Platforms>
+	<ToolFiles>
+	</ToolFiles>
+	<Configurations>
+		<Configuration
+			Name="Static Unicode Release with MFC DLL|x64"
+			OutputDirectory=".\..\..\Bin_800_x64"
+			IntermediateDirectory=".\..\..\Bin_800_x64\StaticUnicodeReleaseWithMfcDll\ResizableChildSheet"
+			ConfigurationType="1"
+			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.vsprops"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="1"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="NDEBUG;PROF_UIS_X64"
+				MkTypLibCompatible="true"
+				SuppressStartupBanner="true"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_800_x64/ResizableChildSheet_800_x64.tlb"
+				HeaderFileName=""
+			/>
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="2"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="NDEBUG;PROF_UIS_X64;__STATPROFUIS_WITH_DLLMFC__;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				StringPooling="true"
+				RuntimeLibrary="2"
+				EnableFunctionLevelLinking="true"
+				UsePrecompiledHeader="2"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_800_x64\StaticUnicodeReleaseWithMfcDll\ResizableChildSheet/ResizableChildSheet_800_x64.pch"
+				AssemblerListingLocation=".\..\..\Bin_800_x64\StaticUnicodeReleaseWithMfcDll\ResizableChildSheet/"
+				ObjectFile=".\..\..\Bin_800_x64\StaticUnicodeReleaseWithMfcDll\ResizableChildSheet/"
+				ProgramDataBaseFileName=".\..\..\Bin_800_x64\StaticUnicodeReleaseWithMfcDll\ResizableChildSheet/"
+				WarningLevel="4"
+				SuppressStartupBanner="true"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG;PROF_UIS_X64;__STATPROFUIS_WITH_DLLMFC__"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_800_x64/ResizableChildSheet-yu.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="true"
+				AdditionalLibraryDirectories="..\..\Bin_800_x64"
+				ProgramDatabaseFile=".\..\..\Bin_800_x64/ResizableChildSheet-yu.pdb"
+				SubSystem="2"
+				EntryPointSymbol="wWinMainCRTStartup"
+				TargetMachine="17"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool" AdditionalManifestFiles="res\\manifest_x64.xml"
+				EmbedManifest="true"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+				SuppressStartupBanner="true"
+				OutputFile=".\..\..\Bin_800_x64/ResizableChildSheet_800_x64.bsc"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCWebDeploymentTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+		<Configuration
+			Name="Static MBCS Release|x64"
+			OutputDirectory=".\..\..\Bin_800_x64"
+			IntermediateDirectory=".\..\..\Bin_800_x64\StaticMbcsRelease\ResizableChildSheet"
+			ConfigurationType="1"
+			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.vsprops"
+			UseOfMFC="1"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="NDEBUG;PROF_UIS_X64"
+				MkTypLibCompatible="true"
+				SuppressStartupBanner="true"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_800_x64/ResizableChildSheet_800_x64.tlb"
+				HeaderFileName=""
+			/>
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="2"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="NDEBUG;PROF_UIS_X64;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				StringPooling="true"
+				RuntimeLibrary="0"
+				EnableFunctionLevelLinking="true"
+				UsePrecompiledHeader="2"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_800_x64\StaticMbcsRelease\ResizableChildSheet/ResizableChildSheet_800_x64.pch"
+				AssemblerListingLocation=".\..\..\Bin_800_x64\StaticMbcsRelease\ResizableChildSheet/"
+				ObjectFile=".\..\..\Bin_800_x64\StaticMbcsRelease\ResizableChildSheet/"
+				ProgramDataBaseFileName=".\..\..\Bin_800_x64\StaticMbcsRelease\ResizableChildSheet/"
+				WarningLevel="4"
+				SuppressStartupBanner="true"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG;PROF_UIS_X64"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_800_x64/ResizableChildSheet-sm.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="true"
+				AdditionalLibraryDirectories="..\..\Bin_800_x64"
+				ProgramDatabaseFile=".\..\..\Bin_800_x64/ResizableChildSheet-sm.pdb"
+				SubSystem="2"
+				TargetMachine="17"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool" AdditionalManifestFiles="res\\manifest_x64.xml"
+				EmbedManifest="true"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+				SuppressStartupBanner="true"
+				OutputFile=".\..\..\Bin_800_x64/ResizableChildSheet_800_x64.bsc"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCWebDeploymentTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+		<Configuration
+			Name="Static Unicode Debug|x64"
+			OutputDirectory=".\..\..\Bin_800_x64"
+			IntermediateDirectory=".\..\..\Bin_800_x64\StaticUnicodeDebug\ResizableChildSheet"
+			ConfigurationType="1"
+			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.vsprops"
+			UseOfMFC="1"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="1"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="_DEBUG;PROF_UIS_X64"
+				MkTypLibCompatible="true"
+				SuppressStartupBanner="true"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_800_x64/ResizableChildSheet_800_x64.tlb"
+				HeaderFileName=""
+			/>
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="0"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="_DEBUG;PROF_UIS_X64;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				MinimalRebuild="true"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="1"
+				UsePrecompiledHeader="2"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_800_x64\StaticUnicodeDebug\ResizableChildSheet/ResizableChildSheet_800_x64.pch"
+				AssemblerListingLocation=".\..\..\Bin_800_x64\StaticUnicodeDebug\ResizableChildSheet/"
+				ObjectFile=".\..\..\Bin_800_x64\StaticUnicodeDebug\ResizableChildSheet/"
+				ProgramDataBaseFileName=".\..\..\Bin_800_x64\StaticUnicodeDebug\ResizableChildSheet/"
+				WarningLevel="4"
+				SuppressStartupBanner="true"
+				DebugInformationFormat="3"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_DEBUG;PROF_UIS_X64"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_800_x64/ResizableChildSheet-sud.exe"
+				LinkIncremental="2"
+				SuppressStartupBanner="true"
+				AdditionalLibraryDirectories="..\..\Bin_800_x64"
+				GenerateDebugInformation="true"
+				ProgramDatabaseFile=".\..\..\Bin_800_x64/ResizableChildSheet-sud.pdb"
+				SubSystem="2"
+				EntryPointSymbol="wWinMainCRTStartup"
+				TargetMachine="17"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool" AdditionalManifestFiles="res\\manifest_x64.xml"
+				EmbedManifest="true"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+				SuppressStartupBanner="true"
+				OutputFile=".\..\..\Bin_800_x64/ResizableChildSheet_800_x64.bsc"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCWebDeploymentTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+		<Configuration
+			Name="ANSI Release|x64"
+			OutputDirectory=".\..\..\Bin_800_x64"
+			IntermediateDirectory=".\..\..\Bin_800_x64\AnsiRelease\ResizableChildSheet"
+			ConfigurationType="1"
+			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.vsprops"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="NDEBUG;PROF_UIS_X64"
+				MkTypLibCompatible="true"
+				SuppressStartupBanner="true"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_800_x64/ResizableChildSheet_800_x64.tlb"
+				HeaderFileName=""
+			/>
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="2"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="NDEBUG;PROF_UIS_X64;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				StringPooling="true"
+				RuntimeLibrary="2"
+				EnableFunctionLevelLinking="true"
+				UsePrecompiledHeader="2"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_800_x64\AnsiRelease\ResizableChildSheet/ResizableChildSheet_800_x64.pch"
+				AssemblerListingLocation=".\..\..\Bin_800_x64\AnsiRelease\ResizableChildSheet/"
+				ObjectFile=".\..\..\Bin_800_x64\AnsiRelease\ResizableChildSheet/"
+				ProgramDataBaseFileName=".\..\..\Bin_800_x64\AnsiRelease\ResizableChildSheet/"
+				WarningLevel="4"
+				SuppressStartupBanner="true"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG;PROF_UIS_X64"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_800_x64/ResizableChildSheet-n.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="true"
+				AdditionalLibraryDirectories="..\..\Bin_800_x64"
+				ProgramDatabaseFile=".\..\..\Bin_800_x64/ResizableChildSheet-n.pdb"
+				SubSystem="2"
+				TargetMachine="17"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool" AdditionalManifestFiles="res\\manifest_x64.xml"
+				EmbedManifest="true"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+				SuppressStartupBanner="true"
+				OutputFile=".\..\..\Bin_800_x64/ResizableChildSheet_800_x64.bsc"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCWebDeploymentTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+		<Configuration
+			Name="Static Unicode Debug with MFC DLL|x64"
+			OutputDirectory=".\..\..\Bin_800_x64"
+			IntermediateDirectory=".\..\..\Bin_800_x64\StaticUnicodeDebugWithMfcDll\ResizableChildSheet"
+			ConfigurationType="1"
+			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.vsprops"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="1"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="_DEBUG;PROF_UIS_X64"
+				MkTypLibCompatible="true"
+				SuppressStartupBanner="true"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_800_x64/ResizableChildSheet_800_x64.tlb"
+				HeaderFileName=""
+			/>
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="0"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="_DEBUG;PROF_UIS_X64;__STATPROFUIS_WITH_DLLMFC__;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				MinimalRebuild="true"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="3"
+				UsePrecompiledHeader="2"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_800_x64\StaticUnicodeDebugWithMfcDll\ResizableChildSheet/ResizableChildSheet_800_x64.pch"
+				AssemblerListingLocation=".\..\..\Bin_800_x64\StaticUnicodeDebugWithMfcDll\ResizableChildSheet/"
+				ObjectFile=".\..\..\Bin_800_x64\StaticUnicodeDebugWithMfcDll\ResizableChildSheet/"
+				ProgramDataBaseFileName=".\..\..\Bin_800_x64\StaticUnicodeDebugWithMfcDll\ResizableChildSheet/"
+				WarningLevel="4"
+				SuppressStartupBanner="true"
+				DebugInformationFormat="3"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_DEBUG;PROF_UIS_X64;__STATPROFUIS_WITH_DLLMFC__"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_800_x64/ResizableChildSheet-yud.exe"
+				LinkIncremental="2"
+				SuppressStartupBanner="true"
+				AdditionalLibraryDirectories="..\..\Bin_800_x64"
+				GenerateDebugInformation="true"
+				ProgramDatabaseFile=".\..\..\Bin_800_x64/ResizableChildSheet-yud.pdb"
+				SubSystem="2"
+				EntryPointSymbol="wWinMainCRTStartup"
+				TargetMachine="17"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool" AdditionalManifestFiles="res\\manifest_x64.xml"
+				EmbedManifest="true"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+				SuppressStartupBanner="true"
+				OutputFile=".\..\..\Bin_800_x64/ResizableChildSheet_800_x64.bsc"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCWebDeploymentTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+		<Configuration
+			Name="Static Unicode Release|x64"
+			OutputDirectory=".\..\..\Bin_800_x64"
+			IntermediateDirectory=".\..\..\Bin_800_x64\StaticUnicodeRelease\ResizableChildSheet"
+			ConfigurationType="1"
+			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.vsprops"
+			UseOfMFC="1"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="1"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="NDEBUG;PROF_UIS_X64"
+				MkTypLibCompatible="true"
+				SuppressStartupBanner="true"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_800_x64/ResizableChildSheet_800_x64.tlb"
+				HeaderFileName=""
+			/>
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="2"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="NDEBUG;PROF_UIS_X64;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				StringPooling="true"
+				RuntimeLibrary="0"
+				EnableFunctionLevelLinking="true"
+				UsePrecompiledHeader="2"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_800_x64\StaticUnicodeRelease\ResizableChildSheet/ResizableChildSheet_800_x64.pch"
+				AssemblerListingLocation=".\..\..\Bin_800_x64\StaticUnicodeRelease\ResizableChildSheet/"
+				ObjectFile=".\..\..\Bin_800_x64\StaticUnicodeRelease\ResizableChildSheet/"
+				ProgramDataBaseFileName=".\..\..\Bin_800_x64\StaticUnicodeRelease\ResizableChildSheet/"
+				WarningLevel="4"
+				SuppressStartupBanner="true"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG;PROF_UIS_X64"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_800_x64/ResizableChildSheet-su.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="true"
+				AdditionalLibraryDirectories="..\..\Bin_800_x64"
+				ProgramDatabaseFile=".\..\..\Bin_800_x64/ResizableChildSheet-su.pdb"
+				SubSystem="2"
+				EntryPointSymbol="wWinMainCRTStartup"
+				TargetMachine="17"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool" AdditionalManifestFiles="res\\manifest_x64.xml"
+				EmbedManifest="true"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+				SuppressStartupBanner="true"
+				OutputFile=".\..\..\Bin_800_x64/ResizableChildSheet_800_x64.bsc"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCWebDeploymentTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+		<Configuration
+			Name="MBCS Debug|x64"
+			OutputDirectory=".\..\..\Bin_800_x64"
+			IntermediateDirectory=".\..\..\Bin_800_x64\MbcsDebug\ResizableChildSheet"
+			ConfigurationType="1"
+			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.vsprops"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="_DEBUG;PROF_UIS_X64"
+				MkTypLibCompatible="true"
+				SuppressStartupBanner="true"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_800_x64/ResizableChildSheet_800_x64.tlb"
+				HeaderFileName=""
+			/>
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="0"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="_DEBUG;PROF_UIS_X64;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				MinimalRebuild="true"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="3"
+				UsePrecompiledHeader="2"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_800_x64\MbcsDebug\ResizableChildSheet/ResizableChildSheet_800_x64.pch"
+				AssemblerListingLocation=".\..\..\Bin_800_x64\MbcsDebug\ResizableChildSheet/"
+				ObjectFile=".\..\..\Bin_800_x64\MbcsDebug\ResizableChildSheet/"
+				ProgramDataBaseFileName=".\..\..\Bin_800_x64\MbcsDebug\ResizableChildSheet/"
+				WarningLevel="4"
+				SuppressStartupBanner="true"
+				DebugInformationFormat="3"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_DEBUG;PROF_UIS_X64"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_800_x64/ResizableChildSheet-md.exe"
+				LinkIncremental="2"
+				SuppressStartupBanner="true"
+				AdditionalLibraryDirectories="..\..\Bin_800_x64"
+				GenerateDebugInformation="true"
+				ProgramDatabaseFile=".\..\..\Bin_800_x64/ResizableChildSheet-md.pdb"
+				SubSystem="2"
+				TargetMachine="17"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool" AdditionalManifestFiles="res\\manifest_x64.xml"
+				EmbedManifest="true"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+				SuppressStartupBanner="true"
+				OutputFile=".\..\..\Bin_800_x64/ResizableChildSheet_800_x64.bsc"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCWebDeploymentTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+		<Configuration
+			Name="Static ANSI Release|x64"
+			OutputDirectory=".\..\..\Bin_800_x64"
+			IntermediateDirectory=".\..\..\Bin_800_x64\StaticAnsiRelease\ResizableChildSheet"
+			ConfigurationType="1"
+			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.vsprops"
+			UseOfMFC="1"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="NDEBUG;PROF_UIS_X64"
+				MkTypLibCompatible="true"
+				SuppressStartupBanner="true"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_800_x64/ResizableChildSheet_800_x64.tlb"
+				HeaderFileName=""
+			/>
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="2"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="NDEBUG;PROF_UIS_X64;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				StringPooling="true"
+				RuntimeLibrary="0"
+				EnableFunctionLevelLinking="true"
+				UsePrecompiledHeader="2"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_800_x64\StaticAnsiRelease\ResizableChildSheet/ResizableChildSheet_800_x64.pch"
+				AssemblerListingLocation=".\..\..\Bin_800_x64\StaticAnsiRelease\ResizableChildSheet/"
+				ObjectFile=".\..\..\Bin_800_x64\StaticAnsiRelease\ResizableChildSheet/"
+				ProgramDataBaseFileName=".\..\..\Bin_800_x64\StaticAnsiRelease\ResizableChildSheet/"
+				WarningLevel="4"
+				SuppressStartupBanner="true"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG;PROF_UIS_X64"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_800_x64/ResizableChildSheet-sn.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="true"
+				AdditionalLibraryDirectories="..\..\Bin_800_x64"
+				ProgramDatabaseFile=".\..\..\Bin_800_x64/ResizableChildSheet-sn.pdb"
+				SubSystem="2"
+				TargetMachine="17"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool" AdditionalManifestFiles="res\\manifest_x64.xml"
+				EmbedManifest="true"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+				SuppressStartupBanner="true"
+				OutputFile=".\..\..\Bin_800_x64/ResizableChildSheet_800_x64.bsc"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCWebDeploymentTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+		<Configuration
+			Name="Static MBCS Debug|x64"
+			OutputDirectory=".\..\..\Bin_800_x64"
+			IntermediateDirectory=".\..\..\Bin_800_x64\StaticMbcsDebug\ResizableChildSheet"
+			ConfigurationType="1"
+			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.vsprops"
+			UseOfMFC="1"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="_DEBUG;PROF_UIS_X64"
+				MkTypLibCompatible="true"
+				SuppressStartupBanner="true"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_800_x64/ResizableChildSheet_800_x64.tlb"
+				HeaderFileName=""
+			/>
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="0"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="_DEBUG;PROF_UIS_X64;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				MinimalRebuild="true"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="1"
+				UsePrecompiledHeader="2"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_800_x64\StaticMbcsDebug\ResizableChildSheet/ResizableChildSheet_800_x64.pch"
+				AssemblerListingLocation=".\..\..\Bin_800_x64\StaticMbcsDebug\ResizableChildSheet/"
+				ObjectFile=".\..\..\Bin_800_x64\StaticMbcsDebug\ResizableChildSheet/"
+				ProgramDataBaseFileName=".\..\..\Bin_800_x64\StaticMbcsDebug\ResizableChildSheet/"
+				WarningLevel="4"
+				SuppressStartupBanner="true"
+				DebugInformationFormat="3"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_DEBUG;PROF_UIS_X64"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_800_x64/ResizableChildSheet-smd.exe"
+				LinkIncremental="2"
+				SuppressStartupBanner="true"
+				AdditionalLibraryDirectories="..\..\Bin_800_x64"
+				GenerateDebugInformation="true"
+				ProgramDatabaseFile=".\..\..\Bin_800_x64/ResizableChildSheet-smd.pdb"
+				SubSystem="2"
+				TargetMachine="17"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool" AdditionalManifestFiles="res\\manifest_x64.xml"
+				EmbedManifest="true"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+				SuppressStartupBanner="true"
+				OutputFile=".\..\..\Bin_800_x64/ResizableChildSheet_800_x64.bsc"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCWebDeploymentTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+		<Configuration
+			Name="Static ANSI Release with MFC DLL|x64"
+			OutputDirectory=".\..\..\Bin_800_x64"
+			IntermediateDirectory=".\..\..\Bin_800_x64\StaticAnsiReleaseWithMfcDll\ResizableChildSheet"
+			ConfigurationType="1"
+			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.vsprops"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="NDEBUG;PROF_UIS_X64"
+				MkTypLibCompatible="true"
+				SuppressStartupBanner="true"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_800_x64/ResizableChildSheet_800_x64.tlb"
+				HeaderFileName=""
+			/>
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="2"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="NDEBUG;PROF_UIS_X64;__STATPROFUIS_WITH_DLLMFC__;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				StringPooling="true"
+				RuntimeLibrary="2"
+				EnableFunctionLevelLinking="true"
+				UsePrecompiledHeader="2"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_800_x64\StaticAnsiReleaseWithMfcDll\ResizableChildSheet/ResizableChildSheet_800_x64.pch"
+				AssemblerListingLocation=".\..\..\Bin_800_x64\StaticAnsiReleaseWithMfcDll\ResizableChildSheet/"
+				ObjectFile=".\..\..\Bin_800_x64\StaticAnsiReleaseWithMfcDll\ResizableChildSheet/"
+				ProgramDataBaseFileName=".\..\..\Bin_800_x64\StaticAnsiReleaseWithMfcDll\ResizableChildSheet/"
+				WarningLevel="4"
+				SuppressStartupBanner="true"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG;PROF_UIS_X64;__STATPROFUIS_WITH_DLLMFC__"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_800_x64/ResizableChildSheet-yn.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="true"
+				AdditionalLibraryDirectories="..\..\Bin_800_x64"
+				ProgramDatabaseFile=".\..\..\Bin_800_x64/ResizableChildSheet-yn.pdb"
+				SubSystem="2"
+				TargetMachine="17"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool" AdditionalManifestFiles="res\\manifest_x64.xml"
+				EmbedManifest="true"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+				SuppressStartupBanner="true"
+				OutputFile=".\..\..\Bin_800_x64/ResizableChildSheet_800_x64.bsc"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCWebDeploymentTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+		<Configuration
+			Name="Unicode Debug|x64"
+			OutputDirectory=".\..\..\Bin_800_x64"
+			IntermediateDirectory=".\..\..\Bin_800_x64\UnicodeDebug\ResizableChildSheet"
+			ConfigurationType="1"
+			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.vsprops"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="1"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="_DEBUG;PROF_UIS_X64"
+				MkTypLibCompatible="true"
+				SuppressStartupBanner="true"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_800_x64/ResizableChildSheet_800_x64.tlb"
+				HeaderFileName=""
+			/>
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="0"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="_DEBUG;PROF_UIS_X64;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				MinimalRebuild="true"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="3"
+				UsePrecompiledHeader="2"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_800_x64\UnicodeDebug\ResizableChildSheet/ResizableChildSheet_800_x64.pch"
+				AssemblerListingLocation=".\..\..\Bin_800_x64\UnicodeDebug\ResizableChildSheet/"
+				ObjectFile=".\..\..\Bin_800_x64\UnicodeDebug\ResizableChildSheet/"
+				ProgramDataBaseFileName=".\..\..\Bin_800_x64\UnicodeDebug\ResizableChildSheet/"
+				WarningLevel="4"
+				SuppressStartupBanner="true"
+				DebugInformationFormat="3"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_DEBUG;PROF_UIS_X64"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_800_x64/ResizableChildSheet-ud.exe"
+				LinkIncremental="2"
+				SuppressStartupBanner="true"
+				AdditionalLibraryDirectories="..\..\Bin_800_x64"
+				GenerateDebugInformation="true"
+				ProgramDatabaseFile=".\..\..\Bin_800_x64/ResizableChildSheet-ud.pdb"
+				SubSystem="2"
+				EntryPointSymbol="wWinMainCRTStartup"
+				TargetMachine="17"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool" AdditionalManifestFiles="res\\manifest_x64.xml"
+				EmbedManifest="true"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+				SuppressStartupBanner="true"
+				OutputFile=".\..\..\Bin_800_x64/ResizableChildSheet_800_x64.bsc"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCWebDeploymentTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+		<Configuration
+			Name="ANSI Debug|x64"
+			OutputDirectory=".\..\..\Bin_800_x64"
+			IntermediateDirectory=".\..\..\Bin_800_x64\AnsiDebug\ResizableChildSheet"
+			ConfigurationType="1"
+			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.vsprops"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="_DEBUG;PROF_UIS_X64"
+				MkTypLibCompatible="true"
+				SuppressStartupBanner="true"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_800_x64/ResizableChildSheet_800_x64.tlb"
+				HeaderFileName=""
+			/>
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="0"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="_DEBUG;PROF_UIS_X64;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				MinimalRebuild="true"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="3"
+				UsePrecompiledHeader="2"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_800_x64\AnsiDebug\ResizableChildSheet/ResizableChildSheet_800_x64.pch"
+				AssemblerListingLocation=".\..\..\Bin_800_x64\AnsiDebug\ResizableChildSheet/"
+				ObjectFile=".\..\..\Bin_800_x64\AnsiDebug\ResizableChildSheet/"
+				ProgramDataBaseFileName=".\..\..\Bin_800_x64\AnsiDebug\ResizableChildSheet/"
+				WarningLevel="4"
+				SuppressStartupBanner="true"
+				DebugInformationFormat="3"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_DEBUG;PROF_UIS_X64"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_800_x64/ResizableChildSheet-nd.exe"
+				LinkIncremental="2"
+				SuppressStartupBanner="true"
+				AdditionalLibraryDirectories="..\..\Bin_800_x64"
+				GenerateDebugInformation="true"
+				ProgramDatabaseFile=".\..\..\Bin_800_x64/ResizableChildSheet-nd.pdb"
+				SubSystem="2"
+				TargetMachine="17"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool" AdditionalManifestFiles="res\\manifest_x64.xml"
+				EmbedManifest="true"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+				SuppressStartupBanner="true"
+				OutputFile=".\..\..\Bin_800_x64/ResizableChildSheet_800_x64.bsc"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCWebDeploymentTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+		<Configuration
+			Name="Unicode Release|x64"
+			OutputDirectory=".\..\..\Bin_800_x64"
+			IntermediateDirectory=".\..\..\Bin_800_x64\UnicodeRelease\ResizableChildSheet"
+			ConfigurationType="1"
+			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.vsprops"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="1"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="NDEBUG;PROF_UIS_X64"
+				MkTypLibCompatible="true"
+				SuppressStartupBanner="true"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_800_x64/ResizableChildSheet_800_x64.tlb"
+				HeaderFileName=""
+			/>
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="2"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="NDEBUG;PROF_UIS_X64;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				StringPooling="true"
+				RuntimeLibrary="2"
+				EnableFunctionLevelLinking="true"
+				UsePrecompiledHeader="2"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_800_x64\UnicodeRelease\ResizableChildSheet/ResizableChildSheet_800_x64.pch"
+				AssemblerListingLocation=".\..\..\Bin_800_x64\UnicodeRelease\ResizableChildSheet/"
+				ObjectFile=".\..\..\Bin_800_x64\UnicodeRelease\ResizableChildSheet/"
+				ProgramDataBaseFileName=".\..\..\Bin_800_x64\UnicodeRelease\ResizableChildSheet/"
+				WarningLevel="4"
+				SuppressStartupBanner="true"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG;PROF_UIS_X64"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_800_x64/ResizableChildSheet-u.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="true"
+				AdditionalLibraryDirectories="..\..\Bin_800_x64"
+				ProgramDatabaseFile=".\..\..\Bin_800_x64/ResizableChildSheet-u.pdb"
+				SubSystem="2"
+				EntryPointSymbol="wWinMainCRTStartup"
+				TargetMachine="17"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool" AdditionalManifestFiles="res\\manifest_x64.xml"
+				EmbedManifest="true"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+				SuppressStartupBanner="true"
+				OutputFile=".\..\..\Bin_800_x64/ResizableChildSheet_800_x64.bsc"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCWebDeploymentTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+		<Configuration
+			Name="Static MBCS Debug with MFC DLL|x64"
+			OutputDirectory=".\..\..\Bin_800_x64"
+			IntermediateDirectory=".\..\..\Bin_800_x64\StaticMbcsDebugWithMfcDll\ResizableChildSheet"
+			ConfigurationType="1"
+			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.vsprops"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="_DEBUG;PROF_UIS_X64"
+				MkTypLibCompatible="true"
+				SuppressStartupBanner="true"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_800_x64/ResizableChildSheet_800_x64.tlb"
+				HeaderFileName=""
+			/>
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="0"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="_DEBUG;PROF_UIS_X64;__STATPROFUIS_WITH_DLLMFC__;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				MinimalRebuild="true"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="3"
+				UsePrecompiledHeader="2"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_800_x64\StaticMbcsDebugWithMfcDll\ResizableChildSheet/ResizableChildSheet_800_x64.pch"
+				AssemblerListingLocation=".\..\..\Bin_800_x64\StaticMbcsDebugWithMfcDll\ResizableChildSheet/"
+				ObjectFile=".\..\..\Bin_800_x64\StaticMbcsDebugWithMfcDll\ResizableChildSheet/"
+				ProgramDataBaseFileName=".\..\..\Bin_800_x64\StaticMbcsDebugWithMfcDll\ResizableChildSheet/"
+				WarningLevel="4"
+				SuppressStartupBanner="true"
+				DebugInformationFormat="3"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_DEBUG;PROF_UIS_X64;__STATPROFUIS_WITH_DLLMFC__"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_800_x64/ResizableChildSheet-ymd.exe"
+				LinkIncremental="2"
+				SuppressStartupBanner="true"
+				AdditionalLibraryDirectories="..\..\Bin_800_x64"
+				GenerateDebugInformation="true"
+				ProgramDatabaseFile=".\..\..\Bin_800_x64/ResizableChildSheet-ymd.pdb"
+				SubSystem="2"
+				TargetMachine="17"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool" AdditionalManifestFiles="res\\manifest_x64.xml"
+				EmbedManifest="true"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+				SuppressStartupBanner="true"
+				OutputFile=".\..\..\Bin_800_x64/ResizableChildSheet_800_x64.bsc"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCWebDeploymentTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+		<Configuration
+			Name="Static ANSI Debug with MFC DLL|x64"
+			OutputDirectory=".\..\..\Bin_800_x64"
+			IntermediateDirectory=".\..\..\Bin_800_x64\StaticAnsiDebugWithMfcDll\ResizableChildSheet"
+			ConfigurationType="1"
+			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.vsprops"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="_DEBUG;PROF_UIS_X64"
+				MkTypLibCompatible="true"
+				SuppressStartupBanner="true"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_800_x64/ResizableChildSheet_800_x64.tlb"
+				HeaderFileName=""
+			/>
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="0"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="_DEBUG;PROF_UIS_X64;__STATPROFUIS_WITH_DLLMFC__;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				MinimalRebuild="true"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="3"
+				UsePrecompiledHeader="2"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_800_x64\StaticAnsiDebugWithMfcDll\ResizableChildSheet/ResizableChildSheet_800_x64.pch"
+				AssemblerListingLocation=".\..\..\Bin_800_x64\StaticAnsiDebugWithMfcDll\ResizableChildSheet/"
+				ObjectFile=".\..\..\Bin_800_x64\StaticAnsiDebugWithMfcDll\ResizableChildSheet/"
+				ProgramDataBaseFileName=".\..\..\Bin_800_x64\StaticAnsiDebugWithMfcDll\ResizableChildSheet/"
+				WarningLevel="4"
+				SuppressStartupBanner="true"
+				DebugInformationFormat="3"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_DEBUG;PROF_UIS_X64;__STATPROFUIS_WITH_DLLMFC__"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_800_x64/ResizableChildSheet-ynd.exe"
+				LinkIncremental="2"
+				SuppressStartupBanner="true"
+				AdditionalLibraryDirectories="..\..\Bin_800_x64"
+				GenerateDebugInformation="true"
+				ProgramDatabaseFile=".\..\..\Bin_800_x64/ResizableChildSheet-ynd.pdb"
+				SubSystem="2"
+				TargetMachine="17"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool" AdditionalManifestFiles="res\\manifest_x64.xml"
+				EmbedManifest="true"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+				SuppressStartupBanner="true"
+				OutputFile=".\..\..\Bin_800_x64/ResizableChildSheet_800_x64.bsc"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCWebDeploymentTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+		<Configuration
+			Name="MBCS Release|x64"
+			OutputDirectory=".\..\..\Bin_800_x64"
+			IntermediateDirectory=".\..\..\Bin_800_x64\MbcsRelease\ResizableChildSheet"
+			ConfigurationType="1"
+			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.vsprops"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="NDEBUG;PROF_UIS_X64"
+				MkTypLibCompatible="true"
+				SuppressStartupBanner="true"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_800_x64/ResizableChildSheet_800_x64.tlb"
+				HeaderFileName=""
+			/>
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="2"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="NDEBUG;PROF_UIS_X64;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				StringPooling="true"
+				RuntimeLibrary="2"
+				EnableFunctionLevelLinking="true"
+				UsePrecompiledHeader="2"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_800_x64\MbcsRelease\ResizableChildSheet/ResizableChildSheet_800_x64.pch"
+				AssemblerListingLocation=".\..\..\Bin_800_x64\MbcsRelease\ResizableChildSheet/"
+				ObjectFile=".\..\..\Bin_800_x64\MbcsRelease\ResizableChildSheet/"
+				ProgramDataBaseFileName=".\..\..\Bin_800_x64\MbcsRelease\ResizableChildSheet/"
+				WarningLevel="4"
+				SuppressStartupBanner="true"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG;PROF_UIS_X64"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_800_x64/ResizableChildSheet-m.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="true"
+				AdditionalLibraryDirectories="..\..\Bin_800_x64"
+				ProgramDatabaseFile=".\..\..\Bin_800_x64/ResizableChildSheet-m.pdb"
+				SubSystem="2"
+				TargetMachine="17"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool" AdditionalManifestFiles="res\\manifest_x64.xml"
+				EmbedManifest="true"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+				SuppressStartupBanner="true"
+				OutputFile=".\..\..\Bin_800_x64/ResizableChildSheet_800_x64.bsc"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCWebDeploymentTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+		<Configuration
+			Name="Static MBCS Release with MFC DLL|x64"
+			OutputDirectory=".\..\..\Bin_800_x64"
+			IntermediateDirectory=".\..\..\Bin_800_x64\StaticMbcsReleaseWithMfcDll\ResizableChildSheet"
+			ConfigurationType="1"
+			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.vsprops"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="NDEBUG;PROF_UIS_X64"
+				MkTypLibCompatible="true"
+				SuppressStartupBanner="true"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_800_x64/ResizableChildSheet_800_x64.tlb"
+				HeaderFileName=""
+			/>
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="2"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="NDEBUG;PROF_UIS_X64;__STATPROFUIS_WITH_DLLMFC__;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				StringPooling="true"
+				RuntimeLibrary="2"
+				EnableFunctionLevelLinking="true"
+				UsePrecompiledHeader="2"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_800_x64\StaticMbcsReleaseWithMfcDll\ResizableChildSheet/ResizableChildSheet_800_x64.pch"
+				AssemblerListingLocation=".\..\..\Bin_800_x64\StaticMbcsReleaseWithMfcDll\ResizableChildSheet/"
+				ObjectFile=".\..\..\Bin_800_x64\StaticMbcsReleaseWithMfcDll\ResizableChildSheet/"
+				ProgramDataBaseFileName=".\..\..\Bin_800_x64\StaticMbcsReleaseWithMfcDll\ResizableChildSheet/"
+				WarningLevel="4"
+				SuppressStartupBanner="true"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG;PROF_UIS_X64;__STATPROFUIS_WITH_DLLMFC__"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_800_x64/ResizableChildSheet-ym.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="true"
+				AdditionalLibraryDirectories="..\..\Bin_800_x64"
+				ProgramDatabaseFile=".\..\..\Bin_800_x64/ResizableChildSheet-ym.pdb"
+				SubSystem="2"
+				TargetMachine="17"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool" AdditionalManifestFiles="res\\manifest_x64.xml"
+				EmbedManifest="true"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+				SuppressStartupBanner="true"
+				OutputFile=".\..\..\Bin_800_x64/ResizableChildSheet_800_x64.bsc"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCWebDeploymentTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+		<Configuration
+			Name="Static ANSI Debug|x64"
+			OutputDirectory=".\..\..\Bin_800_x64"
+			IntermediateDirectory=".\..\..\Bin_800_x64\StaticAnsiDebug\ResizableChildSheet"
+			ConfigurationType="1"
+			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.vsprops"
+			UseOfMFC="1"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="_DEBUG;PROF_UIS_X64"
+				MkTypLibCompatible="true"
+				SuppressStartupBanner="true"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_800_x64/ResizableChildSheet_800_x64.tlb"
+				HeaderFileName=""
+			/>
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="0"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="_DEBUG;PROF_UIS_X64;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				MinimalRebuild="true"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="1"
+				UsePrecompiledHeader="2"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_800_x64\StaticAnsiDebug\ResizableChildSheet/ResizableChildSheet_800_x64.pch"
+				AssemblerListingLocation=".\..\..\Bin_800_x64\StaticAnsiDebug\ResizableChildSheet/"
+				ObjectFile=".\..\..\Bin_800_x64\StaticAnsiDebug\ResizableChildSheet/"
+				ProgramDataBaseFileName=".\..\..\Bin_800_x64\StaticAnsiDebug\ResizableChildSheet/"
+				WarningLevel="4"
+				SuppressStartupBanner="true"
+				DebugInformationFormat="3"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_DEBUG;PROF_UIS_X64"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_800_x64/ResizableChildSheet-snd.exe"
+				LinkIncremental="2"
+				SuppressStartupBanner="true"
+				AdditionalLibraryDirectories="..\..\Bin_800_x64"
+				GenerateDebugInformation="true"
+				ProgramDatabaseFile=".\..\..\Bin_800_x64/ResizableChildSheet-snd.pdb"
+				SubSystem="2"
+				TargetMachine="17"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool" AdditionalManifestFiles="res\\manifest_x64.xml"
+				EmbedManifest="true"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+				SuppressStartupBanner="true"
+				OutputFile=".\..\..\Bin_800_x64/ResizableChildSheet_800_x64.bsc"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCWebDeploymentTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+	</Configurations>
+	<References>
+	</References>
+	<Files>
+		<Filter
+			Name="Source Files"
+			Filter="cpp;c;cxx;rc;def;r;odl;idl;hpj;bat"
+			>
+			<File
+				RelativePath="ChildFrm.cpp"
+				>
+				<FileConfiguration
+					Name="Static Unicode Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="ExtChildResizablePropertySheet.cpp"
+				>
+				<FileConfiguration
+					Name="Static Unicode Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="MainFrm.cpp"
+				>
+				<FileConfiguration
+					Name="Static Unicode Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="mypage1.cpp"
+				>
+				<FileConfiguration
+					Name="Static Unicode Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="MyPage2.cpp"
+				>
+				<FileConfiguration
+					Name="Static Unicode Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="MyPage3.cpp"
+				>
+				<FileConfiguration
+					Name="Static Unicode Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="ResizableChildSheet.cpp"
+				>
+				<FileConfiguration
+					Name="Static Unicode Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="ResizableChildSheet.rc"
+				>
+				<FileConfiguration
+					Name="Static Unicode Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release|x64"
+					>
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Release|x64"
+					>
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release|x64"
+					>
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release|x64"
+					>
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|x64"
+					>
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Release|x64"
+					>
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="StdAfx.cpp"
+				>
+				<FileConfiguration
+					Name="Static Unicode Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"
+					/>
+				</FileConfiguration>
+			</File>
+		</Filter>
+		<Filter
+			Name="Header Files"
+			Filter="h;hpp;hxx;hm;inl"
+			>
+			<File
+				RelativePath="ChildFrm.h"
+				>
+			</File>
+			<File
+				RelativePath="ExtChildResizablePropertySheet.h"
+				>
+			</File>
+			<File
+				RelativePath="MainFrm.h"
+				>
+			</File>
+			<File
+				RelativePath="mypage1.h"
+				>
+			</File>
+			<File
+				RelativePath="MyPage2.h"
+				>
+			</File>
+			<File
+				RelativePath="MyPage3.h"
+				>
+			</File>
+			<File
+				RelativePath="ResizableChildSheet.h"
+				>
+			</File>
+			<File
+				RelativePath="Resource.h"
+				>
+			</File>
+			<File
+				RelativePath="StdAfx.h"
+				>
+			</File>
+		</Filter>
+		<Filter
+			Name="Resource Files"
+			Filter="ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe"
+			>
+			<File
+				RelativePath="res\idr_chil.ico"
+				>
+			</File>
+			<File
+				RelativePath="res\idr_mdit.ico"
+				>
+			</File>
+			<File
+				RelativePath="res\ResizableChildSheet.ico"
+				>
+			</File>
+			<File
+				RelativePath="res\ResizableChildSheet.rc2"
+				>
+			</File>
+			<File
+				RelativePath="res\Toolbar.bmp"
+				>
+			</File>
+			<File
+				RelativePath="res\toolbar2.bmp"
+				>
+			</File>
+		</Filter>
+		<File
+			RelativePath="ReadMe.txt"
+			>
+		</File>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

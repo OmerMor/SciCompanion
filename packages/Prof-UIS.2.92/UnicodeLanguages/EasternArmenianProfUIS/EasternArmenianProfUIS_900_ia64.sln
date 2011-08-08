@@ -1,0 +1,16 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EasternArmenianProfUIS", "EasternArmenianProfUIS_900_ia64.vcproj", "{8F54C7B5-EC82-4E9F-9500-63E35AD62D2C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		EasternArmenian|Itanium = EasternArmenian|Itanium
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F54C7B5-EC82-4E9F-9500-63E35AD62D2C}.EasternArmenian|Itanium.ActiveCfg = EasternArmenian|Itanium
+		{8F54C7B5-EC82-4E9F-9500-63E35AD62D2C}.EasternArmenian|Itanium.Build.0 = EasternArmenian|Itanium
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

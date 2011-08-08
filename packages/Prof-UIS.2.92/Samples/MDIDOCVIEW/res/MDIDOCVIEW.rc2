@@ -1,0 +1,21 @@
+//
+// MDIDOCVIEW.RC2 - resources Microsoft Visual C++ does not edit directly
+//
+
+#ifdef APSTUDIO_INVOKED
+	#error this file is not editable by Microsoft Visual C++
+#endif //APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Add manually edited resources here...
+
+#if ( !(defined _AFXDLL && !defined __STATPROFUIS_WITH_DLLMFC__) )
+	#include <Resources/Resource.rc>
+#endif
+
+#if (!defined PROF_UIS_X64) && (!defined PROF_UIS_IA64) && (!defined PROF_UIS_FORCE_NO_MANIFEST)
+	IDR_MANIFEST 24 DISCARDABLE "res\\manifest_x86.xml"
+#endif
+
+/////////////////////////////////////////////////////////////////////////////

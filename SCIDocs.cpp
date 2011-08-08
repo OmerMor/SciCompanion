@@ -568,8 +568,9 @@ auto_ptr<DocBulletList> _CreateBulletList(LineIterator &start, LineIterator end)
         if (start->GetType() == LineInfo::StartsWithDash)
         {
             auto_ptr<DocBullet> pBullet(new DocBullet(start->GetText()));
-            pBulletLast = pBullet.get();
-            pBullets->AddChild(pBullet);
+			
+			pBulletLast = pBullet.get();
+            pBullets->AddChild((auto_ptr<DocTokenBase>)pBullet);
         }
         else
         {
@@ -591,7 +592,7 @@ auto_ptr<DocDefinitionList> _CreateDefinitionList(LineIterator &start, LineItera
         {
             auto_ptr<DocDefinition> pDefinition(new DocDefinition(start->GetText(), start->GetSecondaryText()));
             pDefinitionLast = pDefinition.get();
-            pDefinitions->AddChild(pDefinition);
+            pDefinitions->AddChild((auto_ptr<DocTokenBase>)pDefinition);
         }
         else
         {
@@ -634,7 +635,7 @@ auto_ptr<DocGroup> _ParseLineInfo(LineContainer &lineInfos)
         case LineInfo::EndsWithColon:
             {
                 auto_ptr<DocHeader> pHeader(new DocHeader(lineIt->GetText()));
-                pGroup->AddChild(pHeader);
+                pGroup->AddChild((auto_ptr<DocTokenBase>)pHeader);
                 ++lineIt;
             }
             break;

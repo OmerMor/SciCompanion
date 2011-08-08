@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 10
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EasternArmenianProfUIS", "EasternArmenianProfUIS_1000.vcxproj", "{DC492033-0121-4FD5-9201-309AA5DDFF83}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		EasternArmenian|Win32 = EasternArmenian|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC492033-0121-4FD5-9201-309AA5DDFF83}.EasternArmenian|Win32.ActiveCfg = EasternArmenian|Win32
+		{DC492033-0121-4FD5-9201-309AA5DDFF83}.EasternArmenian|Win32.Build.0 = EasternArmenian|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

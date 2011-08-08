@@ -1,0 +1,485 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\RichContentFeatures.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\SampleAppIcon.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_GREEN_SQUARE        BITMAP  DISCARDABLE     "res\\IDB_GREEN_SQUARE.bmp"
+IDB_SMILE               BITMAP  DISCARDABLE     "res\\IDB_SMILE.bmp"
+IDB_CHECK               BITMAP  DISCARDABLE     "res\\IDB_CHECK.bmp"
+IDB_GRADIENT            BITMAP  DISCARDABLE     "res\\IDB_GRADIENT.bmp"
+IDB_SLICE_TEST          BITMAP  DISCARDABLE     "res\\IDB_SLICE_TEST.bmp"
+IDB_TEST_GLOW           BITMAP  DISCARDABLE     "res\\IDB_TEST_GLOW.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// HTML
+//
+
+ID_HTML_WELCOME         HTML    DISCARDABLE     "res\\ID_HTML_WELCOME.html"
+ID_HTML_DEMO_PAGE       HTML    DISCARDABLE     "res\\ID_HTML_DEMO_PAGE.html"
+ID_HTML_AC              HTML    DISCARDABLE     "res\\ID_HTML_AC.html"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// CSS
+//
+
+ID_SAMPLE123_CSS        CSS     DISCARDABLE     "res\\ID_SAMPLE123_CSS.css"
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 2,9,2,0
+ PRODUCTVERSION 2,9,2,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "This is part of the Professional User Interface Suite library (www.prof-uis.com)\0"
+            VALUE "CompanyName", "FOSS Software, Inc.\0"
+            VALUE "FileDescription", "RichContentFeatures MFC Application\0"
+            VALUE "FileVersion", "2, 9, 2, 0\0"
+            VALUE "InternalName", "RichContentFeatures\0"
+            VALUE "LegalCopyright", "Copyright © 2001-2011 FOSS Software, Inc.\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "RichContentFeatures.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "RichContentFeatures Application\0"
+            VALUE "ProductVersion", "2, 9, 2, 0\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG_CSS_EDITOR DIALOG DISCARDABLE  0, 0, 337, 197
+STYLE WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_CLIPSIBLINGS | 
+    WS_CLIPCHILDREN | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "CSS Editor"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_EDIT_CSS_CODE,7,47,323,124,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_NOHIDESEL | NOT 
+                    WS_BORDER | WS_VSCROLL
+    DEFPUSHBUTTON   "&Save",IDOK,224,176,50,14
+    PUSHBUTTON      "&Cancel",IDCANCEL,280,176,50,14
+    LTEXT           "CSS &document name (HREF parameter of LINK tag):",
+                    IDC_STATIC,7,7,172,8
+    EDITTEXT        IDC_EDIT_HREF,7,18,323,14,ES_AUTOHSCROLL
+    LTEXT           "&CSS code (content of CSS file):",IDC_STATIC,7,35,106,8
+END
+
+IDD_PAGE_DT DIALOGEX 0, 0, 485, 238
+STYLE WS_CHILD | WS_VISIBLE | WS_CLIPSIBLINGS | WS_CLIPCHILDREN | WS_CAPTION | 
+    WS_THICKFRAME
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "DrawText() API"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_EDIT_DRAW_TEXT,"RICHEDIT",ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_WANTRETURN | WS_VSCROLL,0,134,308,
+                    103
+    CONTROL         "<html><meta accel_char=""&P""><u>P</u>rof-UIS <code>DrawText()</code> - <b color=""black"">black</b><link rel=""stylesheet"" type=""text/css"" href=""sample123.css""></html>",
+                    IDC_CHECK_PROF_UIS_DRAW_TEXT,"Button",BS_AUTOCHECKBOX | 
+                    WS_GROUP | WS_TABSTOP,312,3,110,10
+    CONTROL         "<html><meta accel_char=""&W""><u>W</u>in32 <code>DrawText()</code> - <b color=""red"">red</b><link rel=""stylesheet"" type=""text/css"" href=""sample123.css""></html>",
+                    IDC_CHECK_WIN32_DRAW_TEXT_COMPARE,"Button",
+                    BS_AUTOCHECKBOX | WS_GROUP | WS_TABSTOP,312,13,96,10
+    CONTROL         "&Offset red text",IDC_CHECK_WIN32_DRAW_TEXT_OFFSET,
+                    "Button",BS_AUTOCHECKBOX | WS_GROUP | WS_TABSTOP,417,13,
+                    60,10
+    COMBOBOX        IDC_COMBO_HORIZONTAL_ALIGNMENT,312,24,78,74,
+                    CBS_DROPDOWNLIST | CBS_OWNERDRAWVARIABLE | 
+                    CBS_HASSTRINGS | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_VERTICAL_ALIGNMENT,393,24,78,55,
+                    CBS_DROPDOWNLIST | CBS_OWNERDRAWVARIABLE | 
+                    CBS_HASSTRINGS | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "DT_SINGLELINE",IDC_CHECK_SINGLE_LINE,"Button",
+                    BS_AUTOCHECKBOX | WS_GROUP | WS_TABSTOP,312,48,72,10
+    CONTROL         "DT_WORDBREAK",IDC_CHECK_WORDBREAK,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,312,58,77,10
+    CONTROL         "DT_NOPREFIX",IDC_CHECK_NOPREFIX,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,312,67,66,10
+    CONTROL         "DT_HIDEPREFIX",IDC_CHECK_HIDEPREFIX,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,312,77,74,10
+    CONTROL         "DT_PREFIXONLY",IDC_CHECK_PREFIXONLY,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,312,87,73,10
+    CONTROL         "DT_RTLREADING",IDC_CHECK_RTLREADING,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,312,97,77,10
+    CONTROL         "DT_CALCRECT",IDC_CHECK_CALCRECT,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,393,48,67,10
+    CONTROL         "DT_MODIFYSTRING",IDC_CHECK_MODIFYSTRING,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,393,58,83,10
+    CONTROL         "DT_NOCLIP",IDC_CHECK_NOCLIP,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,393,67,56,10
+    CONTROL         "DT_ENDELLIPSIS",IDC_CHECK_ENDELLIPSIS,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,393,77,77,10
+    CONTROL         "DT_PATH_ELLIPSIS",IDC_CHECK_PATH_ELLIPSIS,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,393,87,87,10
+    CONTROL         "DT_WORD_ELLIPSIS",IDC_CHECK_WORD_ELLIPSIS,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,393,97,86,10
+    CONTROL         "&Use custom rectangle",IDC_USE_CUSTOM_RECT,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,312,107,84,10
+    PUSHBUTTON      "&get current",IDC_BUTTON_GET_CURRENT,435,106,44,13,
+                    BS_RIGHT | BS_TOP | WS_DISABLED
+    LTEXT           "&L:",IDC_STATIC_RECT_L,312,123,8,8,WS_DISABLED
+    EDITTEXT        IDC_EDIT_RECT_LEFT,320,119,30,14,ES_RIGHT | 
+                    ES_AUTOHSCROLL | ES_NUMBER | WS_DISABLED
+    CONTROL         "Spin1",IDC_SPIN_RECT_LEFT,"msctls_updown32",
+                    UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS | WS_DISABLED,341,119,11,14
+    LTEXT           "&T:",IDC_STATIC_RECT_T,354,123,8,8,WS_DISABLED
+    EDITTEXT        IDC_EDIT_RECT_TOP,363,119,30,14,ES_RIGHT | 
+                    ES_AUTOHSCROLL | ES_NUMBER | WS_DISABLED
+    CONTROL         "Spin1",IDC_SPIN_RECT_TOP,"msctls_updown32",
+                    UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS | WS_DISABLED,383,119,11,14
+    LTEXT           "&R:",IDC_STATIC_RECT_R,397,122,8,8,WS_DISABLED
+    EDITTEXT        IDC_EDIT_RECT_RIGHT,405,119,30,14,ES_RIGHT | 
+                    ES_AUTOHSCROLL | ES_NUMBER | WS_DISABLED
+    CONTROL         "Spin1",IDC_SPIN_RECT_RIGHT,"msctls_updown32",
+                    UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS | WS_DISABLED,426,119,11,14
+    LTEXT           "&B:",IDC_STATIC_RECT_B,439,122,8,8,WS_DISABLED
+    EDITTEXT        IDC_EDIT_RECT_BOTTOM,448,119,30,14,ES_RIGHT | 
+                    ES_AUTOHSCROLL | ES_NUMBER | WS_DISABLED
+    CONTROL         "Spin1",IDC_SPIN_RECT_BOTTOM,"msctls_updown32",
+                    UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS | WS_DISABLED,468,119,11,14
+    LTEXT           "Type text here:",IDC_STATIC_TYPE_TEXT_HERE,0,123,52,8
+    LTEXT           "Text format:",IDC_STATIC_TYPE_TEXT_FORMAT,69,123,40,8
+    COMBOBOX        IDC_COMBO_TYPE_TEXT_FORMAT,110,119,61,94,
+                    CBS_DROPDOWNLIST | CBS_OWNERDRAWVARIABLE | 
+                    CBS_HASSTRINGS | CBS_NOINTEGRALHEIGHT | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "Text orientation:",IDC_STATIC_TYPE_TEXT_ORIENTATION,173,
+                    123,54,8
+    COMBOBOX        IDC_COMBO_TYPE_TEXT_ORIENTATION,229,119,79,94,
+                    CBS_DROPDOWNLIST | CBS_OWNERDRAWVARIABLE | 
+                    CBS_HASSTRINGS | CBS_NOINTEGRALHEIGHT | WS_VSCROLL | 
+                    WS_TABSTOP
+    CONTROL         "__EXT_DT_MULTI_LINE_VERT_ALIGNMENT",
+                    IDC_CHECK_EXT_DT_MULTI_LINE_VERT_ALIGNMENT,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,312,39,166,10
+    CONTROL         "__EXT_DT_CALC_EFFECTIVE_RECT",
+                    IDC_CHECK_EXT_DT_CALC_EFFECTIVE_RECT,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,312,137,166,10
+    CONTROL         "<html><meta accel_char=""&V"" />Use <u>V</u>ista&reg;+ text APIs <i>(UxTheme.DLL)&nbsp;</i><html>",
+                    IDC_USE_VISTA_TEXT_APIS,"Button",BS_AUTOCHECKBOX | 
+                    WS_DISABLED | WS_TABSTOP,322,168,137,10
+    LTEXT           "Bor&der:",IDC_STATIC_VISTA_TEXT_BORDER_SIZE,317,185,25,
+                    8,WS_DISABLED
+    EDITTEXT        IDC_EDIT_VISTA_TEXT_BORDER_SIZE,344,181,30,14,ES_RIGHT | 
+                    ES_AUTOHSCROLL | ES_NUMBER | WS_DISABLED
+    CONTROL         "Spin1",IDC_SPIN_VISTA_TEXT_BORDER_SIZE,"msctls_updown32",
+                    UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS | WS_DISABLED,364,181,11,14
+    PUSHBUTTON      "",IDC_BUTTON_VISTA_TEXT_BORDER_COLOR,378,181,30,14,
+                    WS_DISABLED
+    LTEXT           "&Glow:",IDC_STATIC_VISTA_TEXT_GLOW_SIZE,419,185,20,8,
+                    WS_DISABLED
+    EDITTEXT        IDC_EDIT_VISTA_TEXT_GLOW_SIZE,441,181,30,14,ES_RIGHT | 
+                    ES_AUTOHSCROLL | ES_NUMBER | WS_DISABLED
+    CONTROL         "Spin1",IDC_SPIN_VISTA_TEXT_GLOW_SIZE,"msctls_updown32",
+                    UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS | WS_DISABLED,461,181,11,14
+    LTEXT           "&Shadow type:",IDC_STATIC_VISTA_TEXT_SHADOW_TYPE,317,
+                    201,46,8,WS_DISABLED
+    COMBOBOX        IDC_COMBO_VISTA_TEXT_SHADOW_TYPE,365,197,55,55,
+                    CBS_DROPDOWNLIST | WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "",IDC_BUTTON_VISTA_TEXT_SHADOW_COLOR,423,197,30,13,
+                    WS_DISABLED
+    LTEXT           "Shadow offset &X:",IDC_STATIC_VISTA_SHADOW_OFFSET_X,317,
+                    215,56,8,WS_DISABLED
+    EDITTEXT        IDC_EDIT_VISTA_SHADOW_OFFSET_X,375,211,30,14,ES_RIGHT | 
+                    ES_AUTOHSCROLL | ES_NUMBER | WS_DISABLED
+    CONTROL         "Spin1",IDC_SPIN_VISTA_SHADOW_OFFSET_X,"msctls_updown32",
+                    UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS | WS_DISABLED,395,211,11,14
+    LTEXT           "&Y:",IDC_STATIC_VISTA_SHADOW_OFFSET_Y,411,215,8,8,
+                    WS_DISABLED
+    EDITTEXT        IDC_EDIT_VISTA_SHADOW_OFFSET_Y,420,211,30,14,ES_RIGHT | 
+                    ES_AUTOHSCROLL | ES_NUMBER | WS_DISABLED
+    CONTROL         "Spin1",IDC_SPIN_VISTA_SHADOW_OFFSET_Y,"msctls_updown32",
+                    UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS | WS_DISABLED,440,211,11,14
+    LTEXT           "<html>See <code>DrawText()</code> text ouptput here:<link rel=""stylesheet"" type=""text/css"" href=""sample123.css""></html>",
+                    IDC_STATIC_SEE_TEXT_HERE,0,3,119,8
+    PUSHBUTTON      "Text output",IDC_TEXT_OUTPUT_BUTTON,0,15,308,103,NOT 
+                    WS_TABSTOP
+    LTEXT           "Background t&ype:",IDC_STATIC_BACKGROUND_TYPE,173,3,58,
+                    8
+    GROUPBOX        "<html><b>Vista&reg;+ text APIs</b> (0&deg; rotated text only)</html>",
+                    IDC_STATIC_VISTA_TEXT_RENDERING_OPTIONS,313,156,165,74
+    COMBOBOX        IDC_COMBO_BACKGROUND_TYPE,233,0,75,226,CBS_DROPDOWNLIST | 
+                    CBS_OWNERDRAWVARIABLE | CBS_HASSTRINGS | 
+                    CBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_PAGE_GC DIALOGEX 0, 0, 485, 238
+STYLE WS_CHILD | WS_VISIBLE | WS_CLIPSIBLINGS | WS_CLIPCHILDREN | WS_CAPTION | 
+    WS_THICKFRAME
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Global Object Container"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "List1",IDC_LIST1,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_SORTASCENDING | 
+                    WS_TABSTOP,0,4,236,233
+    PUSHBUTTON      "Add &image from file...",IDC_BUTTON_ADD_IMAGE,240,6,94,
+                    11,BS_LEFT
+    PUSHBUTTON      "Add &CSS",IDC_BUTTON_ADD_CSS,240,21,94,11,BS_LEFT
+    PUSHBUTTON      "Edit selected C&SS",IDC_BUTTON_EDIT_SELECTED_CSS,240,35,
+                    94,11,BS_LEFT
+    PUSHBUTTON      "&Delete selected",IDC_BUTTON_DELETE_SELECTED,240,49,94,
+                    11,BS_LEFT
+END
+
+IDD_PAGE_HTML DIALOGEX 0, 0, 485, 238
+STYLE WS_CHILD | WS_VISIBLE | WS_CLIPSIBLINGS | WS_CLIPCHILDREN | WS_CAPTION | 
+    WS_THICKFRAME
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "HTML / CSS"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_EDIT_DRAW_TEXT,"RICHEDIT",ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_WANTRETURN | WS_VSCROLL,0,134,483,
+                    103
+    LTEXT           "See HTML ouptput here:",IDC_STATIC_SEE_TEXT_HERE,0,2,84,
+                    8
+    CONTROL         "",IDC_CUSTOM1,"ProfUIS-RichContentScrollWindow",
+                    WS_TABSTOP | 0x1f,0,12,483,105
+    LTEXT           "Type HTML here:",IDC_STATIC_TYPE_TEXT_HERE,0,123,61,8
+    LTEXT           "Scroll bars:",IDC_STATIC_TYPE_SCROLL_BARS,146,123,36,8
+    COMBOBOX        IDC_COMBO_TYPE_SCROLL_BARS,186,119,81,94,
+                    CBS_DROPDOWNLIST | CBS_OWNERDRAWVARIABLE | 
+                    CBS_HASSTRINGS | CBS_NOINTEGRALHEIGHT | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "HTML orientation:",IDC_STATIC_TYPE_TEXT_ORIENTATION,275,
+                    123,59,8
+    COMBOBOX        IDC_COMBO_TYPE_TEXT_ORIENTATION,336,119,81,94,
+                    CBS_DROPDOWNLIST | CBS_OWNERDRAWVARIABLE | 
+                    CBS_HASSTRINGS | CBS_NOINTEGRALHEIGHT | WS_VSCROLL | 
+                    WS_TABSTOP
+    PUSHBUTTON      "ReLayout",IDC_BUTTON_RELAYOUT,422,120,56,13
+END
+
+IDD_PAGE_WELCOME DIALOGEX 0, 0, 485, 238
+STYLE WS_CHILD | WS_VISIBLE | WS_CLIPSIBLINGS | WS_CLIPCHILDREN | WS_CAPTION | 
+    WS_THICKFRAME
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Welcome"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_CUSTOM1,"ProfUIS-RichContentScrollWindow",
+                    WS_TABSTOP | 0x1f,0,8,481,229
+END
+
+IDD_PAGE_AC DIALOGEX 0, 0, 485, 238
+STYLE WS_CHILD | WS_VISIBLE | WS_CLIPSIBLINGS | WS_CLIPCHILDREN | WS_CAPTION | 
+    WS_THICKFRAME
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Attached Controls"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "",IDC_CUSTOM1,"ProfUIS-RichContentScrollWindow",
+                    WS_TABSTOP | 0x1f,0,8,481,229
+    LTEXT           "Scroll bars:",IDC_STATIC_TYPE_SCROLL_BARS,5,226,36,8,
+                    NOT WS_VISIBLE
+    COMBOBOX        IDC_COMBO_TYPE_SCROLL_BARS,43,223,81,94,CBS_DROPDOWNLIST | 
+                    CBS_OWNERDRAWVARIABLE | CBS_HASSTRINGS | 
+                    CBS_NOINTEGRALHEIGHT | NOT WS_VISIBLE | WS_VSCROLL | 
+                    WS_TABSTOP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_PAGE_DT DLGINIT
+BEGIN
+    IDC_COMBO_VISTA_TEXT_SHADOW_TYPE, 0x403, 5, 0
+0x6f4e, 0x656e, "\000" 
+    IDC_COMBO_VISTA_TEXT_SHADOW_TYPE, 0x403, 7, 0
+0x6953, 0x676e, 0x656c, "\000" 
+    IDC_COMBO_VISTA_TEXT_SHADOW_TYPE, 0x403, 11, 0
+0x6f43, 0x746e, 0x6e69, 0x6f75, 0x7375, "\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_DIALOG_CSS_EDITOR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 330
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 190
+    END
+
+    IDD_PAGE_DT, DIALOG
+    BEGIN
+        RIGHTMARGIN, 483
+        VERTGUIDE, 308
+        BOTTOMMARGIN, 237
+    END
+
+    IDD_PAGE_GC, DIALOG
+    BEGIN
+        RIGHTMARGIN, 483
+        VERTGUIDE, 240
+        VERTGUIDE, 334
+        BOTTOMMARGIN, 237
+    END
+
+    IDD_PAGE_HTML, DIALOG
+    BEGIN
+        RIGHTMARGIN, 483
+        BOTTOMMARGIN, 237
+    END
+
+    IDD_PAGE_WELCOME, DIALOG
+    BEGIN
+        RIGHTMARGIN, 483
+        BOTTOMMARGIN, 237
+    END
+
+    IDD_PAGE_AC, DIALOG
+    BEGIN
+        RIGHTMARGIN, 483
+        BOTTOMMARGIN, 237
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\RichContentFeatures.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

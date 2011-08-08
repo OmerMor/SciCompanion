@@ -526,7 +526,7 @@ void PastedCommands_Adjust(std::vector<PicCommand> &commandsIn, const PICCOMMAND
         else
         {
             // This was out of bounds - remove it.
-            commandsIn.erase(&commandsIn[i]);
+            commandsIn.erase(commandsIn.begin() + i);
         }
     }
 }

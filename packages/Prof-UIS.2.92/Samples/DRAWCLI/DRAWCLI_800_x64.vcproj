@@ -1,0 +1,4502 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="DRAWCLI"
+	ProjectGUID="{A6E2C02D-0826-439A-8755-8320992AAEBE}"
+	Keyword="MFCProj"
+	>
+	<Platforms>
+		<Platform
+			Name="x64"
+		/>
+	</Platforms>
+	<ToolFiles>
+	</ToolFiles>
+	<Configurations>
+		<Configuration
+			Name="Static Unicode Debug|x64"
+			OutputDirectory=".\..\..\Bin_800_x64"
+			IntermediateDirectory=".\..\..\Bin_800_x64\StaticUnicodeDebug\DRAWCLI"
+			ConfigurationType="1"
+			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.vsprops"
+			UseOfMFC="1"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="1"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="_DEBUG;PROF_UIS_X64"
+				MkTypLibCompatible="true"
+				SuppressStartupBanner="true"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_800_x64/DRAWCLI_800_x64.tlb"
+				HeaderFileName=""
+			/>
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="0"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="_DEBUG;PROF_UIS_X64;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				MinimalRebuild="true"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="1"
+				UsePrecompiledHeader="2"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_800_x64\StaticUnicodeDebug\DRAWCLI/DRAWCLI_800_x64.pch"
+				AssemblerListingLocation=".\..\..\Bin_800_x64\StaticUnicodeDebug\DRAWCLI/"
+				ObjectFile=".\..\..\Bin_800_x64\StaticUnicodeDebug\DRAWCLI/"
+				ProgramDataBaseFileName=".\..\..\Bin_800_x64\StaticUnicodeDebug\DRAWCLI/"
+				WarningLevel="4"
+				SuppressStartupBanner="true"
+				DebugInformationFormat="3"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_DEBUG;PROF_UIS_X64"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_800_x64/DRAWCLI-sud.exe"
+				LinkIncremental="2"
+				SuppressStartupBanner="true"
+				AdditionalLibraryDirectories="..\..\Bin_800_x64"
+				GenerateDebugInformation="true"
+				ProgramDatabaseFile=".\..\..\Bin_800_x64/DRAWCLI-sud.pdb"
+				SubSystem="2"
+				EntryPointSymbol="wWinMainCRTStartup"
+				TargetMachine="17"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool" AdditionalManifestFiles="res\\manifest_x64.xml"
+				EmbedManifest="true"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+				SuppressStartupBanner="true"
+				OutputFile=".\..\..\Bin_800_x64/DRAWCLI_800_x64.bsc"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCWebDeploymentTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+		<Configuration
+			Name="Static MBCS Debug|x64"
+			OutputDirectory=".\..\..\Bin_800_x64"
+			IntermediateDirectory=".\..\..\Bin_800_x64\StaticMbcsDebug\DRAWCLI"
+			ConfigurationType="1"
+			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.vsprops"
+			UseOfMFC="1"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="_DEBUG;PROF_UIS_X64"
+				MkTypLibCompatible="true"
+				SuppressStartupBanner="true"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_800_x64/DRAWCLI_800_x64.tlb"
+				HeaderFileName=""
+			/>
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="0"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="_DEBUG;PROF_UIS_X64;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				MinimalRebuild="true"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="1"
+				UsePrecompiledHeader="2"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_800_x64\StaticMbcsDebug\DRAWCLI/DRAWCLI_800_x64.pch"
+				AssemblerListingLocation=".\..\..\Bin_800_x64\StaticMbcsDebug\DRAWCLI/"
+				ObjectFile=".\..\..\Bin_800_x64\StaticMbcsDebug\DRAWCLI/"
+				ProgramDataBaseFileName=".\..\..\Bin_800_x64\StaticMbcsDebug\DRAWCLI/"
+				WarningLevel="4"
+				SuppressStartupBanner="true"
+				DebugInformationFormat="3"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_DEBUG;PROF_UIS_X64"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_800_x64/DRAWCLI-smd.exe"
+				LinkIncremental="2"
+				SuppressStartupBanner="true"
+				AdditionalLibraryDirectories="..\..\Bin_800_x64"
+				GenerateDebugInformation="true"
+				ProgramDatabaseFile=".\..\..\Bin_800_x64/DRAWCLI-smd.pdb"
+				SubSystem="2"
+				TargetMachine="17"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool" AdditionalManifestFiles="res\\manifest_x64.xml"
+				EmbedManifest="true"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+				SuppressStartupBanner="true"
+				OutputFile=".\..\..\Bin_800_x64/DRAWCLI_800_x64.bsc"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCWebDeploymentTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+		<Configuration
+			Name="Static MBCS Debug with MFC DLL|x64"
+			OutputDirectory=".\..\..\Bin_800_x64"
+			IntermediateDirectory=".\..\..\Bin_800_x64\StaticMbcsDebugWithMfcDll\DRAWCLI"
+			ConfigurationType="1"
+			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.vsprops"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="_DEBUG;PROF_UIS_X64"
+				MkTypLibCompatible="true"
+				SuppressStartupBanner="true"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_800_x64/DRAWCLI_800_x64.tlb"
+				HeaderFileName=""
+			/>
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="0"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="_DEBUG;PROF_UIS_X64;__STATPROFUIS_WITH_DLLMFC__;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				MinimalRebuild="true"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="3"
+				UsePrecompiledHeader="2"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_800_x64\StaticMbcsDebugWithMfcDll\DRAWCLI/DRAWCLI_800_x64.pch"
+				AssemblerListingLocation=".\..\..\Bin_800_x64\StaticMbcsDebugWithMfcDll\DRAWCLI/"
+				ObjectFile=".\..\..\Bin_800_x64\StaticMbcsDebugWithMfcDll\DRAWCLI/"
+				ProgramDataBaseFileName=".\..\..\Bin_800_x64\StaticMbcsDebugWithMfcDll\DRAWCLI/"
+				WarningLevel="4"
+				SuppressStartupBanner="true"
+				DebugInformationFormat="3"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_DEBUG;PROF_UIS_X64;__STATPROFUIS_WITH_DLLMFC__"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_800_x64/DRAWCLI-ymd.exe"
+				LinkIncremental="2"
+				SuppressStartupBanner="true"
+				AdditionalLibraryDirectories="..\..\Bin_800_x64"
+				GenerateDebugInformation="true"
+				ProgramDatabaseFile=".\..\..\Bin_800_x64/DRAWCLI-ymd.pdb"
+				SubSystem="2"
+				TargetMachine="17"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool" AdditionalManifestFiles="res\\manifest_x64.xml"
+				EmbedManifest="true"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+				SuppressStartupBanner="true"
+				OutputFile=".\..\..\Bin_800_x64/DRAWCLI_800_x64.bsc"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCWebDeploymentTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+		<Configuration
+			Name="Static ANSI Debug with MFC DLL|x64"
+			OutputDirectory=".\..\..\Bin_800_x64"
+			IntermediateDirectory=".\..\..\Bin_800_x64\StaticAnsiDebugWithMfcDll\DRAWCLI"
+			ConfigurationType="1"
+			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.vsprops"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="_DEBUG;PROF_UIS_X64"
+				MkTypLibCompatible="true"
+				SuppressStartupBanner="true"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_800_x64/DRAWCLI_800_x64.tlb"
+				HeaderFileName=""
+			/>
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="0"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="_DEBUG;PROF_UIS_X64;__STATPROFUIS_WITH_DLLMFC__;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				MinimalRebuild="true"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="3"
+				UsePrecompiledHeader="2"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_800_x64\StaticAnsiDebugWithMfcDll\DRAWCLI/DRAWCLI_800_x64.pch"
+				AssemblerListingLocation=".\..\..\Bin_800_x64\StaticAnsiDebugWithMfcDll\DRAWCLI/"
+				ObjectFile=".\..\..\Bin_800_x64\StaticAnsiDebugWithMfcDll\DRAWCLI/"
+				ProgramDataBaseFileName=".\..\..\Bin_800_x64\StaticAnsiDebugWithMfcDll\DRAWCLI/"
+				WarningLevel="4"
+				SuppressStartupBanner="true"
+				DebugInformationFormat="3"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_DEBUG;PROF_UIS_X64;__STATPROFUIS_WITH_DLLMFC__"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_800_x64/DRAWCLI-ynd.exe"
+				LinkIncremental="2"
+				SuppressStartupBanner="true"
+				AdditionalLibraryDirectories="..\..\Bin_800_x64"
+				GenerateDebugInformation="true"
+				ProgramDatabaseFile=".\..\..\Bin_800_x64/DRAWCLI-ynd.pdb"
+				SubSystem="2"
+				TargetMachine="17"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool" AdditionalManifestFiles="res\\manifest_x64.xml"
+				EmbedManifest="true"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+				SuppressStartupBanner="true"
+				OutputFile=".\..\..\Bin_800_x64/DRAWCLI_800_x64.bsc"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCWebDeploymentTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+		<Configuration
+			Name="Static Unicode Release|x64"
+			OutputDirectory=".\..\..\Bin_800_x64"
+			IntermediateDirectory=".\..\..\Bin_800_x64\StaticUnicodeRelease\DRAWCLI"
+			ConfigurationType="1"
+			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.vsprops"
+			UseOfMFC="1"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="1"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="NDEBUG;PROF_UIS_X64"
+				MkTypLibCompatible="true"
+				SuppressStartupBanner="true"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_800_x64/DRAWCLI_800_x64.tlb"
+				HeaderFileName=""
+			/>
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="2"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="NDEBUG;PROF_UIS_X64;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				StringPooling="true"
+				RuntimeLibrary="0"
+				EnableFunctionLevelLinking="true"
+				UsePrecompiledHeader="2"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_800_x64\StaticUnicodeRelease\DRAWCLI/DRAWCLI_800_x64.pch"
+				AssemblerListingLocation=".\..\..\Bin_800_x64\StaticUnicodeRelease\DRAWCLI/"
+				ObjectFile=".\..\..\Bin_800_x64\StaticUnicodeRelease\DRAWCLI/"
+				ProgramDataBaseFileName=".\..\..\Bin_800_x64\StaticUnicodeRelease\DRAWCLI/"
+				WarningLevel="4"
+				SuppressStartupBanner="true"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG;PROF_UIS_X64"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_800_x64/DRAWCLI-su.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="true"
+				AdditionalLibraryDirectories="..\..\Bin_800_x64"
+				ProgramDatabaseFile=".\..\..\Bin_800_x64/DRAWCLI-su.pdb"
+				SubSystem="2"
+				EntryPointSymbol="wWinMainCRTStartup"
+				TargetMachine="17"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool" AdditionalManifestFiles="res\\manifest_x64.xml"
+				EmbedManifest="true"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+				SuppressStartupBanner="true"
+				OutputFile=".\..\..\Bin_800_x64/DRAWCLI_800_x64.bsc"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCWebDeploymentTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+		<Configuration
+			Name="Static ANSI Release|x64"
+			OutputDirectory=".\..\..\Bin_800_x64"
+			IntermediateDirectory=".\..\..\Bin_800_x64\StaticAnsiRelease\DRAWCLI"
+			ConfigurationType="1"
+			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.vsprops"
+			UseOfMFC="1"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="NDEBUG;PROF_UIS_X64"
+				MkTypLibCompatible="true"
+				SuppressStartupBanner="true"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_800_x64/DRAWCLI_800_x64.tlb"
+				HeaderFileName=""
+			/>
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="2"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="NDEBUG;PROF_UIS_X64;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				StringPooling="true"
+				RuntimeLibrary="0"
+				EnableFunctionLevelLinking="true"
+				UsePrecompiledHeader="2"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_800_x64\StaticAnsiRelease\DRAWCLI/DRAWCLI_800_x64.pch"
+				AssemblerListingLocation=".\..\..\Bin_800_x64\StaticAnsiRelease\DRAWCLI/"
+				ObjectFile=".\..\..\Bin_800_x64\StaticAnsiRelease\DRAWCLI/"
+				ProgramDataBaseFileName=".\..\..\Bin_800_x64\StaticAnsiRelease\DRAWCLI/"
+				WarningLevel="4"
+				SuppressStartupBanner="true"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG;PROF_UIS_X64"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_800_x64/DRAWCLI-sn.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="true"
+				AdditionalLibraryDirectories="..\..\Bin_800_x64"
+				ProgramDatabaseFile=".\..\..\Bin_800_x64/DRAWCLI-sn.pdb"
+				SubSystem="2"
+				TargetMachine="17"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool" AdditionalManifestFiles="res\\manifest_x64.xml"
+				EmbedManifest="true"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+				SuppressStartupBanner="true"
+				OutputFile=".\..\..\Bin_800_x64/DRAWCLI_800_x64.bsc"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCWebDeploymentTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+		<Configuration
+			Name="MBCS Release|x64"
+			OutputDirectory=".\..\..\Bin_800_x64"
+			IntermediateDirectory=".\..\..\Bin_800_x64\MbcsRelease\DRAWCLI"
+			ConfigurationType="1"
+			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.vsprops"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="NDEBUG;PROF_UIS_X64"
+				MkTypLibCompatible="true"
+				SuppressStartupBanner="true"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_800_x64/DRAWCLI_800_x64.tlb"
+				HeaderFileName=""
+			/>
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="2"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="NDEBUG;PROF_UIS_X64;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				StringPooling="true"
+				RuntimeLibrary="2"
+				EnableFunctionLevelLinking="true"
+				UsePrecompiledHeader="2"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_800_x64\MbcsRelease\DRAWCLI/DRAWCLI_800_x64.pch"
+				AssemblerListingLocation=".\..\..\Bin_800_x64\MbcsRelease\DRAWCLI/"
+				ObjectFile=".\..\..\Bin_800_x64\MbcsRelease\DRAWCLI/"
+				ProgramDataBaseFileName=".\..\..\Bin_800_x64\MbcsRelease\DRAWCLI/"
+				WarningLevel="4"
+				SuppressStartupBanner="true"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG;PROF_UIS_X64"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_800_x64/DRAWCLI-m.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="true"
+				AdditionalLibraryDirectories="..\..\Bin_800_x64"
+				ProgramDatabaseFile=".\..\..\Bin_800_x64/DRAWCLI-m.pdb"
+				SubSystem="2"
+				TargetMachine="17"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool" AdditionalManifestFiles="res\\manifest_x64.xml"
+				EmbedManifest="true"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+				SuppressStartupBanner="true"
+				OutputFile=".\..\..\Bin_800_x64/DRAWCLI_800_x64.bsc"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCWebDeploymentTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+		<Configuration
+			Name="Unicode Release|x64"
+			OutputDirectory=".\..\..\Bin_800_x64"
+			IntermediateDirectory=".\..\..\Bin_800_x64\UnicodeRelease\DRAWCLI"
+			ConfigurationType="1"
+			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.vsprops"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="1"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="NDEBUG;PROF_UIS_X64"
+				MkTypLibCompatible="true"
+				SuppressStartupBanner="true"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_800_x64/DRAWCLI_800_x64.tlb"
+				HeaderFileName=""
+			/>
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="2"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="NDEBUG;PROF_UIS_X64;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				StringPooling="true"
+				RuntimeLibrary="2"
+				EnableFunctionLevelLinking="true"
+				UsePrecompiledHeader="2"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_800_x64\UnicodeRelease\DRAWCLI/DRAWCLI_800_x64.pch"
+				AssemblerListingLocation=".\..\..\Bin_800_x64\UnicodeRelease\DRAWCLI/"
+				ObjectFile=".\..\..\Bin_800_x64\UnicodeRelease\DRAWCLI/"
+				ProgramDataBaseFileName=".\..\..\Bin_800_x64\UnicodeRelease\DRAWCLI/"
+				WarningLevel="4"
+				SuppressStartupBanner="true"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG;PROF_UIS_X64"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_800_x64/DRAWCLI-u.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="true"
+				AdditionalLibraryDirectories="..\..\Bin_800_x64"
+				ProgramDatabaseFile=".\..\..\Bin_800_x64/DRAWCLI-u.pdb"
+				SubSystem="2"
+				EntryPointSymbol="wWinMainCRTStartup"
+				TargetMachine="17"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool" AdditionalManifestFiles="res\\manifest_x64.xml"
+				EmbedManifest="true"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+				SuppressStartupBanner="true"
+				OutputFile=".\..\..\Bin_800_x64/DRAWCLI_800_x64.bsc"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCWebDeploymentTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+		<Configuration
+			Name="MBCS Debug|x64"
+			OutputDirectory=".\..\..\Bin_800_x64"
+			IntermediateDirectory=".\..\..\Bin_800_x64\MbcsDebug\DRAWCLI"
+			ConfigurationType="1"
+			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.vsprops"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="_DEBUG;PROF_UIS_X64"
+				MkTypLibCompatible="true"
+				SuppressStartupBanner="true"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_800_x64/DRAWCLI_800_x64.tlb"
+				HeaderFileName=""
+			/>
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="0"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="_DEBUG;PROF_UIS_X64;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				MinimalRebuild="true"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="3"
+				UsePrecompiledHeader="2"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_800_x64\MbcsDebug\DRAWCLI/DRAWCLI_800_x64.pch"
+				AssemblerListingLocation=".\..\..\Bin_800_x64\MbcsDebug\DRAWCLI/"
+				ObjectFile=".\..\..\Bin_800_x64\MbcsDebug\DRAWCLI/"
+				ProgramDataBaseFileName=".\..\..\Bin_800_x64\MbcsDebug\DRAWCLI/"
+				WarningLevel="4"
+				SuppressStartupBanner="true"
+				DebugInformationFormat="3"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_DEBUG;PROF_UIS_X64"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_800_x64/DRAWCLI-md.exe"
+				LinkIncremental="2"
+				SuppressStartupBanner="true"
+				AdditionalLibraryDirectories="..\..\Bin_800_x64"
+				GenerateDebugInformation="true"
+				ProgramDatabaseFile=".\..\..\Bin_800_x64/DRAWCLI-md.pdb"
+				SubSystem="2"
+				TargetMachine="17"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool" AdditionalManifestFiles="res\\manifest_x64.xml"
+				EmbedManifest="true"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+				SuppressStartupBanner="true"
+				OutputFile=".\..\..\Bin_800_x64/DRAWCLI_800_x64.bsc"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCWebDeploymentTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+		<Configuration
+			Name="Static Unicode Release with MFC DLL|x64"
+			OutputDirectory=".\..\..\Bin_800_x64"
+			IntermediateDirectory=".\..\..\Bin_800_x64\StaticUnicodeReleaseWithMfcDll\DRAWCLI"
+			ConfigurationType="1"
+			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.vsprops"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="1"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="NDEBUG;PROF_UIS_X64"
+				MkTypLibCompatible="true"
+				SuppressStartupBanner="true"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_800_x64/DRAWCLI_800_x64.tlb"
+				HeaderFileName=""
+			/>
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="2"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="NDEBUG;PROF_UIS_X64;__STATPROFUIS_WITH_DLLMFC__;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				StringPooling="true"
+				RuntimeLibrary="2"
+				EnableFunctionLevelLinking="true"
+				UsePrecompiledHeader="2"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_800_x64\StaticUnicodeReleaseWithMfcDll\DRAWCLI/DRAWCLI_800_x64.pch"
+				AssemblerListingLocation=".\..\..\Bin_800_x64\StaticUnicodeReleaseWithMfcDll\DRAWCLI/"
+				ObjectFile=".\..\..\Bin_800_x64\StaticUnicodeReleaseWithMfcDll\DRAWCLI/"
+				ProgramDataBaseFileName=".\..\..\Bin_800_x64\StaticUnicodeReleaseWithMfcDll\DRAWCLI/"
+				WarningLevel="4"
+				SuppressStartupBanner="true"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG;PROF_UIS_X64;__STATPROFUIS_WITH_DLLMFC__"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_800_x64/DRAWCLI-yu.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="true"
+				AdditionalLibraryDirectories="..\..\Bin_800_x64"
+				ProgramDatabaseFile=".\..\..\Bin_800_x64/DRAWCLI-yu.pdb"
+				SubSystem="2"
+				EntryPointSymbol="wWinMainCRTStartup"
+				TargetMachine="17"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool" AdditionalManifestFiles="res\\manifest_x64.xml"
+				EmbedManifest="true"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+				SuppressStartupBanner="true"
+				OutputFile=".\..\..\Bin_800_x64/DRAWCLI_800_x64.bsc"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCWebDeploymentTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+		<Configuration
+			Name="Static ANSI Debug|x64"
+			OutputDirectory=".\..\..\Bin_800_x64"
+			IntermediateDirectory=".\..\..\Bin_800_x64\StaticAnsiDebug\DRAWCLI"
+			ConfigurationType="1"
+			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.vsprops"
+			UseOfMFC="1"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="_DEBUG;PROF_UIS_X64"
+				MkTypLibCompatible="true"
+				SuppressStartupBanner="true"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_800_x64/DRAWCLI_800_x64.tlb"
+				HeaderFileName=""
+			/>
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="0"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="_DEBUG;PROF_UIS_X64;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				MinimalRebuild="true"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="1"
+				UsePrecompiledHeader="2"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_800_x64\StaticAnsiDebug\DRAWCLI/DRAWCLI_800_x64.pch"
+				AssemblerListingLocation=".\..\..\Bin_800_x64\StaticAnsiDebug\DRAWCLI/"
+				ObjectFile=".\..\..\Bin_800_x64\StaticAnsiDebug\DRAWCLI/"
+				ProgramDataBaseFileName=".\..\..\Bin_800_x64\StaticAnsiDebug\DRAWCLI/"
+				WarningLevel="4"
+				SuppressStartupBanner="true"
+				DebugInformationFormat="3"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_DEBUG;PROF_UIS_X64"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_800_x64/DRAWCLI-snd.exe"
+				LinkIncremental="2"
+				SuppressStartupBanner="true"
+				AdditionalLibraryDirectories="..\..\Bin_800_x64"
+				GenerateDebugInformation="true"
+				ProgramDatabaseFile=".\..\..\Bin_800_x64/DRAWCLI-snd.pdb"
+				SubSystem="2"
+				TargetMachine="17"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool" AdditionalManifestFiles="res\\manifest_x64.xml"
+				EmbedManifest="true"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+				SuppressStartupBanner="true"
+				OutputFile=".\..\..\Bin_800_x64/DRAWCLI_800_x64.bsc"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCWebDeploymentTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+		<Configuration
+			Name="Static Unicode Debug with MFC DLL|x64"
+			OutputDirectory=".\..\..\Bin_800_x64"
+			IntermediateDirectory=".\..\..\Bin_800_x64\StaticUnicodeDebugWithMfcDll\DRAWCLI"
+			ConfigurationType="1"
+			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.vsprops"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="1"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="_DEBUG;PROF_UIS_X64"
+				MkTypLibCompatible="true"
+				SuppressStartupBanner="true"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_800_x64/DRAWCLI_800_x64.tlb"
+				HeaderFileName=""
+			/>
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="0"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="_DEBUG;PROF_UIS_X64;__STATPROFUIS_WITH_DLLMFC__;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				MinimalRebuild="true"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="3"
+				UsePrecompiledHeader="2"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_800_x64\StaticUnicodeDebugWithMfcDll\DRAWCLI/DRAWCLI_800_x64.pch"
+				AssemblerListingLocation=".\..\..\Bin_800_x64\StaticUnicodeDebugWithMfcDll\DRAWCLI/"
+				ObjectFile=".\..\..\Bin_800_x64\StaticUnicodeDebugWithMfcDll\DRAWCLI/"
+				ProgramDataBaseFileName=".\..\..\Bin_800_x64\StaticUnicodeDebugWithMfcDll\DRAWCLI/"
+				WarningLevel="4"
+				SuppressStartupBanner="true"
+				DebugInformationFormat="3"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_DEBUG;PROF_UIS_X64;__STATPROFUIS_WITH_DLLMFC__"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_800_x64/DRAWCLI-yud.exe"
+				LinkIncremental="2"
+				SuppressStartupBanner="true"
+				AdditionalLibraryDirectories="..\..\Bin_800_x64"
+				GenerateDebugInformation="true"
+				ProgramDatabaseFile=".\..\..\Bin_800_x64/DRAWCLI-yud.pdb"
+				SubSystem="2"
+				EntryPointSymbol="wWinMainCRTStartup"
+				TargetMachine="17"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool" AdditionalManifestFiles="res\\manifest_x64.xml"
+				EmbedManifest="true"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+				SuppressStartupBanner="true"
+				OutputFile=".\..\..\Bin_800_x64/DRAWCLI_800_x64.bsc"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCWebDeploymentTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+		<Configuration
+			Name="Unicode Debug|x64"
+			OutputDirectory=".\..\..\Bin_800_x64"
+			IntermediateDirectory=".\..\..\Bin_800_x64\UnicodeDebug\DRAWCLI"
+			ConfigurationType="1"
+			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.vsprops"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="1"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="_DEBUG;PROF_UIS_X64"
+				MkTypLibCompatible="true"
+				SuppressStartupBanner="true"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_800_x64/DRAWCLI_800_x64.tlb"
+				HeaderFileName=""
+			/>
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="0"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="_DEBUG;PROF_UIS_X64;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				MinimalRebuild="true"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="3"
+				UsePrecompiledHeader="2"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_800_x64\UnicodeDebug\DRAWCLI/DRAWCLI_800_x64.pch"
+				AssemblerListingLocation=".\..\..\Bin_800_x64\UnicodeDebug\DRAWCLI/"
+				ObjectFile=".\..\..\Bin_800_x64\UnicodeDebug\DRAWCLI/"
+				ProgramDataBaseFileName=".\..\..\Bin_800_x64\UnicodeDebug\DRAWCLI/"
+				WarningLevel="4"
+				SuppressStartupBanner="true"
+				DebugInformationFormat="3"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_DEBUG;PROF_UIS_X64"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_800_x64/DRAWCLI-ud.exe"
+				LinkIncremental="2"
+				SuppressStartupBanner="true"
+				AdditionalLibraryDirectories="..\..\Bin_800_x64"
+				GenerateDebugInformation="true"
+				ProgramDatabaseFile=".\..\..\Bin_800_x64/DRAWCLI-ud.pdb"
+				SubSystem="2"
+				EntryPointSymbol="wWinMainCRTStartup"
+				TargetMachine="17"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool" AdditionalManifestFiles="res\\manifest_x64.xml"
+				EmbedManifest="true"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+				SuppressStartupBanner="true"
+				OutputFile=".\..\..\Bin_800_x64/DRAWCLI_800_x64.bsc"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCWebDeploymentTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+		<Configuration
+			Name="ANSI Debug|x64"
+			OutputDirectory=".\..\..\Bin_800_x64"
+			IntermediateDirectory=".\..\..\Bin_800_x64\AnsiDebug\DRAWCLI"
+			ConfigurationType="1"
+			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.vsprops"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="_DEBUG;PROF_UIS_X64"
+				MkTypLibCompatible="true"
+				SuppressStartupBanner="true"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_800_x64/DRAWCLI_800_x64.tlb"
+				HeaderFileName=""
+			/>
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="0"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="_DEBUG;PROF_UIS_X64;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				MinimalRebuild="true"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="3"
+				UsePrecompiledHeader="2"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_800_x64\AnsiDebug\DRAWCLI/DRAWCLI_800_x64.pch"
+				AssemblerListingLocation=".\..\..\Bin_800_x64\AnsiDebug\DRAWCLI/"
+				ObjectFile=".\..\..\Bin_800_x64\AnsiDebug\DRAWCLI/"
+				ProgramDataBaseFileName=".\..\..\Bin_800_x64\AnsiDebug\DRAWCLI/"
+				WarningLevel="4"
+				SuppressStartupBanner="true"
+				DebugInformationFormat="3"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_DEBUG;PROF_UIS_X64"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_800_x64/DRAWCLI-nd.exe"
+				LinkIncremental="2"
+				SuppressStartupBanner="true"
+				AdditionalLibraryDirectories="..\..\Bin_800_x64"
+				GenerateDebugInformation="true"
+				ProgramDatabaseFile=".\..\..\Bin_800_x64/DRAWCLI-nd.pdb"
+				SubSystem="2"
+				TargetMachine="17"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool" AdditionalManifestFiles="res\\manifest_x64.xml"
+				EmbedManifest="true"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+				SuppressStartupBanner="true"
+				OutputFile=".\..\..\Bin_800_x64/DRAWCLI_800_x64.bsc"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCWebDeploymentTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+		<Configuration
+			Name="ANSI Release|x64"
+			OutputDirectory=".\..\..\Bin_800_x64"
+			IntermediateDirectory=".\..\..\Bin_800_x64\AnsiRelease\DRAWCLI"
+			ConfigurationType="1"
+			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.vsprops"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="NDEBUG;PROF_UIS_X64"
+				MkTypLibCompatible="true"
+				SuppressStartupBanner="true"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_800_x64/DRAWCLI_800_x64.tlb"
+				HeaderFileName=""
+			/>
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="2"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="NDEBUG;PROF_UIS_X64;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				StringPooling="true"
+				RuntimeLibrary="2"
+				EnableFunctionLevelLinking="true"
+				UsePrecompiledHeader="2"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_800_x64\AnsiRelease\DRAWCLI/DRAWCLI_800_x64.pch"
+				AssemblerListingLocation=".\..\..\Bin_800_x64\AnsiRelease\DRAWCLI/"
+				ObjectFile=".\..\..\Bin_800_x64\AnsiRelease\DRAWCLI/"
+				ProgramDataBaseFileName=".\..\..\Bin_800_x64\AnsiRelease\DRAWCLI/"
+				WarningLevel="4"
+				SuppressStartupBanner="true"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG;PROF_UIS_X64"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_800_x64/DRAWCLI-n.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="true"
+				AdditionalLibraryDirectories="..\..\Bin_800_x64"
+				ProgramDatabaseFile=".\..\..\Bin_800_x64/DRAWCLI-n.pdb"
+				SubSystem="2"
+				TargetMachine="17"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool" AdditionalManifestFiles="res\\manifest_x64.xml"
+				EmbedManifest="true"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+				SuppressStartupBanner="true"
+				OutputFile=".\..\..\Bin_800_x64/DRAWCLI_800_x64.bsc"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCWebDeploymentTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+		<Configuration
+			Name="Static ANSI Release with MFC DLL|x64"
+			OutputDirectory=".\..\..\Bin_800_x64"
+			IntermediateDirectory=".\..\..\Bin_800_x64\StaticAnsiReleaseWithMfcDll\DRAWCLI"
+			ConfigurationType="1"
+			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.vsprops"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="NDEBUG;PROF_UIS_X64"
+				MkTypLibCompatible="true"
+				SuppressStartupBanner="true"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_800_x64/DRAWCLI_800_x64.tlb"
+				HeaderFileName=""
+			/>
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="2"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="NDEBUG;PROF_UIS_X64;__STATPROFUIS_WITH_DLLMFC__;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				StringPooling="true"
+				RuntimeLibrary="2"
+				EnableFunctionLevelLinking="true"
+				UsePrecompiledHeader="2"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_800_x64\StaticAnsiReleaseWithMfcDll\DRAWCLI/DRAWCLI_800_x64.pch"
+				AssemblerListingLocation=".\..\..\Bin_800_x64\StaticAnsiReleaseWithMfcDll\DRAWCLI/"
+				ObjectFile=".\..\..\Bin_800_x64\StaticAnsiReleaseWithMfcDll\DRAWCLI/"
+				ProgramDataBaseFileName=".\..\..\Bin_800_x64\StaticAnsiReleaseWithMfcDll\DRAWCLI/"
+				WarningLevel="4"
+				SuppressStartupBanner="true"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG;PROF_UIS_X64;__STATPROFUIS_WITH_DLLMFC__"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_800_x64/DRAWCLI-yn.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="true"
+				AdditionalLibraryDirectories="..\..\Bin_800_x64"
+				ProgramDatabaseFile=".\..\..\Bin_800_x64/DRAWCLI-yn.pdb"
+				SubSystem="2"
+				TargetMachine="17"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool" AdditionalManifestFiles="res\\manifest_x64.xml"
+				EmbedManifest="true"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+				SuppressStartupBanner="true"
+				OutputFile=".\..\..\Bin_800_x64/DRAWCLI_800_x64.bsc"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCWebDeploymentTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+		<Configuration
+			Name="Static MBCS Release|x64"
+			OutputDirectory=".\..\..\Bin_800_x64"
+			IntermediateDirectory=".\..\..\Bin_800_x64\StaticMbcsRelease\DRAWCLI"
+			ConfigurationType="1"
+			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.vsprops"
+			UseOfMFC="1"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="NDEBUG;PROF_UIS_X64"
+				MkTypLibCompatible="true"
+				SuppressStartupBanner="true"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_800_x64/DRAWCLI_800_x64.tlb"
+				HeaderFileName=""
+			/>
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="2"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="NDEBUG;PROF_UIS_X64;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				StringPooling="true"
+				RuntimeLibrary="0"
+				EnableFunctionLevelLinking="true"
+				UsePrecompiledHeader="2"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_800_x64\StaticMbcsRelease\DRAWCLI/DRAWCLI_800_x64.pch"
+				AssemblerListingLocation=".\..\..\Bin_800_x64\StaticMbcsRelease\DRAWCLI/"
+				ObjectFile=".\..\..\Bin_800_x64\StaticMbcsRelease\DRAWCLI/"
+				ProgramDataBaseFileName=".\..\..\Bin_800_x64\StaticMbcsRelease\DRAWCLI/"
+				WarningLevel="4"
+				SuppressStartupBanner="true"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG;PROF_UIS_X64"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_800_x64/DRAWCLI-sm.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="true"
+				AdditionalLibraryDirectories="..\..\Bin_800_x64"
+				ProgramDatabaseFile=".\..\..\Bin_800_x64/DRAWCLI-sm.pdb"
+				SubSystem="2"
+				TargetMachine="17"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool" AdditionalManifestFiles="res\\manifest_x64.xml"
+				EmbedManifest="true"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+				SuppressStartupBanner="true"
+				OutputFile=".\..\..\Bin_800_x64/DRAWCLI_800_x64.bsc"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCWebDeploymentTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+		<Configuration
+			Name="Static MBCS Release with MFC DLL|x64"
+			OutputDirectory=".\..\..\Bin_800_x64"
+			IntermediateDirectory=".\..\..\Bin_800_x64\StaticMbcsReleaseWithMfcDll\DRAWCLI"
+			ConfigurationType="1"
+			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC60.vsprops"
+			UseOfMFC="2"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="NDEBUG;PROF_UIS_X64"
+				MkTypLibCompatible="true"
+				SuppressStartupBanner="true"
+				TargetEnvironment="1"
+				TypeLibraryName=".\..\..\Bin_800_x64/DRAWCLI_800_x64.tlb"
+				HeaderFileName=""
+			/>
+			<Tool
+				Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+				Optimization="2"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories="..\..\include"
+				PreprocessorDefinitions="NDEBUG;PROF_UIS_X64;__STATPROFUIS_WITH_DLLMFC__;WIN32;_WINDOWS;_WIN32_WINNT=0x0400;_WIN32_IE=0x0400"
+				StringPooling="true"
+				RuntimeLibrary="2"
+				EnableFunctionLevelLinking="true"
+				UsePrecompiledHeader="2"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\..\..\Bin_800_x64\StaticMbcsReleaseWithMfcDll\DRAWCLI/DRAWCLI_800_x64.pch"
+				AssemblerListingLocation=".\..\..\Bin_800_x64\StaticMbcsReleaseWithMfcDll\DRAWCLI/"
+				ObjectFile=".\..\..\Bin_800_x64\StaticMbcsReleaseWithMfcDll\DRAWCLI/"
+				ProgramDataBaseFileName=".\..\..\Bin_800_x64\StaticMbcsReleaseWithMfcDll\DRAWCLI/"
+				WarningLevel="4"
+				SuppressStartupBanner="true"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG;PROF_UIS_X64;__STATPROFUIS_WITH_DLLMFC__"
+				Culture="1033"
+				AdditionalIncludeDirectories="../../Include"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile="..\..\Bin_800_x64/DRAWCLI-ym.exe"
+				LinkIncremental="1"
+				SuppressStartupBanner="true"
+				AdditionalLibraryDirectories="..\..\Bin_800_x64"
+				ProgramDatabaseFile=".\..\..\Bin_800_x64/DRAWCLI-ym.pdb"
+				SubSystem="2"
+				TargetMachine="17"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool" AdditionalManifestFiles="res\\manifest_x64.xml"
+				EmbedManifest="true"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+				SuppressStartupBanner="true"
+				OutputFile=".\..\..\Bin_800_x64/DRAWCLI_800_x64.bsc"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCWebDeploymentTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+	</Configurations>
+	<References>
+	</References>
+	<Files>
+		<Filter
+			Name="Source Files"
+			Filter="cpp;c;cxx;rc;def;r;odl;idl;hpj;bat"
+			>
+			<File
+				RelativePath="CNTRITEM.CPP"
+				>
+				<FileConfiguration
+					Name="Static Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="DRAWCLI.cpp"
+				>
+				<FileConfiguration
+					Name="Static Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="DRAWCLI.rc"
+				>
+				<FileConfiguration
+					Name="Static Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release|x64"
+					>
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release|x64"
+					>
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Release|x64"
+					>
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|x64"
+					>
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Release|x64"
+					>
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release|x64"
+					>
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions=""
+						AdditionalIncludeDirectories=""
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="DRAWDOC.CPP"
+				>
+				<FileConfiguration
+					Name="Static Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="DRAWOBJ.CPP"
+				>
+				<FileConfiguration
+					Name="Static Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="DRAWTOOL.CPP"
+				>
+				<FileConfiguration
+					Name="Static Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="DRAWVW.CPP"
+				>
+				<FileConfiguration
+					Name="Static Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="MainFrm.cpp"
+				>
+				<FileConfiguration
+					Name="Static Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="PROPSET.CPP"
+				>
+				<FileConfiguration
+					Name="Static Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="RECTDLG.CPP"
+				>
+				<FileConfiguration
+					Name="Static Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="SPLITFRM.CPP"
+				>
+				<FileConfiguration
+					Name="Static Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="STATPAGE.CPP"
+				>
+				<FileConfiguration
+					Name="Static Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="StdAfx.cpp"
+				>
+				<FileConfiguration
+					Name="Static Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="SUMMINFO.CPP"
+				>
+				<FileConfiguration
+					Name="Static Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="SUMMPAGE.CPP"
+				>
+				<FileConfiguration
+					Name="Static Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MBCS Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static Unicode Debug with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Debug|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="ANSI Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static ANSI Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Static MBCS Release with MFC DLL|x64"
+					>
+					<Tool
+						Name="VCCLCompilerTool" AdditionalOptions="/Zm512"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+					/>
+				</FileConfiguration>
+			</File>
+		</Filter>
+		<Filter
+			Name="Header Files"
+			Filter="h;hpp;hxx;hm;inl"
+			>
+			<File
+				RelativePath="CNTRITEM.H"
+				>
+			</File>
+			<File
+				RelativePath="DRAWCLI.h"
+				>
+			</File>
+			<File
+				RelativePath="DRAWDOC.H"
+				>
+			</File>
+			<File
+				RelativePath="DRAWOBJ.H"
+				>
+			</File>
+			<File
+				RelativePath="DRAWTOOL.H"
+				>
+			</File>
+			<File
+				RelativePath="DRAWVW.H"
+				>
+			</File>
+			<File
+				RelativePath="MainFrm.h"
+				>
+			</File>
+			<File
+				RelativePath="PROPSET.H"
+				>
+			</File>
+			<File
+				RelativePath="RECTDLG.H"
+				>
+			</File>
+			<File
+				RelativePath="Resource.h"
+				>
+			</File>
+			<File
+				RelativePath="SPLITFRM.H"
+				>
+			</File>
+			<File
+				RelativePath="STATPAGE.H"
+				>
+			</File>
+			<File
+				RelativePath="StdAfx.h"
+				>
+			</File>
+			<File
+				RelativePath="SUMMINFO.H"
+				>
+			</File>
+			<File
+				RelativePath="SUMMPAGE.H"
+				>
+			</File>
+		</Filter>
+		<Filter
+			Name="Resource Files"
+			Filter="ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe"
+			>
+			<File
+				RelativePath="res\DRAWCLI.ico"
+				>
+			</File>
+			<File
+				RelativePath="res\DRAWCLI.rc2"
+				>
+			</File>
+			<File
+				RelativePath="res\DRAWDOC.ICO"
+				>
+			</File>
+			<File
+				RelativePath="res\ico00001.ico"
+				>
+			</File>
+			<File
+				RelativePath="res\ico00002.ico"
+				>
+			</File>
+			<File
+				RelativePath="res\ico00003.ico"
+				>
+			</File>
+			<File
+				RelativePath="res\ico00004.ico"
+				>
+			</File>
+			<File
+				RelativePath="res\ico00005.ico"
+				>
+			</File>
+			<File
+				RelativePath="res\ico00006.ico"
+				>
+			</File>
+			<File
+				RelativePath="res\ico00007.ico"
+				>
+			</File>
+			<File
+				RelativePath="res\ico00008.ico"
+				>
+			</File>
+			<File
+				RelativePath="res\icon1.ico"
+				>
+			</File>
+			<File
+				RelativePath="res\id_objec.ico"
+				>
+			</File>
+			<File
+				RelativePath="res\id_scppv.ico"
+				>
+			</File>
+			<File
+				RelativePath="res\idr_abou.ico"
+				>
+			</File>
+			<File
+				RelativePath="res\idr_mdit.ico"
+				>
+			</File>
+			<File
+				RelativePath="res\PENCIL.CUR"
+				>
+			</File>
+			<File
+				RelativePath="res\Toolbar.bmp"
+				>
+			</File>
+			<File
+				RelativePath="res\toolbar2.bmp"
+				>
+			</File>
+			<File
+				RelativePath="res\toolbar_.bmp"
+				>
+			</File>
+			<File
+				RelativePath="res\TOOLBAR_16_4bit.bmp"
+				>
+			</File>
+			<File
+				RelativePath="res\TOOLBAR_1_16bit.bmp"
+				>
+			</File>
+			<File
+				RelativePath="res\TOOLBAR_1_4bit.bmp"
+				>
+			</File>
+			<File
+				RelativePath="res\TOOLBAR_2_16bit.bmp"
+				>
+			</File>
+			<File
+				RelativePath="res\TOOLBAR_2_4bit.bmp"
+				>
+			</File>
+		</Filter>
+		<File
+			RelativePath="ReadMe.txt"
+			>
+		</File>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

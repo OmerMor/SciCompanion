@@ -113,7 +113,7 @@ EGACOLOR GetClosestEGAColorFromSet(int iAlgorithm, COLORREF color, EGACOLOR *rgC
 
 #define PALETTE_SIZE 40
 
-#define ARRAYSIZE(x) (sizeof(x) / sizeof(x[0]))
+//#define ARRAYSIZE(x) (sizeof(x) / sizeof(x[0]))
 
 // TODO: use for logging errors
 #define REPORTERROR(x) 

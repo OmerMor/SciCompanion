@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 10
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KhmerProfUIS", "KhmerProfUIS_1000.vcxproj", "{D8FEBF04-75F7-4513-855A-9B3962C08226}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Khmer|Win32 = Khmer|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8FEBF04-75F7-4513-855A-9B3962C08226}.Khmer|Win32.ActiveCfg = Khmer|Win32
+		{D8FEBF04-75F7-4513-855A-9B3962C08226}.Khmer|Win32.Build.0 = Khmer|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

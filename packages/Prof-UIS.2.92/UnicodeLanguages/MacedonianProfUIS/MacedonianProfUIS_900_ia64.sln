@@ -1,0 +1,16 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MacedonianProfUIS", "MacedonianProfUIS_900_ia64.vcproj", "{DA5B460A-98BE-49AE-A996-46647301687A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Macedonian|Itanium = Macedonian|Itanium
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA5B460A-98BE-49AE-A996-46647301687A}.Macedonian|Itanium.ActiveCfg = Macedonian|Itanium
+		{DA5B460A-98BE-49AE-A996-46647301687A}.Macedonian|Itanium.Build.0 = Macedonian|Itanium
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -837,7 +837,7 @@ void PicResource::_InsertCommands(INT_PTR iStart, INT_PTR cCount, PicCommand *pC
 
     if ((iStart <= iSize) && (iStart >= 0))
     {
-        _picCommands.insert(&_picCommands[iStart], pCommands, pCommands + cCount);
+        _picCommands.insert(_picCommands.begin() + iStart, pCommands, pCommands + cCount);
     }
 }
 
@@ -889,7 +889,7 @@ void PicResource::RemoveCommandRange(INT_PTR iStart, INT_PTR iEnd)
     if ((iStart >= 0) && (iStart < (INT_PTR)_picCommands.size()))
     {
         INT_PTR iHowMany = iEnd - iStart + 1;
-        _picCommands.erase(&_picCommands[iStart], &_picCommands[iStart + iHowMany]);
+        _picCommands.erase(_picCommands.begin() + iStart, _picCommands.begin() + iStart + iHowMany);
     }
 }
 

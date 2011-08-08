@@ -501,26 +501,28 @@ const ViewResource::CelInfo &ViewResource::LoopInfo::operator[](int iIndex) cons
 }
 void ViewResource::LoopInfo::insert_cel(int nCel, const CelInfo &cel)
 {
-    _cels.insert(&_cels[nCel], cel);
+	//cel_container::const_iterator iter = _cels.begin()+nCel;
+    _cels.insert(_cels.begin()+nCel, cel);
 }
 void ViewResource::LoopInfo::remove_cel(int nCel)
 {
-    _cels.erase(&_cels[nCel]);
+	_cels.erase(_cels.begin() + nCel);
 }
 void ViewResource::LoopInfo::move_from_to(int celFrom, int celTo)
 {
     // Assumes the cel indices are valid
     // (celTo can point to one after)
     CelInfo celTemp = _cels[celFrom];
-    _cels.insert(&_cels[celTo], celTemp);
+     
+    _cels.insert(_cels.begin() + celTo, celTemp);
     // Now remove the from, which could be before or after
     if (celFrom > celTo)
     {
-        _cels.erase(&_cels[celFrom + 1]);
+        _cels.erase(_cels.begin() + celFrom + 1);
     }
     else
     {
-        _cels.erase(&_cels[celFrom]);
+        _cels.erase(_cels.begin() + celFrom);
     }
 }
 
@@ -759,7 +761,7 @@ HRESULT ViewResource::InsertLoop(int nLoop, BOOL fBefore)
             nLoop++;
         }
         // Make a new loop, with one cel that is a template of the previous loops first cel.
-        _loops.insert(&_loops[nLoop], LoopInfo(celTemplate));
+        _loops.insert(_loops.begin() + nLoop, LoopInfo(celTemplate));
         hr = S_OK;
     }
     return hr;
@@ -788,7 +790,7 @@ HRESULT ViewResource::RemoveLoop(int nLoopRemoved)
             }
         }
 
-        _loops.erase(&_loops[nLoopRemoved]);
+		_loops.erase(_loops.begin() + nLoopRemoved);
         hr = S_OK;
     }
     return hr;

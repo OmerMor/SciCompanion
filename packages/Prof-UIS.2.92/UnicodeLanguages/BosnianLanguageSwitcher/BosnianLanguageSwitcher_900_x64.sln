@@ -1,0 +1,16 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BosnianLanguageSwitcher", "BosnianLanguageSwitcher_900_x64.vcproj", "{8E42C59C-14FE-41DC-9457-A1151E2B83E7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Bosnian|x64 = Bosnian|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E42C59C-14FE-41DC-9457-A1151E2B83E7}.Bosnian|x64.ActiveCfg = Bosnian|x64
+		{8E42C59C-14FE-41DC-9457-A1151E2B83E7}.Bosnian|x64.Build.0 = Bosnian|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
