@@ -14,14 +14,14 @@
 		<Configuration
 			Name="Debug|Win32"
 			OutputDirectory="Debug"
-			IntermediateDirectory="Debug"
+			IntermediateDirectory="obj\Debug"
 			ConfigurationType="1"
 			UseOfMFC="1"
 			CharacterSet="2">
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
-				AdditionalIncludeDirectories="f:\program files\boost\boost_1_34_0\"
+				AdditionalIncludeDirectories="&quot;$(SolutionDir)packages\Prof-UIS.2.92\Include\&quot;;&quot;$(SolutionDir)packages\Prof-UIS.2.92\src\&quot;;&quot;$(SolutionDir)packages\boost_1_34_0\&quot;"
 				PreprocessorDefinitions="WIN32;_WINDOWS;_DEBUG"
 				MinimalRebuild="TRUE"
 				BasicRuntimeChecks="3"
@@ -38,6 +38,7 @@
 				Name="VCLinkerTool"
 				AdditionalDependencies="gdiplus.lib Vfw32.lib"
 				LinkIncremental="2"
+				AdditionalLibraryDirectories="&quot;$(SolutionDir)packages\Prof-UIS.2.92\Bin_710\&quot;"
 				DelayLoadDLLs="gdiplus.dll"
 				GenerateDebugInformation="TRUE"
 				SubSystem="2"
@@ -65,7 +66,7 @@ xcopy /S /Y /I /D &quot;$(ProjectDir)docs&quot; &quot;$(ProjectDir)$(OutDir)\doc
 				Name="VCResourceCompilerTool"
 				PreprocessorDefinitions="_DEBUG"
 				Culture="1033"
-				AdditionalIncludeDirectories="$(IntDir)"/>
+				AdditionalIncludeDirectories="&quot;$(SolutionDir)packages\Prof-UIS.2.92\Include\&quot;;&quot;$(IntDir)&quot;"/>
 			<Tool
 				Name="VCWebServiceProxyGeneratorTool"/>
 			<Tool
@@ -80,7 +81,7 @@ xcopy /S /Y /I /D &quot;$(ProjectDir)docs&quot; &quot;$(ProjectDir)$(OutDir)\doc
 		<Configuration
 			Name="Release|Win32"
 			OutputDirectory="Release"
-			IntermediateDirectory="Release"
+			IntermediateDirectory="obj\Release"
 			ConfigurationType="1"
 			UseOfMFC="1"
 			CharacterSet="2">
@@ -88,7 +89,7 @@ xcopy /S /Y /I /D &quot;$(ProjectDir)docs&quot; &quot;$(ProjectDir)$(OutDir)\doc
 				Name="VCCLCompilerTool"
 				AdditionalOptions="/O2"
 				OptimizeForProcessor="0"
-				AdditionalIncludeDirectories="f:\program files\boost\boost_1_34_0\"
+				AdditionalIncludeDirectories="&quot;$(SolutionDir)packages\Prof-UIS.2.92\Include\&quot;;&quot;$(SolutionDir)packages\Prof-UIS.2.92\src\&quot;;&quot;$(SolutionDir)packages\boost_1_34_0\&quot;"
 				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG"
 				MinimalRebuild="FALSE"
 				RuntimeLibrary="0"
@@ -104,6 +105,7 @@ xcopy /S /Y /I /D &quot;$(ProjectDir)docs&quot; &quot;$(ProjectDir)$(OutDir)\doc
 				Name="VCLinkerTool"
 				AdditionalDependencies="gdiplus.lib Vfw32.lib"
 				LinkIncremental="1"
+				AdditionalLibraryDirectories="&quot;$(SolutionDir)packages\Prof-UIS.2.92\Bin_710\&quot;"
 				DelayLoadDLLs="gdiplus.dll"
 				GenerateDebugInformation="TRUE"
 				SubSystem="2"
@@ -133,7 +135,7 @@ xcopy /S /Y /I /D &quot;$(ProjectDir)docs&quot; &quot;$(ProjectDir)$(OutDir)\doc
 				Name="VCResourceCompilerTool"
 				PreprocessorDefinitions="NDEBUG"
 				Culture="1033"
-				AdditionalIncludeDirectories="$(IntDir)"/>
+				AdditionalIncludeDirectories="&quot;$(SolutionDir)packages\Prof-UIS.2.92\Include\&quot;;&quot;$(IntDir)&quot;"/>
 			<Tool
 				Name="VCWebServiceProxyGeneratorTool"/>
 			<Tool
