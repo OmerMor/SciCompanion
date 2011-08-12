@@ -378,6 +378,7 @@ CMainFrame::CMainFrame()
     ::memset( &m_dataFrameWP, 0, sizeof(WINDOWPLACEMENT) );
     m_dataFrameWP.length = sizeof(WINDOWPLACEMENT);
     m_dataFrameWP.showCmd = SW_HIDE;
+	g_ResourceManager->SetLangLayout( LAYOUT_LTR );
 }
 
 void CMainFrame::ActivateFrame(int nCmdShow) 
